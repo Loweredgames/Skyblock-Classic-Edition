@@ -1,1 +1,1 @@
-# Skyblock-Classic-Edition
+# Skyblock Classic Edition
