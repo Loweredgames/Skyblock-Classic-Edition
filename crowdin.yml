@@ -3,5 +3,5 @@ append_commit_message: false
 commit_message: Updated %language% translations.
 
 files:
-  - source: '*.json'
-    translation: '%locale_with_underscore%'.json
+  - source: Skyblock-Classic-Edition/lang/_default_.json
+    translation: Skyblock-Classic-Edition/lang/'%locale_with_underscore%'.json
