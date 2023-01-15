@@ -1,3 +1,7 @@
+pull_request_title: Update translations from Crowdin
+append_commit_message: false
+commit_message: Updated %language% translations.
+
 files:
   - source: '*.json'
-    translation: '%locale_with_underscore%'
+    translation: '%locale_with_underscore%'.json
