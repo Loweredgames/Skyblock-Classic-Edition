@@ -1,3 +1,6 @@
 pull_request_title: Update translations from Crowdin
 append_commit_message: false
 commit_message: Updated %language% translations.
+
+- source: lang/_default_.json
+translation: lang/%locale_with_underscore%.json
