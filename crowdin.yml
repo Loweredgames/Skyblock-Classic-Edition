@@ -4,4 +4,4 @@ commit_message: Updated %language% translations.
 
 files:
   - source: Skyblock-Classic-Edition/lang/_default_.json
-    translation: Skyblock-Classic-Edition/lang/'%locale_with_underscore%'.json
+    translation: Skyblock-Classic-Edition/lang/%locale_with_underscore%.json
