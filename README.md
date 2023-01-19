@@ -19,6 +19,7 @@ _Steve/Alex wake up on an unknown island, inside a chest it says..._
 - The map includes a piece of the unofficial Slamacow trailer (a mini storyline).
 - It also contains a hardcore mode. inside the "datapack" folder in the "Skyblock Classic Edition Hardcore" folder. (first generate the map and then replace the files).
 - Compatible with multiplayer.
+- Supports localizations: help me translate into your native language. The languages are must be faithful to the English language, respect the punctuation and the capitalization. click here to translate into your language in Crowdin: https://crowdin.com/project/skyblock-classic-edition
 
 
 _thanks to the original Skyblock team for creating the most popular Minecraft map._
