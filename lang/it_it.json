@@ -49,19 +49,6 @@
     "skyblock_classic_edition.generated_structures.generated.command_block.download": " Per favore scarica di nuovo la mappa qui",
     "skyblock_classic_edition.link.discord": "Server Discord",
     "skyblock_classic_edition.link.crowdin": "Progetto Di Traduzione Crowdin",
-    "skyblock_classic_edition": {
-        "skyblock_setup": {
-            "legacy_version": {
-                "compatible": {
-                    "to_text": "alla",
-                    "datapack": "è compatibile con il datapack."
-                }
-            }
-        },
-        "update_id": {
-            "oak_sign_1": "Il portale è",
-            "oak_sign_2": "rotto scusa.."
-        }
-    },
-    "skyblock_classic_edition.folder.test": "Ciao Pino :)"
+    "skyblock_classic_edition.update_id.oak_sign_1": "The portal is",
+    "skyblock_classic_edition.update_id.oak_sign_2": "broken sorry.."
 }
