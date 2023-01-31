@@ -1,6 +1,0 @@
-Esempio: (names):(lang)_(data)
-
-
-Lorenzo Giannini (Loweredgames): Italian and English (always updated to the latest version)
-Denys (Veydzher): Ukrainian_25.01.2023
-InfoBlock: German_25.01.2023
