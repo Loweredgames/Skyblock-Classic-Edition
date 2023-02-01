@@ -51,7 +51,5 @@
     "skyblock_classic_edition.generated_structures.generated.command_block.info": "\\u26a0I see that there is not \\generated\\ folder in your world. ",
     "skyblock_classic_edition.generated_structures.generated.command_block.download": " Please download the map again here",
     "skyblock_classic_edition.link.discord": "Discord Server",
-    "skyblock_classic_edition.link.crowdin": "Crowdin Translations Project",
-    "skyblock_classic_edition.update_id.oak_sign_1": "The portal is",
-    "skyblock_classic_edition.update_id.oak_sign_2": "broken sorry.."
+    "skyblock_classic_edition.link.crowdin": "Crowdin Translations Project"
 }

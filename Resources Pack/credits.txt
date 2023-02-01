@@ -2,5 +2,6 @@ Esempio: (names):(lang)_(data)
 
 
 Lorenzo Giannini (Loweredgames): Italian and English (always updated to the latest version)
+OEMunlag: Spanish_31.01.2023
 Denys (Veydzher): Ukrainian_25.01.2023
 InfoBlock: German_25.01.2023
