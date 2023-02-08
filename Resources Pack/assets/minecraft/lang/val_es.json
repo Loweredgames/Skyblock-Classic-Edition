@@ -21,7 +21,6 @@
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "to",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack": "is compatible with the datapack.",
     "skyblock_classic_edition.multiplayer.popup": "The multiplayer is disabled, activate inside the skyblock folder here: ",
-    "skyblock_classic_edition.multiplayer.popup.folder": "\"Skyblock Classic Edition\\datapacks\\Skyblock Classic Edition\\data\\skyblock\\functions\\multiplayer.mcfunction\"",
     "skyblock_classic_edition.version_update.compatible.minecraft_versions": "The Minecraft Versions: ",
     "skyblock_classic_edition.version_update.compatible.info": " are old versions and may not be compatible with the current datapack: if the datapack is updated it may have compatibility problems, always update the datapack to the latest compatible version.",
     "skyblock_classic_edition.version_update.welcome": "Welcome to the Skyblock Classic Edition:",
