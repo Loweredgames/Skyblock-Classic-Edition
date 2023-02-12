@@ -1,0 +1,5 @@
+(data),(lingue aggiunte/modificate)
+esempio: 01.03.1001 - Polski,Português,Ucraino,italiano
+
+
+12.03.2023 - Polski,Português,Ucraino,italiano (tutte le traduzioni nelle vecchie versioni)
