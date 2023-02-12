@@ -1,4 +1,6 @@
 {
+    "version": "1.0",
+    "credits": "test",
     "language.name": "Default",
     "language.region": "Default",
     "language.code": "default",
