@@ -1,5 +1,5 @@
 {
-    "version": "Translation Version: 2.0",
+    "version": "Translation Version: 2.1",
     "credits": "Translation Credits: João Vitor Veiga (jvveigam)",
     "language.name": "Português",
     "language.region": "Portugal",
@@ -13,7 +13,7 @@
     "skyblock_classic_edition.skyblock_setup.choose_islands": "Escolha as ilhas:",
     "skyblock_classic_edition.skyblock_setup.large_easy": "\u25b6Grande (Fácil)",
     "skyblock_classic_edition.skyblock_setup.large_easy.info": "Esta ilha é feita especialmente para iniciantes. Esta ilha é a única não inspirada pelo skyblock original.",
-    "skyblock_classic_edition.skyblock_setup.default_normal": "\u25b6Default (Normal)",
+    "skyblock_classic_edition.skyblock_setup.default_normal": "\u25b6Padrão (Normal)",
     "skyblock_classic_edition.skyblock_setup.default_normal.info": "Esta é a ilha clássica que todos conhecem, mas modernizada para novas versões do Minecraft. Recomendado para aqueles que não estão familiarizados com o skyblock original.",
     "skyblock_classic_edition.skyblock_setup.small_hard": "\u25b6Pequena (Difícil)",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "Esta ilha é muito similar ao skyblock 2.0 original, mas é modernizada para novas versões do Minecraft. Para aqueles que gostam de desafios difíceis e conhecem todos os truques e noções técnicas do modo de sobrevivência vanilla.",
@@ -30,7 +30,7 @@
     "skyblock_classic_edition.version_update.check_news": "\n\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\nConsulte as novidades da versão mais recente aqui:\n",
     "skyblock_classic_edition.version_update.changelog": "Registo De Alterações",
     "skyblock_classic_edition.version_update.check_links": "Verifique a versão mais recente nos vários links aqui:",
-    "skyblock_classic_edition.version_update.crowdin": "\u27a1Projeto de Traduções Crowdin",
+    "skyblock_classic_edition.version_update.crowdin": "\u27a1Projeto De Traduções Crowdin",
     "skyblock_classic_edition.version_update.crowdin.info": "Ajude-me a traduzir para a sua língua nativa. Os idiomas devem ser fiéis à língua inglesa, respeitar a pontuação e a capitalização.",
     "skyblock_classic_edition.version_update.discord": "Siga-me também no servidor do Discord se quiser fazer uma sugestão ou se encontrou um bug.",
     "skyblock_classic_edition.version_update.development_version.warning": "\u26a0ATENÇÃO: Está a usar uma versão de desenvolvimento, o mundo pode ficar corrompido e danificado, faça sempre backups e ",
@@ -49,7 +49,7 @@
     "skyblock_classic_edition.small.loading.subtitle": "Mundo",
     "skyblock_classic_edition.generated_structures.loading.title": "Estruturas:",
     "skyblock_classic_edition.generated_structures.loading.subtitle": "Foram geradas...",
-    "skyblock_classic_edition.generated_structures.generated.command_block.info": "\u26a0Vejo que não há pasta (gerada) no seu mundo. ",
+    "skyblock_classic_edition.generated_structures.generated.command_block.info": "\u26a0Vejo que não há pasta (generated) no seu mundo. ",
     "skyblock_classic_edition.generated_structures.generated.command_block.download": " Por favor, faça download do mapa novamente aqui",
     "skyblock_classic_edition.link.discord": "Servidor do Discord",
     "skyblock_classic_edition.link.crowdin": "Projeto de Traduções Crowdin"
