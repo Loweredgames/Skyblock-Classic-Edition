@@ -1,8 +1,9 @@
 (data),(lingue aggiunte/modificate)
-esempio: 01.03.1001 - Polski,Português,Ucraino,italiano
+esempio: 01.03.1001 - Polacco,Portoghese,Ucraino,italiano
 
 
-12.03.2023a - Polski,Português,Ucraino,Italiano (tutte le traduzioni nelle vecchie versioni)
+12.03.2023a - Polacco,Portoghese,Ucraino,Italiano (Tutte le traduzioni delle vecchie versioni di sviluppo)
 13.02.2023a - Italiano,Spagniolo
-13.02.2023b - Português
-13.02.2023c - Português,Ucraino
+13.02.2023b - Portoghese
+13.02.2023c - Portoghese,Ucraino
+20.02.2023a - Ucraino,Russo,Inglese-Sotto-Sopra,Spagniolo,Tedesco,Arabo,Portoghese,Polacco
