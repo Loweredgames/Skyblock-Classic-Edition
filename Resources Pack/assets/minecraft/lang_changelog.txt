@@ -7,3 +7,4 @@ esempio: 01.03.1001 - Polacco,Portoghese,Ucraino,italiano
 13.02.2023b - Portoghese
 13.02.2023c - Portoghese,Ucraino
 20.02.2023a - Ucraino,Russo,Inglese-Sotto-Sopra,Spagniolo,Tedesco,Arabo,Portoghese,Polacco
+21.02.2023a - Ucraino,Africano (solo test)
