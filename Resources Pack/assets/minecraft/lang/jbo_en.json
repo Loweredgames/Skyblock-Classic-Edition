@@ -49,8 +49,8 @@
     "skyblock_classic_edition.small.loading.subtitle": "World",
     "skyblock_classic_edition.generated_structures.loading.title": "Structures:",
     "skyblock_classic_edition.generated_structures.loading.subtitle": "They were generated...",
-    "skyblock_classic_edition.generated_structures.generated.command_block.info": "\\u26a0I see that there is not \\generated\\ folder in your world. ",
+    "skyblock_classic_edition.generated_structures.generated.command_block.info": "\u26a0I see that there is not (generated) folder in your world. ",
     "skyblock_classic_edition.generated_structures.generated.command_block.download": " Please download the map again here",
     "skyblock_classic_edition.link.discord": "Discord Server",
     "skyblock_classic_edition.link.crowdin": "Crowdin Translations Project"
-}    
+}
