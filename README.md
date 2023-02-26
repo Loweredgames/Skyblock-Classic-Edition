@@ -10,21 +10,21 @@ _Steve/Alex wake up on an unknown island, inside a chest it says..._
 
 # Feature:
 
-- The classic islands have been updated and are now more modern.
+- The classic islands have been updated and are now more up-to-date.
 - Added new islands (Small, Normal, Large).
-- Added recipes to renewable resource (check the recipes book).
+- Added recipes to renewable resources (check the recipes book).
 - Added the datapack, so the map can be updated.
 - The world is infinite (including The Nether and The End).
 - Now you can visit the end and finish the game.
-- The map includes a piece of the unofficial Slamacow trailer (a mini storyline).
-- It also contains a hardcore mode. inside the "datapack" folder in the "Skyblock Classic Edition Hardcore" folder. (first generate the map and then replace the files).
+- The map includes a part of the unofficial Slamacow trailer (a mini storyline).
+- It also contains a hardcore mode. inside the "datapack" folder in the "Skyblock Classic Edition Hardcore" folder. (first start and generate the map and then replace the files).
 - Compatible with multiplayer.
 - Supports localizations: help me translate into your native language. The languages are must be faithful to the English language, respect the punctuation and the capitalization. click here to translate into your language in Crowdin: https://crowdin.com/project/skyblock-classic-edition
 
 
 _thanks to the original Skyblock team for creating the most popular Minecraft map._
 
-READ THE LICENZE BEFORE DOWNLOADING THE DATAPACK:
+READ THE LICENSE BEFORE DOWNLOADING THE DATAPACK:
 https://github.com/Loweredgames/Skyblock-Classic-Edition/blob/main/LICENSE
 
 NOT APPROVED BY OR ASSOCIATED WITH MOJANG STUDIO READING THE COPYRIGHT (C): 
