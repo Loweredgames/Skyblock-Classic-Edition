@@ -13,8 +13,8 @@ _Steve/Alex wake up on an unknown island, inside a chest it says..._
 - The classic islands have been updated and are now more up-to-date.
 - Added new islands (Small, Normal, Large).
 - Added recipes to renewable resources (check the recipes book).
-- Added the datapack, so the map can be updated.
-- The world is infinite (including The Nether and The End).
+- Added the datapack, so that the map can be updated.
+- The world is endless (including The Nether and The End).
 - Now you can visit the end and finish the game.
 - The map includes a part of the unofficial Slamacow trailer (a mini storyline).
 - It also contains a hardcore mode. inside the "datapack" folder in the "Skyblock Classic Edition Hardcore" folder. (first start the world, generate the map and then replace the files).
