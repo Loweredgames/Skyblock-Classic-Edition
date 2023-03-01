@@ -2,7 +2,7 @@
 
 [![Crowdin](https://badges.crowdin.net/skyblock-classic-edition/localized.svg)](https://crowdin.com/project/skyblock-classic-edition)
 
-_Skyblock is one of the most famous maps in Minecraft. This modification has been updated and now supports all future versions of Minecraft._
+_Skyblock is one of the most famous maps in Minecraft. the original has been updated and now supports all future versions of Minecraft._
 
 # Story:
 
@@ -10,7 +10,7 @@ _Steve/Alex wake up on an unknown island, inside a chest it says..._
 
 # Feature:
 
-- The classic islands have been updated and are now more up-to-date.
+- The classic islands have been updated and are now more modern.
 - Added new islands (Small, Normal, Large).
 - Added recipes to renewable resources (check the recipes book).
 - Added the datapack, so that the map can be updated.
