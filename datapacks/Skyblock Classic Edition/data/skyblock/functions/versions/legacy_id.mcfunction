@@ -1,4 +1,4 @@
-##PID Legacy Setup (Aggiornato sempre nell'ultima versione: 4.0.0) Ricordasi di aggiornare UPDATE ID e di aggiungere l'ultima conversione.
+##PID Legacy Setup (Aggiornato all'ultima versione: 4.0.0) Ricordati di aggiornare UPDATE ID e di aggiungere l'ultima conversione.
 scoreboard objectives add PID_legacy dummy
 execute as @a[scores={PID_legacy=100..}] run scoreboard players reset @a PID_legacy
 #scoreboard objectives setdisplay sidebar PID_legacy

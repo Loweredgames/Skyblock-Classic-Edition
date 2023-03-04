@@ -53,7 +53,7 @@ execute as @a[scores={skyblock_install=1}] run effect give @a blindness 61 0 tru
 execute as @a[scores={skyblock_install=1}] run setworldspawn 0 63 0
 execute as @a[scores={skyblock_install=1}] run xp set @a 0 points
 execute as @a[scores={skyblock_install=1}] run xp set @a 0 levels
-execute as @a[scores={skyblock_install=2}] run tellraw @a ["",{"text":"If the resource pack is not in the world and can cause damage to the text: add the resource pack in the world or ","italic":true,"color":"gray"},{"text":"reinstall the map here","italic":true,"underlined":true,"color":"gray","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/releases"}},{"text":" and add it manually.","italic":true,"color":"gray"}]
+execute as @a[scores={skyblock_install=2}] run tellraw @a ["",{"text":"If the resource pack is not in the world and can cause damage to the text: add the resource pack in the world folder or ","italic":true,"color":"gray"},{"text":"reinstall the map here","italic":true,"underlined":true,"color":"gray","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/releases"}},{"text":" and add manually in the world folder.","italic":true,"color":"gray"}]
 
 
 ##Teleports

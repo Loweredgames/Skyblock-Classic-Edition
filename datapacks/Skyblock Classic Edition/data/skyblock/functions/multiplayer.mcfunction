@@ -22,5 +22,5 @@ execute as @a[scores={multiplayer=6..}] run scoreboard objectives remove multipl
 execute as @a[scores={multiplayer_popup=200}] run tellraw @a ["",{"translate":"skyblock_classic_edition.multiplayer.popup","italic":true},{"text":"\"Skyblock Classic Edition\\datapacks\\Skyblock Classic Edition\\data\\skyblock\\functions\\multiplayer.mcfunction\"","italic":true,"underlined":true,"clickEvent":{"action":"copy_to_clipboard","value":"\"Skyblock Classic Edition\\datapacks\\Skyblock Classic Edition\\data\\skyblock\\functions\\multiplayer.mcfunction\""}}]
 
 
-##Server (Only activate if you are in multiplayer: below)
+##Server (Only activate if you are in multiplayer: here below)
 #scoreboard objectives add multiplayer dummy
