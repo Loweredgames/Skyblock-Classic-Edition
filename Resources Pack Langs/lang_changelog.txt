@@ -9,3 +9,4 @@ esempio: 01.03.1001 - Polacco,Portoghese,Ucraino,italiano
 20.02.2023a - Ucraino,Russo,Inglese-Sotto-Sopra,Spagniolo,Tedesco,Arabo,Portoghese,Polacco
 21.02.2023a - Ucraino,Africano (solo test)
 23.02.2023a - (Tutte le traduzioni)
+06.03.2023a - Olanda,Tedesco (aggiunti i crediti e riaggiunta Olanda)
