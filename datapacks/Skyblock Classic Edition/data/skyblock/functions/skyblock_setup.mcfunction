@@ -32,6 +32,15 @@ scoreboard players add @a skyblock_install 1
 scoreboard objectives add tp dummy
 
 
+##Scoreboard Reset
+execute as @a[scores={fix_end=2000000..}] run scoreboard players set @a fix_end 10000
+execute as @a[scores={skyblock_ID=2000000..}] run scoreboard players set @a skyblock_ID 10000
+execute as @a[scores={structure_skyblock=2000000..}] run scoreboard players set @a structure_skyblock 10000
+execute as @a[scores={skyblock_normal=2000000..}] run scoreboard players set @a skyblock_normal 10000
+execute as @a[scores={skyblock_large=2000000..}] run scoreboard players set @a skyblock_large 10000
+execute as @a[scores={skyblock_small=2000000..}] run scoreboard players set @a skyblock_small 10000
+
+
 ##Gamerules
 gamerule waterSourceConversion true
 gamerule lavaSourceConversion true

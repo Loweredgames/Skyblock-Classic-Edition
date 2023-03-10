@@ -4,6 +4,7 @@ scoreboard players add @a PID_0 1
 
 
 ##Skyblock ID e Install (AGGIORNARE SE L'ID E DIVERSO)
+execute as @a[scores={PID_0=2000000..}] run scoreboard players set @a PID_0 10000
 execute as @a[scores={skyblock_ID=30}] run scoreboard players set @a PID_0 -100
 execute as @a[scores={skyblock_install=1..}] run scoreboard players set @a PID_0 -10000
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a PID_0 -1
