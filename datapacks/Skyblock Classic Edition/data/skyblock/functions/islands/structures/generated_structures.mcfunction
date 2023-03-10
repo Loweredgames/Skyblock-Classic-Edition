@@ -7,31 +7,31 @@ execute as @a[scores={structure_skyblock=3}] run effect give @a night_vision 51 
 
 ##Teleport Players
 #Pillager Outpost
-execute as @a[scores={structure_skyblock=100}] run tp @a 500 45 55
+execute as @a[scores={structure_skyblock=100}] run tp @a 500 45 55 0 0
 
 #Village
-execute as @a[scores={structure_skyblock=200}] run tp @a 460 45 350
+execute as @a[scores={structure_skyblock=200}] run tp @a 460 45 350 0 0
 
 #Swamp Hut
-execute as @a[scores={structure_skyblock=300}] run tp @a -180 45 -180
+execute as @a[scores={structure_skyblock=300}] run tp @a -180 45 -180 0 0
 
 #Igloo
-execute as @a[scores={structure_skyblock=400}] run tp @a 180 45 180
+execute as @a[scores={structure_skyblock=400}] run tp @a 180 45 180 0 0
 
 #Jungle Pyramids
-execute as @a[scores={structure_skyblock=500}] run tp @a -60 45 500
+execute as @a[scores={structure_skyblock=500}] run tp @a -60 45 500 0 0
 
 #Desert Pyramid
-execute as @a[scores={structure_skyblock=600}] run tp @a 60 45 -500
+execute as @a[scores={structure_skyblock=600}] run tp @a 60 45 -500 0 0
 
 #Shipwrecks
-execute as @a[scores={structure_skyblock=700}] run tp @a 280 45 0
+execute as @a[scores={structure_skyblock=700}] run tp @a 280 45 0 0 0
 
 #Stronghold
-execute as @a[scores={structure_skyblock=800}] run tp @a 700 45 700
+execute as @a[scores={structure_skyblock=800}] run tp @a 700 45 700 0 0
 
 #Ancient City
-execute as @a[scores={structure_skyblock=900}] run tp @a -700 45 -700
+execute as @a[scores={structure_skyblock=900}] run tp @a -700 45 -700 0 0
 
 
 ##Generated
