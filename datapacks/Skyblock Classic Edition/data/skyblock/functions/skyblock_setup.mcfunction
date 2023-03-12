@@ -65,6 +65,12 @@ execute as @a[scores={skyblock_install=1}] run xp set @a 0 levels
 execute as @a[scores={skyblock_install=2}] run tellraw @a ["",{"text":"If the resource pack is not in the world and can cause damage to the text: add the resource pack in the world folder or ","italic":true,"color":"gray"},{"text":"reinstall the map here","italic":true,"underlined":true,"color":"gray","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/releases"}},{"text":" and add manually in the world folder.","italic":true,"color":"gray"}]
 
 
+##Quit Game
+scoreboard objectives add skyblock_quit_game minecraft.custom:minecraft.leave_game
+execute as @a[scores={skyblock_quit_game=1..}] run scoreboard players set @a skyblock_install 0
+execute as @a[scores={skyblock_quit_game=1..}] run scoreboard players reset @a skyblock_quit_game
+
+
 ##Teleports
 execute in minecraft:overworld run tp @a[scores={tp=1}] 0 64 0 0 90
 execute in minecraft:overworld run tp @a[scores={tp=2}] 67 60 -3 0 90
