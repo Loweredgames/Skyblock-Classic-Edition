@@ -3,7 +3,7 @@ Name: Skyblock Classic Edition
 
 Edition: JAVA EDITION
 
-Release: JE-1.19.4-Skyblock_Classic_Edition:RELEASE-CANDIDATE 1 - 4.0.0
+Release: JE-1.19.4-rc2-Skyblock_Classic_Edition:RELEASE-CANDIDATE 1 - 4.0.0
 
 Data_pack: TRUE
 
