@@ -3,9 +3,10 @@
 #Setup Update PID (NON ELIMINARE "Setup Update PID" E NON MODIFICARLO, DISATTIVA SOLO SE NON C'E LA CONVERSIONE)
 execute as @a[scores={PID_0=5}] run time set 0
 execute as @a[scores={PID_0=10}] run gamemode spectator @a
+execute as @a[scores={PID_0=805}] run scoreboard objectives add PID_legacy dummy
 
 
-##PID_0 (PUOI ELIMINARE "PID_X" E AGGIORNARLO MA NON ELIMINARE IL COMMENTO IN SE)
+##PID_0 (PUOI ELIMINARE "PID_X" E AGGIORNARLO MA NON ELIMINARE IL COMMENTO IN SE, NON RIMUOVERE IL LIBRO DELLE STRUTTURE)
 execute in minecraft:the_nether as @a[scores={PID_0=200}] run tp @a 0 3 30
 execute in minecraft:the_nether as @a[scores={PID_0=250}] run fill 2 2 33 -2 2 29 minecraft:infested_cobblestone destroy
 execute in minecraft:the_nether as @a[scores={PID_0=300}] run setblock 0 3 31 minecraft:oak_sign[rotation=8,waterlogged=false]{Color:"black",GlowingText:1b,Text1:'{"text":"The portal is"}',Text2:'{"text":"broken sorry.."}',Text3:'{"text":";("}',Text4:'{"text":""}'} destroy
