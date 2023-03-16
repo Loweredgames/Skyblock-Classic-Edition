@@ -6,6 +6,7 @@ execute as @a[scores={structure_skyblock=3}] run effect give @a night_vision 51 
 
 
 ##Teleport Players
+
 #Pillager Outpost
 execute as @a[scores={structure_skyblock=100}] run tp @a 500 45 55 0 0
 
@@ -46,7 +47,7 @@ execute as @a[scores={structure_skyblock=850}] run place template skyblock:struc
 execute as @a[scores={structure_skyblock=950}] run place template skyblock:structures/ancient_city -700 45 -700
 
 
-##End Function
+##Final Function
 execute as @a[scores={structure_skyblock=1000}] run tp @s 0 66 0 90 0
 execute as @a[scores={structure_skyblock=1005}] run gamemode survival @a
 execute as @a[scores={structure_skyblock=1005}] run title @a times 20 100 20

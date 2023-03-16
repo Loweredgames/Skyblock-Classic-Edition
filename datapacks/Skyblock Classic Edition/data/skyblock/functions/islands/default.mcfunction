@@ -59,7 +59,7 @@ execute in minecraft:the_nether as @a[scores={skyblock_normal=131}] run place te
 ## ??? ##
 
 
-##End Function
+##Final Function
 execute as @a[scores={skyblock_normal=150}] run scoreboard players set @a tp 1
 execute as @a[scores={skyblock_normal=250}] run scoreboard objectives add structure_skyblock dummy
 execute as @a[scores={skyblock_normal=1351}] run spawnpoint @a 0 65 0
