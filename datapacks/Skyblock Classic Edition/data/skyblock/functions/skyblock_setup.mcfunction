@@ -22,7 +22,6 @@ execute as @a[scores={tp=1}] run effect give @a minecraft:regeneration 64 250 tr
 ##Scoreboard
 scoreboard players add @a legacy 1
 scoreboard players add @a skyblock_ID 1
-scoreboard players add @a structure_skyblock 1
 scoreboard players add @a multiplayer 1
 scoreboard objectives add multiplayer_popup dummy
 scoreboard players add @a multiplayer_popup 1
@@ -35,7 +34,6 @@ scoreboard objectives add tp dummy
 ##Scoreboard Reset
 execute as @a[scores={fix_end=2000000..}] run scoreboard players set @a fix_end 10000
 execute as @a[scores={skyblock_ID=2000000..}] run scoreboard players set @a skyblock_ID 10000
-execute as @a[scores={structure_skyblock=2000000..}] run scoreboard players set @a structure_skyblock 10000
 execute as @a[scores={skyblock_normal=2000000..}] run scoreboard players set @a skyblock_normal 10000
 execute as @a[scores={skyblock_large=2000000..}] run scoreboard players set @a skyblock_large 10000
 execute as @a[scores={skyblock_small=2000000..}] run scoreboard players set @a skyblock_small 10000
