@@ -1,15 +1,15 @@
 ##Function
 function skyblock:versions/changelog/building
-function skyblock:versions/version_update
+function skyblock:versions/version_pvn
 function skyblock:versions/legacy_version
-function skyblock:versions/legacy_id
+function skyblock:versions/legacy_pid_setup
 function skyblock:islands/default
 function skyblock:islands/large
 function skyblock:islands/small
-function skyblock:multiplayer
-function skyblock:misc/fix_end
 function skyblock:islands/structures/generated_structures
 function skyblock:islands/structures/generated_biome
+function skyblock:multiplayer
+function skyblock:misc/fix_end
 
 
 ##Setup

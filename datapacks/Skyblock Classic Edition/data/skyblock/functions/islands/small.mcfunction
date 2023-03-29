@@ -24,7 +24,7 @@ execute in minecraft:overworld as @a[scores={skyblock_small=1}] run gamerule ann
 execute in minecraft:overworld as @a[scores={skyblock_small=1}] run scoreboard players set @a tp 1
 execute in minecraft:overworld as @a[scores={skyblock_small=1}] run fill -7 80 -12 7 55 5 minecraft:air
 execute in minecraft:overworld as @a[scores={skyblock_small=3}] run place template skyblock:small_classic -1 62 -3
-execute in minecraft:overworld as @a[scores={skyblock_small=10}] run setblock 1 66 0 minecraft:birch_wall_sign[facing=south,waterlogged=false]{Color:"white",GlowingText:1b,Text1:'{"text":"Skyblock"}',Text2:'{"text":"Classic Edition"}',Text3:'{"text":"---------------"}',Text4:'{"text":"1.19.4"}'}
+execute in minecraft:overworld as @a[scores={skyblock_small=10}] run setblock 1 66 0 birch_wall_sign[facing=south,waterlogged=false]{back_text:{messages:['{"text":"This"}','{"text":"is"}','{"text":"a"}','{"text":"secret!!!"}']},front_text:{color:"white",has_glowing_text:1b,messages:['{"text":"Skyblock"}','{"text":"Classic Edition"}','{"text":"---------------"}','{"text":"1.20"}']}} replace
 execute in minecraft:overworld as @a[scores={skyblock_small=35}] run setblock 0 62 1 minecraft:dirt destroy
 execute in minecraft:overworld as @a[scores={skyblock_small=35}] run setblock 1 66 1 minecraft:air
 

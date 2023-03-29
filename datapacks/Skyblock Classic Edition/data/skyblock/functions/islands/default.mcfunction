@@ -25,7 +25,7 @@ execute in minecraft:overworld as @a[scores={skyblock_normal=1}] run scoreboard 
 execute in minecraft:overworld as @a[scores={skyblock_normal=1}] run fill -7 80 -12 7 55 5 minecraft:air
 execute in minecraft:overworld as @a[scores={skyblock_normal=1}] run fill 75 80 11 61 55 -9 minecraft:air
 execute in minecraft:overworld as @a[scores={skyblock_normal=20}] run place template skyblock:classic -4 61 -6
-execute in minecraft:overworld as @a[scores={skyblock_normal=33}] run setblock 1 66 -3 minecraft:birch_wall_sign[facing=south,waterlogged=false]{Color:"white",GlowingText:1b,Text1:'{"text":"Skyblock"}',Text2:'{"text":"Classic Edition"}',Text3:'{"text":"---------------"}',Text4:'{"text":"1.19.4"}'}
+execute in minecraft:overworld as @a[scores={skyblock_normal=33}] run setblock 1 66 -3 birch_wall_sign[facing=south,waterlogged=false]{back_text:{messages:['{"text":"This"}','{"text":"is"}','{"text":"a"}','{"text":"secret!!!"}']},front_text:{color:"white",has_glowing_text:1b,messages:['{"text":"Skyblock"}','{"text":"Classic Edition"}','{"text":"---------------"}','{"text":"1.20"}']}} replace
 execute in minecraft:overworld as @a[scores={skyblock_normal=35}] run setblock 1 66 -2 minecraft:air
 
 
