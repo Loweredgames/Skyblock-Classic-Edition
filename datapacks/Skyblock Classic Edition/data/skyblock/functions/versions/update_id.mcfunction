@@ -1,5 +1,6 @@
 ##World Update and Conversion
 
+
 #Setup Update PID (NON ELIMINARE "Setup Update PID" E NON MODIFICARLO, DISATTIVA SOLO SE NON C'E LA CONVERSIONE)
 execute as @a[scores={PID_0=5}] run time set 0
 execute as @a[scores={PID_0=1000}] run scoreboard objectives add structure_skyblock dummy
