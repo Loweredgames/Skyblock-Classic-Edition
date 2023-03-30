@@ -1,24 +1,32 @@
-##PID Legacy Setup (Aggiornato all'ultima versione: 4.0.0) Ricordati di aggiornare UPDATE ID e di aggiungere l'ultima conversione.
+##PID Legacy Setup (Aggiornato all'ultima versione: 4.0.0 Mc: 1.19.4) Ricordati di aggiornare UPDATE ID e di aggiungere l'ultima conversione.
 execute as @a[scores={PID_legacy=1}] run gamemode spectator @a
+scoreboard objectives add PID_legacy dummy
 #scoreboard objectives setdisplay sidebar PID_legacy
 
 
-##PID Legacy Versions (DA AGGIUNGERE IL PID NUOVO SE C'E QUALCOSA DA AGGIORNARE E AGGIORNARE IL CONTATORE)
+##PID Legacy Versions (DA AGGIUNGERE IL PID NUOVO QUANDO E FINITO DI CONVERTIRE, SE C'E QUALCOSA DA AGGIORNARE, AUMENTA IL CONTATORE QUANDO LA PRECEDENTE CONVERSIONE FINISCE)
 execute as @a[scores={PID_1=1..}] run scoreboard players set @a ID_5 1
-execute as @a[scores={PID_1=805..}] run scoreboard players set @a PID_0 1
+execute as @a[scores={PID_1=1805..}] run scoreboard players set @a PID_0 1
 
 
-##PID Update Old (AGGIUNGERE I PID VECCHI: ogni 3 versioni e poi l'ultima diventa incompatibile, quindi aggionare sempre in "version_update")
+##PID Update Old (AGGIUNGERE I PID VECCHI: ogni 3 versioni e poi l'ultima diventa incompatibile, quindi aggionare sempre in "update_pid")
 execute as @a[scores={ID_5=1..}] run scoreboard players add @a PID_legacy 1
 execute as @a[scores={PID_0=1..}] run scoreboard players add @a PID_legacy 1
 
 
 ##PID Remove (RIMUOVERE SOLO QUANDO E FINITO UN PID VECCHIO. CANCELLARE SOLO QUANDO E FINITA E AGGIORNARE IL CONTATORE)
 execute as @a[scores={PID_legacy=100..}] run scoreboard objectives remove ID_5
-execute as @a[scores={PID_legacy=850..}] run scoreboard objectives remove PID_0
+execute as @a[scores={PID_legacy=805..}] run scoreboard objectives remove PID_0
 
 
 ##PID Legacy Update (AGGIUNGERE TUTTI I PID VECCHI)
+
+
+#ID_Legacy
+execute as @a[scores={ID_5=1..}] run scoreboard objectives remove PID_0
+
+
+#PID_1
 execute as @a[scores={PID_legacy=1}] run scoreboard players set @a structure_skyblock 1000
 execute in minecraft:the_nether as @a[scores={PID_legacy=200}] run tp @a 0 3 30
 execute in minecraft:the_nether as @a[scores={PID_legacy=250}] run fill 2 2 33 -2 2 29 minecraft:infested_cobblestone destroy
@@ -36,6 +44,7 @@ execute in minecraft:overworld at @a[scores={PID_legacy=800}] run tp @a 0 66 0 9
 execute as @a[scores={PID_legacy=800}] run gamemode survival @a
 
 
-##PID Legacy Remove (QUANDO FINISCE: CAMBIARE IL NUMERO PER RESETARE TUTTO, AGGIORNARE SEMPRE NELLE NUOVE VERSIONI)
-execute as @a[scores={PID_2=1}] run scoreboard players set @a PID_legacy 1
-execute as @a[scores={PID_legacy=2000000..}] run scoreboard players set @a PID_legacy 1000
+##PID Legacy Stop (QUANDO FINISCE: CAMBIARE IL NUMERO PER RESETARE TUTTO, AGGIORNARE SEMPRE NELLE NUOVE VERSIONI)
+execute as @a[scores={PID_1=1..801}] run scoreboard players set @a PID_legacy 0
+execute as @a[scores={PID_1=1..801}] run scoreboard players set @a ID_5 0
+execute as @a[scores={PID_1=1..801}] run scoreboard players set @a PID_0 0

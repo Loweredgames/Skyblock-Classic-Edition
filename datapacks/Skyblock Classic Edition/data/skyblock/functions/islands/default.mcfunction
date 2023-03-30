@@ -11,6 +11,7 @@ execute as @a[scores={skyblock_normal=1..}] run scoreboard players set @a skyblo
 execute in minecraft:overworld as @a[scores={skyblock_normal=1}] run kill @e[type=!minecraft:player]
 execute in minecraft:overworld as @a[scores={skyblock_normal=1}] run difficulty normal
 execute in minecraft:overworld as @a[scores={skyblock_normal=1}] run gamerule commandBlockOutput false
+execute in minecraft:overworld as @a[scores={skyblock_normal=1}] run gamerule doImmediateRespawn true
 execute in minecraft:overworld as @a[scores={skyblock_normal=1}] run title @a title {"translate":"skyblock_classic_edition.default.loading.title"}
 execute in minecraft:overworld as @a[scores={skyblock_normal=1}] run title @a subtitle {"translate":"skyblock_classic_edition.default.loading.subtitle"}
 execute in minecraft:overworld as @a[scores={skyblock_normal=1}] run title @a times 20 200 20
@@ -74,6 +75,7 @@ execute as @a[scores={skyblock_normal=1356}] run title @a times 30 100 30
 execute as @a[scores={skyblock_normal=1357}] run gamerule announceAdvancements true
 execute as @a[scores={skyblock_normal=1357}] run gamerule doDaylightCycle true
 execute as @a[scores={skyblock_normal=1357}] run gamerule doWeatherCycle true
+execute as @a[scores={skyblock_normal=1357}] run gamerule doImmediateRespawn false
 execute as @a[scores={skyblock_normal=1357}] run time set 0
 execute as @a[scores={skyblock_normal=1360}] run gamemode survival @a
 execute as @a[scores={skyblock_normal=1360}] run advancement revoke @a everything
