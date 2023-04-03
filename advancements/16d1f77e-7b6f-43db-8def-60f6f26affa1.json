@@ -7,9 +7,30 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:badlands": "2023-03-30 21:31:04 +0200",
       "minecraft:snowy_taiga": "2023-03-30 21:21:25 +0200"
     },
     "done": false
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2023-03-30 21:30:13 +0200",
+      "minecraft:nether_wastes": "2023-03-30 21:30:09 +0200",
+      "minecraft:warped_forest": "2023-03-30 21:30:17 +0200"
+    },
+    "done": false
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2023-03-30 21:30:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2023-03-30 21:30:09 +0200"
+    },
+    "done": true
   },
   "DataVersion": 3443
 }
