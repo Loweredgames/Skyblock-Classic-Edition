@@ -1,3 +1,10 @@
+#Copyright (C) Loweredgames (Lorenzo Giannini) 
+#<https://github.com/Loweredgames>
+#This Source Code Form is subject to the terms of the License:https://github.com/Loweredgames/Skyblock-Classic-Edition/blob/main/LICENSE
+#NOT OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG STUDIO.
+#READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
+
+
 ##PID Legacy Setup (Aggiornato all'ultima versione: 4.0.0 Mc: 1.19.4) Ricordati di aggiornare UPDATE ID e di aggiungere l'ultima conversione.
 execute as @a[scores={PID_legacy=1}] run gamemode spectator @a
 scoreboard objectives add PID_legacy dummy
@@ -22,12 +29,11 @@ execute as @a[scores={PID_legacy=805..}] run scoreboard objectives remove PID_0
 ##PID Legacy Update (AGGIUNGERE TUTTI I PID VECCHI)
 
 
-#ID_Legacy
+#PID_Legacy
 execute as @a[scores={ID_5=1..}] run scoreboard objectives remove PID_0
 
 
 #PID_1
-execute as @a[scores={PID_legacy=1}] run scoreboard players set @a structure_skyblock 1000
 execute in minecraft:the_nether as @a[scores={PID_legacy=200}] run tp @a 0 3 30
 execute in minecraft:the_nether as @a[scores={PID_legacy=250}] run fill 2 2 33 -2 2 29 minecraft:infested_cobblestone destroy
 execute in minecraft:the_nether as @a[scores={PID_legacy=300}] run setblock 0 3 31 oak_sign[rotation=8,waterlogged=false]{front_text:{color:"black",has_glowing_text:1b,messages:['{"text":"The portal is"}','{"text":"broken sorry.."}','{"text":";("}','{"text":""}']}} destroy

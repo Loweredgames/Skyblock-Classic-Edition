@@ -1,3 +1,10 @@
+#Copyright (C) Loweredgames (Lorenzo Giannini) 
+#<https://github.com/Loweredgames>
+#This Source Code Form is subject to the terms of the License:https://github.com/Loweredgames/Skyblock-Classic-Edition/blob/main/LICENSE
+#NOT OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG STUDIO.
+#READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
+
+
 ##Legacy Setup (Aggiornato alla versione: 4.0.0) Ricordasi di aggiornare "legacy_version", aggiungendo le cose della convesione (il libro,il portale bloccato, ecc.) per le versioni vecchie e incompatibili.
 execute as @a[scores={legacy=1}] run scoreboard objectives add skyblock_normal minecraft.custom:minecraft.play_time
 execute as @a[scores={legacy=1..52}] run scoreboard players set @a skyblock_normal 2400

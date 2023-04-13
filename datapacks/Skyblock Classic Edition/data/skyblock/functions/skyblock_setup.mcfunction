@@ -1,3 +1,10 @@
+#Copyright (C) Loweredgames (Lorenzo Giannini) 
+#<https://github.com/Loweredgames>
+#This Source Code Form is subject to the terms of the License:https://github.com/Loweredgames/Skyblock-Classic-Edition/blob/main/LICENSE
+#NOT OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG STUDIO.
+#READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
+
+
 ##Function
 function skyblock:versions/changelog/building
 function skyblock:versions/version_pvn
@@ -7,6 +14,7 @@ function skyblock:islands/default
 function skyblock:islands/large
 function skyblock:islands/small
 function skyblock:islands/structures/generated_structures
+function skyblock:islands/structures/legacy_structures
 function skyblock:islands/structures/generated_biome
 function skyblock:multiplayer
 function skyblock:misc/fix_end

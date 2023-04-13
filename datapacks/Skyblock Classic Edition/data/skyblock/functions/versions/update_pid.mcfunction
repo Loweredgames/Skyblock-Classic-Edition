@@ -1,11 +1,18 @@
+#Copyright (C) Loweredgames (Lorenzo Giannini) 
+#<https://github.com/Loweredgames>
+#This Source Code Form is subject to the terms of the License:https://github.com/Loweredgames/Skyblock-Classic-Edition/blob/main/LICENSE
+#NOT OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG STUDIO.
+#READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
+
+
 ##World Update and Conversion
 
 
 #Setup Update PID (NON ELIMINARE "Setup Update PID" E NON MODIFICARLO, DISATTIVA SOLO SE NON C'E LA CONVERSIONE)
+execute as @a[scores={PID_1=1..5}] run gamemode spectator @a
 execute as @a[scores={PID_1=5}] run time set 0
 execute as @a[scores={PID_1=1000}] run scoreboard objectives add structure_skyblock dummy
 execute as @a[scores={PID_1=1000..1005}] run scoreboard players set @a structure_skyblock 1000
-execute as @a[scores={PID_1=11}] run gamemode spectator @a
 
 
 #PID Legacy Remove (RIMUOVE LA SCORE DOPO LA CONVERSIONE)
