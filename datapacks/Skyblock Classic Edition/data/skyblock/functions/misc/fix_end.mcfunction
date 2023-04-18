@@ -18,3 +18,4 @@ execute in minecraft:the_end as @a[scores={fix_end=15}] run gamemode survival @a
 #test 3
 
 
+#test 3
