@@ -3,7 +3,7 @@ Name: Skyblock Classic Edition
 
 Edition: JAVA EDITION
 
-Release: JE-1.20-DA_FARE-Skyblock_Classic_Edition:BUILDING:29.03.2023a - 4.0.0
+Release: JE-1.20-23w13a-Skyblock_Classic_Edition:BUILDING:29.03.2023a - 4.0.0
 
 Data_pack: TRUE
 
