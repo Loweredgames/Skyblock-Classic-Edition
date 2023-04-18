@@ -13,3 +13,8 @@ execute in minecraft:the_end as @a[scores={fix_end=6}] run setblock 6 65 0 minec
 execute in minecraft:the_end as @a[scores={fix_end=6}] run setblock 6 66 0 minecraft:stone_button[face=floor,facing=west,powered=false] destroy
 execute in minecraft:the_end as @a[scores={fix_end=11}] run summon minecraft:ender_dragon 0 80 0
 execute in minecraft:the_end as @a[scores={fix_end=15}] run gamemode survival @a
+
+
+#test 3
+
+
