@@ -51,6 +51,7 @@ execute as @a[scores={skyblock_small=2000000..}] run scoreboard players set @a s
 gamerule waterSourceConversion true
 gamerule lavaSourceConversion true
 gamerule commandModificationBlockLimit 1000000
+gamerule doWardenSpawning true
 
 
 ##Islands Choices
