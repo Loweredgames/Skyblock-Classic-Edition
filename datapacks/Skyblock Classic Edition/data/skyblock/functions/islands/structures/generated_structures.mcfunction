@@ -17,7 +17,7 @@ execute as @a[scores={PSN_0=3}] run effect give @a night_vision 51 0 true
 
 #NOME
 #execute as @a[scores={PSN_0=200}] run ##
-execute as @a[scores={PSN_0=200}] run me test PSN_0
+execute as @a[scores={PSN_0=200}] run me This is a test and will come soon...
 
 
 ##Generated New Structures
