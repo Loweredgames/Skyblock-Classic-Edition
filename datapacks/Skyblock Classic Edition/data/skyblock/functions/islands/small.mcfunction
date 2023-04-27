@@ -1,10 +1,3 @@
-#Copyright (C) Loweredgames (Lorenzo Giannini) 
-#<https://github.com/Loweredgames>
-#This Source Code Form is subject to the terms of the License:https://github.com/Loweredgames/Skyblock-Classic-Edition/blob/main/LICENSE
-#NOT OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG STUDIO.
-#READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
-
-
 ##Small (Hard)
 
 
@@ -18,7 +11,6 @@ execute as @a[scores={skyblock_small=1..}] run scoreboard players set @a skybloc
 execute in minecraft:overworld as @a[scores={skyblock_small=1}] run kill @e[type=!minecraft:player]
 execute in minecraft:overworld as @a[scores={skyblock_small=1}] run difficulty hard
 execute in minecraft:overworld as @a[scores={skyblock_small=1}] run gamerule commandBlockOutput false
-execute in minecraft:overworld as @a[scores={skyblock_small=1}] run gamerule doImmediateRespawn true
 execute in minecraft:overworld as @a[scores={skyblock_small=1}] run title @a title {"translate":"skyblock_classic_edition.small.loading.title"}
 execute in minecraft:overworld as @a[scores={skyblock_small=1}] run title @a subtitle {"translate":"skyblock_classic_edition.small.loading.subtitle"}
 execute in minecraft:overworld as @a[scores={skyblock_small=1}] run title @a times 20 200 20
@@ -32,7 +24,7 @@ execute in minecraft:overworld as @a[scores={skyblock_small=1}] run gamerule ann
 execute in minecraft:overworld as @a[scores={skyblock_small=1}] run scoreboard players set @a tp 1
 execute in minecraft:overworld as @a[scores={skyblock_small=1}] run fill -7 80 -12 7 55 5 minecraft:air
 execute in minecraft:overworld as @a[scores={skyblock_small=3}] run place template skyblock:small_classic -1 62 -3
-execute in minecraft:overworld as @a[scores={skyblock_small=10}] run setblock 1 66 0 birch_wall_sign[facing=south,waterlogged=false]{back_text:{messages:['{"text":"This"}','{"text":"is"}','{"text":"a"}','{"text":"secret!!!"}']},front_text:{color:"white",has_glowing_text:1b,messages:['{"text":"Skyblock"}','{"text":"Classic Edition"}','{"text":"---------------"}','{"text":"1.20"}']}} replace
+execute in minecraft:overworld as @a[scores={skyblock_small=10}] run setblock 1 66 0 minecraft:birch_wall_sign[facing=south,waterlogged=false]{Color:"white",GlowingText:1b,Text1:'{"text":"Skyblock"}',Text2:'{"text":"Classic Edition"}',Text3:'{"text":"---------------"}',Text4:'{"text":"1.19.4"}'}
 execute in minecraft:overworld as @a[scores={skyblock_small=35}] run setblock 0 62 1 minecraft:dirt destroy
 execute in minecraft:overworld as @a[scores={skyblock_small=35}] run setblock 1 66 1 minecraft:air
 
@@ -82,7 +74,6 @@ execute as @a[scores={skyblock_small=1356}] run title @a times 30 100 30
 execute as @a[scores={skyblock_small=1357}] run gamerule announceAdvancements true
 execute as @a[scores={skyblock_small=1357}] run gamerule doDaylightCycle true
 execute as @a[scores={skyblock_small=1357}] run gamerule doWeatherCycle true
-execute as @a[scores={skyblock_small=1357}] run gamerule doImmediateRespawn false
 execute as @a[scores={skyblock_large=1357}] run time set 0
 execute as @a[scores={skyblock_small=1360}] run gamemode survival @a
 execute as @a[scores={skyblock_small=1360}] run advancement revoke @a everything
