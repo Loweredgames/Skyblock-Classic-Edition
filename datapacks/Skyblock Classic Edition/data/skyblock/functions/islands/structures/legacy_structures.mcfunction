@@ -17,11 +17,8 @@ execute as @a[scores={PSN_legacy=2000000..}] run scoreboard players set @a PSN_l
 
 ##PSN_legacy (AGGIORNARE SEMPRE CON PID E AUMENTARE IL VALORE QUANDO VIENE AGGIUNTA UNA NUOVA STRUTTURA)
 execute as @a[scores={structure_skyblock=5}] run scoreboard objectives add PSN_legacy dummy
-execute as @a[scores={structure_skyblock=1000}] run scoreboard objectives add PSN_0 dummy
-execute as @a[scores={structure_skyblock=2000}] run give @s written_book{tag:generated_structures,pages:['["",{"text":"Info:","bold":true,"underlined":true},{"text":"\\n\\nBefore adding the structures in the world, check if there are any constructions you have made within the custom structures area. add the (Generated) folder in the world."},{"text":" ","color":"reset"},{"text":"\\n\\u26a0 If not spawn the structures in the world \\u26a0","italic":true,"underlined":true,"color":"red"}]','["",{"text":"Go to the next pages to see all coordinates, remember activate the coordinated with F3.\\n\\n\\n\\n"},{"text":"Yes I understand and I\'m ready immediately.","bold":true,"italic":true,"color":"red","clickEvent":{"action":"change_page","value":"5"}}]','["",{"text":"Custom Structures:","bold":true,"underlined":true},{"text":"\\n\\nPillager Outpost: ","color":"reset"},{"text":"500 45 55","underlined":true},{"text":"\\n\\nVillage: ","color":"reset"},{"text":"460 45 350","underlined":true},{"text":"\\n\\nSwamp Hut: ","color":"reset"},{"text":"-180 45 -180","underlined":true},{"text":"\\n\\nIgloo: ","color":"reset"},{"text":"180 45 180","underlined":true}]','["",{"text":"Jungle Pyramids: "},{"text":"-60 45 500","underlined":true},{"text":"\\n\\nDesert Pyramid: ","color":"reset"},{"text":"60 45 -500","underlined":true},{"text":"\\n\\nShipwrecks: ","color":"reset"},{"text":"280 45 0","underlined":true},{"text":"\\n\\nStronghold: ","color":"reset"},{"text":"800 45 800","underlined":true},{"text":"\\n\\nAncient City: ","color":"reset"},{"text":"-800 45 -800","underlined":true}]','["",{"text":"Generated:\\n\\n","bold":true,"underlined":true},{"text":"\\u26a0I am ready to generate all structures\\u26a0","bold":true,"italic":true,"underlined":true,"color":"red","clickEvent":{"action":"run_command","value":"/scoreboard objectives add PSN_0 dummy"}}]'],title:"Custom Structures",author:"Structures Version: 2.0.0"}
-execute as @a[scores={structure_skyblock=1000..1010}] run scoreboard objectives remove structure_skyblock
-execute as @a[scores={structure_skyblock=10005..}] run scoreboard objectives remove structure_skyblock
-scoreboard objectives setdisplay list structure_skyblock
+execute as @a[scores={structure_skyblock=10}] run give @s written_book{tag:generated_structures,pages:['["",{"text":"Info:","bold":true,"underlined":true},{"text":"\\n\\nBefore adding the structures in the world, check if there are any constructions you have made within the custom structures area. add the (Generated) folder in the world."},{"text":" ","color":"reset"},{"text":"\\n\\u26a0 If not spawn the structures in the world \\u26a0","italic":true,"underlined":true,"color":"red"}]','["",{"text":"Go to the next pages to see all coordinates, remember activate the coordinated with F3.\\n\\n\\n\\n"},{"text":"Yes I understand and I\'m ready immediately.","bold":true,"italic":true,"color":"red","clickEvent":{"action":"change_page","value":"5"}}]','["",{"text":"Custom Structures:","bold":true,"underlined":true},{"text":"\\n\\nPillager Outpost: ","color":"reset"},{"text":"500 45 55","underlined":true},{"text":"\\n\\nVillage: ","color":"reset"},{"text":"460 45 350","underlined":true},{"text":"\\n\\nSwamp Hut: ","color":"reset"},{"text":"-180 45 -180","underlined":true},{"text":"\\n\\nIgloo: ","color":"reset"},{"text":"180 45 180","underlined":true}]','["",{"text":"Jungle Pyramids: "},{"text":"-60 45 500","underlined":true},{"text":"\\n\\nDesert Pyramid: ","color":"reset"},{"text":"60 45 -500","underlined":true},{"text":"\\n\\nShipwrecks: ","color":"reset"},{"text":"280 45 0","underlined":true},{"text":"\\n\\nStronghold: ","color":"reset"},{"text":"800 45 800","underlined":true},{"text":"\\n\\nAncient City: ","color":"reset"},{"text":"-800 45 -800","underlined":true}]','["",{"text":"Generated:\\n\\n","bold":true,"underlined":true},{"text":"\\u26a0I am ready to generate all structures\\u26a0","bold":true,"italic":true,"underlined":true,"color":"red","clickEvent":{"action":"run_command","value":"/scoreboard objectives add PSN_0 dummy"}}]'],title:"Custom Structures",author:"Structures Version: 2.0.0"}
+execute as @a[scores={structure_skyblock=15..20}] run scoreboard objectives remove structure_skyblock
 
 
 ##Teleport Players Structures (AGGIUNGERE LE VECCHIE STRUTTURE)
@@ -66,17 +63,22 @@ execute as @a[scores={PSN_legacy=850}] run place template skyblock:structures/st
 execute as @a[scores={PSN_legacy=950}] run place template skyblock:structures/ancient_city -700 45 -700
 
 
+##Start PSN_0
+execute as @a[scores={PSN_legacy=1000}] run scoreboard objectives add PSN_0 dummy
+execute as @a[scores={PSN_legacy=1005}] run scoreboard players set @a PSN_0 -250
+
+
 ##Final Function
+execute as @a[scores={PSN_legacy=1}] run gamerule doImmediateRespawn true
+execute as @a[scores={PSN_legacy=1000}] run gamerule doImmediateRespawn false
 execute as @a[scores={PSN_legacy=1000}] run tp @s 0 66 0 90 0
 execute as @a[scores={PSN_legacy=1005}] run gamemode survival @a
 execute as @a[scores={PSN_legacy=1005}] run title @a times 20 100 20
 execute as @a[scores={PSN_legacy=1005}] run title @a title {"translate":"skyblock_classic_edition.generated_structures.loading.title","italic":true}
 execute as @a[scores={PSN_legacy=1005}] run title @a subtitle {"translate":"skyblock_classic_edition.generated_structures.loading.subtitle","italic":true}
-execute as @a[scores={PSN_legacy=1000..5000}] run clear @a written_book{tag:generated_structures}
+execute as @a[scores={PSN_legacy=1..7000}] run clear @a written_book{tag:generated_structures}
 execute as @a[scores={PSN_legacy=1000..1900}] run place template skyblock:air 0 0 0
 execute as @a[scores={PSN_legacy=1800}] run setblock 0 0 0 minecraft:command_block[conditional=false,facing=west]{Command:'/tellraw @a [{"translate":"skyblock_classic_edition.generated_structures.generated.command_block.info","italic":true,"color":"red"},[""],{"translate":"skyblock_classic_edition.generated_structures.generated.command_block.download","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Lorenzo0310200/Skyblock-Classic-Edition/releases"}},{"text":".\\u26a0","italic":true,"color":"red"}]',CustomName:'{"text":"@"}',SuccessCount:0,TrackOutput:1b,UpdateLastExecution:1b,auto:0b,conditionMet:0b,powered:0b} destroy
 execute as @a[scores={PSN_legacy=1801}] run tellraw @a ["",{"text":"If the resource pack is not in the world and can cause damage to the text: add the resource pack in the world folder or ","italic":true,"color":"gray"},{"text":"reinstall the map here","italic":true,"underlined":true,"color":"gray","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/releases"}},{"text":" and add manually in the world folder.","italic":true,"color":"gray"}]
 execute as @a[scores={PSN_legacy=1810}] run setblock 0 1 0 minecraft:redstone_block destroy
 execute as @a[scores={PSN_legacy=2000}] run fill 0 0 0 0 1 0 minecraft:air destroy
-execute as @a[scores={PSN_legacy=2001}] run effect clear @a minecraft:blindness
-execute as @a[scores={PSN_legacy=2001}] run effect clear @a minecraft:night_vision
