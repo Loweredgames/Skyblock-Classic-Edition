@@ -12,3 +12,4 @@ esempio: 01.03.1001 - Polacco,Portoghese,Ucraino,italiano
 06.03.2023a - Olanda,Tedesco (aggiunti i crediti e riaggiunta Olanda)
 08.03.2023a - Tedesco, Ceco
 26.03.2023a - Francese, Giapponese, Arabo
+27.04.2023a - Bielorusso, Persiano, Brasiliano
