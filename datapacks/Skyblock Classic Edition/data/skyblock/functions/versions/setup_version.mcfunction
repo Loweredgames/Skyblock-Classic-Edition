@@ -24,7 +24,7 @@ execute as @a[scores={PID_1=30}] run tellraw @s {"translate":"skyblock_classic_e
 
 
 ##Display (NON TOCCARE, SOLO DEBUG)
-scoreboard objectives setdisplay sidebar PID_1
+#scoreboard objectives setdisplay sidebar PID_1
 
 
 ##ID Versions (LASCIARE SEMPRE COSI)
