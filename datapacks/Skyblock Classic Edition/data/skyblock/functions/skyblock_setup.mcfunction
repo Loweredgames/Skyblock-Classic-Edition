@@ -18,6 +18,7 @@ function skyblock:islands/structures/legacy_structures
 function skyblock:islands/structures/generated_biome
 function skyblock:multiplayer
 function skyblock:misc/fix_end
+function skyblock:misc/refactoring_scoreboard
 
 
 ##Setup

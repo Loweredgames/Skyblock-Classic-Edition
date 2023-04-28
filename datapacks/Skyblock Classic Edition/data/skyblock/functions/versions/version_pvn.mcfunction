@@ -24,7 +24,7 @@ execute as @a[scores={PVN_legacy=201..}] run scoreboard objectives remove PVN_10
 execute as @a[scores={PVN_legacy=201..}] run scoreboard objectives remove PVN_legacy
 
 
-##ID Version Legacy Protocol BUILDING (DA AGGIUNGERE SOLO QUANDO IL NUMERO CAMBIA)
+##ID Version Legacy Protocol BUILDING (DA AGGIUNGERE SOLO QUANDO IL NUMERO CAMBIA) dA rimuovere datto che è inutile
 scoreboard objectives remove PVN_X0a
 
 
@@ -34,7 +34,7 @@ execute as @a[scores={PVN_11a=1}] run tellraw @s ["",{"translate":"skyblock_clas
 
 
 ##Warning (NON TOCCARE, SOLO VERSIONI DI SVILUPPO)
-execute as @a[scores={PVN_11a=5..}] run scoreboard objectives setdisplay sidebar PVN_11a
+#execute as @a[scores={PVN_11a=5..}] run scoreboard objectives setdisplay sidebar PVN_11a
 execute as @a[scores={PVN_11a=6}] run tellraw @s ["",{"translate":"skyblock_classic_edition.version_update.development_version.warning","color":"red"},{"translate":"skyblock_classic_edition.version_update.development_version.report","underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Lorenzo0310200/Skyblock-Classic-Edition/issues"}},{"text":".\u26a0","color":"red"}]
 
 
