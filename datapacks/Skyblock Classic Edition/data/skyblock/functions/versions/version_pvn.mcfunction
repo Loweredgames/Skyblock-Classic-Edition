@@ -10,7 +10,7 @@ function skyblock:versions/setup_version
 
 
 ##ID Version Protocol (AGGIORNARE SEMPRE NELLE NUOVE VERSIONI. UTILIZZARE UN NUMERO INTERO PER LE VERSIONI STABILI. UTTILIZARE UNA LETTERA PER LE VERSIONI DI SVILUPPO)
-scoreboard objectives add PVN_11a dummy
+scoreboard objectives add PVN_11a dummy_(ricordarsi_cambiare)
 scoreboard players add @a PVN_11a 1
 execute as @a[scores={skyblock_ID=10}] run scoreboard objectives remove PVN_11a
 
@@ -22,11 +22,6 @@ execute as @a[scores={PVN_10=1..}] run scoreboard players add @a PVN_legacy 1
 execute as @a[scores={PVN_legacy=100}] run tellraw @a ["",{"text":"\u2716","color":"red"},{"translate":"skyblock_classic_edition.version_update.compatible.minecraft_versions"},{"text":"1.16.X - 1.17.X - 1.18.X","bold":true},{"translate":"skyblock_classic_edition.version_update.compatible.info"}]
 execute as @a[scores={PVN_legacy=201..}] run scoreboard objectives remove PVN_10
 execute as @a[scores={PVN_legacy=201..}] run scoreboard objectives remove PVN_legacy
-
-
-##ID Version Legacy Protocol BUILDING (DA AGGIUNGERE SOLO QUANDO IL NUMERO CAMBIA) dA rimuovere datto che è inutile
-scoreboard objectives remove PVN_X0a
-
 
 
 ##AGGIUNGERE CHANGELOG IN GITHUB E POI AGGIORNARE GITHUB

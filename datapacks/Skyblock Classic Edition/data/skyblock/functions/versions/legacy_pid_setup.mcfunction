@@ -27,7 +27,7 @@ execute as @a[scores={PID_legacy=100..}] run scoreboard objectives remove ID_5
 execute as @a[scores={PID_legacy=805..}] run scoreboard objectives remove PID_0
 
 
-##PID Legacy Update (AGGIUNGERE TUTTI I PID VECCHI)
+##PID Legacy Update (AGGIUNGERE TUTTI I PID VECCHI, AGGIUNGERE SEMPRE UNA NUOVA CATEGORIA AD ESEMPIO #PID_2, #PID_3, ECC.)
 
 
 #PID_Legacy
@@ -35,7 +35,7 @@ execute as @a[scores={ID_5=1..}] run scoreboard objectives remove PID_0
 
 
 #PID_1
-execute in minecraft:the_nether as @a[scores={PID_legacy=200}] run tp @a 0 3 30
+execute in minecraft:the_nether as @a[scores={PID_legacy=200}] run tp @a 0 -3 30
 execute in minecraft:the_nether as @a[scores={PID_legacy=250}] run fill 2 2 33 -2 2 29 minecraft:infested_cobblestone destroy
 execute in minecraft:the_nether as @a[scores={PID_legacy=300}] run setblock 0 3 31 oak_sign[rotation=8,waterlogged=false]{front_text:{color:"black",has_glowing_text:1b,messages:['{"text":"The portal is"}','{"text":"broken sorry.."}','{"text":";("}','{"text":""}']}} destroy
 execute in minecraft:the_nether as @a[scores={PID_legacy=400}] run scoreboard players set @a tp 1
