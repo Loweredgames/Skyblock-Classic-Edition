@@ -5,7 +5,7 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Legacy Setup (Aggiornato alla versione: 4.0.0) Ricordasi di aggiornare "legacy_version", aggiungendo le cose della convesione (il libro,il portale bloccato, ecc.) per le versioni vecchie e incompatibili.
+##Legacy Setup (Versione: 1.0 - 4.0.0) Ricordasi di aggiornare "legacy_version", aggiungendo le cose della convesione (il libro,il portale bloccato, ecc.) per le versioni vecchie e incompatibili.
 execute as @a[scores={legacy=0..}] run gamemode spectator @a
 execute as @a[scores={legacy=0..}] run scoreboard players set @a PSN_legacy 0
 execute as @a[scores={legacy=5}] run scoreboard objectives add skyblock_normal minecraft.custom:minecraft.play_time
