@@ -18,9 +18,9 @@ function test_skyblock:test/refactoring_scoreboard
 ##Scoreboard
 scoreboard objectives add refactoring_scoreboard dummy
 scoreboard players add @a refactoring_scoreboard 1
-scoreboard players add @a legacy 1
+scoreboard players add @a SkyblockCE_legacy_version 1
 
 
 ##Scoreboard Reset
 execute as @a[scores={fix_end=2000000..}] run scoreboard players set @a fix_end 10000
-execute as @a[scores={refactoring_scoreboard=2000000..}] run scoreboard players set @a refactoring_scoreboard 10000
+execute as @a[scores={refactoring_scoreboard=2000000..}] run scoreboard players set @a refactoring_scoreboard 1

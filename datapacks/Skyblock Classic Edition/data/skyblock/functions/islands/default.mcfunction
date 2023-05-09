@@ -8,10 +8,10 @@
 ##Default (Normal)
 
 
-execute as @a[scores={skyblock_island=2}] run scoreboard objectives add SkyblockCE_default minecraft.custom:minecraft.play_time
-execute as @a[scores={skyblock_island=2}] run tellraw @a {"translate":"skyblock_classic_edition.default.loading.chat"}
+execute as @a[scores={SkyblockCE_islands=2}] run scoreboard objectives add SkyblockCE_default minecraft.custom:minecraft.play_time
+execute as @a[scores={SkyblockCE_islands=2}] run tellraw @a {"translate":"skyblock_classic_edition.default.loading.chat"}
 execute as @a[scores={SkyblockCE_default=1..}] run scoreboard players set @a SkyblockCE_install -1
-execute as @a[scores={SkyblockCE_default=1..}] run scoreboard players set @a skyblock_island -1
+execute as @a[scores={SkyblockCE_default=1..}] run scoreboard players set @a SkyblockCE_islands -1
 
 
 #Start
@@ -29,7 +29,7 @@ execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run gamerule
 
 
 #Classic
-execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run scoreboard players set @a tp 1
+execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run scoreboard players set @a SkyblockCE_tp 1
 execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run fill -7 80 -12 7 55 5 minecraft:air
 execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run fill 75 80 11 61 55 -9 minecraft:air
 execute in minecraft:overworld as @a[scores={SkyblockCE_default=20}] run place template skyblock:classic -4 61 -6
@@ -38,7 +38,7 @@ execute in minecraft:overworld as @a[scores={SkyblockCE_default=35}] run setbloc
 
 
 #Classic Desert
-execute in minecraft:overworld as @a[scores={SkyblockCE_default=40}] run scoreboard players set @a tp 2
+execute in minecraft:overworld as @a[scores={SkyblockCE_default=40}] run scoreboard players set @a SkyblockCE_tp 2
 execute in minecraft:overworld as @a[scores={SkyblockCE_default=40}] run fill 58 56 7 79 74 -18 minecraft:air
 execute in minecraft:overworld as @a[scores={SkyblockCE_default=50}] run place template skyblock:classic_desert 66 61 -4
 
@@ -47,19 +47,19 @@ execute in minecraft:overworld as @a[scores={SkyblockCE_default=50}] run place t
 
 
 #Nether Classic
-execute in minecraft:overworld as @a[scores={SkyblockCE_default=57}] run scoreboard players set @a tp 3
+execute in minecraft:overworld as @a[scores={SkyblockCE_default=57}] run scoreboard players set @a SkyblockCE_tp 3
 execute in minecraft:the_nether as @a[scores={SkyblockCE_default=100}] run fill 17 65 43 -12 50 -8 minecraft:air
 execute in minecraft:the_nether as @a[scores={SkyblockCE_default=100}] run fill 16 73 -53 -3 49 -44 minecraft:air
 execute in minecraft:the_nether as @a[scores={SkyblockCE_default=105}] run place template skyblock:nether_classic 2 50 3
 
 
 #Nether Classic Bastion
-execute as @a[scores={SkyblockCE_default=120}] run scoreboard players set @a tp 4
+execute as @a[scores={SkyblockCE_default=120}] run scoreboard players set @a SkyblockCE_tp 4
 execute in minecraft:the_nether as @a[scores={SkyblockCE_default=121}] run place template skyblock:nether_classic_bastion 4 55 33
 
 
 #Nether Classic Forest
-execute as @a[scores={SkyblockCE_default=130}] run scoreboard players set @a tp 5
+execute as @a[scores={SkyblockCE_default=130}] run scoreboard players set @a SkyblockCE_tp 5
 execute in minecraft:the_nether as @a[scores={SkyblockCE_default=131}] run place template skyblock:nether_classic_forest -2 50 -50
 
 
@@ -68,13 +68,13 @@ execute in minecraft:the_nether as @a[scores={SkyblockCE_default=131}] run place
 
 
 ##Final Function
-execute as @a[scores={SkyblockCE_default=150}] run scoreboard players set @a tp 1
-execute as @a[scores={SkyblockCE_default=250}] run scoreboard objectives add structure_skyblock dummy
+execute as @a[scores={SkyblockCE_default=150}] run scoreboard players set @a SkyblockCE_tp 1
+execute as @a[scores={SkyblockCE_default=250}] run scoreboard objectives add SkyblockCE_structures dummy
 execute as @a[scores={SkyblockCE_default=1351}] run spawnpoint @a 0 65 0
 execute as @a[scores={SkyblockCE_default=1351}] run weather clear 1000s
 execute as @a[scores={SkyblockCE_default=1351}] run scoreboard objectives add kills deathCount
 execute as @a[scores={SkyblockCE_default=1351}] run scoreboard objectives setdisplay list kills
-execute as @a[scores={SkyblockCE_default=1355}] run scoreboard players set @a tp 0
+execute as @a[scores={SkyblockCE_default=1355}] run scoreboard players set @a SkyblockCE_tp 0
 execute as @a[scores={SkyblockCE_default=1356}] run scoreboard objectives add fix_end dummy
 execute as @a[scores={SkyblockCE_default=1356}] run title @a title ["",{"text":"Sky","bold":true,"color":"aqua"},{"text":"block","bold":true,"color":"dark_green"}]
 execute as @a[scores={SkyblockCE_default=1356}] run title @a subtitle {"text":"Classic Edition","bold":true,"color":"dark_blue"}
@@ -86,7 +86,7 @@ execute as @a[scores={SkyblockCE_default=1357}] run gamerule doImmediateRespawn 
 execute as @a[scores={SkyblockCE_default=1357}] run time set 0
 execute as @a[scores={SkyblockCE_default=1360}] run gamemode survival @a
 execute as @a[scores={SkyblockCE_default=1360}] run advancement revoke @a everything
-execute as @a[scores={SkyblockCE_default=1360}] run scoreboard objectives add skyblock_ID dummy
+execute as @a[scores={SkyblockCE_default=1360}] run scoreboard objectives add SkyblockCE_id dummy
 execute as @a[scores={SkyblockCE_default=1360}] run execute in minecraft:overworld run tp @p 0 66 0 90 0
 execute as @a[scores={SkyblockCE_default=1361}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
 execute as @a[scores={SkyblockCE_default=1360..2400}] run clear @a written_book{tag:generated_structures}

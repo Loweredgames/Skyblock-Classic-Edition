@@ -7,7 +7,7 @@
 
 ##New Structure Setup
 scoreboard players add @a PSN_0 1
-execute as @a[scores={PSN_0=1}] run scoreboard players set @a tp 0
+execute as @a[scores={PSN_0=1}] run scoreboard players set @a SkyblockCE_tp 0
 execute as @a[scores={PSN_0=1}] run gamemode spectator @a
 execute as @a[scores={PSN_0=2}] run effect give @a blindness 52 0 true
 execute as @a[scores={PSN_0=3}] run effect give @a night_vision 51 0 true
@@ -25,7 +25,7 @@ execute as @a[scores={PSN_0=200}] run me This is a test and will come soon...
 
 
 ##Final Function
-execute as @a[scores={PSN_0=1}] run scoreboard players set @a PSN_legacy 2005
+#execute as @a[scores={PSN_0=1}] run scoreboard players set @a PSN_legacy 2005
 execute as @a[scores={PSN_0=1}] run gamerule doImmediateRespawn true
 execute as @a[scores={PSN_0=1000}] run gamerule doImmediateRespawn false
 execute as @a[scores={PSN_0=1000..2001}] run clear @a written_book{tag:generated_structures}

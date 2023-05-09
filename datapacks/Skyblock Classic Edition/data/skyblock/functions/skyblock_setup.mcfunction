@@ -22,22 +22,22 @@ function skyblock:multiplayer
 ##Setup
 recipe give @a *
 setblock 0 62 0 minecraft:bedrock
-execute as @a[scores={tp=1}] run effect give @a minecraft:regeneration 64 250 true
+execute as @a[scores={SkyblockCE_tp=1}] run effect give @a minecraft:regeneration 64 250 true
 
 
 ##Scoreboard
-scoreboard players add @a skyblock_ID 1
+scoreboard players add @a SkyblockCE_id 1
 scoreboard players add @a multiplayer 1
 scoreboard objectives add multiplayer_popup dummy
 scoreboard players add @a multiplayer_popup 1
 scoreboard objectives add SkyblockCE_install dummy
-scoreboard objectives add skyblock_island dummy
+scoreboard objectives add SkyblockCE_islands dummy
 scoreboard players add @a SkyblockCE_install 1
-scoreboard objectives add tp dummy
+scoreboard objectives add SkyblockCE_tp dummy
 
 
 ##Scoreboard Reset
-execute as @a[scores={skyblock_ID=2000000..}] run scoreboard players set @a skyblock_ID 10000
+execute as @a[scores={SkyblockCE_id=2000000..}] run scoreboard players set @a SkyblockCE_id 10000
 execute as @a[scores={SkyblockCE_large=2000000..}] run scoreboard players set @a SkyblockCE_large 10000
 execute as @a[scores={SkyblockCE_default=2000000..}] run scoreboard players set @a SkyblockCE_default 10000
 execute as @a[scores={SkyblockCE_small=2000000..}] run scoreboard players set @a SkyblockCE_small 10000
@@ -53,7 +53,7 @@ gamerule doWardenSpawning true
 
 ##Islands Choices
 execute as @a[scores={SkyblockCE_install=1}] run tellraw @a {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
-execute as @a[scores={SkyblockCE_install=2}] run tellraw @a ["",{"translate":"skyblock_classic_edition.skyblock_setup.welcome","bold":true},{"text":" - "},{"translate":"skyblock_classic_edition.skyblock_setup.version","bold":true},{"text":" 5.0.0 Historical Tales Update - JE-1.20-23w17a-Skyblock_Classic_Edition:BUILDING:27.04.2023a","italic":true},{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.for_text","bold":true},{"text":" Minecraft Java Edition: ","bold":true},{"text":"1.20 Trails & Tales Update","italic":true},{"text":"\n\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.choose_languages","italic":true},{"text":"\n\n"},{"translate":"credits","italic":true,"color":"#FFE28B"},{"text":"\n\n"},{"translate":"version","italic":true,"color":"#FFE28B"},{"text":"\n\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.choose_islands","italic":true},{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.large_easy","color":"dark_green","clickEvent":{"action":"run_command","value":"/scoreboard players set @a skyblock_island 1"}},{"text":" ","color":"dark_green"},{"text":"[?]","color":"dark_green","hoverEvent":{"action":"show_text","contents":[{"translate":"skyblock_classic_edition.skyblock_setup.large_easy.info"}]}},{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.default_normal","color":"gold","clickEvent":{"action":"run_command","value":"/scoreboard players set @a skyblock_island 2"}},{"text":" ","color":"gold"},{"text":"[?]","color":"gold","hoverEvent":{"action":"show_text","contents":[{"translate":"skyblock_classic_edition.skyblock_setup.default_normal.info"}]}},{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.small_hard","color":"red","clickEvent":{"action":"run_command","value":"/scoreboard players set @a skyblock_island 3"}},{"text":" ","color":"red"},{"text":"[?]","color":"red","hoverEvent":{"action":"show_text","contents":[{"translate":"skyblock_classic_edition.skyblock_setup.small_hard.info"}]}},{"text":"\n\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.legacy_version","italic":true,"color":"gray","clickEvent":{"action":"run_command","value":"/scoreboard objectives add legacy dummy"}},{"text":" ","italic":true,"color":"gray"},{"text":"[!]","italic":true,"color":"dark_red","hoverEvent":{"action":"show_text","contents":[{"translate":"skyblock_classic_edition.skyblock_setup.legacy_version.info"}]}},{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.legacy_version.compatible","italic":true},{"text":" "},{"text":"2.0.0","italic":true},{"text":" "},{"translate":"skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text","italic":true},{"text":" "},{"text":"5.0.0","italic":true},{"text":" "},{"translate":"skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack","italic":true}]
+execute as @a[scores={SkyblockCE_install=2}] run tellraw @a ["",{"translate":"skyblock_classic_edition.skyblock_setup.welcome","bold":true},{"text":" - "},{"translate":"skyblock_classic_edition.skyblock_setup.version","bold":true},{"text":" 5.0.0 Historical Tales Update - JE-1.20-23w17a-Skyblock_Classic_Edition:BUILDING:27.04.2023a","italic":true},{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.for_text","bold":true},{"text":" Minecraft Java Edition: ","bold":true},{"text":"1.20 Trails & Tales Update","italic":true},{"text":"\n\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.choose_languages","italic":true},{"text":"\n\n"},{"translate":"credits","italic":true,"color":"#FFE28B"},{"text":"\n\n"},{"translate":"version","italic":true,"color":"#FFE28B"},{"text":"\n\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.choose_islands","italic":true},{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.large_easy","color":"dark_green","clickEvent":{"action":"run_command","value":"/scoreboard players set @a SkyblockCE_islands 1"}},{"text":" ","color":"dark_green"},{"text":"[?]","color":"dark_green","hoverEvent":{"action":"show_text","contents":[{"translate":"skyblock_classic_edition.skyblock_setup.large_easy.info"}]}},{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.default_normal","color":"gold","clickEvent":{"action":"run_command","value":"/scoreboard players set @a SkyblockCE_islands 2"}},{"text":" ","color":"gold"},{"text":"[?]","color":"gold","hoverEvent":{"action":"show_text","contents":[{"translate":"skyblock_classic_edition.skyblock_setup.default_normal.info"}]}},{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.small_hard","color":"red","clickEvent":{"action":"run_command","value":"/scoreboard players set @a SkyblockCE_islands 3"}},{"text":" ","color":"red"},{"text":"[?]","color":"red","hoverEvent":{"action":"show_text","contents":[{"translate":"skyblock_classic_edition.skyblock_setup.small_hard.info"}]}},{"text":"\n\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.legacy_version","italic":true,"color":"gray","clickEvent":{"action":"run_command","value":"/scoreboard objectives add SkyblockCE_legacy_version dummy"}},{"text":" ","italic":true,"color":"gray"},{"text":"[!]","italic":true,"color":"dark_red","hoverEvent":{"action":"show_text","contents":[{"translate":"skyblock_classic_edition.skyblock_setup.legacy_version.info"}]}},{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.legacy_version.compatible","italic":true},{"text":" "},{"text":"2.0.0","italic":true},{"text":" "},{"translate":"skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text","italic":true},{"text":" "},{"text":"5.0.0","italic":true},{"text":" "},{"translate":"skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack","italic":true}]
 execute as @a[scores={SkyblockCE_install=1000..}] run scoreboard players set @a SkyblockCE_install 0
 execute as @a[scores={SkyblockCE_install=1..}] run gamemode spectator @a
 execute as @a[scores={SkyblockCE_install=1..}] run tp @a 0 0 0 0 90
@@ -70,14 +70,14 @@ execute as @a[scores={SkyblockCE_install=2}] run tellraw @a ["",{"text":"If the 
 
 
 ##Quit Game
-scoreboard objectives add skyblock_quit_game minecraft.custom:minecraft.leave_game
-execute as @a[scores={skyblock_quit_game=1..}] run scoreboard players set @a SkyblockCE_install 0
-execute as @a[scores={skyblock_quit_game=1..}] run scoreboard players reset @a skyblock_quit_game
+scoreboard objectives add SkyblockCE_quit_game minecraft.custom:minecraft.leave_game
+execute as @a[scores={SkyblockCE_quit_game=1..}] run scoreboard players set @a SkyblockCE_install 0
+execute as @a[scores={SkyblockCE_quit_game=1..}] run scoreboard players reset @a SkyblockCE_quit_game
 
 
 ##Teleports
-execute in minecraft:overworld run tp @a[scores={tp=1}] 0 64 0 0 90
-execute in minecraft:overworld run tp @a[scores={tp=2}] 67 60 -3 0 90
-execute in minecraft:the_nether run tp @a[scores={tp=3}] 0 50 0 0 90
-execute in minecraft:the_nether run tp @a[scores={tp=4}] 4 55 33 0 90
-execute in minecraft:the_nether run tp @a[scores={tp=5}] -2 50 -50 0 90
+execute in minecraft:overworld run tp @a[scores={SkyblockCE_tp=1}] 0 64 0 0 90
+execute in minecraft:overworld run tp @a[scores={SkyblockCE_tp=2}] 67 60 -3 0 90
+execute in minecraft:the_nether run tp @a[scores={SkyblockCE_tp=3}] 0 50 0 0 90
+execute in minecraft:the_nether run tp @a[scores={SkyblockCE_tp=4}] 4 55 33 0 90
+execute in minecraft:the_nether run tp @a[scores={SkyblockCE_tp=5}] -2 50 -50 0 90

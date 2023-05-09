@@ -12,10 +12,10 @@ scoreboard players add @a PID_1 1
 
 ##Skyblock ID e Install (AGGIORNARE SE IL PID E DIVERSO)
 execute as @a[scores={PID_1=2000000..}] run scoreboard players set @a PID_1 10000
-execute as @a[scores={skyblock_ID=30}] run scoreboard players set @a PID_1 -2000
+execute as @a[scores={SkyblockCE_id=30}] run scoreboard players set @a PID_1 -2000
 execute as @a[scores={SkyblockCE_install=1..}] run scoreboard players set @a PID_1 -10000
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a PID_1 -1
-execute as @a[scores={skyblock_ID=200}] run scoreboard players reset @a multiplayer_popup
+execute as @a[scores={SkyblockCE_id=200}] run scoreboard players reset @a multiplayer_popup
 
 
 ##Warning (CAMBIARE SOLO SE NON CI SONO CONVERSIONI)

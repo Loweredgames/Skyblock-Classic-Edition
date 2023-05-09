@@ -12,7 +12,7 @@ function skyblock:versions/setup_version
 ##ID Version Protocol (AGGIORNARE SEMPRE NELLE NUOVE VERSIONI. UTILIZZARE UN NUMERO INTERO PER LE VERSIONI STABILI. UTTILIZARE UNA LETTERA PER LE VERSIONI DI SVILUPPO)
 #scoreboard objectives add PVN_11a dummy_(ricordarsi_cambiare)
 scoreboard players add @a PVN_11a 1
-execute as @a[scores={skyblock_ID=10}] run scoreboard objectives remove PVN_11a
+execute as @a[scores={SkyblockCE_id=10}] run scoreboard objectives remove PVN_11a
 
 
 ##ID Version Legacy Protocol (DA AGGIUNGERE SOLO QUANDO IL NUMERO CAMBIA)
