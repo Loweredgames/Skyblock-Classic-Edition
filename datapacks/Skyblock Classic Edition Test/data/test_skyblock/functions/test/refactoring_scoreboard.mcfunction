@@ -8,14 +8,12 @@
 ##Refactoring Scoreboard (Versione: 1.0)
 
 
-#Setup Refactoring
-scoreboard objectives setdisplay sidebar refactoring_scoreboard
+#Debug Refactoring
+#scoreboard objectives setdisplay sidebar refactoring_scoreboard
 
 
 #Start
 execute as @a[scores={refactoring_scoreboard=1..20}] run scoreboard objectives add SkyblockCE_install dummy
-execute as @a[scores={refactoring_scoreboard=12000}] run scoreboard objectives add SkyblockCE_structures dummy
-execute as @a[scores={refactoring_scoreboard=12001}] run scoreboard players set @a SkyblockCE_structures 8
 execute as @a[scores={skyblock_small=1..}] run scoreboard objectives add SkyblockCE_small minecraft.custom:minecraft.play_time
 execute as @a[scores={skyblock_small=1..}] run scoreboard players add @a SkyblockCE_small 1000
 execute as @a[scores={SkyblockCE_small=1005..}] run scoreboard objectives remove skyblock_small
@@ -30,12 +28,14 @@ execute as @a[scores={SkyblockCE_islands=-1..}] run scoreboard objectives remove
 execute as @a[scores={skyblock_ID=0..}] run scoreboard objectives add SkyblockCE_id dummy
 execute as @a[scores={SkyblockCE_id=0..}] run scoreboard objectives remove skyblock_ID
 execute as @a[scores={SkyblockCE_quit_game=0..}] run scoreboard objectives remove skyblock_quit_game
+execute as @a[scores={skyblock_quit_game=0..}] run scoreboard objectives remove skyblock_quit_game
 execute as @a[scores={SkyblockCE_tp=0..}] run scoreboard objectives remove tp
 execute as @a[scores={SkyblockCE_legacy_version=1..}] run scoreboard objectives remove legacy
 
 
 #Scoreboard Remove
 scoreboard objectives remove skyblock_install
+
 
 #Eliminare tutto e lasciare solo questo per rimovere scoreboard
 execute as @a[scores={refactoring_scoreboard=9000000..}] run scoreboard objectives remove refactoring_scoreboard

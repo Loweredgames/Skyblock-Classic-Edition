@@ -13,9 +13,6 @@ execute as @a[scores={PID_1=1..5}] run gamemode spectator @a
 execute as @a[scores={PID_1=5}] run time set 0
 execute as @a[scores={PID_1=5}] run gamerule doImmediateRespawn true
 execute as @a[scores={PID_1=1800}] run gamerule doImmediateRespawn false
-#execute as @a[scores={PID_1=1000}] run scoreboard objectives add SkyblockCE_structures dummy
-execute as @a[scores={PID_1=1001}] run scoreboard players set @a SkyblockCE_structures 8
-#execute as @a[scores={PSN_legacy=..2020}] run scoreboard players set @a PID_1 -300
 execute as @a[scores={PID_1=1803}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
 
 

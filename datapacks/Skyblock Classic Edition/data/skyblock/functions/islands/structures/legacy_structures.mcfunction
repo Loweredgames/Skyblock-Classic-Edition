@@ -63,7 +63,7 @@ execute as @a[scores={PSN_legacy=850}] run place template skyblock:structures/st
 execute as @a[scores={PSN_legacy=950}] run place template skyblock:structures/ancient_city -700 45 -700
 
 
-##Start PSN_0
+##Start PSN_0 (DELAY PER PID_0)
 execute as @a[scores={PSN_legacy=1000}] run scoreboard objectives add PSN_0 dummy
 execute as @a[scores={PSN_legacy=1005}] run scoreboard players set @a PSN_0 -250
 

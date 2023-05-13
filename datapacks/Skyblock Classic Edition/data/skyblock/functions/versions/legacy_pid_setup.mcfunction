@@ -56,5 +56,6 @@ execute as @a[scores={PID_1=1..801}] run scoreboard players set @a ID_5 0
 execute as @a[scores={PID_1=1..801}] run scoreboard players set @a PID_0 0
 
 
-##PID Legacy Structures
-execute as @a[scores={PID_legacy=200}] run scoreboard players set @a SkyblockCE_structures 8
+##PID Legacy Structures (PER IL LIBRO QUANDO SI CONVERTE IL MONDO IN UNA VECCHIA VERSIONE)
+execute as @a[scores={PID_legacy=730}] run scoreboard objectives add SkyblockCE_structures dummy
+execute as @a[scores={PID_legacy=731}] run scoreboard players set @a SkyblockCE_structures 8

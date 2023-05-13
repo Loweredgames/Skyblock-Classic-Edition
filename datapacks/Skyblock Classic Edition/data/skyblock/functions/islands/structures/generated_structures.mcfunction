@@ -17,15 +17,13 @@ execute as @a[scores={PSN_0=3}] run effect give @a night_vision 51 0 true
 
 #NOME
 #execute as @a[scores={PSN_0=200}] run ##
-execute as @a[scores={PSN_0=200}] run me This is a test and will come soon...
-
+execute as @a[scores={PSN_0=200}] run me This is a test and will come soon!!!!!...
 
 ##Generated New Structures
 #execute as @a[scores={PSN_0=250}] run place template ##
 
 
 ##Final Function
-#execute as @a[scores={PSN_0=1}] run scoreboard players set @a PSN_legacy 2005
 execute as @a[scores={PSN_0=1}] run gamerule doImmediateRespawn true
 execute as @a[scores={PSN_0=1000}] run gamerule doImmediateRespawn false
 execute as @a[scores={PSN_0=1000..2001}] run clear @a written_book{tag:generated_structures}
