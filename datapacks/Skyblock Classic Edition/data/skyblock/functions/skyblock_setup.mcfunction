@@ -47,7 +47,6 @@ execute as @a[scores={SkyblockCE_small=2000000..}] run scoreboard players set @a
 gamerule reducedDebugInfo false
 gamerule waterSourceConversion true
 gamerule lavaSourceConversion true
-gamerule commandBlockOutput false
 gamerule spectatorsGenerateChunks true
 gamerule commandModificationBlockLimit 1000000
 gamerule maxCommandChainLength 1000000
