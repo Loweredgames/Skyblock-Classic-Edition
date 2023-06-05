@@ -15,3 +15,4 @@ esempio: 01.03.1001 - Polacco,Portoghese,Ucraino,italiano
 27.04.2023a - Bielorusso, Persiano, Brasiliano
 13.05.2023a - Koreano, Brasiliano, Rumeno, Turco
 15.05.2023a - Rumeno
+05.06.2023a - Giapponese, Koreano, Esperando, Cinese Semplificato, Cinese Tradizionale
