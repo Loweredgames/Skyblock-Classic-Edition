@@ -15,12 +15,24 @@ execute as @a[scores={PSN_0=3}] run effect give @a night_vision 51 0 true
 
 ##Teleport Players Structures
 
-#NOME
-#execute as @a[scores={PSN_0=200}] run ##
-execute as @a[scores={PSN_0=200}] run me This is a test and will come soon!!!!!...
+#Mushroom House
+execute as @a[scores={PSN_0=100}] run tp @a 0 45 1000 0 0
+
+#Ocean Ruins
+execute as @a[scores={PSN_0=200}] run tp @a 488 45 -260 0 0
+
+#Cherry Grove
+execute as @a[scores={PSN_0=300}] run tp @a -198 45 -485 0 0
+
+#Trail Ruins
+execute as @a[scores={PSN_0=400}] run tp @a -266 45 -484 0 0
+
 
 ##Generated New Structures
-#execute as @a[scores={PSN_0=250}] run place template ##
+execute as @a[scores={PSN_0=150}] run place template skyblock:structures/mushroom_house 0 45 1000
+execute as @a[scores={PSN_0=250}] run place template skyblock:structures/ocean_ruins 488 45 -260
+execute as @a[scores={PSN_0=350}] run place template skyblock:structures/cherry_grove -198 45 -485
+execute as @a[scores={PSN_0=450}] run place template skyblock:structures/trail_ruins -266 45 -484
 
 
 ##Final Function

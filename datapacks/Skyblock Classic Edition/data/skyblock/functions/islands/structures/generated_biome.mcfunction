@@ -34,7 +34,23 @@ execute as @a in minecraft:overworld run fillbiome -62 0 497 -43 255 514 minecra
 execute as @a in minecraft:overworld run fillbiome 56 0 -504 86 255 -474 minecraft:desert
 
 
-#Dripstone_Cave
+#Mushroom Fields
+execute as @a in minecraft:overworld run fillbiome 28 0 1025 -2 255 999 minecraft:mushroom_fields
+
+
+#Deep Ocean
+execute as @a in minecraft:overworld run fillbiome 484 0 -264 513 255 -247 minecraft:deep_ocean
+
+
+#Cherry Grove
+execute as @a in minecraft:overworld run fillbiome -200 0 -491 -176 255 -448 minecraft:cherry_grove
+
+
+#Meadow
+execute as @a in minecraft:overworld run fillbiome 496 0 51 520 255 85 minecraft:meadow
+
+
+#Dripstone Cave
 execute as @a in minecraft:overworld run fillbiome 751 0 735 696 255 696 minecraft:dripstone_caves
 
 
