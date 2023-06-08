@@ -8,6 +8,7 @@
 ##PID Legacy Setup (Aggiornato all'ultima versione: 4.0.0 Minecraft: 1.19.4) Ricordati di aggiornare UPDATE ID e di aggiungere l'ultima conversione.
 execute as @a[scores={PID_legacy=1}] run gamemode spectator @a
 scoreboard objectives add PID_legacy dummy
+execute as @a[scores={PID_legacy=1..801}] run summon minecraft:area_effect_cloud ~ ~1 ~
 execute as @a[scores={PID_legacy=700}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
 #scoreboard objectives setdisplay sidebar PID_legacy
 

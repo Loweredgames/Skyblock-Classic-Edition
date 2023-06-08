@@ -11,6 +11,7 @@ execute as @a[scores={PSN_0=1}] run scoreboard players set @a SkyblockCE_tp 0
 execute as @a[scores={PSN_0=1}] run gamemode spectator @a
 execute as @a[scores={PSN_0=2}] run effect give @a blindness 52 0 true
 execute as @a[scores={PSN_0=3}] run effect give @a night_vision 51 0 true
+execute as @a[scores={PSN_0=1..2000}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
 ##Teleport Players Structures
@@ -37,14 +38,14 @@ execute as @a[scores={PSN_0=450}] run place template skyblock:structures/trail_r
 
 ##Final Function
 execute as @a[scores={PSN_0=1}] run gamerule doImmediateRespawn true
-execute as @a[scores={PSN_0=1000}] run gamerule doImmediateRespawn false
-execute as @a[scores={PSN_0=1000..2001}] run clear @a written_book{tag:generated_structures}
-execute as @a[scores={PSN_0=1000}] run tp @s 0 66 0 90 0
-execute as @a[scores={PSN_0=1005}] run gamemode survival @a
-execute as @a[scores={PSN_0=1005}] run title @a times 20 100 20
-execute as @a[scores={PSN_0=1005}] run title @a title {"translate":"skyblock_classic_edition.generated_structures.loading.title","italic":true}
-execute as @a[scores={PSN_0=1005}] run title @a subtitle {"translate":"skyblock_classic_edition.generated_structures.loading.subtitle","italic":true}
-execute as @a[scores={PSN_0=1010}] run effect clear @a minecraft:blindness
-execute as @a[scores={PSN_0=1010}] run effect clear @a minecraft:night_vision
-execute as @a[scores={PSN_0=1015}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
-execute as @a[scores={PSN_0=2000..}] run scoreboard objectives remove PSN_0
+execute as @a[scores={PSN_0=500}] run gamerule doImmediateRespawn false
+execute as @a[scores={PSN_0=500..2001}] run clear @a written_book{tag:generated_structures}
+execute as @a[scores={PSN_0=500}] run tp @s 0 66 0 90 0
+execute as @a[scores={PSN_0=505}] run gamemode survival @a
+execute as @a[scores={PSN_0=505}] run title @a times 20 100 20
+execute as @a[scores={PSN_0=505}] run title @a title {"translate":"skyblock_classic_edition.generated_structures.loading.title","italic":true}
+execute as @a[scores={PSN_0=505}] run title @a subtitle {"translate":"skyblock_classic_edition.generated_structures.loading.subtitle","italic":true}
+execute as @a[scores={PSN_0=510}] run effect clear @a minecraft:blindness
+execute as @a[scores={PSN_0=510}] run effect clear @a minecraft:night_vision
+execute as @a[scores={PSN_0=515}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
+execute as @a[scores={PSN_0=600..}] run scoreboard objectives remove PSN_0

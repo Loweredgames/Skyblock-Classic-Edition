@@ -12,6 +12,7 @@ execute as @a[scores={PSN_legacy=1}] run scoreboard players set @a SkyblockCE_tp
 execute as @a[scores={PSN_legacy=1}] run gamemode spectator @a
 execute as @a[scores={PSN_legacy=2}] run effect give @a blindness 52 0 true
 execute as @a[scores={PSN_legacy=3}] run effect give @a night_vision 51 0 true
+execute as @a[scores={PSN_legacy=1..2000}] run summon minecraft:area_effect_cloud ~ ~1 ~
 execute as @a[scores={PSN_legacy=2000000..}] run scoreboard players set @a PSN_legacy 10000
 
 

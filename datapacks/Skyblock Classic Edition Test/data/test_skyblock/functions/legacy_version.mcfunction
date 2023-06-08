@@ -7,6 +7,7 @@
 
 ##Legacy Setup (Versione: 1.0 - 5.0.0) Ricordasi di aggiornare "legacy_version", aggiungendo le cose della convesione (il libro,il portale bloccato, ecc.) per le versioni vecchie e incompatibili.
 scoreboard objectives setdisplay sidebar SkyblockCE_legacy_version
+execute as @a[scores={SkyblockCE_legacy_version=2..1020}] run summon minecraft:area_effect_cloud ~ ~1 ~
 execute as @a[scores={SkyblockCE_legacy_version=0..1001}] run gamemode spectator @a
 execute as @a[scores={SkyblockCE_legacy_version=10..55}] run tellraw @a {"translate":"skyblock_classic_edition.legacy_version.loading"}
 execute as @a[scores={SkyblockCE_legacy_version=0..55}] run scoreboard players set @a PSN_legacy 0
