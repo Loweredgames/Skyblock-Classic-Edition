@@ -5,7 +5,7 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Fix_End Setup (Versione: 1.0)
+##Fix_End Setup (Aggiornato all'ultima versione: 1.0.0 - 5.0.0 Minecraft: 1.20)
 scoreboard players add @a fix_end 1
 
 

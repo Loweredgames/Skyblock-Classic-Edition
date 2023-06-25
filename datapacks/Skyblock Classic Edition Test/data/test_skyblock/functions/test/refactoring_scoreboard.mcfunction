@@ -5,7 +5,7 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Refactoring Scoreboard (Versione: 1.0)
+##Refactoring Scoreboard (Aggiornato all'ultima versione: 1.0.0 - 5.0.0 Minecraft: 1.20)
 
 
 #Debug Refactoring

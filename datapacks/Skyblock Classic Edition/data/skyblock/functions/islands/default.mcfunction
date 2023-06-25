@@ -12,6 +12,7 @@ execute as @a[scores={SkyblockCE_islands=2}] run scoreboard objectives add Skybl
 execute as @a[scores={SkyblockCE_islands=2}] run tellraw @a {"translate":"skyblock_classic_edition.default.loading.chat"}
 execute as @a[scores={SkyblockCE_default=1..}] run scoreboard players set @a SkyblockCE_install -1
 execute as @a[scores={SkyblockCE_default=1..}] run scoreboard players set @a SkyblockCE_islands -1
+execute as @a[scores={SkyblockCE_default=1..2400}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
 #Start
