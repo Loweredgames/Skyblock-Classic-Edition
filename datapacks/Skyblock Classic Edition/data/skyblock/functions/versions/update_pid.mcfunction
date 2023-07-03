@@ -23,8 +23,30 @@ execute as @a[scores={PID_1=1803}] run playsound minecraft:entity.player.levelup
 execute as @a[scores={PID_1=3000..}] run scoreboard objectives remove PID_legacy
 
 
-#PID_1 (SPOSTARE "PID_X" IN LEGACY, NON ELIMINARE IL COMMENTO IN SE)
-##execute in minecraft:overworld as @a[scores={PID_1=100}] run tp @a 71 59 -489 0 0
+#PID_1 (SPOSTARE "PID_X" IN LEGACY, NON ELIMINARE I COMMENTi IN SE)
+
+
+##Overworld
+execute in minecraft:overworld as @a[scores={PID_1=100}] run tp @a 280 45 0 0 0
+execute in minecraft:overworld as @a[scores={PID_1=100}] run setblock 295 50 2 minecraft:barrel[facing=south,open=false]{Items:[{Count:1b,Slot:13b,id:"minecraft:coast_armor_trim_smithing_template"},{Count:1b,Slot:26b,id:"minecraft:filled_map",tag:{display:{Lore:['{"text":"Here you will find treasures of all kinds but be careful not to fall...","italic":true}'],MapColor:6911,Name:'{"text":"The Flyship","bold":true}'}}}]} replace
+execute in minecraft:overworld as @a[scores={PID_1=240}] run tp @a 722 50 709 0 0
+execute in minecraft:overworld as @a[scores={PID_1=240}] run setblock 722 49 708 minecraft:chest[facing=south,type=single,waterlogged=false]{Items:[{Count:1b,Slot:3b,id:"minecraft:chorus_fruit"},{Count:1b,Slot:4b,id:"minecraft:chorus_fruit"},{Count:1b,Slot:5b,id:"minecraft:chorus_fruit"},{Count:1b,Slot:10b,id:"minecraft:shulker_shell"},{Count:1b,Slot:11b,id:"minecraft:chorus_fruit"},{Count:1b,Slot:12b,id:"minecraft:eye_armor_trim_smithing_template"},{Count:1b,Slot:13b,id:"minecraft:chorus_fruit"},{Count:1b,Slot:14b,id:"minecraft:spire_armor_trim_smithing_template"},{Count:1b,Slot:15b,id:"minecraft:chorus_fruit"},{Count:1b,Slot:16b,id:"minecraft:shulker_shell"},{Count:1b,Slot:21b,id:"minecraft:chorus_fruit"},{Count:1b,Slot:22b,id:"minecraft:chorus_fruit"},{Count:1b,Slot:23b,id:"minecraft:chorus_fruit"},{Count:1b,Slot:26b,id:"minecraft:written_book",tag:{author:"for you",generation:3,pages:['{"italic":true,"text":"10411611611211558474797114991041051181014611111410347100101116971051081154710811111511645109101109111114105101115955048494949494956"}'],resolved:1b,title:"Lost Memories"}}]} replace
+execute in minecraft:overworld as @a[scores={PID_1=240}] run setblock 722 49 709 minecraft:oak_wall_sign[facing=south,waterlogged=false]{back_text:{color:"black",has_glowing_text:0b,messages:['{"text":""}','{"text":""}','{"text":""}','{"text":""}']},front_text:{color:"black",has_glowing_text:1b,messages:['{"text":"I\'m sorry but"}','{"text":"The End City"}','{"text":"is broken :("}','{"text":""}']},is_waxed:0b} replace
+execute in minecraft:overworld as @a[scores={PID_1=100}] run #tp @a 508.79 46.00 71.38 -272.55 27.00
+execute in minecraft:overworld as @a[scores={PID_1=100}] run setblock 507 46 71 minecraft:barrel[facing=east,open=false]{Items:[{Count:1b,Slot:8b,id:"minecraft:filled_map",tag:{display:{Lore:['{"text":"You fi al y cce ded an he e ot  r it s th t c n hel   u...","italic":true}'],MapColor:0,Name:'{"text":"J urn Sky lok #02","bold":true}'}}},{Count:1b,Slot:13b,id:"minecraft:sentry_armor_trim_smithing_template"}]}
+execute in minecraft:overworld as @a[scores={PID_1=100}] run tp @s -694.51 47.06 -694.50 -3152.09 63.75
+execute in minecraft:overworld as @a[scores={PID_1=100}] run /setblock -696 47 -695 minecraft:barrel[facing=east,open=false]{Items:[{Count:1b,Slot:1b,id:"minecraft:book"},{Count:1b,Slot:2b,id:"minecraft:amethyst_shard"},{Count:1b,Slot:3b,id:"minecraft:echo_shard"},{Count:1b,Slot:4b,id:"minecraft:amethyst_shard"},{Count:1b,Slot:5b,id:"minecraft:echo_shard"},{Count:1b,Slot:6b,id:"minecraft:amethyst_shard"},{Count:1b,Slot:7b,id:"minecraft:book"},{Count:1b,Slot:8b,id:"minecraft:book"},{Count:1b,Slot:9b,id:"minecraft:book"},{Count:1b,Slot:10b,id:"minecraft:book"},{Count:1b,Slot:11b,id:"minecraft:fire_charge"},{Count:1b,Slot:12b,id:"minecraft:silence_armor_trim_smithing_template"},{Count:1b,Slot:13b,id:"minecraft:calibrated_sculk_sensor"},{Count:1b,Slot:14b,id:"minecraft:ward_armor_trim_smithing_template"},{Count:1b,Slot:15b,id:"minecraft:fire_charge"},{Count:1b,Slot:17b,id:"minecraft:book"},{Count:1b,Slot:18b,id:"minecraft:saddle"},{Count:1b,Slot:19b,id:"minecraft:fire_charge"},{Count:1b,Slot:22b,id:"minecraft:echo_shard"},{Count:1b,Slot:25b,id:"minecraft:fire_charge"},{Count:1b,Slot:26b,id:"minecraft:filled_map",tag:{display:{Lore:['{"text":"This was my home but one day everything died...","italic":true}'],MapColor:4156559,Name:'{"text":"Deep Darkness","bold":true}'}}}]}
+1execute in minecraft:overworld as @a[scores={PID_1=101..100}] run /kill @e[type=minecraft:warden]
+execute in minecraft:overworld as @a[scores={PID_1=100}] run /execute in minecraft:overworld run tp @s -179.24 52.00 -176.39 -454.50 57.90
+execute in minecraft:overworld as @a[scores={PID_1=100}] run /setblock -179 52 -177 minecraft:chest[facing=west,type=single,waterlogged=false]{Items:[{Count:1b,Slot:12b,id:"minecraft:allay_spawn_egg"},{Count:1b,Slot:13b,id:"minecraft:vex_armor_trim_smithing_template"},{Count:1b,Slot:14b,id:"minecraft:allay_spawn_egg"},{Count:1b,Slot:26b,id:"minecraft:filled_map",tag:{display:{Lore:['{"text":"Here is a witch and is a black cat. I hope it will keep you friendship...","italic":true}'],MapColor:39183,Name:'{"text":"Weting","bold":true}'}}}]}
+execute in minecraft:overworld as @a[scores={PID_1=100}] run /tp -49.00 50.73 503.35 0 0 0
+execute in minecraft:overworld as @a[scores={PID_1=100}] run /setblock -49 50 503 minecraft:barrel[facing=west,open=false]{Items:[{Count:1b,Slot:8b,id:"minecraft:filled_map",tag:{display:{Lore:['{"text":"Sorry for the traps but it\'s not easy to transport entire constructions. here is the reward...","italic":true}'],MapColor:1810688,Name:'{"text":"Jungle And Traps","bold":true}'}}},{Count:1b,Slot:13b,id:"minecraft:wild_armor_trim_smithing_template"}]}
+execute in minecraft:overworld as @a[scores={PID_1=100}] run
+execute in minecraft:overworld as @a[scores={PID_1=100}] run
+execute in minecraft:overworld as @a[scores={PID_1=100}] run
+execute in minecraft:overworld as @a[scores={PID_1=100}] run
+execute in minecraft:overworld as @a[scores={PID_1=100}] run
+execute in minecraft:overworld as @a[scores={PID_1=100}] run tp @a 71 59 -489 0 0
 execute in minecraft:overworld as @a[scores={PID_1=201}] run setblock 73 58 -495 minecraft:sandstone_stairs[facing=west,half=bottom,shape=straight,waterlogged=false] destroy
 execute in minecraft:overworld as @a[scores={PID_1=201}] run setblock 74 57 -495 minecraft:sandstone_stairs[facing=west,half=bottom,shape=straight,waterlogged=false] destroy
 execute in minecraft:overworld as @a[scores={PID_1=201}] run setblock 75 56 -495 minecraft:sandstone_stairs[facing=west,half=bottom,shape=straight,waterlogged=false] destroy
@@ -78,17 +100,24 @@ execute in minecraft:overworld as @a[scores={PID_1=235}] run setblock 78 60 -494
 execute in minecraft:overworld as @a[scores={PID_1=236}] run setblock 77 55 -491 minecraft:chest[facing=north,type=single,waterlogged=false]{Items:[{Count:1b,Slot:0b,id:"minecraft:string"},{Count:1b,Slot:1b,id:"minecraft:brewer_pottery_sherd"},{Count:1b,Slot:2b,id:"minecraft:feather"},{Count:1b,Slot:3b,id:"minecraft:string"},{Count:1b,Slot:5b,id:"minecraft:sand"},{Count:1b,Slot:6b,id:"minecraft:saddle"},{Count:3b,Slot:7b,id:"minecraft:bone"},{Count:1b,Slot:8b,id:"minecraft:sand"},{Count:1b,Slot:9b,id:"minecraft:rotten_flesh"},{Count:3b,Slot:10b,id:"minecraft:sand"},{Count:1b,Slot:11b,id:"minecraft:string"},{Count:1b,Slot:13b,id:"minecraft:dune_armor_trim_smithing_template"},{Count:2b,Slot:14b,id:"minecraft:sand"},{Count:1b,Slot:15b,id:"minecraft:skull_pottery_sherd"},{Count:1b,Slot:16b,id:"minecraft:bone"},{Count:1b,Slot:17b,id:"minecraft:string"},{Count:2b,Slot:18b,id:"minecraft:bone"},{Count:1b,Slot:19b,id:"minecraft:sand"},{Count:1b,Slot:20b,id:"minecraft:sand"},{Count:1b,Slot:21b,id:"minecraft:arms_up_pottery_sherd"},{Count:1b,Slot:22b,id:"minecraft:sand"},{Count:1b,Slot:23b,id:"minecraft:bone"},{Count:2b,Slot:24b,id:"minecraft:rotten_flesh"},{Count:2b,Slot:25b,id:"minecraft:string"}]} destroy
 execute in minecraft:overworld as @a[scores={PID_1=240}] run summon camel 71 60 -489 {CustomNameVisible:1b,PersistenceRequired:1b,CustomName:'{"text":"Camel"}'}
 execute in minecraft:overworld as @a[scores={PID_1=240}] run summon camel 71 60 -489 {CustomNameVisible:1b,PersistenceRequired:1b,CustomName:'{"text":"Camel"}'}
-execute in minecraft:the_nether as @a[scores={PID_1=240}] run tp @a 5.72 58.00 33.68 -2853.45 49.95
+execute in minecraft:overworld as @a[scores={PID_1=240}] run tp @a 486 55 384 0 0
+execute in minecraft:overworld as @a[scores={PID_1=100}] run setblock 486 55 384 minecraft:fletching_table keep
+
+
+##The Nether
+execute in minecraft:the_nether as @a[scores={PID_1=240}] run tp @a 5 58 33 0 0
+execute in minecraft:the_nether as @a[scores={PID_1=240}] run fill 6 57 33 4 57 35 minecraft:polished_blackstone_bricks keep
+execute in minecraft:the_nether as @a[scores={PID_1=490}] run setblock 5 58 34 minecraft:air replace
 execute in minecraft:the_nether as @a[scores={PID_1=500}] run setblock 5 58 34 minecraft:chest[facing=north,type=single,waterlogged=false]{Items:[{Count:2b,Slot:0b,id:"minecraft:gilded_blackstone"},{Count:1b,Slot:1b,id:"minecraft:piglin_banner_pattern"},{Count:1b,Slot:2b,id:"minecraft:netherite_upgrade_smithing_template"},{Count:1b,Slot:3b,id:"minecraft:magma_cream"},{Count:1b,Slot:4b,id:"minecraft:gold_nugget"},{Count:1b,Slot:5b,id:"minecraft:chain"},{Count:1b,Slot:6b,id:"minecraft:music_disc_pigstep"},{Count:1b,Slot:7b,id:"minecraft:gilded_blackstone"},{Count:1b,Slot:8b,id:"minecraft:snout_armor_trim_smithing_template"},{Count:1b,Slot:9b,id:"minecraft:netherite_scrap"},{Count:1b,Slot:10b,id:"minecraft:rib_armor_trim_smithing_template"},{Count:1b,Slot:11b,id:"minecraft:gold_nugget"},{Count:1b,Slot:12b,id:"minecraft:gilded_blackstone"},{Count:1b,Slot:13b,id:"minecraft:gilded_blackstone"},{Count:1b,Slot:14b,id:"minecraft:magma_cream"},{Count:1b,Slot:16b,id:"minecraft:chain"},{Count:1b,Slot:17b,id:"minecraft:gold_nugget"},{Count:1b,Slot:18b,id:"minecraft:chain"},{Count:1b,Slot:20b,id:"minecraft:gilded_blackstone"},{Count:1b,Slot:22b,id:"minecraft:netherite_upgrade_smithing_template"},{Count:1b,Slot:23b,id:"minecraft:netherite_scrap"},{Count:1b,Slot:24b,id:"minecraft:chain"},{Count:1b,Slot:25b,id:"minecraft:enchanted_book",tag:{StoredEnchantments:[{id:"minecraft:soul_speed",lvl:3s}]}},{Count:2b,Slot:26b,id:"minecraft:magma_cream"}]} keep
 execute in minecraft:the_nether as @a[scores={PID_1=500}] run setblock 6 58 34 minecraft:piglin_head[rotation=15] keep
 execute in minecraft:the_nether as @a[scores={PID_1=500}] run setblock 4 58 34 minecraft:piglin_head[rotation=1] keep
-execute as @a[scores={PID_1=100}] run 
-execute as @a[scores={PID_1=100}] run 
-execute as @a[scores={PID_1=100}] run 
-execute as @a[scores={PID_1=100}] run 
-execute as @a[scores={PID_1=100}] run 
-execute as @a[scores={PID_1=100}] run 
-execute in minecraft:overworld as @a[scores={PID_1=100}] run setblock 486 55 384 minecraft:fletching_table keep
+execute in minecraft:the_nether as @a[scores={PID_1=500}] run
+
+
+##The End
+
+
+##Final Function
 execute as @a[scores={PID_1=1801}] run advancement revoke @a only minecraft:end/root
 execute as @a[scores={PID_1=1801}] run advancement revoke @a only minecraft:nether/root
 execute as @a[scores={PID_1=1701}] run tellraw @a {"translate":"skyblock_classic_edition.version_update.crowdin.info","color":"yellow","clickEvent":{"action":"open_url","value":"https://crowdin.com/project/skyblock-classic-edition"}}
