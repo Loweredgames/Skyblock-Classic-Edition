@@ -29,7 +29,7 @@ execute as @a[scores={PVN_11b=1}] run tellraw @s ["",{"translate":"skyblock_clas
 
 
 ##Warning (NON TOCCARE, SOLO VERSIONI DI SVILUPPO)
-execute as @a[scores={PVN_11b=5..}] run scoreboard objectives setdisplay sidebar PVN_11b
+#execute as @a[scores={PVN_11b=5..}] run scoreboard objectives setdisplay sidebar PVN_11b
 execute as @a[scores={PVN_11b=6}] run tellraw @s ["",{"translate":"skyblock_classic_edition.version_update.development_version.warning","color":"red"},{"translate":"skyblock_classic_edition.version_update.development_version.report","underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Lorenzo0310200/Skyblock-Classic-Edition/issues"}},{"text":".\u26a0","color":"red"}]
 
 
