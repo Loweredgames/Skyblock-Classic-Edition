@@ -8,8 +8,11 @@
 ##World Update and Conversion
 
 
-#Setup Update PID (NON ELIMINARE "Setup Update PID" E NON MODIFICARLO, DISATTIVA SOLO SE NON C'E LA CONVERSIONE. CAMBIARE LA SCORE IN "SkyblockCE_id")
-execute as @a[scores={SkyblockCE_id=30}] run scoreboard players set @a PID_1 -1600
+#Setup Version ID (CAMBIARE LA SCORE IN "SkyblockCE_id". VEDERE LA SCORE PID_X PER RIFERIMENTO)
+execute as @a[scores={SkyblockCE_id=30}] run scoreboard players set @a PID_1 -1000
+
+
+#Setup Update PID (NON ELIMINARE "Setup Update PID" E NON MODIFICARLO, DISATTIVA SOLO SE NON C'E LA CONVERSIONE)
 execute as @a[scores={PID_1=1..100}] run gamemode spectator @a
 execute as @a[scores={PID_1=5}] run time set 0
 execute as @a[scores={PID_1=5}] run gamerule doImmediateRespawn true
@@ -98,7 +101,7 @@ execute in minecraft:overworld as @a[scores={PID_1=785}] run setblock 77 55 -491
 execute in minecraft:overworld as @a[scores={PID_1=785}] run summon camel 71 60 -489 {CustomNameVisible:1b,PersistenceRequired:1b,CustomName:'{"text":"Camel"}'}
 execute in minecraft:overworld as @a[scores={PID_1=785}] run summon camel 71 60 -489 {CustomNameVisible:1b,PersistenceRequired:1b,CustomName:'{"text":"Camel"}'}
 execute in minecraft:overworld as @a[scores={PID_1=800}] run tp @a 486 55 384 0 0
-execute in minecraft:overworld as @a[scores={PID_1=805}] run setblock 486 55 384 minecraft:fletching_table keep
+execute in minecraft:overworld as @a[scores={PID_1=805}] run setblock 486 55 384 minecraft:fletching_table destroy
 
 
 ##The Nether

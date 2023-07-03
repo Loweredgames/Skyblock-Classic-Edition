@@ -21,7 +21,7 @@ execute as @a[scores={PID_1=1805..}] run scoreboard players set @a PID_0 1
 
 
 ##PID Update Old (AGGIUNGERE I PID VECCHI: ogni 3 versioni e poi l'ultima diventa incompatibile, quindi aggionare sempre in "update_pid")
-execute as @a[scores={ID_5=1..}] run scoreboard players set @a PID_legacy 805
+#execute as @a[scores={ID_5=1..}] run scoreboard players set @a PID_legacy 705
 execute as @a[scores={PID_0=1..}] run scoreboard players add @a PID_legacy 1
 
 
@@ -59,9 +59,9 @@ execute as @a[scores={PID_legacy=800}] run gamemode survival @a
 
 
 ##PID Legacy Stop (QUANDO FINISCE: CAMBIARE IL NUMERO PER RESETARE TUTTO, AGGIORNARE SEMPRE NELLE NUOVE VERSIONI)
-execute as @a[scores={PID_1=1..801}] run scoreboard players set @a PID_legacy 0
-execute as @a[scores={PID_1=1..801}] run scoreboard players set @a ID_5 0
-execute as @a[scores={PID_1=1..801}] run scoreboard players set @a PID_0 0
+execute as @a[scores={PID_1=1..1001}] run scoreboard players set @a PID_legacy 0
+execute as @a[scores={PID_1=1..1001}] run scoreboard players set @a ID_5 0
+execute as @a[scores={PID_1=1..1001}] run scoreboard players set @a PID_0 0
 
 
 ##PID Legacy Structures (PER IL LIBRO QUANDO SI CONVERTE IL MONDO IN UNA VECCHIA VERSIONE)
