@@ -5,7 +5,7 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Legacy Setup (Aggiornato all'ultima versione: 1.0.1 - 5.0.0 Minecraft: 1.20) Ricordasi di aggiornare "legacy_version", aggiungendo le cose della convesione (il libro,il portale bloccato, ecc.) per le versioni vecchie e incompatibili.
+##Legacy Setup (Aggiornato all'ultima versione: 1.0.1 - 5.0.0 Minecraft: 1.20.1) Ricordasi di aggiornare "legacy_version", aggiungendo le cose della convesione (il libro,il portale bloccato, ecc.) per le versioni vecchie e incompatibili.
 scoreboard objectives setdisplay sidebar SkyblockCE_legacy_version
 execute as @a[scores={SkyblockCE_legacy_version=2..1020}] run summon minecraft:area_effect_cloud ~ ~1 ~
 execute as @a[scores={SkyblockCE_legacy_version=0..1001}] run gamemode spectator @a
