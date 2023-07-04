@@ -10,16 +10,16 @@
 
 execute as @a[scores={multiplayer=1}] run scoreboard objectives add fix_end dummy
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a fix_end 1400
-execute as @a[scores={multiplayer=1..}] run scoreboard players set @a skyblock_island 1
-execute as @a[scores={multiplayer=1..}] run scoreboard players set @a skyblock_island 2
-execute as @a[scores={multiplayer=1..}] run scoreboard players set @a skyblock_island 3
-execute as @a[scores={multiplayer=1..}] run scoreboard players set @a skyblock_large 1400
-execute as @a[scores={multiplayer=1..}] run scoreboard players set @a skyblock_normal 1400
-execute as @a[scores={multiplayer=1..}] run scoreboard players set @a skyblock_small 1400
-execute as @a[scores={multiplayer=1..}] run scoreboard players set @a skyblock_install -1
-execute as @a[scores={multiplayer=1..}] run scoreboard players set @a skyblock_island -1
-execute as @a[scores={multiplayer=1..}] run scoreboard players set @a structure_skyblock 14000
-execute as @a[scores={multiplayer=1..}] run scoreboard players set @a skyblock_ID 14000
+execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_islands 1
+execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_islands 2
+execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_islands 3
+execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_large 1400
+execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_default 1400
+execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_small 1400
+execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_install -1
+execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_islands -1
+execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_structures 14000
+execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_id 14000
 execute as @a[scores={multiplayer=5}] run setblock 0 62 0 minecraft:black_concrete
 execute as @a[scores={multiplayer=5}] run tp @s 0 64 0 0 0
 execute as @a[scores={multiplayer=5}] run gamemode survival @s
