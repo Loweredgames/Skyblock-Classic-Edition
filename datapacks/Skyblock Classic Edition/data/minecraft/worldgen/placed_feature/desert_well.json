@@ -10,7 +10,16 @@
     },
     {
       "type": "minecraft:heightmap",
-      "heightmap": "MOTION_BLOCKING"
+      "heightmap": "WORLD_SURFACE"
+    },
+    {
+      "type": "height_range",
+      "height": {
+        "type": "constant",
+        "value": {
+          "absolute": 63
+        }
+      }
     },
     {
       "type": "minecraft:biome"

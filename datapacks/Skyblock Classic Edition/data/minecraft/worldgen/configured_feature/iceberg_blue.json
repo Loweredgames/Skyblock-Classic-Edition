@@ -2,7 +2,7 @@
   "type": "minecraft:iceberg",
   "config": {
     "state": {
-      "Name": "minecraft:blue_ice"
+      "Name": "minecraft:air"
     }
   }
 }
