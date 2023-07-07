@@ -3,7 +3,7 @@ Name: Skyblock Classic Edition
 
 Edition: JAVA EDITION
 
-Release: JE-1.20.1-Skyblock_Classic_Edition:PRE-RELEASE-1 - 5.0.0
+Release: JE-1.20.1-Skyblock_Classic_Edition:TEST - 5.0.0
 
 Data_pack: TRUE
 
