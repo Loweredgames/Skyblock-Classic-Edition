@@ -1,0 +1,6 @@
+advancements/
+stats/
+*.mca
+*.lock
+*.dat
+*.dat_old
