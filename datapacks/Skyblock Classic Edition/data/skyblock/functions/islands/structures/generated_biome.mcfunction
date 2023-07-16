@@ -23,7 +23,7 @@ execute as @a in minecraft:overworld run fillbiome 456 0 346 497 255 391 minecra
 
 
 #Swamp
-execute as @a in minecraft:overworld run fillbiome -183 0 -183 -169 255 -170 minecraft:swamp
+execute as @a in minecraft:overworld run fillbiome -183 0 -183 -168 255 -169 minecraft:swamp
 
 
 #Jungle
