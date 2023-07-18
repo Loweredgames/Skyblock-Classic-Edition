@@ -15,9 +15,10 @@
 ¿?Evoluzione e morte...
 ¿?Solo morte...
 ¿?Prima eravamo dei scimpanze e adesso siamo dei sapiens...
-¿?Prima o poi ci evolviamo in sapiens...
-¿?Ritorna come un tempo!!!...
+¿?Ritornare come un tempo...
+¿?Prima o poi succede...
 ¿?Tutto prima o poi finisce e si ricomincia da capo...
+¿?Una bataglia per un futuro migliore...
 ¿?Guarda il cielo ogni tanto...
 ¿?Rapimento...
 ¿?Non siamo soli...
@@ -44,11 +45,14 @@ Fatto da Lorenzo Giannini (Loweredgames)
 Map Maker
 SOLO JAVA!!!
 Building di sviluppo
+Git_hub
+Anche Gitlab ogni tanto!
 Crowdin
-\\ \
+\\ \ devo farlo sempre :/
 Anche versioni stabili!
 PVN
-IDP
+PID
+ID - non piu supportato!!
 100% mcmeta
 This is a secret!!!
 Ha un finale!
@@ -58,27 +62,32 @@ Acqua + lava = pietrisco
 Non guardare giu...
 Non scavare in basso...
 NON SCAVARE IN BASO!!!
+VISTO COSA SUCCEDE SE SCAVI IN BASSO!!!
 Freddo!!!
 For you...
+Per te...
 Ufo di pietrisco
 Guarda sempre l'orizzonte
 Il cielo è il limite!
 Larga e Piccola
 Normale e...Moderna
 Limite raggiunto
+Sotto sopra!
+Sopra sotto!
 L'isola nel cielo
 Non sei solo di notte!
 Illumina d'immenso
 Strutture autocostruite incluse
 Prova qualcosa di nuovo!
 Prova la versione originale ma modernizzata!
-Prova la modalità Hardcore con 90 bug!
+Prova la modalità Hardcore con 99 bug!
+End con 100000000000000000000000000000000000% di bug
 Espandi! Espandi!! Espandi!!!
 Se ti trovi in difficoltà guarda la Wiki di Minecraft...
-Guarda il ricettario
-Guarda gli avanzamenti vanilla
+Guarda il ricettario...
+Guarda gli avanzamenti vanilla...
 Nether incluso!
-Per te...
+End incluso! forse?
 Felice Steveeeeeee
 Niente arboscelli :(
 Niente lava o acqua :/
@@ -86,13 +95,13 @@ Niente di niente :=
 The Void
 Minecraft
 The End
-End con 1000% di bug
 The Far Lands
 Ant Farm Survival
 Guida dei nuovi arrivati!
 Creeper, Aww man!
 BETA
 Nostalgia unica
+Ricordi......unici
 10 anni di Mining e Crafting!
 10 anni di Storie e Creazioni!
 10 anni di Esplorazioni e Scoperte!
@@ -123,14 +132,16 @@ Provare per credere!
 Sopravvivere!
 Creare!
 Giocare!
+Scoprire!
 Gordon Freeman
 Toby Fox
 W. D. Gaster
 Don't forget...
 Df fnac!
-Creato da Notch (Markus Persson)
+Creato da Notch (Markus Persson)!
 Realizzato anche da Jeb!
-Creato da Mojang Studios
+Realizzato anche da Agnes!
+Creato da Mojang Studios!
 !enobrenniD
 Hero##in#!!#
 Funzionale
@@ -139,16 +150,20 @@ Power!
 Red!
 Games!
 Dev!
-Solo text!!
+Solo "text!!"
+Solo "translate!!"
 99% Vanilla
 Vanilla Bug: ON
+0% Bug non Vanilla
 Vuoi unirti al mio server?
+Server incluso!
 MINECON!
 LIVE!
 <PLAYERNAME> IS YOU
 Déjà vu!
 Déjà vu!
 Tecnologico!
+Esclusivo!
 Solo 24 ore e 7 giorni su 7
 Che succede amico?
 Meglio fuori che dentro!
@@ -168,25 +183,31 @@ Studia il passato se vuoi prevedere il futuro
 Chi è amico di tutti non è amico di nessuno
 Da un grande potere derivano grandi responsabilità
 L'uomo ragno
+Silva's Harmony
+Aki...!
 Aspettando Hytale...
-Hytale!
-Il nuovo Minecraft?
-Hycon!
 2024??? o 2025???
+Hytale! 
+Hycon!
+Il nuovo Minecraft?
 Hytale Italia!!
 Brennenburg
 More Pigs!! More!!
 SFM
+Source
+Gmod
 fnaf
 Foxy o Bonnie?
+Endoskeletons
 Bad Cupcake
 Bite of '87
 RWQFSFASXC
 Freddy Fazbear Pizza
+Freddy è anche sul grande schermo!!
 L'inverno sta arrivando!
-LORE!!!
 Boi!!!
 Boy!!!
+LORE!!!
 Sunny
 Stai aspettando che succeda qualcosa?
 143
@@ -197,37 +218,46 @@ Bianco e Nero
 Let's go Pikachu!!!
 Arceus
 Collezionali tutti!!!
+Steam
 La torta è una bugia!
 SPACEEEEEEEEEEEEEEEE!!
 Trovaci, se osi!!!
 Mc 2077
 I am Malegnia!
 Planet of the Apes!!! (niente api incluse)
+Evoluzione, Rivoluzione!!!
 Bestie!!!
-Non fidarti dei carnivori
+Non fidarti dei carnivori...
 Shishi-Gumi
+Legoshi!
 Haru!
 Insieme?
+Sagwan che stai facendo?
 Letto solo in italiano :/
 Paru Itagaki!
 Tomorrowland!!
 Che succede, Doc?
+E.T l'extra-terrestre
 Maurizio Costanzo Show
 Dal momento che ho capito le debolezze della mia carne...
 Questo testo è lunghisssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssimo
 Broooooooooo
 Ehi Fra!!!
+Morto...!
 Le mucche fanno... ?
 Birrrrch quanto le odio!!!
 EL
 Kiria
 LOL, non ridere!
+IA = true
+R.O.B.O.T
 Franco
 Pino
 Top
 ...!
 2+2=5?
-Si
+Siii
+Nooo
 :)
 *
 .
