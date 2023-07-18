@@ -5,11 +5,11 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Version ID (DISABLITARE SE NON CI SONO CONVERSIONI)
+##Version PVN (DISABLITARE SE NON CI SONO CONVERSIONI)
 function skyblock:versions/setup_version
 
 
-##ID Version Protocol (AGGIORNARE SEMPRE NELLE NUOVE VERSIONI. UTILIZZARE UN NUMERO INTERO PER LE VERSIONI STABILI. UTTILIZARE UNA LETTERA PER LE VERSIONI DI SVILUPPO)
+##PVN Version Protocol (AGGIORNARE SEMPRE NELLE NUOVE VERSIONI. UTILIZZARE UN NUMERO INTERO PER LE VERSIONI STABILI. UTTILIZARE UNA LETTERA PER LE VERSIONI DI SVILUPPO)
 scoreboard objectives add PVN_11d dummy
 scoreboard players add @a PVN_11d 1
 execute as @a[scores={SkyblockCE_id=10}] run scoreboard objectives remove PVN_11d
@@ -19,11 +19,11 @@ execute as @a[scores={SkyblockCE_id=10}] run scoreboard objectives remove PVN_11
 scoreboard objectives remove PVN_11c
 
 
-##ID Version Legacy Protocol (DA AGGIUNGERE SOLO QUANDO IL NUMERO CAMBIA)
+##PVN Version Legacy Protocol (DA AGGIUNGERE SOLO QUANDO IL NUMERO CAMBIA)
 scoreboard objectives add PVN_legacy dummy
 scoreboard players set @a PVN_10 1
 execute as @a[scores={PVN_10=1..}] run scoreboard players add @a PVN_legacy 1
-execute as @a[scores={PVN_legacy=100}] run tellraw @a ["",{"text":"\u2716","color":"red"},{"translate":"skyblock_classic_edition.version_update.compatible.minecraft_versions"},{"text":"1.16.X - 1.17.X","bold":true},{"translate":"skyblock_classic_edition.version_update.compatible.info"}]
+execute as @a[scores={PVN_legacy=100}] run tellraw @a ["",{"text":"\u2716","color":"red"},{"translate":"skyblock_classic_edition.version_update.compatible.minecraft_versions"},{"text":"1.16.5 - 1.17.1 - 1.18.2","bold":true},{"translate":"skyblock_classic_edition.version_update.compatible.info"}]
 execute as @a[scores={PVN_legacy=201..}] run scoreboard objectives remove PVN_10
 execute as @a[scores={PVN_legacy=201..}] run scoreboard objectives remove PVN_legacy
 
@@ -37,5 +37,5 @@ execute as @a[scores={PVN_11d=5..}] run scoreboard objectives setdisplay sidebar
 execute as @a[scores={PVN_11d=6}] run tellraw @s ["",{"translate":"skyblock_classic_edition.version_update.development_version.warning","color":"red"},{"translate":"skyblock_classic_edition.version_update.development_version.report","underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Lorenzo0310200/Skyblock-Classic-Edition/issues"}},{"text":".\u26a0","color":"red"}]
 
 
-##ID Version Protocol Loop
+##PVN Version Protocol Loop
 execute as @a[scores={PVN_11d=900000000..}] run scoreboard players set @a PVN_11d 0

@@ -15,6 +15,11 @@ execute as @a[scores={ID_5=1..}] run scoreboard players set @a PID_legacy 705
 execute as @a[scores={PID_0=1..}] run scoreboard players add @a PID_legacy 1
 
 
+##PID Remove (RIMUOVERE SOLO QUANDO E FINITO UN PID VECCHIO. CANCELLARE SOLO QUANDO E FINITA E AGGIORNARE IL CONTATORE)
+execute as @a[scores={PID_legacy=100..}] run scoreboard objectives remove ID_5
+execute as @a[scores={PID_legacy=805..}] run scoreboard objectives remove PID_0
+
+
 ##PID Legacy Setup (Aggiornato all'ultima versione: 5.0.0 Minecraft: 1.20.1) Ricordati di aggiornare UPDATE ID e di aggiungere l'ultima conversione.
 #scoreboard objectives setdisplay sidebar PID_legacy
 scoreboard objectives add PID_legacy dummy
@@ -25,11 +30,6 @@ execute as @a[scores={PID_legacy=1..801}] run summon minecraft:area_effect_cloud
 execute as @a[scores={PID_legacy=740}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
 
 
-##PID Remove (RIMUOVERE SOLO QUANDO E FINITO UN PID VECCHIO. CANCELLARE SOLO QUANDO E FINITA E AGGIORNARE IL CONTATORE)
-execute as @a[scores={PID_legacy=100..}] run scoreboard objectives remove ID_5
-execute as @a[scores={PID_legacy=805..}] run scoreboard objectives remove PID_0
-
-
 ##PID Legacy Update (AGGIUNGERE TUTTI I PID VECCHI, AGGIUNGERE SEMPRE UNA NUOVA CATEGORIA AD ESEMPIO #PID_2, #PID_3, ECC.)
 
 
@@ -37,7 +37,9 @@ execute as @a[scores={PID_legacy=805..}] run scoreboard objectives remove PID_0
 execute as @a[scores={ID_5=1..}] run scoreboard objectives remove PID_0
 
 
-#PID_0 (LTS FINO A PID_2, NON RIMUOVERE IL COMMENTO IN SE)
+#PID_0 - 1.19.4 (LTS FINO A PID_2, NON RIMUOVERE IL COMMENTO IN SE, AGGIUNGERE QUESTO COMMENTO NEI NUOVI PID)
+
+
 ##The Nether
 execute in minecraft:the_nether as @a[scores={PID_legacy=200}] run tp @a 0 -3 30
 execute in minecraft:the_nether as @a[scores={PID_legacy=250}] run fill 2 2 33 -2 2 29 minecraft:infested_cobblestone destroy

@@ -5,12 +5,12 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Skyblock ID (LASCIARE SEMPRE LA SCOREBOARD)
+##Skyblock PID (LASCIARE SEMPRE LA SCOREBOARD)
 scoreboard objectives add PID_1 dummy
 scoreboard players add @a PID_1 1
 
 
-##Skyblock ID e Install (AGGIORNARE SE IL PID E DIVERSO)
+##Skyblock PID e Install (AGGIORNARE SE IL PID E DIVERSO)
 execute as @a[scores={PID_1=2000000..}] run scoreboard players set @a PID_1 10000
 execute as @a[scores={SkyblockCE_install=1..}] run scoreboard players set @a PID_1 -10000
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a PID_1 -1
@@ -26,5 +26,5 @@ execute as @a[scores={PID_1=30}] run tellraw @s {"translate":"skyblock_classic_e
 #scoreboard objectives setdisplay sidebar PID_1
 
 
-##ID Versions (LASCIARE SEMPRE COSI)
+##PID Versions (LASCIARE SEMPRE COSI)
 function skyblock:versions/update_pid

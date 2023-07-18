@@ -27,7 +27,7 @@ execute as @a[scores={PID_1=1..1000}] run summon minecraft:area_effect_cloud ~ ~
 execute as @a[scores={PID_1=1000..}] run scoreboard objectives remove PID_legacy
 
 
-#PID_1 (SPOSTARE "PID_X" IN LEGACY, NON ELIMINARE I COMMENTi IN SE)
+#PID_1 - 1.20.1 (SPOSTARE "PID_X" IN LEGACY, NON ELIMINARE I COMMENTi IN SE)
 #scoreboard objectives setdisplay sidebar PID_1
 
 
@@ -101,7 +101,7 @@ execute in minecraft:overworld as @a[scores={PID_1=785}] run setblock 77 55 -491
 execute in minecraft:overworld as @a[scores={PID_1=785}] run summon camel 71 60 -489 {CustomNameVisible:1b,PersistenceRequired:1b,CustomName:'{"text":"Camel"}'}
 execute in minecraft:overworld as @a[scores={PID_1=785}] run summon camel 71 60 -489 {CustomNameVisible:1b,PersistenceRequired:1b,CustomName:'{"text":"Camel"}'}
 execute in minecraft:overworld as @a[scores={PID_1=800}] run tp @a 486 55 384 0 0
-execute in minecraft:overworld as @a[scores={PID_1=805}] run setblock 486 55 384 minecraft:fletching_table destroy
+execute in minecraft:overworld as @a[scores={PID_1=805}] run setblock 486 55 384 minecraft:fletching_table keep
 
 
 ##The Nether
