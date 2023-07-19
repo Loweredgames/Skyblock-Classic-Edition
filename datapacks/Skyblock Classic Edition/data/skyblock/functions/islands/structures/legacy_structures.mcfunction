@@ -10,8 +10,8 @@ scoreboard players add @a PSN_legacy 1
 scoreboard players add @a SkyblockCE_structures 1
 execute as @a[scores={PSN_legacy=1}] run scoreboard players set @a SkyblockCE_tp 0
 execute as @a[scores={PSN_legacy=1}] run gamemode spectator @a
-execute as @a[scores={PSN_legacy=2}] run effect give @a blindness 52 0 true
-execute as @a[scores={PSN_legacy=3}] run effect give @a night_vision 51 0 true
+execute as @a[scores={PSN_legacy=2}] run effect give @a blindness 62 0 true
+execute as @a[scores={PSN_legacy=3}] run effect give @a night_vision 61 0 true
 execute as @a[scores={PSN_legacy=1..2000}] run summon minecraft:area_effect_cloud ~ ~1 ~
 execute as @a[scores={PSN_legacy=2000000..}] run scoreboard players set @a PSN_legacy 10000
 
@@ -52,7 +52,7 @@ execute as @a[scores={PSN_legacy=800}] run tp @a 700 45 700 0 0
 execute as @a[scores={PSN_legacy=900}] run tp @a -700 45 -700 0 0
 
 
-##Generated
+##Generated Structures
 execute as @a[scores={PSN_legacy=150}] run place template skyblock:structures/pillager_outpost 500 45 55
 execute as @a[scores={PSN_legacy=250}] run place template skyblock:structures/village 460 45 350
 execute as @a[scores={PSN_legacy=350}] run place template skyblock:structures/swamp_hut -180 45 -180
@@ -69,7 +69,7 @@ execute as @a[scores={PSN_legacy=1000}] run scoreboard objectives add PSN_0 dumm
 execute as @a[scores={PSN_legacy=1005}] run scoreboard players set @a PSN_0 -250
 
 
-##Final Function
+##Final Function Structures
 execute as @a[scores={PSN_legacy=1}] run gamerule doImmediateRespawn true
 execute as @a[scores={PSN_legacy=1000}] run gamerule doImmediateRespawn false
 execute as @a[scores={PSN_legacy=1000}] run tp @s 0 66 0 90 0

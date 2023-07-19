@@ -9,12 +9,12 @@
 scoreboard players add @a PSN_0 1
 execute as @a[scores={PSN_0=1}] run scoreboard players set @a SkyblockCE_tp 0
 execute as @a[scores={PSN_0=1}] run gamemode spectator @a
-execute as @a[scores={PSN_0=2}] run effect give @a blindness 52 0 true
-execute as @a[scores={PSN_0=3}] run effect give @a night_vision 51 0 true
+execute as @a[scores={PSN_0=2}] run effect give @a blindness 62 0 true
+execute as @a[scores={PSN_0=3}] run effect give @a night_vision 61 0 true
 execute as @a[scores={PSN_0=1..2000}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
-##Teleport Players Structures
+##Teleport Players New Structures
 
 #Mushroom House
 execute as @a[scores={PSN_0=100}] run tp @a 0 45 1000 0 0
@@ -36,7 +36,7 @@ execute as @a[scores={PSN_0=350}] run place template skyblock:structures/cherry_
 execute as @a[scores={PSN_0=450}] run place template skyblock:structures/trail_ruins -266 45 -484
 
 
-##Final Function
+##Final Function New Structures
 execute as @a[scores={PSN_0=1}] run gamerule doImmediateRespawn true
 execute as @a[scores={PSN_0=500}] run gamerule doImmediateRespawn false
 execute as @a[scores={PSN_0=500..2001}] run clear @a written_book{tag:generated_structures}

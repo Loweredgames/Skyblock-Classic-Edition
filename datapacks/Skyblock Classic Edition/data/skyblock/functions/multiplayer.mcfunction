@@ -34,5 +34,5 @@ execute as @a[scores={multiplayer_popup=200}] run tellraw @a ["",{"translate":"s
 execute as @a[scores={multiplayer_popup=5000000..}] run scoreboard players set @a multiplayer_popup 0
 
 
-##Server (Only activate if you are in multiplayer: here below)
+##Server or Multiplayer (Only activate if you are in multiplayer: here below)
 #scoreboard objectives add multiplayer dummy
