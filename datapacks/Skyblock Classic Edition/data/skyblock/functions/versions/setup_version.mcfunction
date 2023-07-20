@@ -26,7 +26,7 @@ execute as @a[scores={PID_1=30}] run tellraw @s {"translate":"skyblock_classic_e
 #scoreboard objectives setdisplay sidebar PID_1
 
 
-##PID Versions (LASCIARE SEMPRE COSI)
+##PID VERSIONS (LASCIARE SEMPRE COSI)
 function skyblock:versions/update_pid
 
 

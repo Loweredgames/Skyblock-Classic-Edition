@@ -30,14 +30,14 @@ execute as @a[scores={PID_legacy=1..801}] run summon minecraft:area_effect_cloud
 execute as @a[scores={PID_legacy=740}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
 
 
-##PID Legacy Update (AGGIUNGERE TUTTI I PID VECCHI, AGGIUNGERE SEMPRE UNA NUOVA CATEGORIA AD ESEMPIO #PID_2, #PID_3, ECC.)
+###PID Legacy Update (AGGIUNGERE TUTTI I PID VECCHI, AGGIUNGERE SEMPRE UNA NUOVA CATEGORIA AD ESEMPIO #PID_2, #PID_3, ECC.)
 
 
-#ID_5 (COMPATIBILITA LEGACY)
+##ID_5 (COMPATIBILITA LEGACY)
 execute as @a[scores={ID_5=1..}] run scoreboard objectives remove PID_0
 
 
-#PID_0 - 1.19.4 (LTS FINO A PID_2, NON RIMUOVERE IL COMMENTO IN SE, AGGIUNGERE QUESTO COMMENTO NEI NUOVI PID)
+##PID_0 - 1.19.4 (LTS FINO A PID_2, NON RIMUOVERE IL COMMENTO IN SE, AGGIUNGERE QUESTO COMMENTO NEI NUOVI PID)
 
 
 ##The Nether

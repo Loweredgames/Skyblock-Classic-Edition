@@ -37,5 +37,5 @@ execute as @a[scores={SkyblockCE_legacy_version=1..}] run scoreboard objectives 
 scoreboard objectives remove skyblock_install
 
 
-#Eliminare tutto e lasciare solo questo per rimovere scoreboard
+#Eliminare tutto e lasciare solo questo per rimovere le scoreboard nella 1.21
 execute as @a[scores={refactoring_scoreboard=9000000..}] run scoreboard objectives remove refactoring_scoreboard

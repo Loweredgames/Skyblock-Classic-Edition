@@ -5,17 +5,17 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Function
+##Function Setup Test
 function test_skyblock:legacy_version
 function test_skyblock:test/fix_end
 function test_skyblock:test/refactoring_scoreboard
 
 
-##Setup
+##Translate Test (NON RIMUOVERE)
 #tellraw @a [{"translate":"skyblock_classic_edition.folder.test"}]
 
 
-##Scoreboard
+##Scoreboard Setup Test
 scoreboard objectives add refactoring_scoreboard dummy
 scoreboard players add @a refactoring_scoreboard 1
 scoreboard players add @a SkyblockCE_legacy_version 1

@@ -5,14 +5,14 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##World Update and Conversion
+###World Update and Conversion
 
 
-#Setup Version SkyblockCE_ID (CAMBIARE LA SCORE IN "SkyblockCE_id". VEDERE LA SCORE PID_X PER RIFERIMENTO)
+##Setup Version SkyblockCE_ID (CAMBIARE LA SCORE IN "SkyblockCE_id". VEDERE LA SCORE PID_X PER RIFERIMENTO)
 execute as @a[scores={SkyblockCE_id=30}] run scoreboard players set @a PID_1 -1000
 
 
-#Setup Update PID (NON ELIMINARE "Setup Update PID" E NON MODIFICARLO, DISATTIVA SOLO SE NON C'E LA CONVERSIONE)
+##Setup Update PID (NON ELIMINARE "Setup Update PID" E NON MODIFICARLO, DISATTIVA SOLO SE NON C'E LA CONVERSIONE)
 execute as @a[scores={PID_1=1..100}] run gamemode spectator @a
 execute as @a[scores={PID_1=5}] run time set 0
 execute as @a[scores={PID_1=5}] run gamerule doImmediateRespawn true
@@ -117,7 +117,7 @@ execute in minecraft:overworld as @a[scores={PID_1=960}] run tp @a 0 66 0 0 0
 ##The End
 
 
-##Final Function
+##Final Function PID
 execute as @a[scores={PID_1=1001}] run advancement revoke @a only minecraft:end/root
 execute as @a[scores={PID_1=1001}] run advancement revoke @a only minecraft:nether/root
 execute as @a[scores={PID_1=1005}] run tellraw @a {"translate":"skyblock_classic_edition.version_update.crowdin.info","color":"yellow","clickEvent":{"action":"open_url","value":"https://crowdin.com/project/skyblock-classic-edition"}}
