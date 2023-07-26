@@ -22,7 +22,7 @@ _Steve/Alex wake up on an unknown island, inside a chest it says..._
 - Supports localizations: help me translate into your native language. The languages must be faithful to the English language, respect the punctuation and the capitalization. Click here to translate into your language in Crowdin: https://crowdin.com/project/skyblock-classic-edition
 
 
-_Thanks to the original Skyblock team for creating the most popular Minecraft map._
+_Thanks to the original Skyblock team for creating the most popular Minecraft map_
 
 READ THE LICENZE BEFORE DOWNLOADING THE DATAPACK:
 https://github.com/Loweredgames/Skyblock-Classic-Edition/blob/main/LICENSE
