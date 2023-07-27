@@ -33,9 +33,9 @@ execute as @a[scores={PVN_11f=1}] run tellraw @s ["",{"translate":"skyblock_clas
 
 
 ##PVN WARNING (NON TOCCARE, SOLO VERSIONI DI SVILUPPO)
-#execute as @a[scores={PVN_11=5..}] run scoreboard objectives setdisplay sidebar PVN_11e
-execute as @a[scores={PVN_11=6}] run tellraw @s ["",{"translate":"skyblock_classic_edition.version_update.development_version.warning","color":"red"},{"translate":"skyblock_classic_edition.version_update.development_version.report","underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Lorenzo0310200/Skyblock-Classic-Edition/issues"}},{"text":".\u26a0","color":"red"}]
+#execute as @a[scores={PVN_11f=5..}] run scoreboard objectives setdisplay sidebar PVN_11f
+execute as @a[scores={PVN_11f=6}] run tellraw @s ["",{"translate":"skyblock_classic_edition.version_update.development_version.warning","color":"red"},{"translate":"skyblock_classic_edition.version_update.development_version.report","underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Lorenzo0310200/Skyblock-Classic-Edition/issues"}},{"text":".\u26a0","color":"red"}]
 
 
 ##PVN Version Protocol Loop
-execute as @a[scores={PVN_11=900000000..}] run scoreboard players set @a PVN_11 0
+execute as @a[scores={PVN_11f=900000000..}] run scoreboard players set @a PVN_11f 0
