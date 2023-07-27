@@ -3,7 +3,7 @@ Name: Skyblock Classic Edition
 
 Edition: JAVA EDITION
 
-Release: JE-1.20.1-Skyblock_Classic_Edition:RELEASE-CANDIDATE-2 - 5.0.0
+Release: JE-1.20.1-Skyblock_Classic_Edition:5.0.0 - 5.0.0
 
 Data_pack: TRUE
 
@@ -11,9 +11,9 @@ Resource_pack: TRUE
 
 Custom Structures World Update: 2.0.0
 
-Protocol Version:PVN_11f
+Protocol Version:PVN_11
 
-Github_Tag: JE-72a
+Github_Tag: JE-73a
 
 Github:https://github.com/Lorenzo0310200/Skyblock-Classic-Edition
 
