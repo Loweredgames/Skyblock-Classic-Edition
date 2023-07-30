@@ -43,10 +43,6 @@ execute as @a in minecraft:overworld run fillbiome 28 0 1025 -2 255 999 minecraf
 execute as @a in minecraft:overworld run fillbiome 484 0 -264 513 255 -247 minecraft:deep_ocean
 
 
-#Cherry Grove
-execute as @a in minecraft:overworld run fillbiome -200 0 -491 -176 255 -448 minecraft:cherry_grove
-
-
 #Meadow
 execute as @a in minecraft:overworld run fillbiome 496 0 51 520 255 85 minecraft:meadow
 
@@ -68,9 +64,3 @@ execute as @a in minecraft:the_nether run fillbiome 3 0 -42 -6 255 -54 minecraft
 
 #Warped Forest
 execute as @a in minecraft:the_nether run fillbiome 4 0 -42 12 255 -53 minecraft:warped_forest
-
-
-##The End ????
-
-
-#Coming soon :)
