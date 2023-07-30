@@ -8,9 +8,7 @@
 ##Multiplayer Setup
 
 
-execute as @a[scores={multiplayer=1}] run scoreboard objectives add fix_end dummy
 execute as @a[gamemode=spectator,scores={multiplayer=1}] run gamemode survival @a
-execute as @a[scores={multiplayer=1..}] run scoreboard players set @a fix_end 1400
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_install -1
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_islands -1
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_id 14000
@@ -21,8 +19,7 @@ execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_default 1400
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_small 1400
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_structures 14000
-execute as @a[scores={multiplayer=1..}] run scoreboard players set @a PSN_0 -1
-execute as @a[scores={multiplayer=1..}] run scoreboard players set @a PSN_legacy -1
+execute as @a[scores={multiplayer=1..}] run scoreboard players set @a PSN_OLD -1
 execute as @a[scores={multiplayer=5}] run setblock 0 62 0 minecraft:black_concrete
 execute as @a[scores={multiplayer=5}] run tp @s 0 65 0 0 0
 execute as @a[scores={multiplayer=5}] run gamemode survival @s

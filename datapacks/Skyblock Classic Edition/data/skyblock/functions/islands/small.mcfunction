@@ -76,7 +76,6 @@ execute as @a[scores={SkyblockCE_small=1351}] run weather clear 1000s
 execute as @a[scores={SkyblockCE_small=1351}] run scoreboard objectives add kills deathCount
 execute as @a[scores={SkyblockCE_small=1351}] run scoreboard objectives setdisplay list kills
 execute as @a[scores={SkyblockCE_small=1355}] run scoreboard players set @a SkyblockCE_tp 0
-execute as @a[scores={SkyblockCE_small=1355}] run scoreboard objectives add fix_end dummy
 execute as @a[scores={SkyblockCE_small=1356}] run title @a title ["",{"text":"Sky","bold":true,"color":"aqua"},{"text":"block","bold":true,"color":"dark_green"}]
 execute as @a[scores={SkyblockCE_small=1356}] run title @a subtitle {"text":"Classic Edition","bold":true,"color":"dark_blue"}
 execute as @a[scores={SkyblockCE_small=1356}] run title @a times 30 100 30

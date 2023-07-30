@@ -12,7 +12,7 @@ scoreboard players add @a PID_OLD 1
 
 ##Skyblock PID E INSTALL (AGGIORNARE SE IL PID E DIVERSO)
 execute as @a[scores={PID_OLD=2000000..}] run scoreboard players set @a PID_OLD 10000
-execute as @a[scores={SkyblockCE_install=1..}] run scoreboard players set @a PID_OLD -10000
+execute as @a[scores={SkyblockCE_install=1..}] run scoreboard players set @a PID_OLD -1000
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a PID_OLD -1
 execute as @a[scores={SkyblockCE_id=200}] run scoreboard players reset @a multiplayer_popup
 
@@ -22,7 +22,7 @@ execute as @a[scores={PID_OLD=30}] run tellraw @s {"text":"World update and conv
 
 
 ##Display (NON TOCCARE, SOLO DEBUG)
-scoreboard objectives setdisplay sidebar PID_OLD
+#scoreboard objectives setdisplay sidebar PID_OLD
 
 
 ##PID VERSIONS (LASCIARE SEMPRE COSI)

@@ -9,7 +9,6 @@
 function skyblock:versions/legacy_version
 function skyblock:versions/changelog/building
 function skyblock:versions/version_pvn
-function skyblock:versions/legacy_pid_setup
 function skyblock:islands/default
 function skyblock:islands/large
 function skyblock:islands/small
