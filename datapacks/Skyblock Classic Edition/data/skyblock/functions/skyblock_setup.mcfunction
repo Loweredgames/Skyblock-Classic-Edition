@@ -50,6 +50,7 @@ gamerule commandModificationBlockLimit 1000000
 gamerule maxCommandChainLength 1000000
 gamerule maxEntityCramming 24
 gamerule randomTickSpeed 3
+gamerule snowAccumulationHeight 3
 gamerule showDeathMessages true
 gamerule keepInventory false
 gamerule naturalRegeneration true
