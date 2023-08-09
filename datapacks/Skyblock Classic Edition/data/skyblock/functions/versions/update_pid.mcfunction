@@ -18,9 +18,9 @@ execute as @a[scores={PID_OLD=5}] run time set 0
 execute as @a[scores={PID_OLD=5}] run gamerule doImmediateRespawn true
 execute as @a[scores={PID_OLD=1..300}] run effect give @a blindness 5 0 true
 execute as @a[scores={PID_OLD=1..300}] run effect give @a night_vision 5 0 true
-execute as @a[scores={PID_OLD=610}] run gamerule doImmediateRespawn false
-execute as @a[scores={PID_OLD=610}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
-execute as @a[scores={PID_OLD=1..605}] run summon minecraft:area_effect_cloud ~ ~1 ~
+execute as @a[scores={PID_OLD=410}] run gamerule doImmediateRespawn false
+execute as @a[scores={PID_OLD=410}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
+execute as @a[scores={PID_OLD=1..500}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
 #PID_OLD - 1.19.4 (SPOSTARE "PID_X" IN LEGACY, NON ELIMINARE I COMMENTi IN SE)

@@ -5,7 +5,7 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Version PVN (DISABLITARE SE NON CI SONO CONVERSIONI)
+##Version PVN (DISABILITARE SE NON CI SONO CONVERSIONI)
 function skyblock:versions/setup_version
 
 
@@ -13,10 +13,6 @@ function skyblock:versions/setup_version
 scoreboard objectives add PVN_OLD dummy
 scoreboard players add @a PVN_OLD 1
 execute as @a[scores={SkyblockCE_id=100}] run scoreboard objectives remove PVN_OLD
-
-
-##RIMUOVE IL TAG DELLA 5.0.0 (SOLO DEV)
-scoreboard objectives remove PVN_11
 
 
 ##AGGIUNGERE CHANGELOG IN GITHUB E POI AGGIORNARE GITHUB
