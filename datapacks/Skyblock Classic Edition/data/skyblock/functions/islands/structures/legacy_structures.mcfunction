@@ -22,6 +22,13 @@ execute as @a[scores={SkyblockCE_structures=10}] run give @s written_book{tag:ge
 execute as @a[scores={SkyblockCE_structures=15..20}] run scoreboard objectives remove SkyblockCE_structures
 
 
+##SkyblockCE_id (AGGIORNARE SEMPRE QUANDO VENGONO AGGIUNTE NUOVE STRUTTURE. DELAY PID_X PER LE FUNZIONI default/large/small)
+#>INTEGRARE IN FUTURO NELLA FUNZIONE Strutture. forse 1.21?
+execute as @a[scores={SkyblockCE_large=1360}] run scoreboard objectives add SkyblockCE_id dummy
+execute as @a[scores={SkyblockCE_default=1360}] run scoreboard objectives add SkyblockCE_id dummy
+execute as @a[scores={SkyblockCE_small=1360}] run scoreboard objectives add SkyblockCE_id dummy
+
+
 ##Teleport Players Structures (AGGIUNGERE LE VECCHIE STRUTTURE)
 
 #Pillager Outpost
