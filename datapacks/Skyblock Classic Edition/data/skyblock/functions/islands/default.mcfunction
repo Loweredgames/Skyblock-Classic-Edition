@@ -86,6 +86,5 @@ execute as @a[scores={SkyblockCE_default=1757}] run gamerule doImmediateRespawn 
 execute as @a[scores={SkyblockCE_default=1757}] run time set 0
 execute as @a[scores={SkyblockCE_default=1780}] run gamemode survival @a
 execute as @a[scores={SkyblockCE_default=1780}] run advancement revoke @a everything
-execute as @a[scores={SkyblockCE_default=1780}] run scoreboard objectives add SkyblockCE_id dummy
 execute as @a[scores={SkyblockCE_default=1780}] run execute in minecraft:overworld run tp @p 0 66 0 90 0
 execute as @a[scores={SkyblockCE_default=1781}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2

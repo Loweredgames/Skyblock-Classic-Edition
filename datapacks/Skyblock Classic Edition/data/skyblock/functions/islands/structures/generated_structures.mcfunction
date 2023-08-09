@@ -19,6 +19,12 @@ execute as @a[scores={PSN_OLD=..1200}] run summon minecraft:area_effect_cloud ~ 
 execute as @a[scores={PSN_OLD=2000000..}] run scoreboard players set @a PSN_OLD 10005
 
 
+##SkyblockCE_id (AGGIORNARE SEMPRE QUANDO VENGONO AGGIUNTE NUOVE STRUTTURE. DELAY PID_X PER LE FUNZIONI default/large/small)
+execute as @a[scores={SkyblockCE_large=1780}] run scoreboard objectives add SkyblockCE_id dummy
+execute as @a[scores={SkyblockCE_default=1780}] run scoreboard objectives add SkyblockCE_id dummy
+execute as @a[scores={SkyblockCE_small=1780}] run scoreboard objectives add SkyblockCE_id dummy
+
+
 ##Teleport Players Structures (AGGIUNGERE LE STRUTTURE)
 
 #Pillager Outpost
