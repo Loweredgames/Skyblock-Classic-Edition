@@ -5,7 +5,7 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Version PVN (DISABLITARE SE NON CI SONO CONVERSIONI)
+##Version PVN (DISABILITARE SE NON CI SONO CONVERSIONI)
 function skyblock:versions/setup_version
 
 
