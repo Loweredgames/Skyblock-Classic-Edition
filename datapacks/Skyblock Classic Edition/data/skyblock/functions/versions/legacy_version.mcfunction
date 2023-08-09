@@ -29,7 +29,7 @@ execute as @a[scores={SkyblockCE_legacy_version=3000}] run scoreboard objectives
 execute in minecraft:the_nether as @a[scores={SkyblockCE_legacy_version=4000}] run tp @a 0 -3 30
 execute in minecraft:the_nether as @a[scores={SkyblockCE_legacy_version=4100}] run fill 2 2 33 -2 2 29 minecraft:infested_cobblestone destroy
 execute in minecraft:the_nether as @a[scores={SkyblockCE_legacy_version=4200}] run setblock 0 3 31 oak_sign[rotation=8,waterlogged=false]{front_text:{color:"black",has_glowing_text:1b,messages:['{"text":"The portal is"}','{"text":"broken sorry.."}','{"text":";("}','{"text":""}']}} destroy
-execute as @a[scores={SkyblockCE_legacy_version=..4300}] run scoreboard players set @a PID_1 -10
+execute as @a[scores={SkyblockCE_legacy_version=..4300}] run scoreboard players set @a PID_OLD -10
 execute in minecraft:overworld at @a[scores={SkyblockCE_legacy_version=7010}] run tp @a 0 64 0 ~ ~
 execute as @a[scores={SkyblockCE_legacy_version=7015..}] run gamemode survival @a
 execute as @a[scores={SkyblockCE_legacy_version=9000..}] run scoreboard objectives remove skyblock

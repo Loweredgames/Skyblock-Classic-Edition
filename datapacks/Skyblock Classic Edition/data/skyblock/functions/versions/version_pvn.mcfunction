@@ -12,7 +12,7 @@ function skyblock:versions/setup_version
 ##PVN Version Protocol (AGGIORNARE SEMPRE NELLE NUOVE VERSIONI. UTILIZZARE UN NUMERO INTERO PER LE VERSIONI STABILI. UTTILIZARE UNA LETTERA PER LE VERSIONI DI SVILUPPO)
 scoreboard objectives add PVN_OLD dummy
 scoreboard players add @a PVN_OLD 1
-execute as @a[scores={SkyblockCE_id=10}] run scoreboard objectives remove PVN_OLD
+execute as @a[scores={SkyblockCE_id=100}] run scoreboard objectives remove PVN_OLD
 
 
 ##RIMUOVE IL TAG DELLA 5.0.0 (SOLO DEV)
