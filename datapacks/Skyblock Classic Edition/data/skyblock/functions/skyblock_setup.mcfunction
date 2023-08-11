@@ -48,6 +48,11 @@ gamerule reducedDebugInfo false
 gamerule waterSourceConversion true
 gamerule lavaSourceConversion true
 gamerule spectatorsGenerateChunks true
+gamerule fallDamage true
+gamerule fireDamage true
+gamerule freezeDamage true
+gamerule forgiveDeadPlayers true
+gamerule mobExplosionDropDecay true
 gamerule commandModificationBlockLimit 1000000
 gamerule maxCommandChainLength 1000000
 gamerule maxEntityCramming 24
@@ -55,6 +60,8 @@ gamerule randomTickSpeed 3
 gamerule snowAccumulationHeight 3
 gamerule showDeathMessages true
 gamerule keepInventory false
+gamerule mobGriefing true
+gamerule doMobLoot true
 gamerule naturalRegeneration true
 gamerule doVinesSpread true
 gamerule doFireTick true
