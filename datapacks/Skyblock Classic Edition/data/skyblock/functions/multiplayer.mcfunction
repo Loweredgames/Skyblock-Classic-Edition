@@ -14,9 +14,9 @@ execute as @a[scores={multiplayer=1..}] run scoreboard players set @a fix_end 14
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_install -1
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_islands -1
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_id 14000
-execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_islands 1
-execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_islands 2
-execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_islands 3
+execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_islands -1
+execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_islands -1
+execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_islands -1
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_large 1400
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_default 1400
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_small 1400
