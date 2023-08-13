@@ -8,7 +8,7 @@
 ##Refactoring Scoreboard (Aggiornato all'ultima versione: 1.0.0 - 5.0.0 Minecraft: 1.20.1)
 
 
-#Debug Refactoring
+##Debug Refactoring
 #scoreboard objectives setdisplay sidebar refactoring_scoreboard
 
 

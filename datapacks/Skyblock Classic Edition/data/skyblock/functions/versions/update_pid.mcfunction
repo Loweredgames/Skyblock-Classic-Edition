@@ -10,6 +10,7 @@
 
 ##Setup Version SkyblockCE_ID (CAMBIARE LA SCORE IN "SkyblockCE_id". VEDERE LA SCORE PID_X PER RIFERIMENTO)
 execute as @a[scores={SkyblockCE_id=30}] run scoreboard players set @a PID_1 -1000
+execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a PID_1 24000
 
 
 ##Setup Update PID (NON ELIMINARE "Setup Update PID" E NON MODIFICARLO, DISATTIVA SOLO SE NON C'E LA CONVERSIONE)
@@ -123,7 +124,6 @@ execute as @a[scores={PID_1=1001}] run advancement revoke @a only minecraft:end/
 execute as @a[scores={PID_1=1001}] run advancement revoke @a only minecraft:nether/root
 execute as @a[scores={PID_1=1005}] run tellraw @a {"translate":"skyblock_classic_edition.version_update.crowdin.info","color":"yellow","clickEvent":{"action":"open_url","value":"https://crowdin.com/project/skyblock-classic-edition"}}
 execute as @a[scores={PID_1=1005}] run tellraw @a {"translate":"skyblock_classic_edition.version_update.discord","underlined":true,"color":"light_purple","clickEvent":{"action":"open_url","value":"https://discord.gg/T6PHxhznJ6"}}
-execute as @a[scores={PID_1=..1000}] run scoreboard objectives remove multiplayer_popup
 execute as @a[scores={PID_1=1010}] run time set 0
 execute as @a[scores={PID_1=1011}] run playsound minecraft:music_disc.relic ambient @a 0 65 0 10000 1
 execute in minecraft:overworld at @a[scores={PID_1=1005}] run tp @a 0 66 0 90 0

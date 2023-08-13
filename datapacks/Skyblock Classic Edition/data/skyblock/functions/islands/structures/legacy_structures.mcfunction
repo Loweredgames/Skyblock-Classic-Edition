@@ -76,6 +76,11 @@ execute as @a[scores={PSN_legacy=1000}] run scoreboard objectives add PSN_0 dumm
 execute as @a[scores={PSN_legacy=1005}] run scoreboard players set @a PSN_0 -250
 
 
+##Multiplayer PSN LEGACY
+execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a SkyblockCE_structures 25
+execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a PSN_legacy 24000
+
+
 ##Final Function Structures
 execute as @a[scores={PSN_legacy=1}] run gamerule doImmediateRespawn true
 execute as @a[scores={PSN_legacy=1000}] run gamerule doImmediateRespawn false

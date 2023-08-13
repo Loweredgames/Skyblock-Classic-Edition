@@ -14,6 +14,10 @@ execute as @a[scores={PSN_0=3}] run effect give @a night_vision 61 0 true
 execute as @a[scores={PSN_0=1..2000}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
+##Multiplayer PSN
+execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a PSN_0 -1
+
+
 ##Teleport Players New Structures
 
 #Mushroom House

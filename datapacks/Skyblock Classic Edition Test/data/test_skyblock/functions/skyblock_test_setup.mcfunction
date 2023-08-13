@@ -6,9 +6,9 @@
 
 
 ##Function Setup Test
-function test_skyblock:legacy_version
-function test_skyblock:test/fix_end
-function test_skyblock:test/refactoring_scoreboard
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function test_skyblock:legacy_version
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function test_skyblock:test/fix_end
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function test_skyblock:test/refactoring_scoreboard
 
 
 ##Translate Test (NON RIMUOVERE)
@@ -22,5 +22,4 @@ scoreboard players add @a SkyblockCE_legacy_version 1
 
 
 ##Scoreboard Reset
-execute as @a[scores={fix_end=2000000..}] run scoreboard players set @a fix_end 10000
-execute as @a[scores={refactoring_scoreboard=2000000..}] run scoreboard players set @a refactoring_scoreboard 1
+execute as @a[scores={fix_end=2000000..}] run scoreboard players set @a fix_end 200000

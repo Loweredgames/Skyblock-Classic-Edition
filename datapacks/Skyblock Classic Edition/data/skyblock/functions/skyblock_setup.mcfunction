@@ -6,17 +6,20 @@
 
 
 ##Function Setup
-function test_skyblock:skyblock_test_setup
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function test_skyblock:skyblock_test_setup
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:versions/version_pvn
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:versions/legacy_pid_setup
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/default
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/large
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/small
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/structures/generated_structures
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/structures/legacy_structures
+
+
+##Function Padlock
 function skyblock:versions/changelog/building
-function skyblock:versions/version_pvn
-function skyblock:versions/legacy_pid_setup
-function skyblock:islands/default
-function skyblock:islands/large
-function skyblock:islands/small
-function skyblock:islands/structures/generated_structures
-function skyblock:islands/structures/legacy_structures
 function skyblock:islands/structures/generated_biome
-function skyblock:multiplayer
+function skyblock:multiplayer_setup
 
 
 ##Setup
@@ -26,14 +29,14 @@ execute as @a[scores={SkyblockCE_tp=1}] run effect give @a minecraft:regeneratio
 
 
 ##Scoreboard
-scoreboard players add @a SkyblockCE_id 1
-scoreboard players add @a multiplayer 1
-scoreboard objectives add multiplayer_popup dummy
-scoreboard players add @a multiplayer_popup 1
 scoreboard objectives add SkyblockCE_install dummy
 scoreboard objectives add SkyblockCE_islands dummy
-scoreboard players add @a SkyblockCE_install 1
 scoreboard objectives add SkyblockCE_tp dummy
+scoreboard players add @a SkyblockCE_id 1
+scoreboard players add @a SkyblockCE_install 1
+scoreboard objectives add SkyblockCE_multiplayer dummy
+scoreboard players add @a SkyblockCE_multiplayer 1
+scoreboard objectives add SkyblockCE_multiplayer_reset dummy
 
 
 ##Scoreboard Reset
@@ -91,9 +94,9 @@ execute as @a[scores={SkyblockCE_install=2}] run tellraw @a ["",{"text":"If the 
 
 
 ##Quit Game
-scoreboard objectives add SkyblockCE_quit_game minecraft.custom:minecraft.leave_game
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run scoreboard objectives add SkyblockCE_quit_game minecraft.custom:minecraft.leave_game
 execute as @a[scores={SkyblockCE_quit_game=1..}] run scoreboard players set @a SkyblockCE_install 0
-execute as @a[scores={SkyblockCE_quit_game=1..}] run scoreboard players reset @a SkyblockCE_quit_game
+execute as @a[scores={SkyblockCE_quit_game=1..}] run scoreboard objectives remove SkyblockCE_quit_game
 
 
 ##Teleports Setup
