@@ -10,8 +10,8 @@
 
 execute as @a[scores={SkyblockCE_islands=3}] run scoreboard objectives add SkyblockCE_small minecraft.custom:minecraft.play_time
 execute as @a[scores={SkyblockCE_islands=3}] run tellraw @a {"translate":"skyblock_classic_edition.small.loading.chat"}
-execute as @a[scores={SkyblockCE_small=1..}] run scoreboard players set @a SkyblockCE_install -1
-execute as @a[scores={SkyblockCE_small=1..}] run scoreboard players set @a SkyblockCE_islands -1
+execute as @a[scores={SkyblockCE_small=1..}] run scoreboard players set @a SkyblockCE_install -2
+execute as @a[scores={SkyblockCE_small=1..}] run scoreboard players set @a SkyblockCE_islands -2
 execute as @a[scores={SkyblockCE_small=1..2400}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 

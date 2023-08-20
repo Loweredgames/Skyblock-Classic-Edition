@@ -9,15 +9,15 @@
 execute store result score SkyblockCE_PlayerOnline SkyblockCE_multiplayer if entity @a
 execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run say This is singleplayer!
 execute if score SkyblockCE_PlayerOnline SkyblockCE_multiplayer matches 1 run scoreboard players set @a SkyblockCE_multiplayer_reset 1
-#execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run say This is multiplayer!
+execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run say This is multiplayer!
 execute if score SkyblockCE_PlayerOnline SkyblockCE_multiplayer matches 2.. run scoreboard players set @a SkyblockCE_multiplayer_reset -1
 
 
 ##Multiplayer Reset (RESETTA LE SCOREBOARD E ALTRO)
 execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard objectives add fix_end dummy
 execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a fix_end 24000
-execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a SkyblockCE_install -1
-execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a SkyblockCE_islands -1
+execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a SkyblockCE_install -2
+execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a SkyblockCE_islands -2
 execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a SkyblockCE_tp 0
 execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a SkyblockCE_id 24000
 execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a SkyblockCE_large 24000

@@ -1,0 +1,7 @@
+- risolvere il bug che quando ci sono molti giocatori si tp a caso e non nello spawn
+- controllare legacy e funzione test
+- hardcore copiare
+- cambiato scoreboard players set @a SkyblockCE_islands -2 da ricordare
+- rimuovere codice vecchio o di debug
+- scoreboard players set @a SkyblockCE_install è su 1 forse riportare a 0?
+- controllare aggiornamenti della conversione

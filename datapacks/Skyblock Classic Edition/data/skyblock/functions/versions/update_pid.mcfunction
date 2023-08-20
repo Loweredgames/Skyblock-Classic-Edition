@@ -10,18 +10,18 @@
 
 ##Setup Version SkyblockCE_ID (CAMBIARE LA SCORE IN "SkyblockCE_id". VEDERE LA SCORE PID_X PER RIFERIMENTO)
 execute as @a[scores={SkyblockCE_id=30}] run scoreboard players set @a PID_1 -1000
-execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a PID_1 24000
+#execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a PID_1 24000
 
 
 ##Setup Update PID (NON ELIMINARE "Setup Update PID" E NON MODIFICARLO, DISATTIVA SOLO SE NON C'E LA CONVERSIONE)
-execute as @a[scores={PID_1=1..100}] run gamemode spectator @a
+execute as @a[scores={PID_1=5..100}] run gamemode spectator @a
 execute as @a[scores={PID_1=5}] run time set 0
 execute as @a[scores={PID_1=5}] run gamerule doImmediateRespawn true
-execute as @a[scores={PID_1=1..1000}] run effect give @a blindness 5 0 true
-execute as @a[scores={PID_1=1..1000}] run effect give @a night_vision 5 0 true
+execute as @a[scores={PID_1=5..1000}] run effect give @a blindness 5 0 true
+execute as @a[scores={PID_1=5..1000}] run effect give @a night_vision 5 0 true
 execute as @a[scores={PID_1=1000}] run gamerule doImmediateRespawn false
 execute as @a[scores={PID_1=1005}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
-execute as @a[scores={PID_1=1..1000}] run summon minecraft:area_effect_cloud ~ ~1 ~
+execute as @a[scores={PID_1=5..1000}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
 #PID Legacy Remove (RIMUOVE LA SCORE DOPO LA CONVERSIONE. AGGIORNARE SEMPRE LA SCORE)

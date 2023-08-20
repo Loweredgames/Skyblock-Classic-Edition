@@ -6,7 +6,7 @@
 
 
 ##Version PVN (DISABILITARE SE NON CI SONO CONVERSIONI)
-execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:versions/setup_version
+function skyblock:versions/setup_version
 
 
 ##PVN Version Protocol (AGGIORNARE SEMPRE NELLE NUOVE VERSIONI. UTILIZZARE UN NUMERO INTERO PER LE VERSIONI STABILI. UTTILIZARE UNA LETTERA PER LE VERSIONI DI SVILUPPO)
