@@ -6,9 +6,13 @@
 
 
 ##Function Setup Test
-execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function test_skyblock:legacy_version
 execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function test_skyblock:test/fix_end
+
+
+##Function Remove Test (DA RIMUOVERE IN FUTURO)
+function test_skyblock:test/multiplayer_legacy
 execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function test_skyblock:test/refactoring_scoreboard
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function test_skyblock:legacy_version
 
 
 ##Translate Test (NON RIMUOVERE)
