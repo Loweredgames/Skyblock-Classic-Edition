@@ -31,3 +31,8 @@ execute as @a[gamemode=spectator,scores={SkyblockCE_multiplayer_tick=1..5}] run 
 execute as @a[scores={SkyblockCE_multiplayer_tick=0..5}] run fill 0 63 0 0 64 0 minecraft:air destroy
 execute as @a[scores={SkyblockCE_multiplayer_tick=0..5}] run spawnpoint @s 0 63 0
 execute as @a[scores={SkyblockCE_multiplayer_tick=0..5}] run setworldspawn 0 63 0
+
+
+##Multiplayer Loop
+execute as @a[scores={SkyblockCE_multiplayer=2000000..}] run scoreboard players set @s SkyblockCE_multiplayer 100
+execute as @a[scores={SkyblockCE_multiplayer_tick=2000000..}] run scoreboard players set @s SkyblockCE_multiplayer_tick 100
