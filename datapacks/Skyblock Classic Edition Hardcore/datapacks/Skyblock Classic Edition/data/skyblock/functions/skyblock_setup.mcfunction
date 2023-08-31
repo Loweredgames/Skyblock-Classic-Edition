@@ -7,17 +7,17 @@
 
 ##Function Setup Lock
 execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function test_skyblock:skyblock_test_setup
-execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:versions/version_pvn
 execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:versions/legacy_pid_setup
 execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/default
 execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/large
 execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/small
-execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/structures/generated_structures
-execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/structures/legacy_structures
 
 
 ##Function Padlock Lock
 function skyblock:versions/changelog/building
+function skyblock:islands/structures/generated_structures
+function skyblock:islands/structures/legacy_structures
+function skyblock:versions/version_pvn
 function skyblock:islands/structures/generated_biome
 function skyblock:multiplayer_setup
 
@@ -35,6 +35,7 @@ scoreboard players add @a SkyblockCE_id 1
 scoreboard players add @a SkyblockCE_install 1
 scoreboard objectives add SkyblockCE_multiplayer dummy
 scoreboard players add @a SkyblockCE_multiplayer 1
+scoreboard objectives add SkyblockCE_multiplayer_reset dummy
 
 
 ##Scoreboard Reset Lock
@@ -44,9 +45,38 @@ execute as @a[scores={SkyblockCE_default=2000000..}] run scoreboard players set 
 execute as @a[scores={SkyblockCE_small=2000000..}] run scoreboard players set @a SkyblockCE_small 10000
 
 
+##Gamerules Setup
+gamerule reducedDebugInfo false
+gamerule waterSourceConversion true
+gamerule lavaSourceConversion true
+gamerule spectatorsGenerateChunks true
+gamerule fallDamage true
+gamerule fireDamage true
+gamerule freezeDamage true
+gamerule forgiveDeadPlayers true
+gamerule mobExplosionDropDecay true
+gamerule commandModificationBlockLimit 1000000
+gamerule maxCommandChainLength 1000000
+gamerule maxEntityCramming 24
+gamerule randomTickSpeed 3
+gamerule snowAccumulationHeight 3
+gamerule showDeathMessages true
+gamerule keepInventory false
+gamerule mobGriefing true
+gamerule doMobLoot true
+gamerule naturalRegeneration true
+gamerule doVinesSpread true
+gamerule doFireTick true
+gamerule doInsomnia true
+gamerule doMobSpawning true
+gamerule doWardenSpawning true
+gamerule doPatrolSpawning true
+gamerule doTraderSpawning true
+
+
 ##Islands Choices Lock
 execute as @a[scores={SkyblockCE_install=1}] run tellraw @a {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
-execute as @a[scores={SkyblockCE_install=2}] run tellraw @a ["",{"translate":"skyblock_classic_edition.skyblock_setup.welcome","bold":true},{"text":":","bold":true},{"text":"\n\n"},{"text":"I'm sorry but hardcore mode needs an already loaded and updated world. please ","italic":true,"color":"red"},{"text":"download the map again","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/releases"}},{"text":" and wait for the world to update and then replace the datapack.\n\nThank you","italic":true,"color":"red"}]
+execute as @a[scores={SkyblockCE_install=2}] run tellraw @a ["",{"translate":"skyblock_classic_edition.skyblock_setup.welcome","bold":true},{"text":":","bold":true},{"text":"\n\n"},{"text":"I'm sorry but hardcore mode needs an already loaded and updated world. Please ","italic":true,"color":"red"},{"text":"download the map again","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/releases"}},{"text":" and wait for the world to update and then replace the datapack.\n\nThank you","italic":true,"color":"red"}]
 execute as @a[scores={SkyblockCE_install=1000..}] run scoreboard players set @a SkyblockCE_install 0
 execute as @a[scores={SkyblockCE_install=1..}] run gamemode spectator @a
 execute as @a[scores={SkyblockCE_install=1..}] run tp @a 0 0 0 0 90

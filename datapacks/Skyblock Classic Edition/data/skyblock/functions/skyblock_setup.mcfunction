@@ -11,12 +11,12 @@ execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:ver
 execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/default
 execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/large
 execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/small
-execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/structures/generated_structures
-execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/structures/legacy_structures
 
 
 ##Function Padlock
 function skyblock:versions/changelog/building
+function skyblock:islands/structures/generated_structures
+function skyblock:islands/structures/legacy_structures
 function skyblock:versions/version_pvn
 function skyblock:islands/structures/generated_biome
 function skyblock:multiplayer_setup

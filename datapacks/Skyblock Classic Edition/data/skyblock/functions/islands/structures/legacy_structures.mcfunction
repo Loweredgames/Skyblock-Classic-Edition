@@ -14,7 +14,6 @@ execute as @a[scores={PSN_legacy=5}] run effect give @a blindness 62 0 true
 execute as @a[scores={PSN_legacy=6}] run effect give @a night_vision 61 0 true
 execute as @a[scores={PSN_legacy=5..2000}] run summon minecraft:area_effect_cloud ~ ~1 ~
 execute as @a[scores={PSN_legacy=2000000..}] run scoreboard players set @a PSN_legacy 10000
-execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a PSN_legacy 24000
 
 
 ##PSN_legacy (AGGIORNARE SEMPRE CON PID E AUMENTARE IL VALORE QUANDO VIENE AGGIUNTA UNA NUOVA STRUTTURA)

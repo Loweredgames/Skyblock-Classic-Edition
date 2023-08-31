@@ -10,7 +10,6 @@
 
 ##Setup Version SkyblockCE_ID (CAMBIARE LA SCORE IN "SkyblockCE_id". VEDERE LA SCORE PID_X PER RIFERIMENTO)
 execute as @a[scores={SkyblockCE_id=30}] run scoreboard players set @a PID_1 -1000
-#execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a PID_1 24000
 
 
 ##Setup Update PID (NON ELIMINARE "Setup Update PID" E NON MODIFICARLO, DISATTIVA SOLO SE NON C'E LA CONVERSIONE)
