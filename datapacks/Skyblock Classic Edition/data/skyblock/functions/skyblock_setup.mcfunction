@@ -18,6 +18,7 @@ function skyblock:islands/structures/generated_biome
 function skyblock:islands/structures/generated_structures
 function skyblock:versions/version_pvn
 function skyblock:multiplayer_setup
+function skyblock:versions/refactoring_scoreboard
 
 
 ##Setup

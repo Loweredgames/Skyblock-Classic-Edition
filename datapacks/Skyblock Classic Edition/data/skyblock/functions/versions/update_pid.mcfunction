@@ -17,7 +17,7 @@ execute as @a[scores={PID_OLD=5..100}] run gamemode spectator @a
 execute as @a[scores={PID_OLD=5}] run time set 0
 execute as @a[scores={PID_OLD=5}] run gamerule doImmediateRespawn true
 execute as @a[scores={PID_OLD=5..300}] run effect give @a blindness 5 0 true
-execute as @a[scores={PID_OLD=5..300}] run effect give @a night_vision 5 0 true
+execute as @a[scores={PID_OLD=5..300}] run effect give @a night_vision 6 0 true
 execute as @a[scores={PID_OLD=410}] run gamerule doImmediateRespawn false
 execute as @a[scores={PID_OLD=410}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
 execute as @a[scores={PID_OLD=5..500}] run summon minecraft:area_effect_cloud ~ ~1 ~
