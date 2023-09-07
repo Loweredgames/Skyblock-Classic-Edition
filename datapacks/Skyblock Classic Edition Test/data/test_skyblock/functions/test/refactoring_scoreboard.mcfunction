@@ -13,7 +13,7 @@
 
 
 #Start
-execute as @a[scores={refactoring_scoreboard=1..20}] run scoreboard objectives add SkyblockCE_install dummy
+execute as @a[scores={refactoring_scoreboard=..20}] run scoreboard objectives add SkyblockCE_install dummy
 execute as @a[scores={skyblock_small=1..}] run scoreboard objectives add SkyblockCE_small minecraft.custom:minecraft.play_time
 execute as @a[scores={skyblock_small=1..}] run scoreboard players add @a SkyblockCE_small 1000
 execute as @a[scores={SkyblockCE_small=1005..}] run scoreboard objectives remove skyblock_small
@@ -24,7 +24,7 @@ execute as @a[scores={skyblock_large=1..}] run scoreboard objectives add Skybloc
 execute as @a[scores={skyblock_large=1..}] run scoreboard players add @a SkyblockCE_large 1000
 execute as @a[scores={SkyblockCE_large=1005..}] run scoreboard objectives remove skyblock_large
 execute as @a[scores={SkyblockCE_structures=1..}] run scoreboard objectives remove structure_skyblock
-execute as @a[scores={SkyblockCE_islands=-1..}] run scoreboard objectives remove skyblock_island
+execute as @a[scores={SkyblockCE_islands=-2..}] run scoreboard objectives remove skyblock_island
 execute as @a[scores={skyblock_ID=0..}] run scoreboard objectives add SkyblockCE_id dummy
 execute as @a[scores={SkyblockCE_id=0..}] run scoreboard objectives remove skyblock_ID
 execute as @a[scores={SkyblockCE_quit_game=0..}] run scoreboard objectives remove skyblock_quit_game
@@ -38,4 +38,4 @@ scoreboard objectives remove skyblock_install
 
 
 #Eliminare tutto e lasciare solo questo per rimovere le scoreboard nella 1.21
-execute as @a[scores={refactoring_scoreboard=9000000..}] run scoreboard objectives remove refactoring_scoreboard
+execute as @a[scores={refactoring_scoreboard=900000..}] run scoreboard objectives remove refactoring_scoreboard
