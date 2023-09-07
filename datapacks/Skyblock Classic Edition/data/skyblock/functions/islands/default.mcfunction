@@ -80,10 +80,10 @@ execute as @a[scores={SkyblockCE_default=1356}] run scoreboard objectives add fi
 execute as @a[scores={SkyblockCE_default=1356}] run title @a title ["",{"text":"Sky","bold":true,"color":"aqua"},{"text":"block","bold":true,"color":"dark_green"}]
 execute as @a[scores={SkyblockCE_default=1356}] run title @a subtitle {"text":"Classic Edition","bold":true,"color":"dark_blue"}
 execute as @a[scores={SkyblockCE_default=1356}] run title @a times 30 100 30
-execute as @a[scores={SkyblockCE_default=1357}] run gamerule announceAdvancements true
-execute as @a[scores={SkyblockCE_default=1357}] run gamerule doDaylightCycle true
-execute as @a[scores={SkyblockCE_default=1357}] run gamerule doWeatherCycle true
-execute as @a[scores={SkyblockCE_default=1357}] run gamerule doImmediateRespawn false
+execute as @a[scores={SkyblockCE_default=1357..}] run gamerule announceAdvancements true
+execute as @a[scores={SkyblockCE_default=1357..}] run gamerule doDaylightCycle true
+execute as @a[scores={SkyblockCE_default=1357..}] run gamerule doWeatherCycle true
+execute as @a[scores={SkyblockCE_default=1357..}] run gamerule doImmediateRespawn false
 execute as @a[scores={SkyblockCE_default=1357}] run time set 0
 execute as @a[scores={SkyblockCE_default=1360}] run gamemode survival @a
 execute as @a[scores={SkyblockCE_default=1360}] run advancement revoke @a everything
