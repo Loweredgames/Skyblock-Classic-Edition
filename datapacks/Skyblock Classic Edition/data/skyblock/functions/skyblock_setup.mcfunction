@@ -6,15 +6,18 @@
 
 
 ##Function Setup
-function skyblock:versions/legacy_version
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:versions/legacy_version
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/default
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/large
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/small
+
+
+##Function Padlock
 function skyblock:versions/changelog/building
-function skyblock:versions/version_pvn
-function skyblock:islands/default
-function skyblock:islands/large
-function skyblock:islands/small
-function skyblock:islands/structures/generated_structures
 function skyblock:islands/structures/generated_biome
-function skyblock:multiplayer
+function skyblock:islands/structures/generated_structures
+function skyblock:versions/version_pvn
+function skyblock:multiplayer_setup
 
 
 ##Setup
@@ -24,14 +27,14 @@ execute as @a[scores={SkyblockCE_tp=1}] run effect give @a minecraft:regeneratio
 
 
 ##Scoreboard
-scoreboard players add @a SkyblockCE_id 1
-scoreboard players add @a multiplayer 1
-scoreboard objectives add multiplayer_popup dummy
-scoreboard players add @a multiplayer_popup 1
 scoreboard objectives add SkyblockCE_install dummy
 scoreboard objectives add SkyblockCE_islands dummy
-scoreboard players add @a SkyblockCE_install 1
 scoreboard objectives add SkyblockCE_tp dummy
+scoreboard players add @a SkyblockCE_id 1
+scoreboard players add @a SkyblockCE_install 1
+scoreboard objectives add SkyblockCE_multiplayer dummy
+scoreboard players add @a SkyblockCE_multiplayer 1
+scoreboard objectives add SkyblockCE_multiplayer_reset dummy
 
 
 ##Scoreboard Reset
@@ -73,7 +76,7 @@ gamerule doTraderSpawning true
 ##Islands Choices Setup
 execute as @a[scores={SkyblockCE_install=1}] run tellraw @a {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
 execute as @a[scores={SkyblockCE_install=2}] run tellraw @a ["",{"translate":"skyblock_classic_edition.skyblock_setup.welcome","bold":true},{"text":" - "},{"translate":"skyblock_classic_edition.skyblock_setup.version","bold":true},{"text":" 5.0.0 Historical Tales Update - JE-1.19.4-Skyblock_Classic_Edition:5.0.0","italic":true},{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.for_text","bold":true},{"text":" Minecraft Java Edition: ","bold":true},{"text":"1.19.4 The Wild Update","italic":true},{"text":"\n\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.choose_languages","italic":true},{"text":"\n\n"},{"translate":"credits","italic":true,"color":"#FFE28B"},{"text":"\n\n"},{"translate":"version","italic":true,"color":"#FFE28B"},{"text":"\n\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.choose_islands","italic":true},{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.large_easy","color":"dark_green","clickEvent":{"action":"run_command","value":"/scoreboard players set @a SkyblockCE_islands 1"}},{"text":" ","color":"dark_green"},{"text":"[?]","color":"dark_green","hoverEvent":{"action":"show_text","contents":[{"translate":"skyblock_classic_edition.skyblock_setup.large_easy.info"}]}},{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.default_normal","color":"gold","clickEvent":{"action":"run_command","value":"/scoreboard players set @a SkyblockCE_islands 2"}},{"text":" ","color":"gold"},{"text":"[?]","color":"gold","hoverEvent":{"action":"show_text","contents":[{"translate":"skyblock_classic_edition.skyblock_setup.default_normal.info"}]}},{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.small_hard","color":"red","clickEvent":{"action":"run_command","value":"/scoreboard players set @a SkyblockCE_islands 3"}},{"text":" ","color":"red"},{"text":"[?]","color":"red","hoverEvent":{"action":"show_text","contents":[{"translate":"skyblock_classic_edition.skyblock_setup.small_hard.info"}]}},{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.legacy_version.compatible","italic":true},{"text":" "},{"text":"4.0.0","italic":true},{"text":" "},{"translate":"skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text","italic":true},{"text":" "},{"text":"5.0.0","italic":true},{"text":" "},{"translate":"skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack","italic":true}]
-execute as @a[scores={SkyblockCE_install=1000..}] run scoreboard players set @a SkyblockCE_install 0
+execute as @a[scores={SkyblockCE_install=1000..}] run scoreboard players set @a SkyblockCE_install 1
 execute as @a[scores={SkyblockCE_install=1..}] run gamemode spectator @a
 execute as @a[scores={SkyblockCE_install=1..}] run tp @a 0 0 0 0 90
 execute as @a[scores={SkyblockCE_install=1}] run gamerule doDaylightCycle false
@@ -89,7 +92,7 @@ execute as @a[scores={SkyblockCE_install=2}] run tellraw @a ["",{"text":"If the 
 
 
 ##Quit Game
-scoreboard objectives add SkyblockCE_quit_game minecraft.custom:minecraft.leave_game
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run scoreboard objectives add SkyblockCE_quit_game minecraft.custom:minecraft.leave_game
 execute as @a[scores={SkyblockCE_quit_game=1..}] run scoreboard players set @a SkyblockCE_install 0
 execute as @a[scores={SkyblockCE_quit_game=1..}] run scoreboard players reset @a SkyblockCE_quit_game
 

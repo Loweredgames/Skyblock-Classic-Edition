@@ -10,13 +10,18 @@ scoreboard players add @a PSN_OLD 1
 scoreboard players add @a SkyblockCE_structures 1
 execute as @a[scores={SkyblockCE_structures=5}] run scoreboard objectives add PSN_OLD dummy
 execute as @a[scores={SkyblockCE_structures=15..20}] run scoreboard objectives remove SkyblockCE_structures
-execute as @a[scores={PSN_OLD=1}] run scoreboard players set @a SkyblockCE_tp 0
-execute as @a[scores={PSN_OLD=1}] run gamemode spectator @a
-execute as @a[scores={PSN_OLD=..1200}] run effect give @a blindness 11 0 true
-execute as @a[scores={PSN_OLD=..1200}] run effect give @a night_vision 12 0 true
+execute as @a[scores={PSN_OLD=5}] run scoreboard players set @a SkyblockCE_tp 0
+execute as @a[scores={PSN_OLD=5}] run gamemode spectator @a
+execute as @a[scores={PSN_OLD=5..1200}] run effect give @a blindness 11 0 true
+execute as @a[scores={PSN_OLD=6..1200}] run effect give @a night_vision 12 0 true
 execute as @a[scores={PSN_OLD=..1}] run effect clear @a
-execute as @a[scores={PSN_OLD=..1200}] run summon minecraft:area_effect_cloud ~ ~1 ~
+execute as @a[scores={PSN_OLD=5..1200}] run summon minecraft:area_effect_cloud ~ ~1 ~
 execute as @a[scores={PSN_OLD=2000000..}] run scoreboard players set @a PSN_OLD 10005
+
+
+##Multiplayer PSN
+execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a SkyblockCE_structures 25
+execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a PSN_OLD 24000
 
 
 ##SkyblockCE_id (AGGIORNARE SEMPRE QUANDO VENGONO AGGIUNTE NUOVE STRUTTURE. DELAY PID_X PER LE FUNZIONI default/large/small)

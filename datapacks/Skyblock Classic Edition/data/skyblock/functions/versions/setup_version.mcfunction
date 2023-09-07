@@ -14,8 +14,7 @@ scoreboard players add @a PID_warning 1
 ##Skyblock PID E INSTALL (AGGIORNARE SE IL PID E DIVERSO)
 execute as @a[scores={PID_OLD=2000000..}] run scoreboard players set @a PID_OLD 10000
 execute as @a[scores={SkyblockCE_install=1..}] run scoreboard players set @a PID_OLD -10000
-execute as @a[scores={multiplayer=1..}] run scoreboard players set @a PID_OLD -1
-execute as @a[scores={SkyblockCE_id=200}] run scoreboard players reset @a multiplayer_popup
+execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a PID_OLD 24000
 
 
 ##PID WARNING (CAMBIARE SOLO SE NON CI SONO CONVERSIONI)
@@ -27,7 +26,7 @@ execute as @a[scores={PID_OLD=30}] run tellraw @s {"text":"World update and conv
 
 
 ##PID VERSIONS (LASCIARE SEMPRE COSI)
-function skyblock:versions/update_pid
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:versions/update_pid
 
 
 ##PID WARNING (SOLO VERSIONI NON PIU SUPPORTATE, ATTIVARE QUANDO LA VERSIONE NON è PIU SUPPORTATA)

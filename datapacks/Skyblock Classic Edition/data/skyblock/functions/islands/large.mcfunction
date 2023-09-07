@@ -10,8 +10,8 @@
 
 execute as @a[scores={SkyblockCE_islands=1}] run scoreboard objectives add SkyblockCE_large minecraft.custom:minecraft.play_time
 execute as @a[scores={SkyblockCE_islands=1}] run tellraw @a {"translate":"skyblock_classic_edition.large.loading.chat"}
-execute as @a[scores={SkyblockCE_large=1..}] run scoreboard players set @a SkyblockCE_install -1
-execute as @a[scores={SkyblockCE_large=1..}] run scoreboard players set @a SkyblockCE_islands -1
+execute as @a[scores={SkyblockCE_large=1..}] run scoreboard players set @a SkyblockCE_install -2
+execute as @a[scores={SkyblockCE_large=1..}] run scoreboard players set @a SkyblockCE_islands -2
 execute as @a[scores={SkyblockCE_large=1..2400}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
@@ -78,10 +78,10 @@ execute as @a[scores={SkyblockCE_large=1355}] run scoreboard players set @a Skyb
 execute as @a[scores={SkyblockCE_large=1756}] run title @a title ["",{"text":"Sky","bold":true,"color":"aqua"},{"text":"block","bold":true,"color":"dark_green"}]
 execute as @a[scores={SkyblockCE_large=1756}] run title @a subtitle {"text":"Classic Edition","bold":true,"color":"dark_blue"}
 execute as @a[scores={SkyblockCE_large=1756}] run title @a times 30 100 30
-execute as @a[scores={SkyblockCE_large=1757}] run gamerule announceAdvancements true
-execute as @a[scores={SkyblockCE_large=1757}] run gamerule doDaylightCycle true
-execute as @a[scores={SkyblockCE_large=1757}] run gamerule doWeatherCycle true
-execute as @a[scores={SkyblockCE_large=1757}] run gamerule doImmediateRespawn false
+execute as @a[scores={SkyblockCE_large=1757..}] run gamerule announceAdvancements true
+execute as @a[scores={SkyblockCE_large=1757..}] run gamerule doDaylightCycle true
+execute as @a[scores={SkyblockCE_large=1757..}] run gamerule doWeatherCycle true
+execute as @a[scores={SkyblockCE_large=1757..}] run gamerule doImmediateRespawn false
 execute as @a[scores={SkyblockCE_large=1757}] run time set 0
 execute as @a[scores={SkyblockCE_large=1780}] run gamemode survival @a
 execute as @a[scores={SkyblockCE_large=1780}] run advancement revoke @a everything

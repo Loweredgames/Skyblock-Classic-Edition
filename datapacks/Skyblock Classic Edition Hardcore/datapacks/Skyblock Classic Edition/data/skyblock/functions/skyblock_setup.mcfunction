@@ -5,16 +5,19 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Function Lock
-function skyblock:versions/legacy_version
+##Function Setup Lock
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:versions/legacy_version
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/default
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/large
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/small
+
+
+##Function Padlock Lock
 function skyblock:versions/changelog/building
-function skyblock:versions/version_pvn
-function skyblock:islands/default
-function skyblock:islands/large
-function skyblock:islands/small
-function skyblock:islands/structures/generated_structures
 function skyblock:islands/structures/generated_biome
-function skyblock:multiplayer
+function skyblock:islands/structures/generated_structures
+function skyblock:versions/version_pvn
+function skyblock:multiplayer_setup
 
 
 ##Setup Lock
@@ -23,14 +26,14 @@ setblock 0 62 0 minecraft:bedrock
 
 
 ##Scoreboard Lock
-scoreboard players add @a SkyblockCE_id 1
-scoreboard players add @a multiplayer 1
-scoreboard objectives add multiplayer_popup dummy
-scoreboard players add @a multiplayer_popup 1
 scoreboard objectives add SkyblockCE_install dummy
 scoreboard objectives add SkyblockCE_islands dummy
-scoreboard players add @a SkyblockCE_install 1
 scoreboard objectives add SkyblockCE_tp dummy
+scoreboard players add @a SkyblockCE_id 1
+scoreboard players add @a SkyblockCE_install 1
+scoreboard objectives add SkyblockCE_multiplayer dummy
+scoreboard players add @a SkyblockCE_multiplayer 1
+scoreboard objectives add SkyblockCE_multiplayer_reset dummy
 
 
 ##Scoreboard Reset Lock
@@ -43,7 +46,7 @@ execute as @a[scores={SkyblockCE_small=2000000..}] run scoreboard players set @a
 ##Islands Choices Lock
 execute as @a[scores={SkyblockCE_install=1}] run tellraw @a {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
 execute as @a[scores={SkyblockCE_install=2}] run tellraw @a ["",{"translate":"skyblock_classic_edition.skyblock_setup.welcome","bold":true},{"text":":","bold":true},{"text":"\n\n"},{"text":"I'm sorry but hardcore mode needs an already loaded and updated world. please ","italic":true,"color":"red"},{"text":"download the map again","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/releases"}},{"text":" and wait for the world to update and then replace the datapack.\n\nThank you","italic":true,"color":"red"}]
-execute as @a[scores={SkyblockCE_install=1000..}] run scoreboard players set @a SkyblockCE_install 0
+execute as @a[scores={SkyblockCE_install=1000..}] run scoreboard players set @a SkyblockCE_install 1
 execute as @a[scores={SkyblockCE_install=1..}] run gamemode spectator @a
 execute as @a[scores={SkyblockCE_install=1..}] run tp @a 0 0 0 0 90
 execute as @a[scores={SkyblockCE_install=1..}] run effect give @a saturation 11 250 true

@@ -10,8 +10,8 @@
 
 execute as @a[scores={SkyblockCE_islands=2}] run scoreboard objectives add SkyblockCE_default minecraft.custom:minecraft.play_time
 execute as @a[scores={SkyblockCE_islands=2}] run tellraw @a {"translate":"skyblock_classic_edition.default.loading.chat"}
-execute as @a[scores={SkyblockCE_default=1..}] run scoreboard players set @a SkyblockCE_install -1
-execute as @a[scores={SkyblockCE_default=1..}] run scoreboard players set @a SkyblockCE_islands -1
+execute as @a[scores={SkyblockCE_default=1..}] run scoreboard players set @a SkyblockCE_install -2
+execute as @a[scores={SkyblockCE_default=1..}] run scoreboard players set @a SkyblockCE_islands -2
 execute as @a[scores={SkyblockCE_default=1..2400}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
@@ -79,10 +79,10 @@ execute as @a[scores={SkyblockCE_default=1355}] run scoreboard players set @a Sk
 execute as @a[scores={SkyblockCE_default=1756}] run title @a title ["",{"text":"Sky","bold":true,"color":"aqua"},{"text":"block","bold":true,"color":"dark_green"}]
 execute as @a[scores={SkyblockCE_default=1756}] run title @a subtitle {"text":"Classic Edition","bold":true,"color":"dark_blue"}
 execute as @a[scores={SkyblockCE_default=1756}] run title @a times 30 100 30
-execute as @a[scores={SkyblockCE_default=1757}] run gamerule announceAdvancements true
-execute as @a[scores={SkyblockCE_default=1757}] run gamerule doDaylightCycle true
-execute as @a[scores={SkyblockCE_default=1757}] run gamerule doWeatherCycle true
-execute as @a[scores={SkyblockCE_default=1757}] run gamerule doImmediateRespawn false
+execute as @a[scores={SkyblockCE_default=1757..}] run gamerule announceAdvancements true
+execute as @a[scores={SkyblockCE_default=1757..}] run gamerule doDaylightCycle true
+execute as @a[scores={SkyblockCE_default=1757..}] run gamerule doWeatherCycle true
+execute as @a[scores={SkyblockCE_default=1757..}] run gamerule doImmediateRespawn false
 execute as @a[scores={SkyblockCE_default=1757}] run time set 0
 execute as @a[scores={SkyblockCE_default=1780}] run gamemode survival @a
 execute as @a[scores={SkyblockCE_default=1780}] run advancement revoke @a everything
