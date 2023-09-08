@@ -43,7 +43,7 @@ execute as @a[scores={ID_5=1..}] run scoreboard objectives remove PID_0
 ##The Nether
 execute in minecraft:the_nether as @a[scores={PID_legacy=200}] run tp @a 0 -3 30
 execute in minecraft:the_nether as @a[scores={PID_legacy=250}] run fill 2 2 33 -2 2 29 minecraft:infested_cobblestone destroy
-execute in minecraft:the_nether as @a[scores={PID_legacy=300}] run setblock 0 3 31 oak_sign[rotation=8,waterlogged=false]{front_text:{color:"black",has_glowing_text:1b,messages:['{"text":"The portal is"}','{"text":"broken sorry.."}','{"text":";("}','{"text":""}']}} destroy
+execute in minecraft:the_nether as @a[scores={PID_legacy=300}] run setblock 0 3 31 oak_sign[rotation=8,waterlogged=false]{front_text:{color:"black",has_glowing_text:1b,messages:['{"text":"The portal is"}','{"text":"broken sorry.."}','{"text":";("}','{"text":"since: 1.0.0"}']}} destroy
 execute in minecraft:the_nether as @a[scores={PID_legacy=400}] run scoreboard players set @a SkyblockCE_tp 1
 execute as @a[scores={PID_legacy=450}] run scoreboard players set @a SkyblockCE_tp 0
 execute as @a[scores={PID_legacy=500}] run scoreboard objectives add fix_end dummy
