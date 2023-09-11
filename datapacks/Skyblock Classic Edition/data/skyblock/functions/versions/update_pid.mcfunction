@@ -52,8 +52,8 @@ execute in minecraft:overworld as @a[scores={PID_OLD=1..}] run setblock 722 48 7
 ##Final Function PID
 execute as @a[scores={PID_OLD=300}] run advancement revoke @a only minecraft:end/root
 execute as @a[scores={PID_OLD=300}] run advancement revoke @a only minecraft:nether/root
-execute as @a[scores={PID_OLD=305}] run tellraw @a {"translate":"skyblock_classic_edition.version_update.crowdin.info","color":"yellow","clickEvent":{"action":"open_url","value":"https://crowdin.com/project/skyblock-classic-edition"}}
-execute as @a[scores={PID_OLD=305}] run tellraw @a {"translate":"skyblock_classic_edition.version_update.discord","underlined":true,"color":"light_purple","clickEvent":{"action":"open_url","value":"https://discord.gg/T6PHxhznJ6"}}
+execute as @a[scores={PID_OLD=305}] run tellraw @a {"text":"Crowdin Translations Project","color":"yellow","clickEvent":{"action":"open_url","value":"https://crowdin.com/project/skyblock-classic-edition"}}
+execute as @a[scores={PID_OLD=305}] run tellraw @a {"text":"Discord Server","underlined":true,"color":"light_purple","clickEvent":{"action":"open_url","value":"https://discord.gg/T6PHxhznJ6"}}
 execute as @a[scores={PID_OLD=..300}] run scoreboard objectives remove multiplayer_popup
 execute as @a[scores={PID_OLD=350}] run time set 0
 execute in minecraft:overworld at @a[scores={PID_OLD=400}] run tp @a 0 66 0 90 0
