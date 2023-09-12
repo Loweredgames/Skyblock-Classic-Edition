@@ -6,4 +6,4 @@
 
 
 ##Crowdin Translates
-tellraw @a {"translate":"skyblock_classic_edition.link.crowdin","italic":true,"underlined":true,"color":"yellow","clickEvent":{"action":"open_url","value":"https://crowdin.com/project/skyblock-classic-edition"}}
+tellraw @a {"text":"Help me translate into your native language. The languages are must be faithful to the English language, respect the punctuation and the capitalization in the new versions of Skyblock Classic Edition.","italic":true,"underlined":true,"color":"yellow","clickEvent":{"action":"open_url","value":"https://crowdin.com/project/skyblock-classic-edition"}}
