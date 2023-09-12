@@ -46,7 +46,7 @@ execute in minecraft:overworld as @a[scores={SkyblockCE_small=41}] run scoreboar
 
 
 #Small Nether Classic
-execute in minecraft:overworld as @a[scores={SkyblockCE_small=57}] run scoreboard players set @a SkyblockCE_tp 3
+execute in minecraft:overworld as @a[scores={SkyblockCE_small=60}] run scoreboard players set @a SkyblockCE_tp 3
 execute in minecraft:the_nether as @a[scores={SkyblockCE_small=100}] run fill 17 65 43 -12 50 -8 minecraft:air
 execute in minecraft:the_nether as @a[scores={SkyblockCE_small=100}] run fill 16 73 -53 -3 49 -44 minecraft:air
 execute in minecraft:the_nether as @a[scores={SkyblockCE_small=105}] run scoreboard objectives add SkyblockCE_generated_small_nether_classic dummy
