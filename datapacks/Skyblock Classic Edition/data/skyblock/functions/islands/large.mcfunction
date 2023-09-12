@@ -33,7 +33,7 @@ execute in minecraft:overworld as @a[scores={SkyblockCE_large=1}] run gamerule a
 execute in minecraft:overworld as @a[scores={SkyblockCE_large=1}] run scoreboard players set @a SkyblockCE_tp 1
 execute in minecraft:overworld as @a[scores={SkyblockCE_large=1}] run fill -7 80 -12 7 40 5 minecraft:air
 execute in minecraft:overworld as @a[scores={SkyblockCE_large=1}] run fill 75 80 11 61 54 -9 minecraft:air
-execute in minecraft:overworld as @a[scores={SkyblockCE_large=20}] run say place template skyblock:large_classic -5 45 -5
+execute in minecraft:overworld as @a[scores={SkyblockCE_large=20}] run scoreboard objectives add SkyblockCE_generated_large_classic dummy
 execute in minecraft:overworld as @a[scores={SkyblockCE_large=33}] run setblock -1 68 -1 birch_wall_sign[facing=south,waterlogged=false]{Color:"white",GlowingText:1b,Text1:'{"text":"Skyblock","color":"white"}',Text2:'{"text":"Classic Edition","color":"white"}',Text3:'{"text":"---------------","color":"white"}',Text4:'{"text":"1.18.2","color":"white"}'} replace
 execute in minecraft:overworld as @a[scores={SkyblockCE_large=35}] run setblock -1 68 0 minecraft:air
 
@@ -41,7 +41,7 @@ execute in minecraft:overworld as @a[scores={SkyblockCE_large=35}] run setblock 
 #Large Classic Desert
 execute in minecraft:overworld as @a[scores={SkyblockCE_large=40}] run scoreboard players set @a SkyblockCE_tp 2
 execute in minecraft:overworld as @a[scores={SkyblockCE_large=40}] run fill 58 54 7 79 74 -18 minecraft:air
-execute in minecraft:overworld as @a[scores={SkyblockCE_large=50}] run say place template skyblock:large_classic_desert 61 54 -7
+execute in minecraft:overworld as @a[scores={SkyblockCE_large=50}] run scoreboard objectives add SkyblockCE_generated_large_classic_desert dummy
 
 
 ##The Nether
@@ -51,20 +51,17 @@ execute in minecraft:overworld as @a[scores={SkyblockCE_large=50}] run say place
 execute in minecraft:overworld as @a[scores={SkyblockCE_large=57}] run scoreboard players set @a SkyblockCE_tp 3
 execute in minecraft:the_nether as @a[scores={SkyblockCE_large=100}] run fill 17 65 43 -12 50 -8 minecraft:air
 execute in minecraft:the_nether as @a[scores={SkyblockCE_large=100}] run fill 16 73 -53 -3 49 -44 minecraft:air
-execute in minecraft:the_nether as @a[scores={SkyblockCE_large=105}] run say place template skyblock:nether_classic 2 50 3
+execute in minecraft:the_nether as @a[scores={SkyblockCE_large=105}] run scoreboard objectives add SkyblockCE_generated_large_nether_classic dummy
 
 
 #Large Nether Classic Bastion
 execute as @a[scores={SkyblockCE_large=120}] run scoreboard players set @a SkyblockCE_tp 4
-execute in minecraft:the_nether as @a[scores={SkyblockCE_large=115}] run say place structure minecraft:bastion_remnant -4 55 80
+execute in minecraft:the_nether as @a[scores={SkyblockCE_large=115}] run scoreboard objectives add SkyblockCE_generated_large_nether_bastion_remnant dummy
+
 
 #Large Nether Classic Forest
 execute as @a[scores={SkyblockCE_large=130}] run scoreboard players set @a SkyblockCE_tp 5
-execute in minecraft:the_nether as @a[scores={SkyblockCE_large=131}] run say place template skyblock:nether_classic_forest -2 50 -50
-
-
-#The End
-## ??? ##
+execute in minecraft:the_nether as @a[scores={SkyblockCE_large=131}] run scoreboard objectives add SkyblockCE_generated_large_nether_classic_forest dummy
 
 
 ##Final Function

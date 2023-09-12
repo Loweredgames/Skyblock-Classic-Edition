@@ -11,13 +11,13 @@ scoreboard players add @a PID_OLD 1
 scoreboard players add @a PID_warning 1
 
 
-##Skyblock PID E INSTALL (AGGIORNARE SE IL PID E DIVERSO)
+##Skyblock PID E INSTALL
 execute as @a[scores={PID_OLD=2000000..}] run scoreboard players set @a PID_OLD 10000
 execute as @a[scores={SkyblockCE_install=1..}] run scoreboard players set @a PID_OLD -10000
 execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a PID_OLD 24000
 
 
-##PID WARNING (CAMBIARE SOLO SE NON CI SONO CONVERSIONI)
+##PID WARNING
 execute as @a[scores={PID_OLD=30}] run tellraw @s {"text":"World update and conversion for old version: Minecraft 1.18.2","italic":true,"color":"gray"}
 
 
@@ -29,7 +29,7 @@ execute as @a[scores={PID_OLD=30}] run tellraw @s {"text":"World update and conv
 execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:versions/update_pid
 
 
-##PID WARNING (SOLO VERSIONI NON PIU SUPPORTATE, ATTIVARE QUANDO LA VERSIONE NON è PIU SUPPORTATA)
+##PID WARNING
 execute as @a[scores={SkyblockCE_id=2000..}] run scoreboard objectives add PID_warning dummy
 execute as @a[scores={PID_warning=5}] run tellraw @a ["",{"text":"\u26a0Warning: this version is no longer supported!\u26a0","bold":true,"color":"red"},{"text":"\n\nPlease download the latest version of the custom map here.","bold":true,"italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/releases"}}]
 execute as @a[scores={PID_warning=900000..}] run scoreboard players set @a PID_warning 1
