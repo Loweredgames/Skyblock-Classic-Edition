@@ -22,8 +22,8 @@ execute as @a[scores={PID_1=90000000..}] run scoreboard players set @a PID_1 100
 
 
 ##Skyblock PID VERSION WARNING (CAMBIARE SOLO SE NON CI SONO CONVERSIONI)
-execute as @a[scores={PID_1=30}] run tellraw @s {"translate":"skyblock_classic_edition.versions_id.warning_update.on","italic":true,"color":"gray"}
-#execute as @a[scores={PID_1=40}] run tellraw @s {"translate":"skyblock_classic_edition.versions_id.warning_update.off","italic":true,"color":"gray"}
+execute as @a[scores={PID_1=30}] run tellraw @s {"translate":"skyblock_classic_edition.versions_id.warning_update.on","italic":true,"color":"#d5d5d5"}
+#execute as @a[scores={PID_1=40}] run tellraw @s {"translate":"skyblock_classic_edition.versions_id.warning_update.off","italic":true,"color":"#d5d5d5"}
 
 
 ##Display Debug (NON TOCCARE, SOLO DEBUG)
