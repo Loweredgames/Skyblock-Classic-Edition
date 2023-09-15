@@ -47,6 +47,7 @@ execute as @a[scores={SkyblockCE_small=2000000..}] run scoreboard players set @a
 
 ##Gamerules Setup
 gamerule reducedDebugInfo false
+gamerule enderPearlsVanishOnDeath true
 gamerule waterSourceConversion true
 gamerule lavaSourceConversion true
 gamerule spectatorsGenerateChunks true
@@ -89,6 +90,7 @@ execute as @a[scores={SkyblockCE_install=1}] run weather clear 5001s
 execute as @a[scores={SkyblockCE_install=1}] run setworldspawn 0 63 0
 execute as @a[scores={SkyblockCE_install=1}] run xp set @a 0 points
 execute as @a[scores={SkyblockCE_install=1}] run xp set @a 0 levels
+execute as @a[scores={SkyblockCE_install=1}] run difficulty normal
 
 
 ##Quit Game Lock

@@ -17,7 +17,7 @@ execute as @a[scores={SkyblockCE_large=1..2400}] run summon minecraft:area_effec
 
 #Start
 execute in minecraft:overworld as @a[scores={SkyblockCE_large=1}] run kill @e[type=!minecraft:player]
-execute in minecraft:overworld as @a[scores={SkyblockCE_large=1}] run difficulty easy
+execute in minecraft:overworld as @a[scores={SkyblockCE_large=1..5}] run difficulty easy
 execute in minecraft:overworld as @a[scores={SkyblockCE_large=1}] run gamerule commandBlockOutput false
 execute in minecraft:overworld as @a[scores={SkyblockCE_large=1}] run gamerule doImmediateRespawn true
 execute in minecraft:overworld as @a[scores={SkyblockCE_large=1}] run title @a title {"translate":"skyblock_classic_edition.large.loading.title"}
@@ -75,7 +75,7 @@ execute as @a[scores={SkyblockCE_large=1351}] run weather clear 1000s
 execute as @a[scores={SkyblockCE_large=1351}] run scoreboard objectives add kills deathCount
 execute as @a[scores={SkyblockCE_large=1351}] run scoreboard objectives setdisplay list kills
 execute as @a[scores={SkyblockCE_large=1355}] run scoreboard players set @a SkyblockCE_tp 0
-execute as @a[scores={SkyblockCE_large=1356}] run scoreboard objectives add fix_end dummy
+###execute as @a[scores={SkyblockCE_large=1356}] run scoreboard objectives add fix_end dummy (da rimuovere)
 execute as @a[scores={SkyblockCE_large=1356}] run title @a title ["",{"text":"Sky","bold":true,"color":"aqua"},{"text":"block","bold":true,"color":"dark_green"}]
 execute as @a[scores={SkyblockCE_large=1356}] run title @a subtitle {"text":"Classic Edition","bold":true,"color":"dark_blue"}
 execute as @a[scores={SkyblockCE_large=1356}] run title @a times 30 100 30

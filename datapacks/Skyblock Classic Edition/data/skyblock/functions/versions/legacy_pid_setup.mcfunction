@@ -46,7 +46,7 @@ execute in minecraft:the_nether as @a[scores={PID_legacy=250}] run fill 2 2 33 -
 execute in minecraft:the_nether as @a[scores={PID_legacy=300}] run setblock 0 3 31 oak_sign[rotation=8,waterlogged=false]{front_text:{color:"black",has_glowing_text:1b,messages:['{"text":"The portal is"}','{"text":"broken sorry.."}','{"text":";("}','{"text":"since: 1.0.0"}']}} destroy
 execute in minecraft:the_nether as @a[scores={PID_legacy=400}] run scoreboard players set @a SkyblockCE_tp 1
 execute as @a[scores={PID_legacy=450}] run scoreboard players set @a SkyblockCE_tp 0
-execute as @a[scores={PID_legacy=500}] run scoreboard objectives add fix_end dummy
+###execute as @a[scores={PID_legacy=500}] run scoreboard objectives add fix_end dummy (da rimuovere)
 execute as @a[scores={PID_legacy=501..600}] run gamemode spectator @a
 execute as @a[scores={PID_legacy=600}] in minecraft:overworld run tp @a 0 66 0
 execute in minecraft:overworld as @a[scores={PID_legacy=650}] run setblock 0 62 0 minecraft:black_concrete keep
