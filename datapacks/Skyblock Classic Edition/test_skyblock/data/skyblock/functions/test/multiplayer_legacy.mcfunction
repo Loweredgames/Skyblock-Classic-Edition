@@ -5,7 +5,7 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Multiplayer Legacy 1.0.0 (DA CANCELLARE NELLA 1.21)
+##Multiplayer Legacy (Aggiornato all'ultima versione: 1.0.0 - 5.0.0 Minecraft: 1.20.2) - (DA CANCELLARE NELLA 1.21)
 #scoreboard objectives setdisplay sidebar multiplayer (debug)
 execute as @a[scores={SkyblockCE_multiplayer=..5}] run scoreboard objectives remove multiplayer
 execute as @a[scores={multiplayer=1..}] run scoreboard objectives add fix_end dummy

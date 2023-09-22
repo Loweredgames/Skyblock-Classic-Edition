@@ -1,7 +1,0 @@
- {
-       "pack": {
-           "pack_format": 16,
-           "supported_formats": {"min_inclusive": 16, "max_inclusive": 18},
-           "description": "Temporary features and changes that will be canceled in the future. By Lorenzo Giannini"
-       }
-   }

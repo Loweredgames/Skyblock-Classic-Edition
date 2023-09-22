@@ -13,7 +13,7 @@ execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:isl
 
 
 ##Function Padlock Lock
-function test_skyblock:skyblock_test_setup
+function skyblock:skyblock_test_setup
 function skyblock:versions/changelog/building
 function skyblock:islands/structures/generated_biome
 function skyblock:islands/structures/generated_structures

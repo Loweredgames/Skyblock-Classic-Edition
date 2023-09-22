@@ -8,7 +8,7 @@
 		"entries": [
 			{
 				"formats": {"min_inclusive": 16, "max_inclusive": 19},
-				"directory": ""
+				"directory": "test_skyblock"
 			}
 		]
 	}
