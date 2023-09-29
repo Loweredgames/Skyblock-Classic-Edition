@@ -37,7 +37,7 @@ execute as @a[scores={PID_legacy=740}] run playsound minecraft:entity.player.lev
 execute as @a[scores={ID_5=1..}] run scoreboard objectives remove PID_0
 
 
-##PID_0 - 1.19.4 (LTS FINO A PID_2, NON RIMUOVERE IL COMMENTO IN SE, AGGIUNGERE QUESTO COMMENTO NEI NUOVI PID)
+##PID_0 - 1.20.2 (LTS FINO A PID_2, NON RIMUOVERE IL COMMENTO IN SE, AGGIUNGERE QUESTO COMMENTO NEI NUOVI PID)
 
 
 ##The Nether
@@ -46,15 +46,14 @@ execute in minecraft:the_nether as @a[scores={PID_legacy=250}] run fill 2 2 33 -
 execute in minecraft:the_nether as @a[scores={PID_legacy=300}] run setblock 0 3 31 oak_sign[rotation=8,waterlogged=false]{front_text:{color:"black",has_glowing_text:1b,messages:['{"text":"The portal is"}','{"text":"broken sorry.."}','{"text":";("}','{"text":"since: 1.0.0"}']}} destroy
 execute in minecraft:the_nether as @a[scores={PID_legacy=400}] run scoreboard players set @a SkyblockCE_tp 1
 execute as @a[scores={PID_legacy=450}] run scoreboard players set @a SkyblockCE_tp 0
-###execute as @a[scores={PID_legacy=500}] run scoreboard objectives add fix_end dummy (da rimuovere)
 execute as @a[scores={PID_legacy=501..600}] run gamemode spectator @a
 execute as @a[scores={PID_legacy=600}] in minecraft:overworld run tp @a 0 66 0
 execute in minecraft:overworld as @a[scores={PID_legacy=650}] run setblock 0 62 0 minecraft:black_concrete keep
-execute as @a[scores={PID_legacy=730}] run advancement revoke @a only minecraft:end/root
+#>execute as @a[scores={PID_legacy=730}] run advancement revoke @a only minecraft:end/root (da riaggiungere in futuro)
 execute as @a[scores={PID_legacy=730}] run advancement revoke @a only minecraft:nether/root
 
 
-##PID Legacy Stop (QUANDO FINISCE: CAMBIARE IL NUMERO PER RESETARE TUTTO, AGGIORNARE SEMPRE NELLE NUOVE VERSIONI)
+##PID Legacy Stop (QUANDO FINISCE: CAMBIARE IL NUMERO PER RESETARE TUTTO, AGGIUNGERE SEMPRE NELLE NUOVE VERSIONI IL PID)
 execute as @a[scores={PID_0=1..}] run scoreboard players set @a PID_1 -100
 
 

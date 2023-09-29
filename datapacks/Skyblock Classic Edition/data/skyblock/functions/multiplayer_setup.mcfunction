@@ -12,8 +12,6 @@ execute if score SkyblockCE_PlayerOnline SkyblockCE_multiplayer matches 2.. run 
 
 
 ##Multiplayer Reset (RESETTA LE SCOREBOARD E ALTRO)
-execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard objectives add fix_end dummy
-execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a fix_end 24000
 execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a SkyblockCE_install -2
 execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a SkyblockCE_islands -2
 execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a SkyblockCE_tp 0

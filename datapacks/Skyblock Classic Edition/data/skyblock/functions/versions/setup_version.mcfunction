@@ -5,28 +5,14 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Skyblock PID (LASCIARE SEMPRE LA SCOREBOARD)
-scoreboard objectives add PID_1 dummy
-scoreboard players add @a PID_1 1
-
-
-##Skyblock PID INSTALL (AGGIORNARE SE IL PID E DIVERSO)
-execute as @a[scores={PID_1=2000000..}] run scoreboard players set @a PID_1 10000
+##Skyblock PID INSTALL (AGGIORNARE SE IL PID NEL NUOVO NUMERO)
 execute as @a[scores={SkyblockCE_install=1..}] run scoreboard players set @a PID_1 -10000
 execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a PID_1 24000
-
-
-##Skyblock PID Reset LOOP
-execute as @a[scores={PID_1=90000000..}] run scoreboard players set @a PID_1 100000
 
 
 ##Skyblock PID VERSION WARNING (CAMBIARE SOLO SE NON CI SONO CONVERSIONI)
 execute as @a[scores={PID_1=30}] run tellraw @s {"translate":"skyblock_classic_edition.versions_id.warning_update.on","italic":true,"color":"#d5d5d5"}
 #execute as @a[scores={PID_1=40}] run tellraw @s {"translate":"skyblock_classic_edition.versions_id.warning_update.off","italic":true,"color":"#d5d5d5"}
-
-
-##Display Debug (NON TOCCARE, SOLO DEBUG)
-#scoreboard objectives setdisplay sidebar PID_1
 
 
 ##Skyblock PID VERSIONS (LASCIARE SEMPRE COSI)

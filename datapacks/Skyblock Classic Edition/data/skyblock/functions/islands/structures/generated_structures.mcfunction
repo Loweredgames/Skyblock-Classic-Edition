@@ -43,7 +43,7 @@ execute as @a[scores={PSN_0=450}] run place template skyblock:structures/trail_r
 ##Final Function New Structures
 execute as @a[scores={PSN_0=1}] run gamerule doImmediateRespawn true
 execute as @a[scores={PSN_0=500}] run gamerule doImmediateRespawn false
-execute as @a[scores={PSN_0=500..2001}] run clear @a written_book{tag:generated_structures}
+execute as @a[scores={PSN_0=500..2001}] run clear @a written_book{tag:generated_book}
 execute as @a[scores={PSN_0=500}] run tp @s 0 66 0 90 0
 execute as @a[scores={PSN_0=505}] run gamemode survival @a
 execute as @a[scores={PSN_0=505}] run title @a times 20 100 20

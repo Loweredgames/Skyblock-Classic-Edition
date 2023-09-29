@@ -6,7 +6,7 @@
 
 
 ##Function Setup Lock
-execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:versions/legacy_pid_setup
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock_legacy_pid:legacy
 execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/default
 execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/large
 execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/small

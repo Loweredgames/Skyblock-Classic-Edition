@@ -34,7 +34,7 @@ execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run scoreboa
 execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run fill -7 80 -12 7 55 5 minecraft:air
 execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run fill 75 80 11 61 55 -9 minecraft:air
 execute in minecraft:overworld as @a[scores={SkyblockCE_default=20}] run place template skyblock:classic -4 61 -6
-execute in minecraft:overworld as @a[scores={SkyblockCE_default=33}] run setblock 1 66 -3 birch_wall_sign[facing=south,waterlogged=false]{back_text:{messages:['{"text":"This"}','{"text":"is"}','{"text":"a"}','{"text":"secret!!!"}']},front_text:{color:"white",has_glowing_text:1b,messages:['{"text":"Skyblock"}','{"text":"Classic Edition"}','{"text":"---------------"}','{"text":"1.20.1"}']}} replace
+execute in minecraft:overworld as @a[scores={SkyblockCE_default=33}] run setblock 1 66 -3 birch_wall_sign[facing=south,waterlogged=false]{back_text:{messages:['{"text":"This"}','{"text":"is"}','{"text":"a"}','{"text":"secret!!!"}']},front_text:{color:"white",has_glowing_text:1b,messages:['{"text":"Skyblock"}','{"text":"Classic Edition"}','{"text":"---------------"}','{"text":"1.20.2"}']}} replace
 execute in minecraft:overworld as @a[scores={SkyblockCE_default=35}] run setblock 1 66 -2 minecraft:air
 
 
@@ -76,7 +76,6 @@ execute as @a[scores={SkyblockCE_default=1351}] run weather clear 1000s
 execute as @a[scores={SkyblockCE_default=1351}] run scoreboard objectives add kills deathCount
 execute as @a[scores={SkyblockCE_default=1351}] run scoreboard objectives setdisplay list kills
 execute as @a[scores={SkyblockCE_default=1355}] run scoreboard players set @a SkyblockCE_tp 0
-###execute as @a[scores={SkyblockCE_default=1356}] run scoreboard objectives add fix_end dummy (da rimuovere)
 execute as @a[scores={SkyblockCE_default=1356}] run title @a title ["",{"text":"Sky","bold":true,"color":"aqua"},{"text":"block","bold":true,"color":"dark_green"}]
 execute as @a[scores={SkyblockCE_default=1356}] run title @a subtitle {"text":"Classic Edition","bold":true,"color":"dark_blue"}
 execute as @a[scores={SkyblockCE_default=1356}] run title @a times 30 100 30
@@ -89,4 +88,4 @@ execute as @a[scores={SkyblockCE_default=1360}] run gamemode survival @a
 execute as @a[scores={SkyblockCE_default=1360}] run advancement revoke @a everything
 execute as @a[scores={SkyblockCE_default=1360}] run execute in minecraft:overworld run tp @p 0 66 0 90 0
 execute as @a[scores={SkyblockCE_default=1361}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
-execute as @a[scores={SkyblockCE_default=1360..2400}] run clear @a written_book{tag:generated_structures}
+execute as @a[scores={SkyblockCE_default=1360..2400}] run clear @a written_book{tag:generated_book}

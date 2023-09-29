@@ -6,7 +6,15 @@
        },
        "overlays": {
 		"entries": [
-			{
+            {
+				"formats": {"min_inclusive": 16, "max_inclusive": 19},
+				"directory": "pid_1"
+			},
+            {
+				"formats": {"min_inclusive": 16, "max_inclusive": 19},
+				"directory": "legacy_pid"
+			},
+            {
 				"formats": {"min_inclusive": 16, "max_inclusive": 19},
 				"directory": "test_skyblock"
 			}
