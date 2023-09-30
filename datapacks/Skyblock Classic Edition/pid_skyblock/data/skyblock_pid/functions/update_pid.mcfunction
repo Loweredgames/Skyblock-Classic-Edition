@@ -8,13 +8,12 @@
 ##Setup Update PID (NON ELIMINARE "Setup Update PID" E NON MODIFICARLO, DISATTIVA SOLO SE NON C'E LA CONVERSIONE)
 
 
-#Scoreboard PID SETUP (LASCIARE SEMPRE LA SCOREBOARD)
+##Scoreboard PID SETUP (LASCIARE SEMPRE LA SCOREBOARD)
 scoreboard objectives add PID_1 dummy
 scoreboard players add @a PID_1 1
-#scoreboard objectives setdisplay sidebar PID_1
 
 
-#Scoreboard Start PID 1
+##Scoreboard Start PID 1
 execute as @a[scores={PID_1=5..100}] run gamemode spectator @a
 execute as @a[scores={PID_1=5}] run time set 0
 execute as @a[scores={PID_1=5}] run gamerule doImmediateRespawn true
@@ -25,11 +24,11 @@ execute as @a[scores={PID_1=1005}] run playsound minecraft:entity.player.levelup
 execute as @a[scores={PID_1=5..1000}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
-#Skyblock PID Reset LOOP
+##Skyblock PID Reset LOOP
 execute as @a[scores={PID_1=2000000..}] run scoreboard players set @a PID_1 10000
 
 
-#PID_1 - 1.20.2 (SPOSTARE "PID_X" IN LEGACY, NON ELIMINARE I COMMENTi IN SE)
+###PID 1 - 1.20.2 (SPOSTARE "PID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE I COMMENTI IN SE)
 
 
 ##Overworld
@@ -133,7 +132,3 @@ execute as @a[scores={PID_1=1010}] run time set 0
 execute as @a[scores={PID_1=1011}] run playsound minecraft:music_disc.relic ambient @a 0 65 0 10000 1
 execute in minecraft:overworld at @a[scores={PID_1=1005}] run tp @a 0 66 0 90 0
 execute as @a[scores={PID_1=1011}] run gamemode survival @a
-
-
-##Display Debug (NON TOCCARE, SOLO DEBUG)
-#scoreboard objectives setdisplay sidebar PID_1

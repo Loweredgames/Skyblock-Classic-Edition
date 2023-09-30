@@ -16,10 +16,6 @@ execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:tes
 execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:legacy_version
 
 
-##Translate Test (NON RIMUOVERE)
-#tellraw @a [{"translate":"skyblock_classic_edition.folder.test"}]
-
-
 ##Scoreboard Setup Test
 scoreboard objectives add refactoring_scoreboard dummy
 scoreboard players add @a refactoring_scoreboard 1

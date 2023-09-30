@@ -6,7 +6,6 @@
 
 
 ##Multiplayer Legacy (Aggiornato all'ultima versione: 1.0.0 - 5.0.0 Minecraft: 1.20.2) - (DA CANCELLARE NELLA 1.21)
-#scoreboard objectives setdisplay sidebar multiplayer (debug)
 execute as @a[scores={SkyblockCE_multiplayer=..5}] run scoreboard objectives remove multiplayer
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_install -2
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_islands -2
@@ -20,3 +19,4 @@ execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_small 24000
 scoreboard players set @a multiplayer 1
 scoreboard objectives remove multiplayer_popup
+scoreboard objectives remove SkyblockCE_multiplayer_tick

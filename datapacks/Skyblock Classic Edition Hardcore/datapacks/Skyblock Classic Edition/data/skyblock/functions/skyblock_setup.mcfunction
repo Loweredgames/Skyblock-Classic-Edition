@@ -6,7 +6,7 @@
 
 
 ##Function Setup Lock
-execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock_legacy_pid:legacy
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock_legacy_pid:legacy_pid
 execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/default
 execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/large
 execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/small
@@ -19,6 +19,7 @@ function skyblock:islands/structures/generated_biome
 function skyblock:islands/structures/generated_structures
 function skyblock:islands/structures/legacy_structures
 function skyblock:versions/version_pvn
+function skyblock:versions/debug
 function skyblock:multiplayer_setup
 
 

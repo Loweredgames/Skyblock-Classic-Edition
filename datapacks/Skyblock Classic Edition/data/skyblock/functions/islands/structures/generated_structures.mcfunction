@@ -5,7 +5,7 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##New Structure Setup
+##NEW STRUCTURES SETUP
 scoreboard players add @a PSN_0 1
 execute as @a[scores={PSN_0=5}] run scoreboard players set @a SkyblockCE_tp 0
 execute as @a[scores={PSN_0=5}] run gamemode spectator @a
@@ -14,11 +14,11 @@ execute as @a[scores={PSN_0=6}] run effect give @a night_vision 61 0 true
 execute as @a[scores={PSN_0=5..2000}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
-##Multiplayer PSN
+##MULTIPLAYER PSN
 execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a PSN_0 -1
 
 
-##Teleport Players New Structures
+##TELEPORT PLAYER IN THE NEW STRUCTURES
 
 #Mushroom House
 execute as @a[scores={PSN_0=100}] run tp @a 0 45 1000 0 0
@@ -33,14 +33,14 @@ execute as @a[scores={PSN_0=300}] run tp @a -198 45 -485 0 0
 execute as @a[scores={PSN_0=400}] run tp @a -266 45 -484 0 0
 
 
-##Generated New Structures
+##GENERATED NEW STRUCTURES
 execute as @a[scores={PSN_0=150}] run place template skyblock:structures/mushroom_house 0 45 1000
 execute as @a[scores={PSN_0=250}] run place template skyblock:structures/ocean_ruins 488 45 -260
 execute as @a[scores={PSN_0=350}] run place template skyblock:structures/cherry_grove -198 45 -485
 execute as @a[scores={PSN_0=450}] run place template skyblock:structures/trail_ruins -266 45 -484
 
 
-##Final Function New Structures
+##FINAL FUNCTION NEW STRUCTURES
 execute as @a[scores={PSN_0=1}] run gamerule doImmediateRespawn true
 execute as @a[scores={PSN_0=500}] run gamerule doImmediateRespawn false
 execute as @a[scores={PSN_0=500..2001}] run clear @a written_book{tag:generated_book}

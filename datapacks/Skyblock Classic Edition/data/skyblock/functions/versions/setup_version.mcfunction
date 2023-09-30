@@ -5,21 +5,21 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Skyblock PID INSTALL (AGGIORNARE SE IL PID NEL NUOVO NUMERO)
+##SKYBLOCK PID INSTALL (AGGIORNARE SE IL PID NEL NUOVO NUMERO)
 execute as @a[scores={SkyblockCE_install=1..}] run scoreboard players set @a PID_1 -10000
 execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a PID_1 24000
 
 
-##Skyblock PID VERSION WARNING (CAMBIARE SOLO SE NON CI SONO CONVERSIONI)
+##SKYBLOCK PID VERSIONS (LASCIARE SEMPRE COSI)
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:versions/pid_setup
+
+
+##SKYBLOCK PID VERSION WARNING (CAMBIARE SOLO SE NON CI SONO CONVERSIONI)
 execute as @a[scores={PID_1=30}] run tellraw @s {"translate":"skyblock_classic_edition.versions_id.warning_update.on","italic":true,"color":"#d5d5d5"}
-#execute as @a[scores={PID_1=40}] run tellraw @s {"translate":"skyblock_classic_edition.versions_id.warning_update.off","italic":true,"color":"#d5d5d5"}
+#execute as @a[scores={PID_1=30}] run tellraw @s {"translate":"skyblock_classic_edition.versions_id.warning_update.off","italic":true,"color":"#d5d5d5"}
 
 
-##Skyblock PID VERSIONS (LASCIARE SEMPRE COSI)
-execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:versions/update_pid
-
-
-##Skyblock PID WARNING (SOLO VERSIONI NON PIU SUPPORTATE, ATTIVARE QUANDO LA VERSIONE NON è PIU SUPPORTATA)
+##SKYBLOCK PID WARNING (SOLO VERSIONI NON PIU SUPPORTATE, ATTIVARE QUANDO LA VERSIONE NON è PIU SUPPORTATA)
 #execute as @a[scores={SkyblockCE_id=2000..}] run scoreboard objectives add PID_warning dummy 
 scoreboard players add @a PID_warning 1
 execute as @a[scores={PID_warning=5}] run tellraw @a ["",{"text":"\u26a0Warning: this version is no longer supported!\u26a0","bold":true,"color":"red"},{"text":"\n\nPlease download the latest version of the custom map here.","bold":true,"italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/releases"}}]

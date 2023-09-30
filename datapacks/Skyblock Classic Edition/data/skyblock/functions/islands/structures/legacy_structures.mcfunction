@@ -5,7 +5,7 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Structure Setup
+##STRUCTURES SETUP
 scoreboard players add @a PSN_legacy 1
 scoreboard players add @a SkyblockCE_structures 1
 execute as @a[scores={PSN_legacy=5}] run scoreboard players set @a SkyblockCE_tp 0
@@ -16,20 +16,20 @@ execute as @a[scores={PSN_legacy=5..2000}] run summon minecraft:area_effect_clou
 execute as @a[scores={PSN_legacy=2000000..}] run scoreboard players set @a PSN_legacy 10000
 
 
-##PSN_legacy (AGGIORNARE SEMPRE CON PID E AUMENTARE IL VALORE QUANDO VIENE AGGIUNTA UNA NUOVA STRUTTURA)
+##PSN LEGACY (AGGIORNARE SEMPRE CON PID E AUMENTARE IL VALORE QUANDO VIENE AGGIUNTA UNA NUOVA STRUTTURA)
 execute as @a[scores={SkyblockCE_structures=5}] run scoreboard objectives add PSN_legacy dummy
 execute as @a[scores={SkyblockCE_structures=10}] run give @s written_book{tag:generated_book,pages:['["",{"text":"Info:","bold":true,"underlined":true},{"text":"\\n\\nBefore adding the structures in the world, check if there are any constructions you have made within the custom structures area. add the (Generated) folder in the world."},{"text":" ","color":"reset"},{"text":"\\n\\u26a0 If not spawn the structures in the world \\u26a0","italic":true,"underlined":true,"color":"red"}]','["",{"text":"Go to the next pages to see all coordinates, remember activate the coordinated with F3.\\n\\n\\n\\n"},{"text":"Yes I understand and I\'m ready immediately.","bold":true,"italic":true,"color":"red","clickEvent":{"action":"change_page","value":"5"}}]','["",{"text":"Custom Structures:","bold":true,"underlined":true},{"text":"\\n\\nMushroom House: ","color":"reset"},{"text":"0 45 1000","underlined":true},{"text":"\\n\\nOcean Ruins: ","color":"reset"},{"text":"488 45 -260","underlined":true},{"text":"\\n\\nCherry Grove: ","color":"reset"},{"text":"-198 45 -485","underlined":true},{"text":"\\n\\nTrail Ruins: ","color":"reset"},{"text":"-266 45 -484","underlined":true}]','["",{"text":"Generated:\\n\\n","bold":true,"underlined":true},{"text":"\\u26a0I am ready to generate all structures\\u26a0","bold":true,"italic":true,"underlined":true,"color":"red","clickEvent":{"action":"run_command","value":"/scoreboard objectives add PSN_0 dummy"}}]'],title:"Custom Structures",author:"Custom Structures Version: 2.0.0"}
 execute as @a[scores={SkyblockCE_structures=15..20}] run scoreboard objectives remove SkyblockCE_structures
 
 
-##SkyblockCE_id (AGGIORNARE SEMPRE QUANDO VENGONO AGGIUNTE NUOVE STRUTTURE. DELAY PID_X PER LE FUNZIONI default/large/small)
-#>INTEGRARE IN FUTURO NELLA FUNZIONE Strutture. forse 1.21?
+##SkyblockCE ID (AGGIORNARE SEMPRE QUANDO VENGONO AGGIUNTE NUOVE STRUTTURE. DELAY PID_X PER LE FUNZIONI default/large/small)
+#>INTEGRARE IN FUTURO NELLA FUNZIONE Strutture.
 execute as @a[scores={SkyblockCE_large=1360}] run scoreboard objectives add SkyblockCE_id dummy
 execute as @a[scores={SkyblockCE_default=1360}] run scoreboard objectives add SkyblockCE_id dummy
 execute as @a[scores={SkyblockCE_small=1360}] run scoreboard objectives add SkyblockCE_id dummy
 
 
-##Teleport Players Structures (AGGIUNGERE LE VECCHIE STRUTTURE)
+##TELEPORT PLAYER IN THE STRUCTURES (AGGIUNGERE LE VECCHIE STRUTTURE)
 
 #Pillager Outpost
 execute as @a[scores={PSN_legacy=100}] run tp @a 500 45 55 0 0
@@ -59,7 +59,7 @@ execute as @a[scores={PSN_legacy=800}] run tp @a 700 45 700 0 0
 execute as @a[scores={PSN_legacy=900}] run tp @a -700 45 -700 0 0
 
 
-##Generated Structures
+##GENERATED STRUCTURES
 execute as @a[scores={PSN_legacy=150}] run place template skyblock:structures/pillager_outpost 500 45 55
 execute as @a[scores={PSN_legacy=250}] run place template skyblock:structures/village 460 45 350
 execute as @a[scores={PSN_legacy=350}] run place template skyblock:structures/swamp_hut -180 45 -180
@@ -71,17 +71,17 @@ execute as @a[scores={PSN_legacy=850}] run place template skyblock:structures/st
 execute as @a[scores={PSN_legacy=950}] run place template skyblock:structures/ancient_city -700 45 -700
 
 
-##Start PSN_0 (DELAY PER PID_0)
+##DELAY PSN (DELAY PER PID_0)
 execute as @a[scores={PSN_legacy=1000}] run scoreboard objectives add PSN_0 dummy
 execute as @a[scores={PSN_legacy=1005}] run scoreboard players set @a PSN_0 -250
 
 
-##Multiplayer PSN LEGACY
+##MULTIPLAYER PSN LEGACY
 execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a SkyblockCE_structures 25
 execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a PSN_legacy 24000
 
 
-##Final Function Structures
+##FINAL FUNCTION STRUCTURES
 execute as @a[scores={PSN_legacy=1}] run gamerule doImmediateRespawn true
 execute as @a[scores={PSN_legacy=1000}] run gamerule doImmediateRespawn false
 execute as @a[scores={PSN_legacy=1000}] run tp @s 0 66 0 90 0

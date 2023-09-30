@@ -8,11 +8,11 @@
 		"entries": [
             {
 				"formats": {"min_inclusive": 16, "max_inclusive": 19},
-				"directory": "pid_1"
+				"directory": "pid_skyblock"
 			},
             {
 				"formats": {"min_inclusive": 16, "max_inclusive": 19},
-				"directory": "legacy_pid"
+				"directory": "legacy_pid_skyblock"
 			},
             {
 				"formats": {"min_inclusive": 16, "max_inclusive": 19},

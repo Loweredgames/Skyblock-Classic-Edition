@@ -5,13 +5,13 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##WORLD UPDATE AND CONVERSION FUNCTIONS (AGGIUNGERE SEMPRE I PID PER LE CONVERSIONI)
-function skyblock_pid:pid_1
+##WORLD UPDATE AND CONVERSION FUNCTIONS
+function skyblock_pid:update_pid
 
 
-#PID Legacy Remove (RIMUOVE LA SCORE DOPO LA CONVERSIONE. AGGIORNARE SEMPRE LA SCORE)
+##PID LEGACY REMOVE (RIMUOVE LA SCORE DOPO LA CONVERSIONE. AGGIORNARE SEMPRE LA SCORE)
 execute as @a[scores={PID_1=1000..}] run scoreboard objectives remove PID_legacy
 
 
-#Setup Version SkyblockCE_ID (CAMBIARE LA SCORE IN "SkyblockCE_id". VEDERE LA SCORE PID_X PER RIFERIMENTO)
+##SETUP VERSION SkyblockCE_ID (CAMBIARE LA SCORE IN "SkyblockCE_id". VEDERE LA SCORE PID_X PER RIFERIMENTO)
 execute as @a[scores={SkyblockCE_id=30}] run scoreboard players set @a PID_1 -1000

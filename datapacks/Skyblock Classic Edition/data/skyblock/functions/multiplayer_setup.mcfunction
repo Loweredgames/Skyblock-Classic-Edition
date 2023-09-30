@@ -5,13 +5,13 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Multiplayer Setup
+##MULTIPLAYER SETUP
 execute store result score SkyblockCE_PlayerOnline SkyblockCE_multiplayer if entity @a
 execute if score SkyblockCE_PlayerOnline SkyblockCE_multiplayer matches 1 run scoreboard players set @a SkyblockCE_multiplayer_reset 1
 execute if score SkyblockCE_PlayerOnline SkyblockCE_multiplayer matches 2.. run scoreboard players set @a SkyblockCE_multiplayer_reset -1
 
 
-##Multiplayer Reset (RESETTA LE SCOREBOARD E ALTRO)
+##MULTIPLAYER RESET (RESETTA LE SCOREBOARD E ALTRO)
 execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a SkyblockCE_install -2
 execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a SkyblockCE_islands -2
 execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a SkyblockCE_tp 0
@@ -21,16 +21,16 @@ execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players s
 execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a SkyblockCE_small 24000
 
 
-##Multiplayer Tick
-execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard objectives add SkyblockCE_multiplayer_tick dummy
-execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players add @a SkyblockCE_multiplayer_tick 1
-execute as @a[scores={SkyblockCE_multiplayer_tick=0..5}] run tp @s 0 65 0 0 0
-execute as @a[gamemode=spectator,scores={SkyblockCE_multiplayer_tick=1..5}] run gamemode survival @s
-execute as @a[scores={SkyblockCE_multiplayer_tick=0..5}] run fill 0 63 0 0 64 0 minecraft:air destroy
-execute as @a[scores={SkyblockCE_multiplayer_tick=0..5}] run spawnpoint @s 0 63 0
-execute as @a[scores={SkyblockCE_multiplayer_tick=0..5}] run setworldspawn 0 63 0
+##MULTIPLAYER JOIN PLAYERS
+execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard objectives add SkyblockCE_multiplayer_join dummy
+execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players add @a SkyblockCE_multiplayer_join 1
+execute as @a[scores={SkyblockCE_multiplayer_join=0..5}] run tp @s 0 65 0 0 0
+execute as @a[gamemode=spectator,scores={SkyblockCE_multiplayer_join=1..5}] run gamemode survival @s
+execute as @a[scores={SkyblockCE_multiplayer_join=0..5}] run fill 0 63 0 0 64 0 minecraft:air destroy
+execute as @a[scores={SkyblockCE_multiplayer_join=0..5}] run spawnpoint @s 0 63 0
+execute as @a[scores={SkyblockCE_multiplayer_join=0..5}] run setworldspawn 0 63 0
 
 
-##Multiplayer Loop
+##MULTIPLAYER LOOP
 execute as @a[scores={SkyblockCE_multiplayer=2000000..}] run scoreboard players set @s SkyblockCE_multiplayer 100
 execute as @a[scores={SkyblockCE_multiplayer_tick=2000000..}] run scoreboard players set @s SkyblockCE_multiplayer_tick 100
