@@ -39,6 +39,8 @@
     "skyblock_classic_edition.loading.subtitle.chat": "World",
     "skyblock_classic_edition.versions_id.warning_update.off": "Тут нема чого дивитися...",
     "skyblock_classic_edition.versions_id.warning_update.on": "Всесвітнє оновлення та перетворення на нову версію...",
+    "skyblock_classic_edition.setup_version.warning": "\u26a0Warning: this version is no longer supported!\u26a0",
+    "skyblock_classic_edition.setup_version.warning.download": "\n\nPlease download the latest version of the custom map here.",
     "skyblock_classic_edition.generated_structures.loading.title": "Структури:",
     "skyblock_classic_edition.generated_structures.loading.subtitle": "Вони були створені...",
     "skyblock_classic_edition.generated_structures.generated.command_block.info": "\u26a0Я бачу, що у вашому світі немає папки (generated). ",

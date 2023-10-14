@@ -39,6 +39,8 @@
     "skyblock_classic_edition.loading.subtitle.chat": "World",
     "skyblock_classic_edition.versions_id.warning_update.off": "Non c'è niente da vedere qui...",
     "skyblock_classic_edition.versions_id.warning_update.on": "Aggiornamento del mondo e conversione per la nuova versione...",
+    "skyblock_classic_edition.setup_version.warning": "\u26a0Warning: this version is no longer supported!\u26a0",
+    "skyblock_classic_edition.setup_version.warning.download": "\n\nPlease download the latest version of the custom map here.",
     "skyblock_classic_edition.generated_structures.loading.title": "Le Strutture:",
     "skyblock_classic_edition.generated_structures.loading.subtitle": "Sono state generate...",
     "skyblock_classic_edition.generated_structures.generated.command_block.info": "\u26a0Vedo che non c'è la cartella (generated) nel mondo. ",

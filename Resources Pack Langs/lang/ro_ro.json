@@ -39,6 +39,8 @@
     "skyblock_classic_edition.loading.subtitle.chat": "World",
     "skyblock_classic_edition.versions_id.warning_update.off": "Nu este nimic de văzut aici...",
     "skyblock_classic_edition.versions_id.warning_update.on": "Actualizare și conversie în lume pentru versiune nouă...",
+    "skyblock_classic_edition.setup_version.warning": "\u26a0Warning: this version is no longer supported!\u26a0",
+    "skyblock_classic_edition.setup_version.warning.download": "\n\nPlease download the latest version of the custom map here.",
     "skyblock_classic_edition.generated_structures.loading.title": "Structuri:",
     "skyblock_classic_edition.generated_structures.loading.subtitle": "Au fost generate...",
     "skyblock_classic_edition.generated_structures.generated.command_block.info": "\u26a0Văd că nu există (generated) dosar în lumea ta. ",

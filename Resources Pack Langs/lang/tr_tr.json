@@ -39,6 +39,8 @@
     "skyblock_classic_edition.loading.subtitle.chat": "World",
     "skyblock_classic_edition.versions_id.warning_update.off": "Burada görecek hiçbir şey yok...",
     "skyblock_classic_edition.versions_id.warning_update.on": "Yeni sürüm için dünya güncellemesi ve dönüşümü...",
+    "skyblock_classic_edition.setup_version.warning": "\u26a0Warning: this version is no longer supported!\u26a0",
+    "skyblock_classic_edition.setup_version.warning.download": "\n\nPlease download the latest version of the custom map here.",
     "skyblock_classic_edition.generated_structures.loading.title": "Yapılar",
     "skyblock_classic_edition.generated_structures.loading.subtitle": "Onlar Oluşturuldu...",
     "skyblock_classic_edition.generated_structures.generated.command_block.info": "\u26a0 Dünyanızda (oluşturulmuş) klasör olmadığını görüyorum.",

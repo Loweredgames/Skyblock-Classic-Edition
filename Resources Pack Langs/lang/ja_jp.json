@@ -39,6 +39,8 @@
     "skyblock_classic_edition.loading.subtitle.chat": "World",
     "skyblock_classic_edition.versions_id.warning_update.off": "ここには何も表示されません...",
     "skyblock_classic_edition.versions_id.warning_update.on": "新しいバージョンの世界の更新と変換...",
+    "skyblock_classic_edition.setup_version.warning": "\u26a0Warning: this version is no longer supported!\u26a0",
+    "skyblock_classic_edition.setup_version.warning.download": "\n\nPlease download the latest version of the custom map here.",
     "skyblock_classic_edition.generated_structures.loading.title": "構造物:",
     "skyblock_classic_edition.generated_structures.loading.subtitle": "生成されました...",
     "skyblock_classic_edition.generated_structures.generated.command_block.info": "\u26a0ワールドに（生成された）フォルダがないようです。",

@@ -39,6 +39,8 @@
     "skyblock_classic_edition.loading.subtitle.chat": "World",
     "skyblock_classic_edition.versions_id.warning_update.off": "Hier is niets te zien...",
     "skyblock_classic_edition.versions_id.warning_update.on": "Wereld bijwerken en converteren voor nieuwe versie...",
+    "skyblock_classic_edition.setup_version.warning": "\u26a0Warning: this version is no longer supported!\u26a0",
+    "skyblock_classic_edition.setup_version.warning.download": "\n\nPlease download the latest version of the custom map here.",
     "skyblock_classic_edition.generated_structures.loading.title": "Constructies:",
     "skyblock_classic_edition.generated_structures.loading.subtitle": "Ze werden gegenereerd...",
     "skyblock_classic_edition.generated_structures.generated.command_block.info": "Ik zie dat er geen (gegenereerde) map in je wereld is. ",
