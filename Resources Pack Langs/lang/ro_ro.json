@@ -45,7 +45,7 @@
     "skyblock_classic_edition.generated_structures.loading.subtitle": "Au fost generate...",
     "skyblock_classic_edition.generated_structures.generated.command_block.info": "\u26a0Văd că nu există (generated) dosar în lumea ta. ",
     "skyblock_classic_edition.generated_structures.generated.command_block.download": " Vă rugăm să descărcați harta din nou aici",
-    "skyblock_classic_edition.install.hardcore.lock": "I'm sorry but hardcore mode needs an already loaded and updated world. Please ",
+    "skyblock_classic_edition.install.hardcore.lock": "I'm sorry but hardcore mode needs an already loaded and updated world.",
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " and wait for the world to update and then replace the datapack.\n\nThank you",
     "skyblock_classic_edition.link.discord": "Serverul de Discord",
     "skyblock_classic_edition.link.crowdin": "Proiectul de Traduceri Crowdin"

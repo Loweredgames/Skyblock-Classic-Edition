@@ -20,7 +20,7 @@ execute as @a[scores={PID_1=30}] run tellraw @s {"translate":"skyblock_classic_e
 
 
 ##SKYBLOCK PID WARNING (SOLO VERSIONI NON PIU SUPPORTATE, ATTIVARE QUANDO LA VERSIONE NON è PIU SUPPORTATA)
-#execute as @a[scores={SkyblockCE_id=2000..}] run scoreboard objectives add PID_warning dummy 
+#execute as @a[scores={SkyblockCE_id=2000..}] run scoreboard objectives add PID_warning dummy
 scoreboard players add @a PID_warning 1
 execute as @a[scores={PID_warning=5}] run tellraw @a ["",{"translate":"skyblock_classic_edition.setup_version.warning","bold":true,"color":"red"},{"translate":"skyblock_classic_edition.setup_version.warning.download","bold":true,"italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/releases"}}]
 execute as @a[scores={PID_warning=900000..}] run scoreboard objectives remove PID_warning
