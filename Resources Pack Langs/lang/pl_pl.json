@@ -45,6 +45,8 @@
     "skyblock_classic_edition.generated_structures.loading.subtitle": "Zostały wygenerowane...",
     "skyblock_classic_edition.generated_structures.generated.command_block.info": "\u26a0Widzę, że w twoim świecie nie ma folderu (generated). ",
     "skyblock_classic_edition.generated_structures.generated.command_block.download": " Pobierz mapę ponownie tutaj",
+    "skyblock_classic_edition.install.hardcore.lock": "I'm sorry but hardcore mode needs an already loaded and updated world. Please ",
+    "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " and wait for the world to update and then replace the datapack.\n\nThank you",
     "skyblock_classic_edition.link.discord": "Serwer Discord",
     "skyblock_classic_edition.link.crowdin": "Projekt Tłumaczeń Crowdin"
 }

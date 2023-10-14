@@ -45,6 +45,8 @@
     "skyblock_classic_edition.generated_structures.loading.subtitle": "生成されました...",
     "skyblock_classic_edition.generated_structures.generated.command_block.info": "\u26a0ワールドに（生成された）フォルダがないようです。",
     "skyblock_classic_edition.generated_structures.generated.command_block.download": "地図を再度こちらに配置してください",
+    "skyblock_classic_edition.install.hardcore.lock": "I'm sorry but hardcore mode needs an already loaded and updated world. Please ",
+    "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " and wait for the world to update and then replace the datapack.\n\nThank you",
     "skyblock_classic_edition.link.discord": "ディスコードサーバー",
     "skyblock_classic_edition.link.crowdin": "クラウディン翻訳プロジェクト"
 }
