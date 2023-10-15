@@ -36,7 +36,7 @@ execute as @a[scores={PID_legacy=740}] run playsound minecraft:entity.player.lev
 execute as @a[scores={ID_5=1..}] run scoreboard objectives remove PID_0
 
 
-##PID_0 - 1.20.2 (LTS FINO A PID_2, NON RIMUOVERE IL COMMENTO IN SE, AGGIUNGERE QUESTO COMMENTO NEI NUOVI PID)
+##PID_0 - 1.20.3 (LTS FINO A PID_2, NON RIMUOVERE IL COMMENTO IN SE, AGGIUNGERE QUESTO COMMENTO NEI NUOVI PID)
 
 
 ##The Nether

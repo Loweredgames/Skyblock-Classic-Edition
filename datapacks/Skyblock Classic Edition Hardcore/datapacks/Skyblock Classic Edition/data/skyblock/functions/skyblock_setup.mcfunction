@@ -85,13 +85,13 @@ execute as @a[scores={SkyblockCE_install=1..}] run tp @a 0 0 0 0 90
 execute as @a[scores={SkyblockCE_install=1}] run gamerule doDaylightCycle false
 execute as @a[scores={SkyblockCE_install=1}] run gamerule doWeatherCycle false
 execute as @a[scores={SkyblockCE_install=1}] run effect give @a saturation 11 250 true
-execute as @a[scores={SkyblockCE_install=1}] run effect give @a blindness 11 0 true
+execute as @a[scores={SkyblockCE_install=1}] run effect give @a blindness 61 0 false
 execute as @a[scores={SkyblockCE_install=1}] run time set 0
 execute as @a[scores={SkyblockCE_install=1}] run weather clear 5001s
 execute as @a[scores={SkyblockCE_install=1}] run setworldspawn 0 63 0
 execute as @a[scores={SkyblockCE_install=1}] run xp set @a 0 points
 execute as @a[scores={SkyblockCE_install=1}] run xp set @a 0 levels
-execute as @a[scores={SkyblockCE_install=1}] run difficulty normal
+execute as @a[scores={SkyblockCE_install=1}] run difficulty hard
 
 
 ##Quit Game Lock
