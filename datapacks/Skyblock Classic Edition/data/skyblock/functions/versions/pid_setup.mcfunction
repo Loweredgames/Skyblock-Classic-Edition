@@ -10,6 +10,7 @@ function skyblock_pid:update_pid
 
 
 ##PID LEGACY REMOVE (RIMUOVE LA SCORE DOPO LA CONVERSIONE. AGGIORNARE SEMPRE LA SCORE)
+#NOTA: PID 1 rimarra cosi ma dovrebbe essere 1.20.3_PID_1. ricordarsi!
 execute as @a[scores={PID_1=1000..}] run scoreboard objectives remove PID_legacy
 
 
