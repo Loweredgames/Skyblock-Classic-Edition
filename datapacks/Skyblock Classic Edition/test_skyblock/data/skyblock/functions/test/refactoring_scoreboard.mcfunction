@@ -5,7 +5,7 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Refactoring Scoreboard (Aggiornato all'ultima versione: 1.0.0 - 5.0.0 Minecraft: 1.20.2)
+##Refactoring Scoreboard (Aggiornato all'ultima versione: 1.0.0 - 5.1.0 Minecraft: 1.20.3)
 execute as @a[scores={refactoring_scoreboard=..20}] run scoreboard objectives add SkyblockCE_install dummy
 execute as @a[scores={skyblock_small=1..}] run scoreboard objectives add SkyblockCE_small minecraft.custom:minecraft.play_time
 execute as @a[scores={skyblock_small=1..}] run scoreboard players add @a SkyblockCE_small 1000

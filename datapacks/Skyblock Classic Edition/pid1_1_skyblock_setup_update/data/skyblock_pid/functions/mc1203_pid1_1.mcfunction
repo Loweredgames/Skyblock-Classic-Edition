@@ -26,7 +26,7 @@ execute as @a[scores={1.20.3_PID_1_1=2000000..}] run scoreboard players set @a 1
 
 
 ##Overworld
-#execute in minecraft:overworld as @a[scores={1.20.3_PID_1_1=100..}] run
+execute in minecraft:overworld as @a[scores={1.20.3_PID_1_1=100}] run say Aspettare la 1.20.3 vedere se aggiungono il loot nei pot (in caso aggiungere qui)
 
 
 ##Final Function PID 1_1

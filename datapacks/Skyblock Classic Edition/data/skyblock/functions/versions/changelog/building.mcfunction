@@ -14,7 +14,7 @@ bossbar set building name {"text":"JE-1.20.3-23w42a-Skyblock_Classic_Edition:BUI
 
 #Map Progress
 
-bossbar set minecraft:building value 98
+bossbar set minecraft:building value 96
 
 #Warning Message
 

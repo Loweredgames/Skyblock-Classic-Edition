@@ -20,7 +20,7 @@ execute as @a[scores={PID_legacy=100..}] run scoreboard objectives remove ID_5
 execute as @a[scores={PID_legacy=805..}] run scoreboard objectives remove PID_0
 
 
-##PID Legacy Setup (Aggiornato all'ultima versione: 5.0.0 Minecraft: 1.20.1) Ricordati di aggiornare UPDATE ID e di aggiungere l'ultima conversione.
+##PID Legacy Setup (Aggiornato all'ultima versione: 5.1.0 Minecraft: 1.20.3) Ricordati di aggiornare UPDATE ID e di aggiungere l'ultima conversione.
 scoreboard objectives add PID_legacy dummy
 execute as @a[scores={PID_legacy=1..50}] run gamemode spectator @a
 execute as @a[scores={PID_legacy=10..600}] run effect give @a blindness 11 0 true

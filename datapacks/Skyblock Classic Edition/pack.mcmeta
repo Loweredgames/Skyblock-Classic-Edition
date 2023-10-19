@@ -15,11 +15,11 @@
 				"directory": "pid1_1_skyblock_setup_update"
 			},
             {
-				"formats": {"min_inclusive": 16, "max_inclusive": 20},
+				"formats": {"min_inclusive": 16, "max_inclusive": 21},
 				"directory": "legacy_pid_skyblock"
 			},
             {
-				"formats": {"min_inclusive": 16, "max_inclusive": 20},
+				"formats": {"min_inclusive": 16, "max_inclusive": 21},
 				"directory": "test_skyblock"
 			}
 		]
