@@ -33,7 +33,7 @@ execute as @a[scores={1.20.3_PVN_0a=5}] run tellraw @s ["",{"translate":"skybloc
 
 
 ##RIMUOVERE SEMPRE LE VERSIONI DI SVILUPPO PRECEDENTI DEBUG (DISABILITARE QUANDO E STABILE O MANCA LA LETTERA)
-scoreboard objectives remove 1.20.3_PVN_0ZA
+scoreboard objectives remove 1.20.3_PVN_0a-
 
 
 ##PVN VERSION PROTOCOL LOOP

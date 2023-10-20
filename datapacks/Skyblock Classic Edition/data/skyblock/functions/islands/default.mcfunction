@@ -22,7 +22,7 @@ execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run gamerule
 execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run gamerule doImmediateRespawn true
 execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run title @a title {"translate":"skyblock_classic_edition.loading.title.chat"}
 execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run title @a subtitle {"translate":"skyblock_classic_edition.loading.subtitle.chat"}
-execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run title @a times 20 200 20
+execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run title @a times 30 200 20
 execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run gamerule announceAdvancements false
 
 
