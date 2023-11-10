@@ -24,7 +24,7 @@ execute as @a[scores={PID_1=1005}] run playsound minecraft:entity.player.levelup
 execute as @a[scores={PID_1=5..1000}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
-##Skyblock PID Reset LOOP
+##Skyblock PID 1 Reset LOOP
 execute as @a[scores={PID_1=2000000..}] run scoreboard players set @a PID_1 10000
 
 

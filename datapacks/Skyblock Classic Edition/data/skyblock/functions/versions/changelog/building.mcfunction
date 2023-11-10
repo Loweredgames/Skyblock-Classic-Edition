@@ -10,7 +10,7 @@ bossbar set minecraft:building max 100
 
 #Version Number
 
-bossbar set building name {"text":"JE-1.20.2-Skyblock_Classic_Edition:5.0.1_LTS","color":"white","bold":true}
+bossbar set building name {"text":"JE-1.20.2-Skyblock_Classic_Edition:5.0.2_LTS","color":"white","bold":true}
 
 #Map Progress
 
@@ -18,7 +18,7 @@ bossbar set minecraft:building value 100
 
 #Warning Message
 
-#title @a actionbar {"translate":"skyblock_classic_edition.building.warning","bold":true,"color":"dark_red"}
+#title @a actionbar {"translate":"\u26a0Work in Progress\u26a0","bold":true,"color":"dark_red"}
 
 #Bossbar Visible
 

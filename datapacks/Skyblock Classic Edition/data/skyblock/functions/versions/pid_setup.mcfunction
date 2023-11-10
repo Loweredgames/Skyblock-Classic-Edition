@@ -14,4 +14,5 @@ execute as @a[scores={PID_1=1000..}] run scoreboard objectives remove PID_legacy
 
 
 ##SETUP VERSION SkyblockCE_ID (CAMBIARE LA SCORE IN "SkyblockCE_id". VEDERE LA SCORE PID_X PER RIFERIMENTO)
+#NOTA: PID 1 rimarra cosi ma dovrebbe essere 1.20.3_PID_1. ricordarsi!
 execute as @a[scores={SkyblockCE_id=30}] run scoreboard players set @a PID_1 -1000
