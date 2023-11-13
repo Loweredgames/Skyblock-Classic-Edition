@@ -13,7 +13,8 @@
         }
       ],
       "structure_overrides": [
-        "minecraft:nether_complexes"
+        "minecraft:nether_complexes",
+        "minecraft:nether_fossils"
       ]
     }
   }
