@@ -18,4 +18,4 @@ esempio: 01.03.1001 - Polacco,Portoghese,Ucraino,italiano
 05.06.2023a - Giapponese, Koreano, Esperando, Cinese Semplificato, Cinese Tradizionale
 04.07.2023a - Turco, Spagniolo Messicano
 27.07.2023a - Bulgaro, Thailandese, Vietnamese
-backport - Aggiornate tutte le traduzioni e correzioni
+14.11.2023a - Aggiornate tutte le traduzioni e correzioni

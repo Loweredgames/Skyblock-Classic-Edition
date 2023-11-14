@@ -1,5 +1,5 @@
 {
-    "version": "Translation Version: 2.1",
+    "version": "Translation Version: 2.2",
     "credits": "Translation Credits: Lorenzo Giannini (Loweredgames)",
     "language.name": "Italiano",
     "language.region": "Italia",
@@ -33,7 +33,7 @@
     "skyblock_classic_edition.version_update.crowdin.info": "Aiutami a tradurre nella tua lingua madre. Le lingue devono essere fedeli alla lingua inglese, rispetta sempre la punteggiatura e la capitalizzazione.",
     "skyblock_classic_edition.version_update.discord": "Seguitemi anche sul server Discord se volete dare dei suggerimenti o avete trovato un/dei problema/i.",
     "skyblock_classic_edition.version_update.development_version.warning": "\u26a0ATTENZIONE: Stai usando una versione di sviluppo, il mondo può danneggiarsi e corrompersi, fai sempre dei backups e ",
-    "skyblock_classic_edition.version_update.development_version.report": "segnala i problemi qui",
+    "skyblock_classic_edition.version_update.development_version.report": "segnala i/il problemi/a qui",
     "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCaricamento....",
     "skyblock_classic_edition.loading.title.chat": "Caricamento...",
     "skyblock_classic_edition.loading.subtitle.chat": "Del Mondo",
