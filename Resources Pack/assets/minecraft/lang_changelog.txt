@@ -19,3 +19,4 @@ esempio: 01.03.1001 - Polacco,Portoghese,Ucraino,italiano
 04.07.2023a - Turco, Spagniolo Messicano
 27.07.2023a - Bulgaro, Thailandese, Vietnamese
 05.10.2023a - Aggiornate tutte le traduzioni e correzioni
+14.11.2023a - Aggiornate tutte le traduzioni e correzioni
