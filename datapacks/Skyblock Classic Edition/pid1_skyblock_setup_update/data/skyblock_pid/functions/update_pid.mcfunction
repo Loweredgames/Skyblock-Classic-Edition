@@ -23,13 +23,12 @@ execute as @a[scores={PID_1=1015..}] run scoreboard objectives add 1.20.3_PID_1_
 
 
 ##PID 1.20.3_1_2 - 1.20.3 Aggiunto loot nei vasi decorativi (LASCIARE COSI. PER LA FUNZIONE PID 1_2, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL PID DIVENTA INCOMPATIBILE)
-#Aspettare e vedere la 1.20.3. aggiungere loot in caso
 scoreboard players add @a 1.20.3_PID_1_2 1
 function skyblock_pid:mc1203_pid1_2
 
 
 ##PID END 1.20.3_1_2 (QUANDO FINISCE IL PID MADRE AGGIUNGERE IL PID MINORE. QUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEI PID MINORI)
-#execute as @a[scores={1.20.3_PID_1_1=400..}] run scoreboard objectives add 1.20.3_PID_1_2 dummy
+execute as @a[scores={1.20.3_PID_1_1=400..}] run scoreboard objectives add 1.20.3_PID_1_2 dummy
 
 
 ##Scoreboard Start PID 1
@@ -122,7 +121,7 @@ execute in minecraft:overworld as @a[scores={PID_1=787}] run fill 73 58 -487 69 
 execute in minecraft:overworld as @a[scores={PID_1=788}] run summon camel 71 60 -489 {CustomNameVisible:1b,PersistenceRequired:1b,CustomName:'{"text":"Camel"}'}
 execute in minecraft:overworld as @a[scores={PID_1=788}] run summon camel 71 60 -489 {CustomNameVisible:1b,PersistenceRequired:1b,CustomName:'{"text":"Camel"}'}
 execute in minecraft:overworld as @a[scores={PID_1=800}] run tp @a 486 55 384 0 0
-execute in minecraft:overworld as @a[scores={PID_1=805}] run setblock 486 55 384 minecraft:fletching_table keep
+execute in minecraft:overworld as @a[scores={PID_1=805}] run setblock 486 55 384 minecraft:fletching_table replace
 
 
 ##The Nether
