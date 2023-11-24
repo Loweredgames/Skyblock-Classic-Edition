@@ -28,7 +28,7 @@ function skyblock_pid:mc1203_pid1_2
 
 
 ##PID END 1.20.3_1_2 (QUANDO FINISCE IL PID MADRE AGGIUNGERE IL PID MINORE. QUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEI PID MINORI)
-execute as @a[scores={1.20.3_PID_1_1=400..}] run scoreboard objectives add 1.20.3_PID_1_2 dummy
+execute as @a[scores={1.20.3_PID_1_1=315..}] run scoreboard objectives add 1.20.3_PID_1_2 dummy
 
 
 ##Scoreboard Start PID 1
