@@ -9,7 +9,7 @@ Data_pack: TRUE
 
 Resource_pack: TRUE
 
-Custom Structures World Update: 2.0.0
+Custom Structures World Update: 2.0.1
 
 Protocol Version: 1.20.3_PVN_0b
 
