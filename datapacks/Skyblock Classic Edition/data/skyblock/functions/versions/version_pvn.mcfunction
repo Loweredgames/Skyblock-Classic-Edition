@@ -32,9 +32,5 @@ execute as @a[scores={1.20.3_PVN_0c=1}] run tellraw @s ["",{"translate":"skybloc
 execute as @a[scores={1.20.3_PVN_0c=5}] run tellraw @s ["",{"translate":"skyblock_classic_edition.version_update.development_version.warning","color":"red"},{"translate":"skyblock_classic_edition.version_update.development_version.report","underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/issues"}},{"text":".\u26a0","color":"red"}]
 
 
-##RIMUOVERE SEMPRE LE VERSIONI DI SVILUPPO PRECEDENTI DEBUG (DISABILITARE QUANDO E STABILE O MANCA LA LETTERA)
-scoreboard objectives remove 1.20.3_PVN_0b
-
-
 ##PVN VERSION PROTOCOL LOOP
 execute as @a[scores={1.20.3_PVN_0c=900000000..}] run scoreboard players set @a 1.20.3_PVN_0c 0
