@@ -84,6 +84,7 @@ Prova la modalità Hardcore con 99 bug!
 End con 100000000000000000000000000000000000% di bug
 Espandi! Espandi!! Espandi!!!
 Se ti trovi in difficoltà guarda la Wiki di Minecraft...
+https://minecraft.wiki...
 Guarda il ricettario...
 Guarda gli avanzamenti vanilla...
 Nether incluso!
@@ -145,6 +146,7 @@ Creato da Mojang Studios!
 !enobrenniD
 Hero##in#!!#
 Funzionale
+Ticks
 Low!
 Power!
 Red!
@@ -154,7 +156,7 @@ Solo "text!!"
 Solo "translate!!"
 99% Vanilla
 Vanilla Bug: ON
-0% Bug non Vanilla
+1% Bug non Vanilla
 Vuoi unirti al mio server?
 Server incluso!
 MINECON!
@@ -186,20 +188,22 @@ L'uomo ragno
 Silva's Harmony
 Aki...!
 Aspettando Hytale...
-2024??? o 2025???
-Hytale! 
+Dopo GTA 6 :/
+Hytale!
 Hycon!
 Il nuovo Minecraft?
 Hytale Italia!!
 Brennenburg
 More Pigs!! More!!
 SFM
-Source
+Source/2
 Gmod
 fnaf
+Fnaf: finalmente Disponibile in Streaming!!!
 Foxy o Bonnie?
 Endoskeletons
 Bad Cupcake
+La colazione è il pasto più importante della giornata ma ehi, that’s just a theory...
 Bite of '87
 RWQFSFASXC
 Freddy Fazbear Pizza
@@ -218,11 +222,14 @@ Bianco e Nero
 Let's go Pikachu!!!
 Arceus
 Collezionali tutti!!!
+Blender (solo animazioni)
+Godot (forse?)
+Bevy Engine? (da provare!!)
 Steam
 La torta è una bugia!
 SPACEEEEEEEEEEEEEEEE!!
 Trovaci, se osi!!!
-Mc 2077
+MC 2077
 I am Malegnia!
 Planet of the Apes!!! (niente api incluse)
 Evoluzione, Rivoluzione!!!
@@ -242,8 +249,9 @@ E.T l'extra-terrestre
 Maurizio Costanzo Show
 Dal momento che ho capito le debolezze della mia carne...
 Questo testo è lunghisssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssimo
-Broooooooooo
+Broooooooooooo
 Ehi Fra!!!
+godo!!
 Morto...!
 Le mucche fanno... ?
 Birrrrch quanto le odio!!!
