@@ -8,7 +8,6 @@
 ##Skyblock PID (LASCIARE SEMPRE LA SCOREBOARD)
 scoreboard objectives add PID_OLD dummy
 scoreboard players add @a PID_OLD 1
-scoreboard players add @a PID_warning 1
 
 
 ##Skyblock PID E INSTALL
@@ -31,5 +30,6 @@ execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:ver
 
 ##PID WARNING
 execute as @a[scores={SkyblockCE_id=2000..}] run scoreboard objectives add PID_warning dummy
+scoreboard players add @a PID_warning 1
 execute as @a[scores={PID_warning=5}] run tellraw @a ["",{"text":"\u26a0Warning: this version is no longer supported!\u26a0","bold":true,"color":"red"},{"text":"\n\nPlease download the latest version of the custom map here.","bold":true,"italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/releases"}}]
-execute as @a[scores={PID_warning=900000..}] run scoreboard players set @a PID_warning 1
+execute as @a[scores={PID_warning=900000..}] run scoreboard objectives remove PID_warning
