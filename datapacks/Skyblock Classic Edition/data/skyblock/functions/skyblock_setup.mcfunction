@@ -66,8 +66,6 @@ gamerule maxEntityCramming 24
 gamerule randomTickSpeed 3
 gamerule snowAccumulationHeight 3
 gamerule showDeathMessages true
-gamerule keepInventory false
-gamerule mobGriefing true
 gamerule doMobLoot true
 gamerule naturalRegeneration true
 gamerule doVinesSpread true
