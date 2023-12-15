@@ -121,7 +121,7 @@ execute in minecraft:overworld as @a[scores={PID_1=787}] run fill 73 58 -487 69 
 execute in minecraft:overworld as @a[scores={PID_1=788}] run summon camel 71 60 -489 {CustomNameVisible:1b,PersistenceRequired:1b,CustomName:'{"text":"Camel"}'}
 execute in minecraft:overworld as @a[scores={PID_1=788}] run summon camel 71 60 -489 {CustomNameVisible:1b,PersistenceRequired:1b,CustomName:'{"text":"Camel"}'}
 execute in minecraft:overworld as @a[scores={PID_1=800}] run tp @a 486 55 384 0 0
-execute in minecraft:overworld as @a[scores={PID_1=805}] run setblock 486 55 384 minecraft:fletching_table replace
+execute in minecraft:overworld as @a[scores={PID_1=805}] run setblock 486 55 384 minecraft:fletching_table keep
 
 
 ##The Nether
