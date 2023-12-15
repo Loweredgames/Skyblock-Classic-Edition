@@ -27,13 +27,20 @@ execute as @a[scores={1.20.3_PID_1_2=2000000..}] run scoreboard players set @a 1
 
 ##Overworld
 execute in minecraft:overworld as @a[scores={1.20.3_PID_1_2=100}] run tp @a -252 60 -476 0 0
-execute in minecraft:overworld as @a[scores={1.20.3_PID_1_2=210}] run setblock -252 52 -476 minecraft:decorated_pot[cracked=false,facing=south,waterlogged=false]{item:{Count:7b,id:"minecraft:iron_nugget"}} replace
-execute in minecraft:overworld as @a[scores={1.20.3_PID_1_2=220}] run setblock -262 57 -480 minecraft:decorated_pot[cracked=false,facing=north,waterlogged=false]{item:{Count:32b,id:"minecraft:clay_ball"}} replace
-execute in minecraft:overworld as @a[scores={1.20.3_PID_1_2=230}] run setblock -261 53 -478 minecraft:decorated_pot[cracked=false,facing=south,waterlogged=false]{item:{Count:8b,id:"minecraft:string"}} replace
-execute in minecraft:overworld as @a[scores={1.20.3_PID_1_2=240}] run setblock -265 47 -471 minecraft:decorated_pot[cracked=false,facing=south,waterlogged=false]{item:{Count:12b,id:"minecraft:wheat"}} replace
-execute in minecraft:overworld as @a[scores={1.20.3_PID_1_2=250}] run setblock -249 53 -482 minecraft:decorated_pot[cracked=false,facing=west,waterlogged=false]{item:{Count:24b,id:"minecraft:brick"}} replace
-execute in minecraft:overworld as @a[scores={1.20.3_PID_1_2=260}] run setblock -262 57 -471 minecraft:decorated_pot[cracked=false,facing=west,waterlogged=false]{item:{Count:1b,id:"minecraft:orange_dye"}} replace
-execute in minecraft:overworld as @a[scores={1.20.3_PID_1_2=270}] run setblock -245 53 -474 minecraft:decorated_pot[cracked=false,facing=north,waterlogged=false]{item:{Count:6b,id:"minecraft:blue_dye"}} replace
+execute in minecraft:overworld as @a[scores={1.20.3_PID_1_2=210}] run setblock -252 52 -476 minecraft:air replace
+execute in minecraft:overworld as @a[scores={1.20.3_PID_1_2=215}] run setblock -252 52 -476 minecraft:decorated_pot[cracked=false,facing=south,waterlogged=false]{item:{Count:7b,id:"minecraft:iron_nugget"}} replace
+execute in minecraft:overworld as @a[scores={1.20.3_PID_1_2=220}] run setblock -262 57 -480 minecraft:air replace
+execute in minecraft:overworld as @a[scores={1.20.3_PID_1_2=225}] run setblock -262 57 -480 minecraft:decorated_pot[cracked=false,facing=north,waterlogged=false]{item:{Count:32b,id:"minecraft:clay_ball"}} replace
+execute in minecraft:overworld as @a[scores={1.20.3_PID_1_2=230}] run setblock -261 53 -478 minecraft:air replace
+execute in minecraft:overworld as @a[scores={1.20.3_PID_1_2=235}] run setblock -261 53 -478 minecraft:decorated_pot[cracked=false,facing=south,waterlogged=false]{item:{Count:8b,id:"minecraft:string"}} replace
+execute in minecraft:overworld as @a[scores={1.20.3_PID_1_2=240}] run setblock -265 47 -471 minecraft:air replace
+execute in minecraft:overworld as @a[scores={1.20.3_PID_1_2=245}] run setblock -265 47 -471 minecraft:decorated_pot[cracked=false,facing=south,waterlogged=false]{item:{Count:12b,id:"minecraft:wheat"}} replace
+execute in minecraft:overworld as @a[scores={1.20.3_PID_1_2=250}] run setblock -249 53 -482 minecraft:air replace
+execute in minecraft:overworld as @a[scores={1.20.3_PID_1_2=255}] run setblock -249 53 -482 minecraft:decorated_pot[cracked=false,facing=west,waterlogged=false]{item:{Count:24b,id:"minecraft:brick"}} replace
+execute in minecraft:overworld as @a[scores={1.20.3_PID_1_2=260}] run setblock -262 57 -471 minecraft:air replace
+execute in minecraft:overworld as @a[scores={1.20.3_PID_1_2=265}] run setblock -262 57 -471 minecraft:decorated_pot[cracked=false,facing=west,waterlogged=false]{item:{Count:1b,id:"minecraft:orange_dye"}} replace
+execute in minecraft:overworld as @a[scores={1.20.3_PID_1_2=270}] run setblock -245 53 -474 minecraft:air replace
+execute in minecraft:overworld as @a[scores={1.20.3_PID_1_2=275}] run setblock -245 53 -474 minecraft:decorated_pot[cracked=false,facing=north,waterlogged=false]{item:{Count:6b,id:"minecraft:blue_dye"}} replace
 
 
 ##Final Function PID 1_2
