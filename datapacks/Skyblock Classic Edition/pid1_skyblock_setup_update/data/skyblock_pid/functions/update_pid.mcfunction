@@ -13,7 +13,7 @@ scoreboard objectives add PID_1 dummy
 scoreboard players add @a PID_1 1
 
 
-##PID 1.20.3_1_1 - 1.20.3 Fix Elitrà (LASCIARE COSI. PER LA FUNZIONE PID 1_1, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL PID DIVENTA INCOMPATIBILE)
+##PID 1.20.3_1_1 - 1.20.3/1.20.4 Fix Elitrà (LASCIARE COSI. PER LA FUNZIONE PID 1_1, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL PID DIVENTA INCOMPATIBILE)
 scoreboard players add @a 1.20.3_PID_1_1 1
 function skyblock_pid:mc1203_pid1_1
 
@@ -22,7 +22,7 @@ function skyblock_pid:mc1203_pid1_1
 execute as @a[scores={PID_1=1015..}] run scoreboard objectives add 1.20.3_PID_1_1 dummy
 
 
-##PID 1.20.3_1_2 - 1.20.3 Aggiunto loot nei vasi decorativi (LASCIARE COSI. PER LA FUNZIONE PID 1_2, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL PID DIVENTA INCOMPATIBILE)
+##PID 1.20.3_1_2 - 1.20.3/1.20.4 Aggiunto loot nei vasi decorativi (LASCIARE COSI. PER LA FUNZIONE PID 1_2, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL PID DIVENTA INCOMPATIBILE)
 scoreboard players add @a 1.20.3_PID_1_2 1
 function skyblock_pid:mc1203_pid1_2
 
@@ -46,7 +46,7 @@ execute as @a[scores={PID_1=5..1000}] run summon minecraft:area_effect_cloud ~ ~
 execute as @a[scores={PID_1=2000000..}] run scoreboard players set @a PID_1 10000
 
 
-###PID 1.20.3_1 - 1.20.3 (SPOSTARE "PID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE IL COMMENTO IN SE)
+###PID 1.20.3_1 - 1.20.3/1.20.4 (SPOSTARE "PID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE IL COMMENTO IN SE)
 
 
 ##Overworld

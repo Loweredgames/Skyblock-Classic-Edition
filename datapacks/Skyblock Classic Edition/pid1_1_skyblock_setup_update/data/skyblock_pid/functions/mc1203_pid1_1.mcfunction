@@ -22,7 +22,7 @@ execute as @a[scores={1.20.3_PID_1_1=5..300}] run summon minecraft:area_effect_c
 execute as @a[scores={1.20.3_PID_1_1=2000000..}] run scoreboard players set @a 1.20.3_PID_1_1 10000
 
 
-###PID 1_1 - 1.20.3 (SPOSTARE "PID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE IL COMMENTO IN SE)
+###PID 1_1 - 1.20.4 (SPOSTARE "PID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE IL COMMENTO IN SE)
 
 
 ##Overworld
