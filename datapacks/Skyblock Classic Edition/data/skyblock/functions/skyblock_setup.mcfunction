@@ -47,6 +47,7 @@ execute as @a[scores={SkyblockCE_small=2000000..}] run scoreboard players set @a
 
 
 ##Gamerules Setup
+gamerule mobGriefing true
 gamerule reducedDebugInfo false
 gamerule enderPearlsVanishOnDeath true
 gamerule waterSourceConversion true
