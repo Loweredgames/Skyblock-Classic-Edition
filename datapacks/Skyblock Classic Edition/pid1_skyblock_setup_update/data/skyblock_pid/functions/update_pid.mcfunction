@@ -13,6 +13,24 @@ scoreboard objectives add PID_1 dummy
 scoreboard players add @a PID_1 1
 
 
+##PID 1.20.3_1_1 - 1.20.3/1.20.4 Fix Elitrà (LASCIARE COSI. PER LA FUNZIONE PID 1_1, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL PID DIVENTA INCOMPATIBILE)
+scoreboard players add @a 1.20.3_PID_1_1 1
+function skyblock_pid:mc1203_pid1_1
+
+
+##PID END 1.20.3_1_1 (QUANDO FINISCE IL PID MADRE AGGIUNGERE IL PID MINORE. QUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEI PID MINORI)
+execute as @a[scores={PID_1=1015..}] run scoreboard objectives add 1.20.3_PID_1_1 dummy
+
+
+##PID 1.20.3_1_2 - 1.20.3/1.20.4 Aggiunto loot nei vasi decorativi (LASCIARE COSI. PER LA FUNZIONE PID 1_2, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL PID DIVENTA INCOMPATIBILE)
+scoreboard players add @a 1.20.3_PID_1_2 1
+function skyblock_pid:mc1203_pid1_2
+
+
+##PID END 1.20.3_1_2 (QUANDO FINISCE IL PID MADRE AGGIUNGERE IL PID MINORE. QUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEI PID MINORI)
+execute as @a[scores={1.20.3_PID_1_1=315..}] run scoreboard objectives add 1.20.3_PID_1_2 dummy
+
+
 ##Scoreboard Start PID 1
 execute as @a[scores={PID_1=5..100}] run gamemode spectator @a
 execute as @a[scores={PID_1=5}] run time set 0
@@ -24,22 +42,20 @@ execute as @a[scores={PID_1=1005}] run playsound minecraft:entity.player.levelup
 execute as @a[scores={PID_1=5..1000}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
-##Skyblock PID Reset LOOP
+##Skyblock PID 1 Reset LOOP
 execute as @a[scores={PID_1=2000000..}] run scoreboard players set @a PID_1 10000
 
 
-###PID 1 - 1.20.2 (SPOSTARE "PID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE I COMMENTI IN SE)
+###PID 1.20.3_1 - 1.20.3/1.20.4 (SPOSTARE "PID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE IL COMMENTO IN SE)
 
 
 ##Overworld
 execute in minecraft:overworld as @a[scores={PID_1=100}] run tp @a 280 45 0 0 0
 execute in minecraft:overworld as @a[scores={PID_1=150}] run setblock 295 50 2 minecraft:barrel[facing=south,open=false]{Items:[{Count:1b,Slot:13b,id:"minecraft:coast_armor_trim_smithing_template"},{Count:1b,Slot:26b,id:"minecraft:filled_map",tag:{display:{Lore:['{"text":"Here you will find treasures of all kinds but be careful not to fall...","italic":true}'],MapColor:6911,Name:'{"text":"The Flyship","bold":true}'}}}]} destroy
-execute in minecraft:overworld as @a[scores={PID_1=200}] run tp @a 722 50 709 0 0
-execute in minecraft:overworld as @a[scores={PID_1=250}] run setblock 722 49 708 minecraft:chest[facing=south,type=single,waterlogged=false]{Items:[{Count:1b,Slot:3b,id:"minecraft:chorus_fruit"},{Count:1b,Slot:4b,id:"minecraft:chorus_fruit"},{Count:1b,Slot:5b,id:"minecraft:chorus_fruit"},{Count:1b,Slot:10b,id:"minecraft:shulker_shell"},{Count:1b,Slot:11b,id:"minecraft:chorus_fruit"},{Count:1b,Slot:12b,id:"minecraft:eye_armor_trim_smithing_template"},{Count:1b,Slot:13b,id:"minecraft:chorus_fruit"},{Count:1b,Slot:14b,id:"minecraft:spire_armor_trim_smithing_template"},{Count:1b,Slot:15b,id:"minecraft:chorus_fruit"},{Count:1b,Slot:16b,id:"minecraft:shulker_shell"},{Count:1b,Slot:21b,id:"minecraft:chorus_fruit"},{Count:1b,Slot:22b,id:"minecraft:chorus_fruit"},{Count:1b,Slot:23b,id:"minecraft:chorus_fruit"},{Count:1b,Slot:26b,id:"minecraft:written_book",tag:{author:"for you",generation:3,pages:['{"italic":true,"text":"10411611611211558474797114991041051181014611111410347100101116971051081154710811111511645109101109111114105101115955048494949494956"}'],resolved:1b,title:"Lost Memories"}}]} destroy
-execute in minecraft:overworld as @a[scores={PID_1=251}] run setblock 722 49 709 minecraft:oak_wall_sign[facing=south,waterlogged=false]{back_text:{color:"black",has_glowing_text:0b,messages:['{"text":""}','{"text":""}','{"text":""}','{"text":""}']},front_text:{color:"black",has_glowing_text:1b,messages:['{"text":"I\'m sorry but"}','{"text":"The End City"}','{"text":"is broken :("}','{"text":""}']},is_waxed:0b} destroy
-execute in minecraft:overworld as @a[scores={PID_1=252}] run setblock 722 49 705 oak_sign[rotation=0,waterlogged=false]{front_text:{color:"black",has_glowing_text:1b,messages:['{"text":"The portal is"}','{"text":"broken sorry,"}','{"text":"in this version..."}','{"text":";("}']}} destroy
+execute in minecraft:overworld as @a[scores={PID_1=100}] run tp @a 722 50 709 0 0
 execute in minecraft:overworld as @a[scores={PID_1=255..}] run fill 723 48 704 721 48 706 minecraft:infested_cobblestone replace
 execute in minecraft:overworld as @a[scores={PID_1=255..}] run setblock 722 48 703 minecraft:end_portal_frame[eye=false,facing=south] replace
+execute in minecraft:overworld as @a[scores={PID_1=252}] run setblock 722 49 705 oak_sign[rotation=0,waterlogged=false]{front_text:{color:"black",has_glowing_text:1b,messages:['{"text":"The portal is"}','{"text":"broken sorry,"}','{"text":"in this version..."}','{"text":";("}']}} destroy
 execute in minecraft:overworld as @a[scores={PID_1=300}] run tp @a 508 46 71 0 0
 execute in minecraft:overworld as @a[scores={PID_1=350}] run setblock 507 46 71 minecraft:barrel[facing=east,open=false]{Items:[{Count:1b,Slot:8b,id:"minecraft:filled_map",tag:{display:{Lore:['{"text":"You fi al y cce ded an he e ot  r it s th t c n hel   u...","italic":true}'],MapColor:0,Name:'{"text":"J urn Sky lok #02","bold":true}'}}},{Count:1b,Slot:13b,id:"minecraft:sentry_armor_trim_smithing_template"}]} destroy
 execute in minecraft:overworld as @a[scores={PID_1=400}] run tp @a -694 46 -694 0 0

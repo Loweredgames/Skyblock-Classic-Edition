@@ -9,7 +9,7 @@
 
 
 execute as @a[scores={SkyblockCE_islands=2}] run scoreboard objectives add SkyblockCE_default minecraft.custom:minecraft.play_time
-execute as @a[scores={SkyblockCE_islands=2}] run tellraw @a {"translate":"skyblock_classic_edition.default.loading.chat"}
+execute as @a[scores={SkyblockCE_islands=2}] run tellraw @a {"translate":"skyblock_classic_edition.loading.chat"}
 execute as @a[scores={SkyblockCE_default=1..}] run scoreboard players set @a SkyblockCE_install -2
 execute as @a[scores={SkyblockCE_default=1..}] run scoreboard players set @a SkyblockCE_islands -2
 execute as @a[scores={SkyblockCE_default=1..2400}] run summon minecraft:area_effect_cloud ~ ~1 ~
@@ -20,9 +20,9 @@ execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run kill @e[
 execute in minecraft:overworld as @a[scores={SkyblockCE_default=1..5}] run difficulty normal
 execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run gamerule commandBlockOutput false
 execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run gamerule doImmediateRespawn true
-execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run title @a title {"translate":"skyblock_classic_edition.default.loading.title"}
-execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run title @a subtitle {"translate":"skyblock_classic_edition.default.loading.subtitle"}
-execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run title @a times 20 200 20
+execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run title @a title {"translate":"skyblock_classic_edition.loading.title.chat"}
+execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run title @a subtitle {"translate":"skyblock_classic_edition.loading.subtitle.chat"}
+execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run title @a times 30 200 20
 execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run gamerule announceAdvancements false
 
 
@@ -34,7 +34,7 @@ execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run scoreboa
 execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run fill -7 80 -12 7 55 5 minecraft:air
 execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run fill 75 80 11 61 55 -9 minecraft:air
 execute in minecraft:overworld as @a[scores={SkyblockCE_default=20}] run place template skyblock:classic -4 61 -6
-execute in minecraft:overworld as @a[scores={SkyblockCE_default=33}] run setblock 1 66 -3 birch_wall_sign[facing=south,waterlogged=false]{back_text:{messages:['{"text":"This"}','{"text":"is"}','{"text":"a"}','{"text":"secret!!!"}']},front_text:{color:"white",has_glowing_text:1b,messages:['{"text":"Skyblock"}','{"text":"Classic Edition"}','{"text":"---------------"}','{"text":"1.20.2"}']}} replace
+execute in minecraft:overworld as @a[scores={SkyblockCE_default=33}] run setblock 1 66 -3 birch_wall_sign[facing=south,waterlogged=false]{back_text:{messages:['{"text":"This"}','{"text":"is"}','{"text":"a"}','{"text":"secret!!!"}']},front_text:{color:"white",has_glowing_text:1b,messages:['{"text":"Skyblock"}','{"text":"Classic Edition"}','{"text":"---------------"}','{"text":"1.20.4"}']}} replace
 execute in minecraft:overworld as @a[scores={SkyblockCE_default=35}] run setblock 1 66 -2 minecraft:air
 
 
