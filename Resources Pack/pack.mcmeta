@@ -1,6 +1,6 @@
 {
 	"pack": {
-		"pack_format": 20,
+		"pack_format": 22,
 		"supported_formats": {"min_inclusive": 20, "max_inclusive": 22},
 		"description": "Skyblock Classic Edition By Lorenzo Giannini"
 	}

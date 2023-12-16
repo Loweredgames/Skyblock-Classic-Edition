@@ -34,13 +34,13 @@
 ¿?Guarda le stelle e troverai la luce...
 Ciao mondo!!
 Ciao italia!!
-Solo splash Italiani!!
+Solo splash Italiani e cit!!!
 Skyblock Classic Edition
-Cursed:https://www.curseforge.com/minecraft/worlds/skyblock-classic-edition/files
-Planet:https://www.planetminecraft.com/project/skyblock-classic-edition/
-Maps:https://minecraft-map-building-versions.blogspot.com/
-Traduzioni:https://crowdin.com/project/skyblock-classic-edition
-https://discord.gg/T6PHxhznJ6
+CurseForge:https://www.curseforge.com/minecraft/worlds/skyblock-classic-edition/files
+PlanetMinecraft:https://www.planetminecraft.com/project/skyblock-classic-edition/
+Changelog:https://minecraft-map-building-versions.blogspot.com/
+Crowdin:https://crowdin.com/project/skyblock-classic-edition
+Discord:https://discord.gg/T6PHxhznJ6
 Fatto da Lorenzo Giannini (Loweredgames)
 Map Maker
 SOLO JAVA!!!
@@ -48,7 +48,7 @@ Building di sviluppo
 Git_hub
 Anche Gitlab ogni tanto!
 Crowdin
-\\ \ devo farlo sempre :/
+\\ \ devo farlo sempre nelle traduzioni :/
 Anche versioni stabili!
 PVN
 PID
@@ -125,15 +125,17 @@ Infinite lingue supportate!
 Le Persone Scure Sono il Benvenute
 Le Vite Scure Contano!
 Contiene infiniti generi!
-LGBT
+LGBT plus infinity...
 Salvate la terra, salvate il mondo!
 Sei valido!
 Unico nel suo genere!
 Provare per credere!
-Sopravvivere!
 Creare!
 Giocare!
 Scoprire!
+Costruire!
+Fabbricare!
+Sopravvivere!
 Gordon Freeman
 Toby Fox
 W. D. Gaster
@@ -225,6 +227,9 @@ Collezionali tutti!!!
 Blender (solo animazioni)
 Godot (forse?)
 Bevy Engine? (da provare!!)
+DOOM
+DOOM GUY
+EPICO GIOCO!!!
 Steam
 La torta è una bugia!
 SPACEEEEEEEEEEEEEEEE!!
@@ -233,6 +238,7 @@ MC 2077
 I am Malegnia!
 Planet of the Apes!!! (niente api incluse)
 Evoluzione, Rivoluzione!!!
+Il regnio delle scimmie...
 Bestie!!!
 Non fidarti dei carnivori...
 Shishi-Gumi
@@ -247,13 +253,14 @@ Barbieland!!!
 Che succede, Doc?
 E.T l'extra-terrestre
 Maurizio Costanzo Show
+Gerry Scotti
 Dal momento che ho capito le debolezze della mia carne...
 Questo testo è lunghisssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssimo
 Broooooooooooo
 Ehi Fra!!!
 godo!!
 Morto...!
-Le mucche fanno... ?
+Le mucche fanno...?
 Birrrrch quanto le odio!!!
 EL
 Kiria
