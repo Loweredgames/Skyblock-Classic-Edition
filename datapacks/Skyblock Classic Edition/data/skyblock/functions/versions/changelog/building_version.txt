@@ -3,9 +3,9 @@ Name: Skyblock Classic Edition
 
 Edition: JAVA EDITION
 
-Release: JE-1.20.3/1.20.4-Skyblock_Classic_Edition:5.1.0 - 5.1.0 [Historical Tales Update]
+Release: JE-1.20.5-23w51b-Skyblock_Classic_Edition:BUILDING:22.12.2023aDA Aggiornare - 5.2.0 [Historical Tales Update]
 
-Nightly Release: JE-1.20.3/1.20.4-NIGHTLY_BUILDING_15.12.2023.12101a
+Nightly Release: JE-1.20.5-23w51b-NIGHTLY_BUILDING_22.12.2023.11426a
 
 Data_pack: TRUE
 
@@ -13,13 +13,13 @@ Resource_pack: TRUE
 
 Custom Structures World Update: 2.0.1
 
-Protocol Version: 1.20.4_PVN_0
+Protocol Version: 1.20.5_PVN_0a
 
-Protocol Identifier Data: PID_1 (da cambiare)
+Protocol Identifier Data: 1.20.5_PID_0 (Da Aggingere)
 
 Protocol Structures Number: PSN_0
 
-Github_Tag: 1.20.4_JE-0a
+Github_Tag: 1.20.5_JE-0a
 
 Github:https://github.com/Loweredgames/Skyblock-Classic-Edition
 
