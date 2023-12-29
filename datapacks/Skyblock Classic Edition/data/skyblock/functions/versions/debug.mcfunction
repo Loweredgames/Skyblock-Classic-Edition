@@ -20,8 +20,8 @@ execute as @a[scores={SkyblockCE_debug=-5}] run scoreboard objectives setdisplay
 
 
 ##DISPLAY DI DEBUG - PVN (DA ABBILITARE SOLO PER LE VERSIONI INSTABILI)
-#scoreboard players set @a SkyblockCE_debug 6
-execute as @a[scores={SkyblockCE_debug=6}] run scoreboard objectives setdisplay sidebar 1.20.4_PVN_0
+scoreboard players set @a SkyblockCE_debug 6
+execute as @a[scores={SkyblockCE_debug=6}] run scoreboard objectives setdisplay sidebar 1.20.5_PVN_0a
 
 
 ##DISPLAY DI DEBUG - PID
