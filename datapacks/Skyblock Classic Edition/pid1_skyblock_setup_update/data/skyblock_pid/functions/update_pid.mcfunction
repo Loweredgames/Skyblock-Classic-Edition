@@ -31,6 +31,15 @@ function skyblock_pid:mc1203_pid1_2
 execute as @a[scores={1.20.3_PID_1_1=315..}] run scoreboard objectives add 1.20.3_PID_1_2 dummy
 
 
+##PID 1.20.3_1_3 - 1.20.3/1.20.4 Fix level.dat, reset valori - #251 (LASCIARE COSI. PER LA FUNZIONE PID 1_3, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL PID DIVENTA INCOMPATIBILE)
+scoreboard players add @a 1.20.3_PID_1_3 1
+function skyblock_pid:mc1203_pid1_3
+
+
+##PID END 1.20.3_1_3 (QUANDO FINISCE IL PID MADRE AGGIUNGERE IL PID MINORE. QUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEI PID MINORI)
+execute as @a[scores={1.20.3_PID_1_2=325..}] run scoreboard objectives add 1.20.3_PID_1_3 dummy
+
+
 ##Scoreboard Start PID 1
 execute as @a[scores={PID_1=5..100}] run gamemode spectator @a
 execute as @a[scores={PID_1=5}] run time set 0
