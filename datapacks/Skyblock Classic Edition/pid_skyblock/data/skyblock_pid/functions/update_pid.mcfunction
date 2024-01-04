@@ -29,7 +29,8 @@ execute as @a[scores={PID_1=2000000..}] run scoreboard players set @a PID_1 1000
 
 
 ##Setup Update PID_Fix_LTS
-execute as @a[scores={PID_1=1015..1020}] run scoreboard objectives add PID_Fix_LTS dummy
+execute as @a[scores={PID_1=1015..1015}] run scoreboard objectives remove 1.20.2_PVN_0
+execute as @a[scores={PID_1=1020..1025}] run scoreboard objectives add PID_Fix_LTS dummy
 scoreboard players add @a PID_Fix_LTS 1
 
 
