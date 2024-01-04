@@ -22,6 +22,7 @@ execute as @a[scores={PVN_12OLD=1..}] run scoreboard players add @a PVN_legacy 1
 execute as @a[scores={PVN_legacy=100}] run tellraw @a ["",{"text":"\u2716","color":"red"},{"translate":"skyblock_classic_edition.version_update.compatible.minecraft_versions"},{"text":"1.16.5 - 1.17.1 - 1.18.1 - 1.18.2 - 1.19.4","bold":true},{"translate":"skyblock_classic_edition.version_update.compatible.info"}]
 execute as @a[scores={PVN_legacy=201..}] run scoreboard objectives remove PVN_12OLD
 execute as @a[scores={PVN_legacy=201..}] run scoreboard objectives remove PVN_legacy
+scoreboard objectives remove 1.20.2_PVN_0a
 
 
 ##(AGGIUNGERE CHANGELOG IN GITHUB E POI AGGIORNARE GITHUB)
