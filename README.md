@@ -6,7 +6,7 @@ _Skyblock is one of the most famous maps in Minecraft. the original has been upd
 
 # Story:
 
-_Steve/Alex wake up on an unknown island, inside a chest it says..._
+_Steve and Alex wake up on an unknown island, inside a chest it says..._
 
 # Feature:
 
