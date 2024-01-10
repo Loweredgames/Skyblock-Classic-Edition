@@ -13,7 +13,7 @@ scoreboard objectives add PID_1 dummy
 scoreboard players add @a PID_1 1
 
 
-##Skyblock PID 1 Reset LOOP
+##Skyblock PID RESET LOOP
 execute as @a[scores={PID_1=2000000..}] run scoreboard players set @a PID_1 10000
 
 
@@ -41,7 +41,7 @@ execute as @a[scores={1.20.3_PID_1_1=315..}] run scoreboard objectives add 1.20.
 execute as @a[scores={1.20.3_PID_1_2=325..}] run scoreboard objectives add 1.20.3_PID_1_3 dummy
 
 
-##Scoreboard Start PID 1
+##Scoreboard Start 1.20.3_PID 1
 execute as @a[scores={PID_1=5..100}] run gamemode spectator @a
 execute as @a[scores={PID_1=5}] run time set 0
 execute as @a[scores={PID_1=5}] run gamerule doImmediateRespawn true
