@@ -7204,7 +7204,7 @@
       "minecraft:bee": "2023-07-11 17:47:48 +0200",
       "minecraft:axolotl": "2023-07-11 17:47:48 +0200"
     },
-    "done": true
+    "done": false
   },
   "minecraft:story/mine_stone": {
     "criteria": {
@@ -7874,5 +7874,11 @@
     },
     "done": true
   },
-  "DataVersion": 3698
+  "minecraft:recipes/combat/wolf_armor": {
+    "criteria": {
+      "has_the_recipe": "2024-01-10 22:27:42 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 3802
 }
