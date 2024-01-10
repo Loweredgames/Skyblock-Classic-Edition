@@ -1,4 +1,4 @@
-#Copyright (C) Loweredgames (Lorenzo Giannini) 
+#Copyright (C) Loweredgames (Lorenzo Giannini)
 #Contacted:<https://github.com/Loweredgames>
 #This Source Code Form is subject to the terms of the License.
 #NOT OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG STUDIO.
@@ -21,6 +21,7 @@ execute as @a[scores={PID_1=2000000..}] run scoreboard players set @a PID_1 1000
 scoreboard players add @a 1.20.3_PID_1_1 1
 scoreboard players add @a 1.20.3_PID_1_2 1
 scoreboard players add @a 1.20.3_PID_1_3 1
+scoreboard players add @a 1.20.5_PID_1_4 1
 
 
 ##SUBPID 1.20.3_1_1 - 1.20.3/1.20.4 Fix Elitrà (LASCIARE COSI. PER LA FUNZIONE SUBPID 1_1, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL PID DIVENTA INCOMPATIBILE)
@@ -32,13 +33,18 @@ function skyblock_pid:mc1203_pid1_2
 
 
 ##SUBPID 1.20.3_1_3 - 1.20.3/1.20.4 Fix level.dat - reset valori #251 (LASCIARE COSI. PER LA FUNZIONE SUBPID 1_3, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL PID DIVENTA INCOMPATIBILE)
-function skyblock_pid:mc1203_pid1_3
+#function skyblock_pid:mc1203_pid1_3
+
+
+##SUBPID 1.20.5_1_4 - 1.20.5 Armadillo BETA and structure BETA (LASCIARE COSI. PER LA FUNZIONE SUBPID 1_3, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL PID DIVENTA INCOMPATIBILE)
+function skyblock_pid:mc1203_pid1_4
 
 
 ##SUBPID END (QUANDO FINISCE IL PID AGGIUNGERE IL SUBPID O IL PID MA SOLO NEL PRIMO SUBPID. GUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEL SUBPID DENTRO LA FUNZIONE)
 execute as @a[scores={PID_1=1015..}] run scoreboard objectives add 1.20.3_PID_1_1 dummy
 execute as @a[scores={1.20.3_PID_1_1=315..}] run scoreboard objectives add 1.20.3_PID_1_2 dummy
 execute as @a[scores={1.20.3_PID_1_2=325..}] run scoreboard objectives add 1.20.3_PID_1_3 dummy
+execute as @a[scores={1.20.3_PID_1_3=10..}] run scoreboard objectives add 1.20.5_PID_1_4 dummy
 
 
 ##Scoreboard Start 1.20.3_PID 1
