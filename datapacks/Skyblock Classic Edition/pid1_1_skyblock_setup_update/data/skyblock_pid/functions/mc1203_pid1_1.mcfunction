@@ -5,10 +5,10 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Setup Update PID 1_1
+##Setup Update SUBPID 1_1
 
 
-##Scoreboard Start PID 1_1
+##Scoreboard Start SUBPID 1_1
 execute as @a[scores={1.20.3_PID_1_1=5..100}] run gamemode spectator @a
 execute as @a[scores={1.20.3_PID_1_1=5}] run gamerule doImmediateRespawn true
 execute as @a[scores={1.20.3_PID_1_1=5..300}] run effect give @a blindness 5 0 true
@@ -18,11 +18,11 @@ execute as @a[scores={1.20.3_PID_1_1=305}] run playsound minecraft:entity.player
 execute as @a[scores={1.20.3_PID_1_1=5..300}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
-##Skyblock PID 1_1 Reset LOOP
+##Skyblock SUBPID 1_1 Reset LOOP
 execute as @a[scores={1.20.3_PID_1_1=2000000..}] run scoreboard players set @a 1.20.3_PID_1_1 10000
 
 
-###PID 1_1 - 1.20.4 (SPOSTARE "PID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE IL COMMENTO IN SE)
+###SUBPID 1_1 - 1.20.4 (SPOSTARE "SUBPID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE IL COMMENTO IN SE)
 
 
 ##Overworld
@@ -32,7 +32,7 @@ execute in minecraft:overworld as @a[scores={1.20.3_PID_1_1=110}] run setblock 7
 execute in minecraft:overworld as @a[scores={1.20.3_PID_1_1=120}] run setblock 722 49 709 minecraft:oak_wall_sign[facing=south,waterlogged=false]{back_text:{color:"black",has_glowing_text:0b,messages:['{"text":""}','{"text":""}','{"text":""}','{"text":""}']},front_text:{color:"black",has_glowing_text:1b,messages:['{"text":"I\'m sorry but"}','{"text":"The End City"}','{"text":"is broken :("}','{"text":""}']},is_waxed:0b} destroy
 
 
-##Final Function PID 1_1
+##Final Function SUBPID 1_1
 execute as @a[scores={1.20.3_PID_1_1=301}] run advancement revoke @a only minecraft:end/root
 execute as @a[scores={1.20.3_PID_1_1=301}] run advancement revoke @a only minecraft:nether/root
 execute as @a[scores={1.20.3_PID_1_1=301}] run time set 0

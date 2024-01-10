@@ -13,30 +13,30 @@ scoreboard objectives add PID_1 dummy
 scoreboard players add @a PID_1 1
 
 
-##PID 1.20.3_1_1 - 1.20.3/1.20.4 Fix Elitrà (LASCIARE COSI. PER LA FUNZIONE PID 1_1, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL PID DIVENTA INCOMPATIBILE)
+##SUBPID 1.20.3_1_1 - 1.20.3/1.20.4 Fix Elitrà (LASCIARE COSI. PER LA FUNZIONE SUBPID 1_1, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL SUBPID DIVENTA INCOMPATIBILE)
 scoreboard players add @a 1.20.3_PID_1_1 1
 function skyblock_pid:mc1203_pid1_1
 
 
-##PID END 1.20.3_1_1 (QUANDO FINISCE IL PID MADRE AGGIUNGERE IL PID MINORE. QUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEI PID MINORI)
+##SUBPID END 1.20.3_1_1 (QUANDO FINISCE IL PID AGGIUNGERE IL SUBPID. GUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEI SUBPID)
 execute as @a[scores={PID_1=1015..}] run scoreboard objectives add 1.20.3_PID_1_1 dummy
 
 
-##PID 1.20.3_1_2 - 1.20.3/1.20.4 Aggiunto loot nei vasi decorativi (LASCIARE COSI. PER LA FUNZIONE PID 1_2, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL PID DIVENTA INCOMPATIBILE)
+##SUBPID 1.20.3_1_2 - 1.20.3/1.20.4 Aggiunto loot nei vasi decorativi (LASCIARE COSI. PER LA FUNZIONE SUBPID 1_2, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL SUBPID DIVENTA INCOMPATIBILE)
 scoreboard players add @a 1.20.3_PID_1_2 1
 function skyblock_pid:mc1203_pid1_2
 
 
-##PID END 1.20.3_1_2 (QUANDO FINISCE IL PID MADRE AGGIUNGERE IL PID MINORE. QUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEI PID MINORI)
+##SUBPID END 1.20.3_1_2 (QUANDO FINISCE IL PID AGGIUNGERE IL SUBPID. GUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEI SUBPID)
 execute as @a[scores={1.20.3_PID_1_1=315..}] run scoreboard objectives add 1.20.3_PID_1_2 dummy
 
 
-##PID 1.20.3_1_3 - 1.20.3/1.20.4 Fix level.dat, reset valori - #251 (LASCIARE COSI. PER LA FUNZIONE PID 1_3, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL PID DIVENTA INCOMPATIBILE)
+##SUBPID 1.20.3_1_3 - 1.20.3/1.20.4 Fix level.dat - reset valori #251 (LASCIARE COSI. PER LA FUNZIONE SUBPID 1_3, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL SUBPID DIVENTA INCOMPATIBILE)
 scoreboard players add @a 1.20.3_PID_1_3 1
 function skyblock_pid:mc1203_pid1_3
 
 
-##PID END 1.20.3_1_3 (QUANDO FINISCE IL PID MADRE AGGIUNGERE IL PID MINORE. QUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEI PID MINORI)
+##SUBPID END 1.20.3_1_3 (QUANDO FINISCE IL PID AGGIUNGERE IL SUBPID. GUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEL SUBPID)
 execute as @a[scores={1.20.3_PID_1_2=325..}] run scoreboard objectives add 1.20.3_PID_1_3 dummy
 
 
@@ -55,7 +55,7 @@ execute as @a[scores={PID_1=5..1000}] run summon minecraft:area_effect_cloud ~ ~
 execute as @a[scores={PID_1=2000000..}] run scoreboard players set @a PID_1 10000
 
 
-###PID 1.20.3_1 - 1.20.3/1.20.4 (SPOSTARE "PID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE IL COMMENTO IN SE)
+###1.20.3_PID 1 - 1.20.3/1.20.4 (SPOSTARE "PID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE IL COMMENTO IN SE)
 
 
 ##Overworld
@@ -147,7 +147,7 @@ execute in minecraft:overworld as @a[scores={PID_1=960}] run tp @a 0 66 0 0 0
 #????
 
 
-##Final Function PID
+##Final Function PID 1
 execute as @a[scores={PID_1=1001}] run advancement revoke @a only minecraft:end/root
 execute as @a[scores={PID_1=1001}] run advancement revoke @a only minecraft:nether/root
 execute as @a[scores={PID_1=1005}] run tellraw @a ["",{"text":"Due to several problems in The End (","italic":true,"color":"red"},{"text":"see the bug #16","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/issues/16"}},{"text":"). the dimension has been suspended in this release until the issues are resolved.\nThanks you :)","italic":true,"color":"red"}]

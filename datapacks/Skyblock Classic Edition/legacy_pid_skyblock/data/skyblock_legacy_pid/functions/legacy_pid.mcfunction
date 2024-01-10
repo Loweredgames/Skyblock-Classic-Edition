@@ -29,6 +29,9 @@ execute as @a[scores={PID_legacy=1..801}] run summon minecraft:area_effect_cloud
 execute as @a[scores={PID_legacy=740}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
 
 
+###SUBPID_legacy (aggiungere in futuro)
+
+
 ###PID Legacy Update (AGGIUNGERE TUTTI I PID VECCHI, AGGIUNGERE SEMPRE UNA NUOVA CATEGORIA AD ESEMPIO #PID_2, #PID_3, ECC.)
 
 
