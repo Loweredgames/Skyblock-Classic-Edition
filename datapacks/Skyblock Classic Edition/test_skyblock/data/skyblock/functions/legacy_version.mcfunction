@@ -5,7 +5,7 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Legacy Setup (Aggiornato all'ultima versione: 5.1.0 Minecraft: 1.20.4) Ricordasi di aggiornare "legacy_version", aggiungendo le cose della convesione (il libro,il portale bloccato, ecc.) per le versioni vecchie e incompatibili.
+##Legacy Setup (Aggiornato all'ultima versione: 1.0.1 - 5.2.0 Minecraft: 1.20.5) Ricordasi di aggiornare "legacy_version", aggiungendo le cose della convesione (il libro,il portale bloccato, ecc.) per le versioni vecchie e incompatibili.
 execute as @a[scores={skyblock=1..}] run scoreboard objectives add SkyblockCE_legacy_version dummy
 execute as @a[scores={SkyblockCE_legacy_version=1..}] run scoreboard players set @a SkyblockCE_install -1
 execute as @a[scores={SkyblockCE_legacy_version=1..}] run scoreboard players set @a SkyblockCE_islands -1
