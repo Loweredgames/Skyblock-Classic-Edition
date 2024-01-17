@@ -62,6 +62,7 @@ gamerule commandModificationBlockLimit 1000000
 gamerule maxCommandChainLength 1000000
 gamerule playersNetherPortalCreativeDelay 1
 gamerule playersNetherPortalDefaultDelay 80
+gamerule spawnChunkRadius 2
 gamerule projectilesCanBreakBlocks true
 gamerule maxEntityCramming 24
 gamerule randomTickSpeed 3
