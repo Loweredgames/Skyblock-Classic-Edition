@@ -5,7 +5,7 @@ Edition: JAVA EDITION
 
 Release: JE-1.20.5-23w51b-Skyblock_Classic_Edition:BUILDING:11.01.2024a - 5.2.0 [Historical Tales Update]
 
-Nightly Release: JE-1.20.5-24w03a-NIGHTLY_BUILDING_17.01.2024.12238a
+Nightly Release: JE-1.20.5-24w03a-NIGHTLY_BUILDING_17.01.2024.22238a
 
 Data_pack: TRUE
 
