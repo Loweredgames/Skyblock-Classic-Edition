@@ -5,12 +5,16 @@ on:
     branches: [ "main" ]
 
 jobs:
-  zip-n-pull:
-    name: Zip and Pull
+  build:
+    name: Nightly Actions Run (Output)
     runs-on: ubuntu-latest
     steps:
-      - name: Zip Folder
-        run: |
+      - uses: actions/checkout@v4  
+      - run: |
           cd ../ # I added this
           rm -rf <repository_name>.zip
           zip -r <repository_name>.zip <repository_name> -x ".git/*" ".github/*"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Nightly Actions Run (Output)
+          path: Skyblock\_Classic\_Edition\_Nightly\_Building.zip
