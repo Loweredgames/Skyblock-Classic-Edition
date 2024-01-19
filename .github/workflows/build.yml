@@ -10,7 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4  
       - run: |
-          cd Skyblock Classic Edition
           rm -rf Skyblock_Classic_Edition.zip
           zip -r Skyblock_Classic_Edition.zip Skyblock_Classic_Edition -x ".git/*" ".github/*"
       - uses: actions/upload-artifact@v4
