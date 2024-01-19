@@ -18,4 +18,3 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: Nightly Actions Run (Output)
-          path: Skyblock_Classic_Edition_Nightly_Building
