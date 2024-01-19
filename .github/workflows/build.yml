@@ -13,7 +13,8 @@ jobs:
         with:
           args: |
             rm -rf Skyblock_Classic_Edition.zip
-            zip -r Skyblock_Classic_Edition.zip Skyblock Classic Edition -x ".git/*" ".github/*"
+            zip -r Skyblock_Classic_Edition.zip Skyblock Classic Edition 
+            -x ".git/*" ".github/*"
       - uses: actions/upload-artifact@v4
         with:
           name: Nightly Actions Run (Output)
