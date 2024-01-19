@@ -2,7 +2,7 @@ name: Skyblock Classic Edition - Nightly Building System
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "Loweredgames-new_system" ]
 
 jobs:
   build:
