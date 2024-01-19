@@ -2,16 +2,15 @@ name: Skyblock Nightly Building
 
 on:
   push:
-    branches: [ "main" ]
+    branches: \[ "main" \]
 
 jobs:
   build:
-    runs-on: ubuntu-latest,
-
-  steps:
-    - uses: actions/checkout@v2
-    - run: zip -r Skyblock\_Classic\_Edition\_Nightly.zip .
-    - uses: actions/upload-artifact@v2
-    with:
-      name: Nightly
-      path: Skyblock_Classic_Edition_Nightly.zip
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v4
+    - run: zip -r Skyblock\_Classic\_Edition\_Nightly\_Building.zip .
+    - uses: actions/upload-artifact@v4
+      with:
+        name: Nightly Actions
+        path: Skyblock\_Classic\_Edition\_Nightly\_Building.zip
