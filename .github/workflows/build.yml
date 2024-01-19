@@ -8,11 +8,10 @@ jobs:
   build:
     runs-on: ubuntu-latest,
 
-steps:
-    uses: actions/checkout@v2
-    run: |
-      zip -r Skyblock_Classic_Edition_Nightly.zip .
-    uses: actions/upload-artifact@v2
+  steps:
+    - uses: actions/checkout@v2
+    - run: zip -r Skyblock\_Classic\_Edition\_Nightly.zip .
+    - uses: actions/upload-artifact@v2
     with:
       name: Nightly
       path: Skyblock_Classic_Edition_Nightly.zip
