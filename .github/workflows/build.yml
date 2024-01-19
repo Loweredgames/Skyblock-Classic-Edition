@@ -12,5 +12,5 @@ jobs:
       - name: Zip Folder
         run: |
           cd ../ # I added this
-          rm -rf Skyblock\_Classic\_Edition\_Nightly\_Building.zip
-          zip -r Skyblock\_Classic\_Edition\_Nightly\_Building.zip Skyblock\_Classic\_Edition\_Nightly\_Building -x ".git/*" ".github/*"
+          rm -rf <repository_name>.zip
+          zip -r <repository_name>.zip <repository_name> -x ".git/*" ".github/*"
