@@ -1,4 +1,4 @@
-name: Skyblock Nightly Building
+name: Skyblock Classic Edition - Nightly Building System
 
 on:
   push:
@@ -8,7 +8,9 @@ jobs:
   build:
     runs-on: windows-latest
     steps:
+    - uses: actions/checkout@v4
+    - run: zip -r [Skyblock-Classic-Edition.git]
     - uses: actions/upload-artifact@v4
       with:
-        name: Nightly Actions
+        name: Nightly Actions Run (Output)
         path: Skyblock\_Classic\_Edition\_Nightly\_Building.zip
