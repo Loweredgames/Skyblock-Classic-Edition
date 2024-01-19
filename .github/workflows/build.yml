@@ -2,7 +2,7 @@ name: Skyblock Nightly Building
 
 on:
   push:
-    branches: \[ "main" \]
+    branches: [ "main" ]
 
 jobs:
   build:
