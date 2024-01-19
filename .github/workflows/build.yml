@@ -11,7 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4  
       - run: |
-          cd ../ # I added this
           rm -rf <repository_name>.zip
           zip -r <repository_name>.zip <repository_name> -x ".git/*" ".github/*"
       - uses: actions/upload-artifact@v4
