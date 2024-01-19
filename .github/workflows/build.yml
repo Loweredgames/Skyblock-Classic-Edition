@@ -1,8 +1,7 @@
 name: Skyblock Classic Edition - Nightly Building System
 
 on:
-  push:
-    branches: [ "main" ]
+  [push]
 
 jobs:
   build:
