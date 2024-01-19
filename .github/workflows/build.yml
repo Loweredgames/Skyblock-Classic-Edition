@@ -9,7 +9,7 @@ jobs:
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@v4
-    - run: zip -r [Skyblock-Classic-Edition.git]
+    - run: -r Skyblock-Classic-Edition.git
     - uses: actions/upload-artifact@v4
       with:
         name: Nightly Actions Run (Output)
