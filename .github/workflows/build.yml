@@ -6,14 +6,14 @@ on:
 
 jobs:
   build:
-    name: Nightly Actions Run (Output)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4  
       - run: |
-          rm -rf <repository_name>.zip
-          zip -r <repository_name>.zip <repository_name> -x ".git/*" ".github/*"
+          cd Skyblock Classic Edition
+          rm -rf Skyblock Classic Edition.zip
+          zip -r Skyblock Classic Edition.zip Skyblock Classic Edition -x ".git/*" ".github/*"
       - uses: actions/upload-artifact@v4
         with:
           name: Nightly Actions Run (Output)
-          path: Skyblock\_Classic\_Edition\_Nightly\_Building.zip
+          path: Skyblock_Classic_Edition_Nightly_Building.zip
