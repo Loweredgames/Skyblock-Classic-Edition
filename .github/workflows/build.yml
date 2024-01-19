@@ -8,10 +8,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4  
-      - run: |
-          rm -rf Skyblock_Classic_Edition.zip
-          zip -r Skyblock_Classic_Edition.zip Skyblock_Classic_Edition -x ".git/*" ".github/*"
+      - uses: actions/checkout@v4
+      - uses: montudor/action-zip@v1
+        with:
+          args: |
+            rm -rf Skyblock_Classic_Edition.zip
+            zip -r Skyblock_Classic_Edition.zip Skyblock_Classic_Edition -x ".git/*" ".github/*"
       - uses: actions/upload-artifact@v4
         with:
           name: Nightly Actions Run (Output)
