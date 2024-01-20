@@ -15,8 +15,8 @@ jobs:
             rm -rf Skyblock_Classic_Edition.zip
             zip -r Skyblock_Classic_Edition.zip Skyblock Classic Edition 
             -x ".git/*" ".github/*"
-        name: Nightly Actions Run
+        name: Upload Artifact
       - uses: actions/upload-artifact@v4
         with:
           name: Artifact
-          path: Skyblock Classic Edition.zip
+          path: publish
