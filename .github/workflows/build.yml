@@ -21,4 +21,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: Artifact
-          path: Skyblock Classic Edition1.zip
+          path: Skyblock Classic Edition.zip
