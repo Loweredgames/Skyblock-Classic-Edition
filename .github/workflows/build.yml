@@ -12,8 +12,8 @@ jobs:
       - uses: montudor/action-zip@v1
         with:
           args: |
-            rm -rf Skyblock_Classic_Edition.zip
-            zip -r Skyblock_Classic_Edition.zip Skyblock Classic Edition 
+            rm -rf ./Skyblock_Classic_Edition.zip
+            zip -r ./Skyblock_Classic_Edition.zip Skyblock Classic Edition 
             -x ".git/*" ".github/*"
         name: Upload Artifact
       - uses: actions/upload-artifact@v4
