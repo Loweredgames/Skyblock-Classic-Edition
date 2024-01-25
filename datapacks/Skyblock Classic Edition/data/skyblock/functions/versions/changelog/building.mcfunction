@@ -10,11 +10,11 @@ bossbar set minecraft:building max 100
 
 #Version Number
 
-bossbar set building name {"text":"JE-1.20.5-23w51b-Skyblock_Classic_Edition:BUILDING:11.01.2024a","color":"white","bold":true}
+bossbar set building name {"text":"JE-1.20.5-24w04a-Skyblock_Classic_Edition:BUILDING:25.01.2024a","color":"white","bold":true}
 
 #Map Progress
 
-bossbar set minecraft:building value 95
+bossbar set minecraft:building value 96
 
 #Warning Message
 
