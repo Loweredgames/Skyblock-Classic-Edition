@@ -26,7 +26,7 @@ jobs:
         import json
         with open('building_version.json', 'r') as f:
           data = json.load(f)
-        mcVer = data.get('Release', '')
+        Release = data.get('Release', '')
         Nightly_Release = data.get('Nightly_Release', '')
         print(f"::set-output name=RELEASE::{Release}")
         print(f"::set-output name=NIGHTLY::{Nightly_Release}")
