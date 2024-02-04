@@ -37,7 +37,7 @@ jobs:
         filename="${{ env.MAP_NAME }}-MC${{ steps.get_version.outputs.RELEASE }}-R${{ steps.get_version.outputs.NIGHTLY }}"
         fi
         filename="${filename}.zip"
-        echo "::set-output name=zipname::$filename" >> $GITHUB_OUTPUT
+        echo "::set-output name=zipname::$filename"
     - name: Install 7zip
       run: sudo apt-get install p7zip-full
     - name: Zip Resource Pack
@@ -60,7 +60,7 @@ jobs:
         else
           release_name="$base_name"
         fi
-        echo "::set-output name=releasename::$release_name" >> $GITHUB_OUTPUT
+        echo "::set-output name=releasename::$release_name"
     - name: Construct tag name
       id: construct_tag
       run: |
@@ -68,14 +68,14 @@ jobs:
         if [[ -n "${{ steps.get_version.outputs.RELSUBVERSION }}" ]]; then
           tag_name="${tag_name}_${{ steps.get_version.outputs.RELSUBVERSION }}"
         fi
-        echo "::set-output name=tag::$tag_name" >> $GITHUB_OUTPUT
+        echo "::set-output name=tag::$tag_name"
     - name: Determine pre-release status
       id: prerelease_status
       run: |
         if [[ -n "${{ steps.get_version.outputs.RELSUBVERSION }}" ]]; then
-          echo "::set-output name=prerelease::true" >> $GITHUB_OUTPUT
+          echo "::set-output name=prerelease::true"
         else
-          echo "::set-output name=prerelease::false" >> $GITHUB_OUTPUT
+          echo "::set-output name=prerelease::false"
         fi
     - name: Create Release
       uses: softprops/action-gh-release@v1
@@ -89,4 +89,4 @@ jobs:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
     - name: Get Download URL
       run: | 
-        echo "${{ env.REPO_URL }}/releases/download/${{ steps.construct_tag.outputs.tag }}/${{ steps.construct_filename.outputs.zipname }}" >> $GITHUB_OUTPUT
+        echo "${{ env.REPO_URL }}/releases/download/${{ steps.construct_tag.outputs.tag }}/${{ steps.construct_filename.outputs.zipname }}"
