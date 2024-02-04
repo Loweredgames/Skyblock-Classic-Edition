@@ -2,8 +2,10 @@
     "Name": "Skyblock Classic Edition",
 
     "Edition": "JAVA EDITION",
+    
+    "Release": "5.2.0_[HistoricalTalesUpdate]",
 
-    "Release": "JE-1.20.5-24w04a-Skyblock_Classic_Edition:BUILDING:25.01.2024a - 5.2.0 [Historical Tales Update]",
+    "Release_Id": "JE-1.20.5-24w04a-Skyblock_Classic_Edition:BUILDING:25.01.2024a",
 
     "Nightly_Release": "JE-1.20.5-24w04a-NIGHTLY_BUILDING_25.01.2024.22109a",
 
