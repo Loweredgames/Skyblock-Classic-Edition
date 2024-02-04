@@ -34,7 +34,7 @@ jobs:
     - name: Construct filename
       id: construct_filename
       run: |
-        filename="${{ env.MAP_NAME }}-${{ steps.get_version.outputs.RELEASE }}-${{ steps.get_version.outputs.NIGHTLY }}"
+        filename="${{ env.MAP_NAME }}${{ steps.get_version.outputs.RELEASE }}${{ steps.get_version.outputs.NIGHTLY }}"
         filename="${filename}.zip"
         echo "::set-output name=zipname::$filename"
     - name: Install 7zip
@@ -46,18 +46,18 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: ${{ steps.construct_filename.outputs.zipname }}
-        path: ${{ env.MAP_NAME_SPACE }}
+        path: ${{ steps.construct_filename.outputs.zipname }}
     - name: Construct release name
       id: construct_release_name
       run: |
-        base_name="${{ env.MAP_NAME_SPACE }} | ${{ steps.get_version.outputs.RELEASE }}-${{ steps.get_version.outputs.NIGHTLY }}"
+        base_name="${{ env.MAP_NAME_SPACE }} | ${{ steps.get_version.outputs.RELEASE }}${{ steps.get_version.outputs.NIGHTLY }}"
           release_name="$base_name"
         fi
         echo "::set-output name=releasename::$release_name"
     - name: Construct tag name
       id: construct_tag
       run: |
-        tag_name="${{ steps.get_version.outputs.RELEASE }}-${{ steps.get_version.outputs.NIGHTLY }}"
+        tag_name="${{ steps.get_version.outputs.RELEASE }}${{ steps.get_version.outputs.NIGHTLY }}"
         fi
         echo "::set-output name=tag::$tag_name"
     - name: Determine pre-release status
@@ -77,7 +77,7 @@ jobs:
         files: |
           ${{ steps.construct_filename.outputs.zipname }}
       env:
-        GH_TOKEN: ${{ steps.get_version.outputs.RELEASE }}-${{ steps.get_version.outputs.NIGHTLY }}
+        GH_TOKEN: ${{ steps.get_version.outputs.RELEASE }}${{ steps.get_version.outputs.NIGHTLY }}
     - name: Get Download URL
       run: | 
         echo "${{ env.REPO_URL }}/releases/download/${{ steps.construct_tag.outputs.tag }}/${{ steps.construct_filename.outputs.zipname }}"
