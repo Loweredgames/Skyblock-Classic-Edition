@@ -24,7 +24,7 @@ jobs:
       id: get_version
       run: |
         import json
-        with open('*/building_version.json', 'r') as f:
+        with open('*\building_version.json', 'r') as f:
           data = json.load(f)
         mcVer = data.get('Release', '')
         Nightly_Release = data.get('Nightly_Release', '')
