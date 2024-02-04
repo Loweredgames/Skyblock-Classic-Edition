@@ -1,0 +1,28 @@
+{
+
+    "Name": "Skyblock Classic Edition",
+
+    "Edition": "JAVA EDITION",
+
+    "Release": "JE-1.20.5-24w04a-Skyblock_Classic_Edition:BUILDING:25.01.2024a - 5.2.0 [Historical Tales Update]",
+
+    "Nightly_Release": "JE-1.20.5-24w04a-NIGHTLY_BUILDING_25.01.2024.22109a",
+
+    "Data_pack": "TRUE",
+
+    "Resource_pack": "TRUE",
+
+    "Custom_Structures_World_Update": "2.0.2",
+
+    "Protocol_Version": "1.20.5_PVN_0b",
+
+    "Protocol_Identifier_Data": "1.20.5_PID_0_(Da Aggiungere)_PID 1",
+
+    "Protocol_Structures_Number": "PSN_0",
+
+    "Github_Tag": "1.20.5_JE-1a",
+
+    "Github":"https://github.com/Loweredgames/Skyblock-Classic-Edition",
+
+    "Website":"https://minecraft-map-building-versions.blogspot.com/"
+}
