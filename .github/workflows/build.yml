@@ -41,7 +41,7 @@ jobs:
       run: sudo apt-get install p7zip-full
     - name: Zip Custom Map
       run: |
-        7z a -r -mx9 -tzip ${{ steps.construct_filename.outputs.zipname }} . -xr!.gitignore -xr!.github -xr!.git -xr!version.json -xr!*.zip
+        7z a -r -mx9 -tzip ${{ steps.construct_filename.outputs.zipname }} . -xr!.gitignore -xr!.github -xr!.git -xr!building_version -xr!*.zip
     - name: Upload Artifact
       uses: actions/upload-artifact@v3
       with:
@@ -50,7 +50,7 @@ jobs:
     - name: Construct release name
       id: construct_release_name
       run: |
-        base_name="${{ env.MAP_NAME_SPACE }} | ${{ steps.get_version.outputs.RELEASE }}-R${{ steps.get_version.outputs.NIGHTLY }}"
+        base_name="${{ env.MAP_NAME_SPACE }} | ${{ steps.get_version.outputs.RELEASE }}${{ steps.get_version.outputs.NIGHTLY }}"
         if [[ -n "${{ steps.get_version.outputs.RELSUBVERSION }}" ]]; then
           relsubversion="${{ steps.get_version.outputs.RELSUBVERSION }}"
           relsubversion="${relsubversion//-/ }"
@@ -63,7 +63,7 @@ jobs:
     - name: Construct tag name
       id: construct_tag
       run: |
-        tag_name="${{ steps.get_version.outputs.RELEASE }}-R${{ steps.get_version.outputs.NIGHTLY }}"
+        tag_name="${{ steps.get_version.outputs.RELEASE }}${{ steps.get_version.outputs.NIGHTLY }}"
         if [[ -n "${{ steps.get_version.outputs.RELSUBVERSION }}" ]]; then
           tag_name="${tag_name}_${{ steps.get_version.outputs.RELSUBVERSION }}"
         fi
