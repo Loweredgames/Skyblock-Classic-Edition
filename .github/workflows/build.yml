@@ -34,12 +34,12 @@ jobs:
     - name: Construct filename
       id: construct_filename
       run: |
-        filename="${{ env.MAP_NAME }}${{ steps.get_version.outputs.RELEASE }}-NIGHTLY${{ steps.get_version.outputs.NIGHTLY }}"
+        filename="${{ env.MAP_NAME }}${{ steps.get_version.outputs.RELEASE }}${{ steps.get_version.outputs.NIGHTLY }}"
         filename="${filename}.zip"
         echo "::set-output name=zipname::$filename"
     - name: Install 7zip
       run: sudo apt-get install p7zip-full
-    - name: Zip Resource Pack
+    - name: Zip Custom Map
       run: |
         7z a -r -mx9 -tzip ${{ steps.construct_filename.outputs.zipname }} . -xr!.gitignore -xr!.github -xr!.git -xr!version.json -xr!*.zip
     - name: Upload Artifact
