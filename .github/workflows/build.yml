@@ -47,35 +47,14 @@ jobs:
       with:
         name: ${{ steps.construct_filename.outputs.zipname }}
         path: ${{ steps.construct_filename.outputs.zipname }}
-    - name: Construct release name
-      id: construct_release_name
-      run: |
-        base_name="${{ env.MAP_NAME_SPACE }} | ${{ steps.get_version.outputs.RELEASE }}${{ steps.get_version.outputs.NIGHTLY }}"
-          release_name="$base_name"
-        fi
-        echo "::set-output name=releasename::$release_name"
     - name: Construct tag name
       id: construct_tag
       run: |
         tag_name="${{ steps.get_version.outputs.RELEASE }}${{ steps.get_version.outputs.NIGHTLY }}"
         fi
         echo "::set-output name=tag::$tag_name"
-    - name: Determine pre-release status
-      id: prerelease_status
-      run: |
-        if [[ -n "${{ steps.get_version.outputs.NIGHTLY }}" ]]; then
-          echo "::set-output name=prerelease::true"
-        else
-          echo "::set-output name=prerelease::false"
-        fi
     - name: Create Release
       uses: softprops/action-gh-release@v1
-      with:
-        tag_name: ${{ steps.construct_tag.outputs.tag }}
-        name: ${{ steps.construct_release_name.outputs.releasename }}
-        prerelease: ${{ steps.prerelease_status.outputs.prerelease }}
-        files: |
-          ${{ steps.construct_filename.outputs.zipname }}
       env:
         GH_TOKEN: ${{ steps.get_version.outputs.RELEASE }}${{ steps.get_version.outputs.NIGHTLY }}
     - name: Get Download URL
