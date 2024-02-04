@@ -1,6 +1,7 @@
 name: Skyblock Classic Edition - Nightly Building System
 
 on:
+  push:
   workflow_dispatch:
 
 env:
