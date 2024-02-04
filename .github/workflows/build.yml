@@ -28,8 +28,8 @@ jobs:
           data = json.load(f)
         Release_Id = data.get('Release_Id', '')
         Nightly_Release_Id = data.get('Nightly_Release_Id', '')
-        print(f"::save-state name=RELEASE::{Release_Id}")
-        print(f"::save-state name=NIGHTLY::{Nightly_Release_Id}")
+        print(f"::set-output name=RELEASE::{Release_Id}")
+        print(f"::set-output name=NIGHTLY::{Nightly_Release_Id}")
       shell: python
     - name: Construct filename
       id: construct_filename
@@ -37,7 +37,7 @@ jobs:
         filename="${{ env.MAP_NAME }}-MC${{ steps.get_version.outputs.RELEASE }}-R${{ steps.get_version.outputs.NIGHTLY }}"
         fi
         filename="${filename}.zip"
-        echo "::save-state name=zipname::$filename"
+        echo "::set-output name=zipname::$filename"
     - name: Install 7zip
       run: sudo apt-get install p7zip-full
     - name: Zip Resource Pack
@@ -60,7 +60,7 @@ jobs:
         else
           release_name="$base_name"
         fi
-        echo "::save-state name=releasename::$release_name"
+        echo "::set-output name=releasename::$release_name"
     - name: Construct tag name
       id: construct_tag
       run: |
@@ -68,14 +68,14 @@ jobs:
         if [[ -n "${{ steps.get_version.outputs.RELSUBVERSION }}" ]]; then
           tag_name="${tag_name}_${{ steps.get_version.outputs.RELSUBVERSION }}"
         fi
-        echo "::save-state name=tag::$tag_name"
+        echo "::set-output name=tag::$tag_name"
     - name: Determine pre-release status
       id: prerelease_status
       run: |
         if [[ -n "${{ steps.get_version.outputs.RELSUBVERSION }}" ]]; then
-          echo "::save-state name=prerelease::true"
+          echo "::set-output name=prerelease::true"
         else
-          echo "::save-state name=prerelease::false"
+          echo "::set-output name=prerelease::false"
         fi
     - name: Create Release
       uses: softprops/action-gh-release@v1
