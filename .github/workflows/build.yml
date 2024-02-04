@@ -26,10 +26,10 @@ jobs:
         import json
         with open('building_version.json', 'r') as f:
           data = json.load(f)
-        Release = data.get('Release', '')
-        Nightly_Release = data.get('Nightly_Release', '')
-        print(f"::set-output name=RELEASE::{Release}")
-        print(f"::set-output name=NIGHTLY::{Nightly_Release}")
+        Release_Id = data.get('Release_Id', '')
+        Nightly_Release_Id = data.get('Nightly_Release_Id', '')
+        print(f"::set-output name=RELEASE::{Release_Id}")
+        print(f"::set-output name=NIGHTLY::{Nightly_Release_Id}")
       shell: python
     - name: Construct filename
       id: construct_filename
