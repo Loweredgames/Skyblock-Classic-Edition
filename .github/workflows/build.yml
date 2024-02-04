@@ -34,7 +34,7 @@ jobs:
     - name: Construct filename
       id: construct_filename
       run: |
-        filename="${{ env.MAP_NAME }}-MC${{ steps.get_version.outputs.RELEASE }}-R${{ steps.get_version.outputs.NIGHTLY }}"
+        filename="${{ env.MAP_NAME }}${{ steps.get_version.outputs.RELEASE }}-NIGHTLY${{ steps.get_version.outputs.NIGHTLY }}"
         filename="${filename}.zip"
         echo "::set-output name=zipname::$filename"
     - name: Install 7zip
