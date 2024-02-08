@@ -87,7 +87,7 @@ execute as @a[scores={SkyblockCE_install=1..}] run gamemode spectator @a
 execute as @a[scores={SkyblockCE_install=1..}] run tp @a 0 0 0 0 90
 execute as @a[scores={SkyblockCE_install=1}] run gamerule doDaylightCycle false
 execute as @a[scores={SkyblockCE_install=1}] run gamerule doWeatherCycle false
-execute as @a[scores={SkyblockCE_install=1}] run effect give @a saturation 11 250 true
+execute as @a[scores={SkyblockCE_install=1}] run effect give @a saturation 11 255 true
 execute as @a[scores={SkyblockCE_install=1}] run effect give @a blindness 61 0 false
 execute as @a[scores={SkyblockCE_install=1}] run time set 0
 execute as @a[scores={SkyblockCE_install=1}] run weather clear 5001s
