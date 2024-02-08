@@ -69,7 +69,7 @@ execute in minecraft:the_nether as @a[scores={SkyblockCE_large=131}] run place t
 
 ##Final Function
 execute as @a[scores={SkyblockCE_large=150}] run scoreboard players set @a SkyblockCE_tp 1
-execute as @a[scores={SkyblockCE_large=250}] run scoreboard objectives add SkyblockCE_structures dummy
+execute as @a[scores={SkyblockCE_large=250}] run scoreboard objectives add SkyblockCE_structures_id dummy
 execute as @a[scores={SkyblockCE_large=1351}] run spawnpoint @a 0 65 0
 execute as @a[scores={SkyblockCE_large=1351}] run weather clear 1000s
 execute as @a[scores={SkyblockCE_large=1351}] run scoreboard objectives add kills deathCount
@@ -87,4 +87,3 @@ execute as @a[scores={SkyblockCE_large=1360}] run gamemode survival @a
 execute as @a[scores={SkyblockCE_large=1360}] run advancement revoke @a everything
 execute as @a[scores={SkyblockCE_large=1360}] run execute in minecraft:overworld run tp @p 0 67 0 90 0
 execute as @a[scores={SkyblockCE_large=1361}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
-execute as @a[scores={SkyblockCE_large=1360..2400}] run clear @a written_book{tag:generated_book}
