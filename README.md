@@ -22,7 +22,7 @@ _Steve, Alex, Noor, Sunny, Ari, Zuri, Makena, Kai and Efe, they woke up on an un
 - Supports localizations: help me translate into your native language. The languages must be faithful to the English language, respect the punctuation and the capitalization. Click here to translate into your language in Crowdin: https://crowdin.com/project/skyblock-classic-edition
 
 
-_Thanks to the original Skyblock team for creating the most popular Minecraft map_
+_Thanks to the original Skyblock team for creating the most popular Minecraft map._
 
 READ THE LICENZE BEFORE DOWNLOADING THE DATAPACK:
 https://github.com/Loweredgames/Skyblock-Classic-Edition/blob/main/LICENSE
