@@ -5,7 +5,7 @@ Edition: JAVA EDITION
 
 Release: JE-1.20.2-Skyblock_Classic_Edition:5.1.0_LTS - 5.1.0 LTS [Maintenance Update - LTS]
 
-Nightly Release: JE-1.20.2-NIGHTLY_BUILDING_08.02.2024.21836a
+Nightly Release: JE-1.20.2-NIGHTLY_BUILDING_08.02.2024.31836a
 
 Data_pack: TRUE
 
