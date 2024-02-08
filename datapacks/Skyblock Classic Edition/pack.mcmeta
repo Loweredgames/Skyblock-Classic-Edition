@@ -1,21 +1,21 @@
 {
        "pack": {
            "pack_format": 20,
-           "supported_formats": {"min_inclusive": 20, "max_inclusive": 30},
+           "supported_formats": {"min_inclusive": 20, "max_inclusive": 31},
            "description": "Skyblock Classic Edition By Lorenzo Giannini"
        },
        "overlays": {
 		"entries": [
             {
-				"formats": {"min_inclusive": 20, "max_inclusive": 30},
+				"formats": {"min_inclusive": 20, "max_inclusive": 31},
 				"directory": "pid1_skyblock_setup_update"
 			},
 			{
-				"formats": {"min_inclusive": 20, "max_inclusive": 30},
+				"formats": {"min_inclusive": 20, "max_inclusive": 31},
 				"directory": "pid1_1_skyblock_setup_update"
 			},
 			{
-				"formats": {"min_inclusive": 20, "max_inclusive": 30},
+				"formats": {"min_inclusive": 20, "max_inclusive": 31},
 				"directory": "pid1_2_skyblock_setup_update"
 			},
 			{
@@ -23,15 +23,15 @@
 				"directory": "pid1_3_skyblock_setup_update"
 			},
 			{
-				"formats": {"min_inclusive": 27, "max_inclusive": 30},
+				"formats": {"min_inclusive": 27, "max_inclusive": 31},
 				"directory": "pid1_4_skyblock_setup_update"
 			},
             {
-				"formats": {"min_inclusive": 20, "max_inclusive": 30},
+				"formats": {"min_inclusive": 20, "max_inclusive": 31},
 				"directory": "legacy_pid_skyblock"
 			},
             {
-				"formats": {"min_inclusive": 20, "max_inclusive": 30},
+				"formats": {"min_inclusive": 20, "max_inclusive": 31},
 				"directory": "test_skyblock"
 			}
 		]
