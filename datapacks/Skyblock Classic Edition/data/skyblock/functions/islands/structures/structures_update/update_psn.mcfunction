@@ -5,7 +5,7 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Setup Update (1.20.5 - PSN 0)
+##Setup Update (1.20.5 - PSN 0) - da lasciare cosi fino alla nuova versione
 execute as @a[scores={1.20.5_PSN_0=5}] run scoreboard players set @a SkyblockCE_tp 0
 execute as @a[scores={1.20.5_PSN_0=5}] run gamemode spectator @a
 execute as @a[scores={1.20.5_PSN_0=5}] run effect give @a blindness 62 0 true
@@ -18,6 +18,27 @@ execute as @a[scores={1.20.5_PSN_0=5..600}] run clear @a written_book{tag:genera
 execute as @a[scores={1.20.5_PSN_0=10}] run title @a times 20 100 20
 execute as @a[scores={1.20.5_PSN_0=15}] run title @a title {"translate":"skyblock_classic_edition.loading.title.chat","italic":true,"color":"#d5d5d5"}
 #execute as @a[scores={1.20.5_PSN_0=15}] run title @a title {"translate":"skyblock_classic_edition.versions_id.warning_update.off","italic":true,"color":"#d5d5d5"}
+
+
+##PSN LEGACY SETUP
+scoreboard objectives add PSN_legacy dummy
+scoreboard players add @a SkyblockCE_generated_book 1
+
+
+##PSN Legacy Versions (DA AGGIUNGERE IL PSN. CONTROLARE IL DELAY IN UPDATE_PSN)
+execute as @a[scores={PSN_0=1000..}] run scoreboard players set @a PSN_0 -1
+execute as @a[scores={PSN_0=-1}] run scoreboard players add @a PSN_legacy 1
+
+
+##GIVE BOOK PSN 0 OLD (DA IL LIBRO PER AGGIORNARE I MONDI VECCHI)
+execute as @a[scores={PSN_legacy=5}] run scoreboard objectives add SkyblockCE_generated_book dummy
+execute as @a[scores={SkyblockCE_generated_book=10}] run give @s written_book{tag:generated_book,title:"Custom Structures Book",author:"Custom Structures Version: PSN 0 - 1.20.5",pages:['[{"text":"Info:\\n\\n","color":"black","bold":true,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"hoverEvent":{"action":"show_text","value":[{"text":"","color":"black"}]}},{"text":"Before adding the structures in the world, check if there are any constructions you have made within the custom structures area.","color":"black","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"hoverEvent":{"action":"show_text","value":[{"text":"","color":"black"}]}}]','{"text":"Add the (Generated) folder in the world. If not spawn the structures in the world.","color":"red","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}','[{"text":"Go to the next pages to see all coordinates. remember activate the coordinated with F3.\\n\\n\\n","color":"black","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"Yes I understand and I\'m ready immediately","color":"red","bold":true,"italic":true,"underlined":true,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"change_page","value":"5"}}]','[{"text":"Custom Structures:","color":"black","bold":true,"italic":true,"underlined":true,"strikethrough":false,"obfuscated":false},{"text":"\\n\\nMushroom House: 0 45 1000","color":"black","bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"\\n\\nOcean Ruins: 488 45 -260","color":"black","bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"\\n\\nCherry Grove: -198 45 -485","color":"black","bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"\\n\\nTrail Ruins: -266 45 -484","color":"black","bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false}]','[{"text":"Generated:\\n\\n\\n\\n\\n","color":"black","bold":true,"underlined":true,"strikethrough":false,"obfuscated":false},{"text":"⚠ I am ready to generate all structures ⚠","color":"red","bold":true,"italic":true,"underlined":true,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"run_command","value":"/scoreboard objectives add 1.20.5_PSN_0 dummy"}}]']} 1
+execute as @a[scores={SkyblockCE_generated_book=15..}] run scoreboard objectives remove SkyblockCE_generated_book
+
+
+##PSN REMOVE (RIMUOVERE SOLO QUANDO E FINITO UN PSN VECCHIO)
+execute as @a[scores={PSN_legacy=100..}] run scoreboard objectives remove PSN_0
+execute as @a[scores={PSN_legacy=105..}] run scoreboard objectives remove PSN_legacy
 
 
 ##MULTIPLAYER PSN
@@ -91,3 +112,6 @@ scoreboard players add @a 1.20.5_PSN_0_1 1
 
 ##SETUP PSN END (QUANDO FINISCE IL PSN AGGIUNGERE IL SUBPSN O IL PSN MA SOLO NEL PRIMO SUBPSN. GUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEL SUBPSN DENTRO LA FUNZIONE)
 execute as @a[scores={1.20.5_PSN_0=620..}] run scoreboard objectives add 1.20.3_PSN_0_1 dummy
+
+
+##Setup Update (1.20.5 - PSN 1) comming...
