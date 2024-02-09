@@ -40,12 +40,6 @@ execute as @a[scores={SkyblockCE_generated_book=10}] run give @s written_book{ta
 execute as @a[scores={SkyblockCE_generated_book=15..}] run scoreboard objectives remove SkyblockCE_generated_book
 
 
-##MULTIPLAYER PSN
-execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a PSN_0 -1
-execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a SkyblockCE_structures 100000
-#DA RIMUOVERE PER LEGACY - execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a PSN_legacy 24000
-
-
 ##TELEPORT PLAYER IN THE STRUCTURES (AGGIUNGERE LE STRUTTURE QUANDO DIVENTANO VECCHIE)
 
 #Pillager Outpost

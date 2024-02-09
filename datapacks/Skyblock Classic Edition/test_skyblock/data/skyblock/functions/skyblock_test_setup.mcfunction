@@ -7,6 +7,7 @@
 
 ##Function Setup Test
 function skyblock:test/multiplayer_legacy
+function skyblock:test/legacy_structures_system
 
 
 ##Function Remove Test (DA RIMUOVERE IN FUTURO)

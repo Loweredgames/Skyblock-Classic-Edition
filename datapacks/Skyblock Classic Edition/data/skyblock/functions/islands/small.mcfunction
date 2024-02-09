@@ -70,7 +70,7 @@ execute in minecraft:the_nether as @a[scores={SkyblockCE_small=131}] run place t
 
 ##Final Function
 execute as @a[scores={SkyblockCE_small=150}] run scoreboard players set @a SkyblockCE_tp 1
-execute as @a[scores={SkyblockCE_small=250}] run scoreboard objectives add SkyblockCE_structures_id dummy
+execute as @a[scores={SkyblockCE_small=250..}] run scoreboard objectives add SkyblockCE_structures_id dummy
 execute as @a[scores={SkyblockCE_small=1351}] run spawnpoint @a 0 65 1
 execute as @a[scores={SkyblockCE_small=1351}] run weather clear 1000s
 execute as @a[scores={SkyblockCE_small=1351}] run scoreboard objectives add kills deathCount

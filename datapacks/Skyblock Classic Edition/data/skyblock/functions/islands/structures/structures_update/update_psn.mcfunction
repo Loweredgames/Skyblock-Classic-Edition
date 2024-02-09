@@ -19,6 +19,10 @@ execute as @a[scores={1.20.5_PSN_0=15}] run title @a title {"translate":"skybloc
 #execute as @a[scores={1.20.5_PSN_0=15}] run title @a title {"translate":"skyblock_classic_edition.versions_id.warning_update.off","italic":true,"color":"#d5d5d5"}
 
 
+##MULTIPLAYER PSN
+execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a 1.20.5_PSN_0 10000
+
+
 ##SkyblockCE FINAL GENERATED DELAY
 execute as @a[scores={1.20.5_PSN_0=705}] run scoreboard players set @a SkyblockCE_tp 0
 execute as @a[scores={1.20.5_PSN_0=706}] run title @a title ["",{"text":"Sky","bold":true,"color":"aqua"},{"text":"block","bold":true,"color":"dark_green"}]
@@ -70,6 +74,15 @@ execute as @a[scores={1.20.5_PSN_0=605}] run title @a title {"translate":"skyblo
 execute as @a[scores={1.20.5_PSN_0=605}] run title @a subtitle {"translate":"skyblock_classic_edition.generated_structures.loading.subtitle","italic":true}
 execute as @a[scores={1.20.5_PSN_0=610}] run effect clear @a minecraft:blindness
 execute as @a[scores={1.20.5_PSN_0=610}] run effect clear @a minecraft:night_vision
+
+
+##per il PSN vecchio fare
+scoreboard objectives add PVN_legacy dummy
+scoreboard players set @a 1.20.3_PVN_0 1
+execute as @a[scores={1.20.3_PVN_0=1..}] run scoreboard players add @a PVN_legacy 1
+execute as @a[scores={PVN_legacy=100}] run tellraw @a ["",{"text":"\u2716","color":"red"},{"translate":"skyblock_classic_edition.version_update.compatible.minecraft_versions"},{"text":"1.16.5 - 1.17.1 - 1.18.1 - 1.18.2 - 1.19.4","bold":true},{"translate":"skyblock_classic_edition.version_update.compatible.info"}]
+execute as @a[scores={PVN_legacy=201..}] run scoreboard objectives remove 1.20.3_PVN_0
+execute as @a[scores={PVN_legacy=201..}] run scoreboard objectives remove PVN_legacy
 
 
 ##Setup Update SUBPSN
