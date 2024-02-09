@@ -94,9 +94,6 @@ execute as @a[scores={SkyblockCE_structures=1000..1100}] run gamerule doImmediat
 #execute as @a[scores={SkyblockCE_structures=1000..2001}] run clear @a written_book{tag:generated_book}
 execute as @a[scores={SkyblockCE_structures=1000}] run tp @s 0 66 0 90 0
 execute as @a[scores={SkyblockCE_structures=1005}] run gamemode survival @a
-execute as @a[scores={SkyblockCE_structures=1005}] run title @a times 20 100 20
-execute as @a[scores={SkyblockCE_structures=1005}] run title @a title {"translate":"skyblock_classic_edition.generated_structures.loading.title","italic":true}
-execute as @a[scores={SkyblockCE_structures=1005}] run title @a subtitle {"translate":"skyblock_classic_edition.generated_structures.loading.subtitle","italic":true}
 execute as @a[scores={SkyblockCE_structures=1005..1105}] run place template skyblock:air 0 0 0
 execute as @a[scores={SkyblockCE_structures=1010}] run setblock 0 0 0 minecraft:command_block[conditional=false,facing=west]{Command:'/tellraw @a [{"translate":"skyblock_classic_edition.generated_structures.generated.command_block.info","italic":true,"color":"red"},[""],{"translate":"skyblock_classic_edition.generated_structures.generated.command_block.download","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/releases"}},{"text":".\\u26a0","italic":true,"color":"red"}]',CustomName:'{"text":"@"}',SuccessCount:0,TrackOutput:1b,UpdateLastExecution:1b,auto:0b,conditionMet:0b,powered:0b} destroy
 execute as @a[scores={SkyblockCE_structures=1015}] run tellraw @a ["",{"text":"If the resource pack is not in the world and can cause damage to the text: add the resource pack in the world folder or ","italic":true,"color":"gray"},{"text":"reinstall the map here","italic":true,"underlined":true,"color":"gray","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/releases"}},{"text":" and add manually in the world folder.","italic":true,"color":"gray"}]
@@ -104,4 +101,3 @@ execute as @a[scores={SkyblockCE_structures=1020}] run setblock 0 1 0 minecraft:
 execute as @a[scores={SkyblockCE_structures=1025}] run fill 0 0 0 0 1 0 minecraft:air destroy
 execute as @a[scores={SkyblockCE_structures=1040}] run effect clear @a minecraft:blindness
 execute as @a[scores={SkyblockCE_structures=1040}] run effect clear @a minecraft:night_vision
-execute as @a[scores={SkyblockCE_structures=1140}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
