@@ -13,6 +13,26 @@ execute as @a[scores={1.20.5_PSN_0=6}] run effect give @a night_vision 61 0 true
 execute as @a[scores={1.20.5_PSN_0=5..600}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
+##SkyblockCE FINAL GENERATED DELAY
+execute as @a[scores={1.20.5_PSN_0=705}] run scoreboard players set @a SkyblockCE_tp 0
+execute as @a[scores={1.20.5_PSN_0=706}] run title @a title ["",{"text":"Sky","bold":true,"color":"aqua"},{"text":"block","bold":true,"color":"dark_green"}]
+execute as @a[scores={1.20.5_PSN_0=706}] run title @a subtitle {"text":"Classic Edition","bold":true,"color":"dark_blue"}
+execute as @a[scores={1.20.5_PSN_0=706}] run title @a times 30 100 30
+execute as @a[scores={1.20.5_PSN_0=705..707}] run gamerule announceAdvancements true
+execute as @a[scores={1.20.5_PSN_0=705..707}] run gamerule doDaylightCycle true
+execute as @a[scores={1.20.5_PSN_0=705..707}] run gamerule doWeatherCycle true
+execute as @a[scores={1.20.5_PSN_0=705..707}] run gamerule doImmediateRespawn false
+execute as @a[scores={1.20.5_PSN_0=710}] run time set 0
+execute as @a[scores={1.20.5_PSN_0=710}] run gamemode survival @a
+execute as @a[scores={1.20.5_PSN_0=710}] run advancement revoke @a everything
+execute as @a[scores={1.20.5_PSN_0=750}] run execute in minecraft:overworld run tp @p 0 66 0 90 0
+execute as @a[scores={1.20.5_PSN_0=755}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
+
+
+##SkyblockCE ID DELAY (AGGIORNARE SEMPRE QUANDO VENGONO AGGIUNTE NUOVE STRUTTURE. DELAY PID PER LA CONVERSIONE)
+execute as @a[scores={1.20.5_PSN_0=700}] run scoreboard objectives add SkyblockCE_id dummy
+
+
 ##TELEPORT PLAYER IN THE STRUCTURES (AGGIUNGERE LE STRUTTURE)
 
 #Mushroom House
@@ -37,15 +57,15 @@ execute as @a[scores={1.20.5_PSN_0=450}] run place template skyblock:structures/
 
 ##FINAL FUNCTION STRUCTURES
 execute as @a[scores={1.20.5_PSN_0=1}] run gamerule doImmediateRespawn true
-execute as @a[scores={1.20.5_PSN_0=500}] run gamerule doImmediateRespawn false
-execute as @a[scores={1.20.5_PSN_0=500}] run tp @s 0 66 0 90 0
-execute as @a[scores={1.20.5_PSN_0=505}] run gamemode survival @a
-execute as @a[scores={1.20.5_PSN_0=505}] run title @a times 20 100 20
-execute as @a[scores={1.20.5_PSN_0=505}] run title @a title {"translate":"skyblock_classic_edition.generated_structures.loading.title","italic":true}
-execute as @a[scores={1.20.5_PSN_0=505}] run title @a subtitle {"translate":"skyblock_classic_edition.generated_structures.loading.subtitle","italic":true}
-execute as @a[scores={1.20.5_PSN_0=510}] run effect clear @a minecraft:blindness
-execute as @a[scores={1.20.5_PSN_0=510}] run effect clear @a minecraft:night_vision
-execute as @a[scores={1.20.5_PSN_0=515}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
+execute as @a[scores={1.20.5_PSN_0=600}] run gamerule doImmediateRespawn false
+execute as @a[scores={1.20.5_PSN_0=600}] run tp @s 0 66 0 90 0
+execute as @a[scores={1.20.5_PSN_0=605}] run gamemode survival @a
+execute as @a[scores={1.20.5_PSN_0=605}] run title @a times 20 100 20
+execute as @a[scores={1.20.5_PSN_0=605}] run title @a title {"translate":"skyblock_classic_edition.generated_structures.loading.title","italic":true}
+execute as @a[scores={1.20.5_PSN_0=605}] run title @a subtitle {"translate":"skyblock_classic_edition.generated_structures.loading.subtitle","italic":true}
+execute as @a[scores={1.20.5_PSN_0=610}] run effect clear @a minecraft:blindness
+execute as @a[scores={1.20.5_PSN_0=610}] run effect clear @a minecraft:night_vision
+execute as @a[scores={1.20.5_PSN_0=615}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
 
 
 ##Setup Update SUBPSN
@@ -61,4 +81,4 @@ scoreboard players add @a 1.20.5_PSN_0_1 1
 
 
 ##SETUP PSN END (QUANDO FINISCE IL PSN AGGIUNGERE IL SUBPSN O IL PSN MA SOLO NEL PRIMO SUBPSN. GUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEL SUBPSN DENTRO LA FUNZIONE)
-execute as @a[scores={1.20.5_PSN_0=1015..}] run scoreboard objectives add 1.20.3_PSN_0_1 dummy
+execute as @a[scores={1.20.5_PSN_0=620..}] run scoreboard objectives add 1.20.3_PSN_0_1 dummy
