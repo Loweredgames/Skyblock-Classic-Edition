@@ -16,8 +16,8 @@ scoreboard objectives add PSN_legacy dummy
 
 
 ##PSN Legacy Versions (DA AGGIUNGERE IL PSN. CONTROLARE IL DELAY IN UPDATE_PSN)
-execute as @a[scores={PSN_0_OLD=1000..}] run scoreboard players set @a PSN_0_OLD -1
-execute as @a[scores={PSN_0_OLD=-1}] run scoreboard players add @a PSN_legacy 1
+execute as @a[scores={PSN_0=1000..}] run scoreboard players set @a PSN_0 -1
+execute as @a[scores={PSN_0=-1}] run scoreboard players add @a PSN_legacy 1
 
 
 ##GIVE BOOK PSN 0 OLD (DA IL LIBRO PER AGGIORNARE I MONDI VECCHI)
@@ -27,8 +27,8 @@ execute as @a[scores={SkyblockCE_generated_book=10}] run give @s written_book{ta
 execute as @a[scores={SkyblockCE_generated_book=15..}] run scoreboard objectives remove SkyblockCE_generated_book
 
 
-##PSN Remove (RIMUOVERE SOLO QUANDO E FINITO UN PSN VECCHIO)
-execute as @a[scores={PSN_legacy=100..}] run scoreboard objectives remove PSN_0_OLD
+##PSN REMOVE (RIMUOVERE SOLO QUANDO E FINITO UN PSN VECCHIO)
+execute as @a[scores={PSN_legacy=100..}] run scoreboard objectives remove PSN_0
 execute as @a[scores={PSN_legacy=105..}] run scoreboard objectives remove PSN_legacy
 
 
@@ -90,7 +90,6 @@ execute as @a[scores={SkyblockCE_structures=950}] run place template skyblock:st
 ##FINAL FUNCTION STRUCTURES GENERATED
 execute as @a[scores={SkyblockCE_structures=1..1000}] run gamerule doImmediateRespawn true
 execute as @a[scores={SkyblockCE_structures=1000..1100}] run gamerule doImmediateRespawn false
-#execute as @a[scores={SkyblockCE_structures=1000..2001}] run clear @a written_book{tag:generated_book}
 execute as @a[scores={SkyblockCE_structures=1000}] run tp @s 0 66 0 90 0
 execute as @a[scores={SkyblockCE_structures=1005}] run gamemode survival @a
 execute as @a[scores={SkyblockCE_structures=1005..1105}] run place template skyblock:air 0 0 0

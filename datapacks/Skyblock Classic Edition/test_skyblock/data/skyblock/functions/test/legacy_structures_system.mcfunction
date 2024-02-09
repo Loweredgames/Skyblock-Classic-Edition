@@ -18,5 +18,7 @@ execute as @a[scores={NEW_PSN=-1..}] run clear @a written_book{tag:generated_boo
 #LOCK E AGGIORNAMENTO AL NUOVO SISTEMA
 scoreboard objectives add PSN_OLD_SYSTEM dummy
 scoreboard players add @a PSN_OLD_SYSTEM 1
-execute as @a[scores={PSN_OLD_SYSTEM=1..}] run scoreboard players set @a SkyblockCE_structures_id 10000
-execute as @a[scores={PSN_OLD_SYSTEM=1..}] run
+execute as @a[scores={PSN_OLD_SYSTEM=5..}] run scoreboard players set @a SkyblockCE_structures_id 10000
+execute as @a[scores={PSN_OLD_SYSTEM=5..}] run scoreboard players set @a SkyblockCE_structures 10000
+execute as @a[scores={PSN_OLD_SYSTEM=5..}] run scoreboard objectives add PSN_0 dummy
+execute as @a[scores={PSN_OLD_SYSTEM=5..}] run scoreboard players set @a PSN_0 1020
