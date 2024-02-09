@@ -6,7 +6,7 @@
 
 
 ##Multiplayer Legacy (Aggiornato all'ultima versione: 1.0.0 - 5.2.0 Minecraft: 1.20.5) - (DA CANCELLARE NELLA 1.21)
-da aggiornare per il nuovo sistema pvn
+#da aggiornare per il nuovo sistema pvn
 execute as @a[scores={SkyblockCE_multiplayer=..5}] run scoreboard objectives remove multiplayer
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_install -2
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_islands -2
