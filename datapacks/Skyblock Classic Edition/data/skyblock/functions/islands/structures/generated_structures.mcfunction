@@ -8,6 +8,7 @@
 ##SETUP STRUCTURES ID (NON TOCCARE)
 execute as @a[scores={SkyblockCE_structures_id=30..}] run scoreboard objectives add SkyblockCE_structures dummy
 execute as @a[scores={SkyblockCE_structures_id=35..}] run scoreboard players add @a SkyblockCE_structures 1
+scoreboard players add @a SkyblockCE_structures_id 1
 
 
 ##FUNCTION STRUCTURES LOOP
@@ -25,9 +26,9 @@ execute as @a[scores={SkyblockCE_structures=5..1000}] run summon minecraft:area_
 execute as @a[scores={SkyblockCE_structures=..1000}] run clear @a written_book{tag:generated_book}
 
 
-##STRUCTURES PSN SETUP
-execute as @a[scores={SkyblockCE_structures=650..}] run scoreboard objectives add 1.20.5_PSN_0 dummy
-execute as @a[scores={SkyblockCE_structures=650..}] run scoreboard players add @a 1.20.5_PSN_0 1
+##STRUCTURES PSN SETUP (DELAY PER IL PSN)
+execute as @a[scores={SkyblockCE_structures=1150..}] run scoreboard objectives add 1.20.5_PSN_0 dummy
+execute as @a[scores={SkyblockCE_structures=1150..}] run scoreboard players add @a 1.20.5_PSN_0 1
 
 
 ##GIVE BOOK PSN
@@ -42,7 +43,7 @@ execute as @a[scores={SkyblockCE_generated_book=15..}] run scoreboard objectives
 ##SkyblockCE ID (AGGIORNARE SEMPRE QUANDO VENGONO AGGIUNTE NUOVE STRUTTURE. DELAY PID_X PER LE FUNZIONI default/large/small)
 #>INTEGRARE IN FUTURO NELLA FUNZIONE Strutture.
 execute as @a[scores={SkyblockCE_large=1360}] run scoreboard objectives add SkyblockCE_id dummy
-execute as @a[scores={SkyblockCE_default=1360}] run scoreboard objectives add SkyblockCE_id dummy
+#execute as @a[scores={SkyblockCE_default=1360}] run scoreboard objectives add SkyblockCE_id dummy
 execute as @a[scores={SkyblockCE_small=1360}] run scoreboard objectives add SkyblockCE_id dummy
 
 
@@ -95,20 +96,19 @@ execute as @a[scores={SkyblockCE_structures=950}] run place template skyblock:st
 
 
 ##FINAL FUNCTION STRUCTURES GENERATED
-execute as @a[scores={SkyblockCE_structures=1..500}] run gamerule doImmediateRespawn true
-execute as @a[scores={SkyblockCE_structures=500..600}] run gamerule doImmediateRespawn false
-execute as @a[scores={SkyblockCE_structures=500..2001}] run clear @a written_book{tag:generated_book}
-execute as @a[scores={SkyblockCE_structures=500}] run tp @s 0 66 0 90 0
-execute as @a[scores={SkyblockCE_structures=505}] run gamemode survival @a
-execute as @a[scores={SkyblockCE_structures=505}] run title @a times 20 100 20
-execute as @a[scores={SkyblockCE_structures=505}] run title @a title {"translate":"skyblock_classic_edition.generated_structures.loading.title","italic":true}
-execute as @a[scores={SkyblockCE_structures=505}] run title @a subtitle {"translate":"skyblock_classic_edition.generated_structures.loading.subtitle","italic":true}
-#execute as @a[scores={SkyblockCE_structures=1..7000}] run clear @a written_book{tag:generated_book}
-execute as @a[scores={SkyblockCE_structures=505..600}] run place template skyblock:air 0 0 0
-execute as @a[scores={SkyblockCE_structures=510}] run setblock 0 0 0 minecraft:command_block[conditional=false,facing=west]{Command:'/tellraw @a [{"translate":"skyblock_classic_edition.generated_structures.generated.command_block.info","italic":true,"color":"red"},[""],{"translate":"skyblock_classic_edition.generated_structures.generated.command_block.download","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/releases"}},{"text":".\\u26a0","italic":true,"color":"red"}]',CustomName:'{"text":"@"}',SuccessCount:0,TrackOutput:1b,UpdateLastExecution:1b,auto:0b,conditionMet:0b,powered:0b} destroy
-execute as @a[scores={SkyblockCE_structures=515}] run tellraw @a ["",{"text":"If the resource pack is not in the world and can cause damage to the text: add the resource pack in the world folder or ","italic":true,"color":"gray"},{"text":"reinstall the map here","italic":true,"underlined":true,"color":"gray","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/releases"}},{"text":" and add manually in the world folder.","italic":true,"color":"gray"}]
-execute as @a[scores={SkyblockCE_structures=520}] run setblock 0 1 0 minecraft:redstone_block destroy
-execute as @a[scores={SkyblockCE_structures=525}] run fill 0 0 0 0 1 0 minecraft:air destroy
-execute as @a[scores={SkyblockCE_structures=550}] run effect clear @a minecraft:blindness
-execute as @a[scores={SkyblockCE_structures=550}] run effect clear @a minecraft:night_vision
-execute as @a[scores={SkyblockCE_structures=600}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
+execute as @a[scores={SkyblockCE_structures=1..1000}] run gamerule doImmediateRespawn true
+execute as @a[scores={SkyblockCE_structures=1000..1100}] run gamerule doImmediateRespawn false
+#execute as @a[scores={SkyblockCE_structures=1000..2001}] run clear @a written_book{tag:generated_book}
+execute as @a[scores={SkyblockCE_structures=1000}] run tp @s 0 66 0 90 0
+execute as @a[scores={SkyblockCE_structures=1005}] run gamemode survival @a
+execute as @a[scores={SkyblockCE_structures=1005}] run title @a times 20 100 20
+execute as @a[scores={SkyblockCE_structures=1005}] run title @a title {"translate":"skyblock_classic_edition.generated_structures.loading.title","italic":true}
+execute as @a[scores={SkyblockCE_structures=1005}] run title @a subtitle {"translate":"skyblock_classic_edition.generated_structures.loading.subtitle","italic":true}
+execute as @a[scores={SkyblockCE_structures=1005..1100}] run place template skyblock:air 0 0 0
+execute as @a[scores={SkyblockCE_structures=1010}] run setblock 0 0 0 minecraft:command_block[conditional=false,facing=west]{Command:'/tellraw @a [{"translate":"skyblock_classic_edition.generated_structures.generated.command_block.info","italic":true,"color":"red"},[""],{"translate":"skyblock_classic_edition.generated_structures.generated.command_block.download","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/releases"}},{"text":".\\u26a0","italic":true,"color":"red"}]',CustomName:'{"text":"@"}',SuccessCount:0,TrackOutput:1b,UpdateLastExecution:1b,auto:0b,conditionMet:0b,powered:0b} destroy
+execute as @a[scores={SkyblockCE_structures=1015}] run tellraw @a ["",{"text":"If the resource pack is not in the world and can cause damage to the text: add the resource pack in the world folder or ","italic":true,"color":"gray"},{"text":"reinstall the map here","italic":true,"underlined":true,"color":"gray","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/releases"}},{"text":" and add manually in the world folder.","italic":true,"color":"gray"}]
+execute as @a[scores={SkyblockCE_structures=1020}] run setblock 0 1 0 minecraft:redstone_block destroy
+execute as @a[scores={SkyblockCE_structures=1025}] run fill 0 0 0 0 1 0 minecraft:air destroy
+execute as @a[scores={SkyblockCE_structures=1050}] run effect clear @a minecraft:blindness
+execute as @a[scores={SkyblockCE_structures=1050}] run effect clear @a minecraft:night_vision
+execute as @a[scores={SkyblockCE_structures=1100}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2

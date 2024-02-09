@@ -76,7 +76,7 @@ execute as @a[scores={SkyblockCE_default=1351}] run weather clear 1000s
 execute as @a[scores={SkyblockCE_default=1351}] run scoreboard objectives add kills deathCount
 execute as @a[scores={SkyblockCE_default=1351}] run scoreboard objectives setdisplay list kills
 ##da spostare? \/
-execute as @a[scores={SkyblockCE_default=1355}] run scoreboard players set @a SkyblockCE_tp 0
+#execute as @a[scores={SkyblockCE_default=1355}] run scoreboard players set @a SkyblockCE_tp 0
 execute as @a[scores={SkyblockCE_default=1356}] run title @a title ["",{"text":"Sky","bold":true,"color":"aqua"},{"text":"block","bold":true,"color":"dark_green"}]
 execute as @a[scores={SkyblockCE_default=1356}] run title @a subtitle {"text":"Classic Edition","bold":true,"color":"dark_blue"}
 execute as @a[scores={SkyblockCE_default=1356}] run title @a times 30 100 30
@@ -85,7 +85,7 @@ execute as @a[scores={SkyblockCE_default=1357..}] run gamerule doDaylightCycle t
 execute as @a[scores={SkyblockCE_default=1357..}] run gamerule doWeatherCycle true
 execute as @a[scores={SkyblockCE_default=1357..}] run gamerule doImmediateRespawn false
 execute as @a[scores={SkyblockCE_default=1357}] run time set 0
-execute as @a[scores={SkyblockCE_default=1360}] run gamemode survival @a
-execute as @a[scores={SkyblockCE_default=1360}] run advancement revoke @a everything
-execute as @a[scores={SkyblockCE_default=1360}] run execute in minecraft:overworld run tp @p 0 66 0 90 0
-execute as @a[scores={SkyblockCE_default=1361}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
+#execute as @a[scores={SkyblockCE_default=1360}] run gamemode survival @a
+#execute as @a[scores={SkyblockCE_default=1360}] run advancement revoke @a everything
+#execute as @a[scores={SkyblockCE_default=1360}] run execute in minecraft:overworld run tp @p 0 66 0 90 0
+#execute as @a[scores={SkyblockCE_default=1361}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2

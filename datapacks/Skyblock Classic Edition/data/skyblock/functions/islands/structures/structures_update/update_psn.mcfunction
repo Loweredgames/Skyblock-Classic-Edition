@@ -10,7 +10,7 @@ execute as @a[scores={1.20.5_PSN_0=5}] run scoreboard players set @a SkyblockCE_
 execute as @a[scores={1.20.5_PSN_0=5}] run gamemode spectator @a
 execute as @a[scores={1.20.5_PSN_0=5}] run effect give @a blindness 62 0 true
 execute as @a[scores={1.20.5_PSN_0=6}] run effect give @a night_vision 61 0 true
-execute as @a[scores={1.20.5_PSN_0=5..1005}] run summon minecraft:area_effect_cloud ~ ~1 ~
+execute as @a[scores={1.20.5_PSN_0=5..600}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
 ##TELEPORT PLAYER IN THE STRUCTURES (AGGIUNGERE LE STRUTTURE)
@@ -37,12 +37,15 @@ execute as @a[scores={1.20.5_PSN_0=450}] run place template skyblock:structures/
 
 ##FINAL FUNCTION STRUCTURES
 execute as @a[scores={1.20.5_PSN_0=1}] run gamerule doImmediateRespawn true
-execute as @a[scores={1.20.5_PSN_0=1000}] run gamerule doImmediateRespawn false
-execute as @a[scores={1.20.5_PSN_0=1000}] run tp @s 0 66 0 90 0
-execute as @a[scores={1.20.5_PSN_0=1005}] run gamemode survival @a
-execute as @a[scores={1.20.5_PSN_0=1005}] run title @a times 20 100 20
-execute as @a[scores={1.20.5_PSN_0=1005}] run title @a title {"translate":"skyblock_classic_edition.generated_structures.loading.title","italic":true}
-execute as @a[scores={1.20.5_PSN_0=1005}] run title @a subtitle {"translate":"skyblock_classic_edition.generated_structures.loading.subtitle","italic":true}
+execute as @a[scores={1.20.5_PSN_0=500}] run gamerule doImmediateRespawn false
+execute as @a[scores={1.20.5_PSN_0=500}] run tp @s 0 66 0 90 0
+execute as @a[scores={1.20.5_PSN_0=505}] run gamemode survival @a
+execute as @a[scores={1.20.5_PSN_0=505}] run title @a times 20 100 20
+execute as @a[scores={1.20.5_PSN_0=505}] run title @a title {"translate":"skyblock_classic_edition.generated_structures.loading.title","italic":true}
+execute as @a[scores={1.20.5_PSN_0=505}] run title @a subtitle {"translate":"skyblock_classic_edition.generated_structures.loading.subtitle","italic":true}
+execute as @a[scores={SkyblockCE_structures=510}] run effect clear @a minecraft:blindness
+execute as @a[scores={SkyblockCE_structures=510}] run effect clear @a minecraft:night_vision
+execute as @a[scores={SkyblockCE_structures=515}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
 
 
 ##Setup Update SUBPSN
