@@ -12,6 +12,7 @@
 execute as @a[scores={1.20.5_PSN_0=5..}] run scoreboard objectives add NEW_PSN dummy
 execute as @a[scores={1.20.5_PSN_0=5..}] run scoreboard players set @a NEW_PSN -1
 execute as @a[scores={NEW_PSN=-1..}] run scoreboard players set @a PSN_OLD_SYSTEM -1
+execute as @a[scores={NEW_PSN=-1..}] run clear @a written_book{tag:generated_book}
 
 
 #LOCK E AGGIORNAMENTO AL NUOVO SISTEMA

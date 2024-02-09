@@ -11,6 +11,7 @@ execute as @a[scores={1.20.5_PSN_0=5}] run gamemode spectator @a
 execute as @a[scores={1.20.5_PSN_0=5}] run effect give @a blindness 62 0 true
 execute as @a[scores={1.20.5_PSN_0=6}] run effect give @a night_vision 61 0 true
 execute as @a[scores={1.20.5_PSN_0=5..600}] run summon minecraft:area_effect_cloud ~ ~1 ~
+execute as @a[scores={1.20.5_PSN_0=5..600}] run clear @a written_book{tag:generated_book}
 
 
 ##SKYBLOCK PSN VERSION WARNING (CAMBIARE SOLO SE NON CI SONO AGGIORNAMENTI NELLE STRUTTURE)
