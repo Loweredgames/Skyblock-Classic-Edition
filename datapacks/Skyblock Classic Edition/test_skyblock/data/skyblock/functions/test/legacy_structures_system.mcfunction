@@ -6,5 +6,16 @@
 
 
 ##LEGACY STRUCTURES SYSTEM (DA RIMUOVERE NELLA 1.22)
-execute as @a[scores={PSN_legacy=2000000..}] run scoreboard players set @a PSN_legacy 10000
-execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a PSN_legacy 24000
+
+
+#LOCK DELLE VERSIONI NUOVE
+execute as @a[scores={1.20.5_PSN_0=5..}] run scoreboard objectives add NEW_PSN dummy
+execute as @a[scores={1.20.5_PSN_0=5..}] run scoreboard players set @a NEW_PSN -1
+execute as @a[scores={NEW_PSN=-1..}] run scoreboard players set @a PSN_OLD_SYSTEM -1
+
+
+#LOCK E AGGIORNAMENTO AL NUOVO SISTEMA
+scoreboard objectives add PSN_OLD_SYSTEM dummy
+scoreboard players add @a PSN_OLD_SYSTEM 1
+execute as @a[scores={PSN_OLD_SYSTEM=1..}] run scoreboard players set @a SkyblockCE_structures_id 10000
+execute as @a[scores={PSN_OLD_SYSTEM=1..}] run
