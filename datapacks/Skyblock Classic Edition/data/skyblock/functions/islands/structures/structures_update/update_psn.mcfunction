@@ -5,58 +5,34 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Setup Update 1.20.5 - PSN 0
+##Setup Update (1.20.5 - PSN 0)
 execute as @a[scores={1.20.5_PSN_0=5}] run scoreboard players set @a SkyblockCE_tp 0
 execute as @a[scores={1.20.5_PSN_0=5}] run gamemode spectator @a
 execute as @a[scores={1.20.5_PSN_0=5}] run effect give @a blindness 62 0 true
 execute as @a[scores={1.20.5_PSN_0=6}] run effect give @a night_vision 61 0 true
-execute as @a[scores={1.20.5_PSN_0=5..2000}] run summon minecraft:area_effect_cloud ~ ~1 ~
-
-
-##PSN END (QUANDO FINISCE IL PSN AGGIUNGERE IL SUBPSN O IL PSN MA SOLO NEL PRIMO SUBPSN. GUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEL SUBPSN DENTRO LA FUNZIONE)
-execute as @a[scores={1.20.5_PSN_0=1015..}] run scoreboard objectives add 1.20.3_PSN_0_1 dummy
+execute as @a[scores={1.20.5_PSN_0=5..1005}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
 ##TELEPORT PLAYER IN THE STRUCTURES (AGGIUNGERE LE STRUTTURE)
 
-#Pillager Outpost
-execute as @a[scores={1.20.5_PSN_0=100}] run tp @a 500 45 55 0 0
+#Mushroom House
+execute as @a[scores={1.20.5_PSN_0=100}] run tp @a 0 45 1000 0 0
 
-#Village
-execute as @a[scores={1.20.5_PSN_0=200}] run tp @a 460 45 350 0 0
+#Ocean Ruins
+execute as @a[scores={1.20.5_PSN_0=200}] run tp @a 488 45 -260 0 0
 
-#Swamp Hut
-execute as @a[scores={1.20.5_PSN_0=300}] run tp @a -180 45 -180 0 0
+#Cherry Grove
+execute as @a[scores={1.20.5_PSN_0=300}] run tp @a -198 45 -485 0 0
 
-#Igloo
-execute as @a[scores={1.20.5_PSN_0=400}] run tp @a 180 45 180 0 0
-
-#Jungle Pyramids
-execute as @a[scores={1.20.5_PSN_0=500}] run tp @a -60 45 500 0 0
-
-#Desert Pyramid
-execute as @a[scores={1.20.5_PSN_0=600}] run tp @a 60 45 -500 0 0
-
-#Shipwrecks
-execute as @a[scores={1.20.5_PSN_0=700}] run tp @a 280 45 0 0 0
-
-#Stronghold
-execute as @a[scores={1.20.5_PSN_0=800}] run tp @a 700 45 700 0 0
-
-#Ancient City
-execute as @a[scores={1.20.5_PSN_0=900}] run tp @a -700 45 -700 0 0
+#Trail Ruins
+execute as @a[scores={1.20.5_PSN_0=400}] run tp @a -266 45 -484 0 0
 
 
 ##GENERATED STRUCTURES
-execute as @a[scores={1.20.5_PSN_0=150}] run place template skyblock:structures/pillager_outpost 500 45 55
-execute as @a[scores={1.20.5_PSN_0=250}] run place template skyblock:structures/village 460 45 350
-execute as @a[scores={1.20.5_PSN_0=350}] run place template skyblock:structures/swamp_hut -180 45 -180
-execute as @a[scores={1.20.5_PSN_0=450}] run place template skyblock:structures/igloo 180 45 180
-execute as @a[scores={1.20.5_PSN_0=550}] run place template skyblock:structures/jungle_pyramids -60 45 500
-execute as @a[scores={1.20.5_PSN_0=650}] run place template skyblock:structures/desert_pyramid 60 45 -500
-execute as @a[scores={1.20.5_PSN_0=750}] run place template skyblock:structures/shipwrecks 280 45 0
-execute as @a[scores={1.20.5_PSN_0=850}] run place template skyblock:structures/stronghold 700 45 700
-execute as @a[scores={1.20.5_PSN_0=950}] run place template skyblock:structures/ancient_city -700 45 -700
+execute as @a[scores={1.20.5_PSN_0=150}] run place template skyblock:structures/mushroom_house 0 45 1000
+execute as @a[scores={1.20.5_PSN_0=250}] run place template skyblock:structures/ocean_ruins 488 45 -260
+execute as @a[scores={1.20.5_PSN_0=350}] run place template skyblock:structures/cherry_grove -198 45 -485
+execute as @a[scores={1.20.5_PSN_0=450}] run place template skyblock:structures/trail_ruins -266 45 -484
 
 
 ##FINAL FUNCTION STRUCTURES
@@ -67,9 +43,19 @@ execute as @a[scores={1.20.5_PSN_0=1005}] run gamemode survival @a
 execute as @a[scores={1.20.5_PSN_0=1005}] run title @a times 20 100 20
 execute as @a[scores={1.20.5_PSN_0=1005}] run title @a title {"translate":"skyblock_classic_edition.generated_structures.loading.title","italic":true}
 execute as @a[scores={1.20.5_PSN_0=1005}] run title @a subtitle {"translate":"skyblock_classic_edition.generated_structures.loading.subtitle","italic":true}
-execute as @a[scores={1.20.5_PSN_0=1..7000}] run clear @a written_book{tag:generated_book}
-execute as @a[scores={1.20.5_PSN_0=1000..1900}] run place template skyblock:air 0 0 0
-execute as @a[scores={1.20.5_PSN_0=1800}] run setblock 0 0 0 minecraft:command_block[conditional=false,facing=west]{Command:'/tellraw @a [{"translate":"skyblock_classic_edition.generated_structures.generated.command_block.info","italic":true,"color":"red"},[""],{"translate":"skyblock_classic_edition.generated_structures.generated.command_block.download","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/releases"}},{"text":".\\u26a0","italic":true,"color":"red"}]',CustomName:'{"text":"@"}',SuccessCount:0,TrackOutput:1b,UpdateLastExecution:1b,auto:0b,conditionMet:0b,powered:0b} destroy
-execute as @a[scores={1.20.5_PSN_0=1801}] run tellraw @a ["",{"text":"If the resource pack is not in the world and can cause damage to the text: add the resource pack in the world folder or ","italic":true,"color":"gray"},{"text":"reinstall the map here","italic":true,"underlined":true,"color":"gray","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/releases"}},{"text":" and add manually in the world folder.","italic":true,"color":"gray"}]
-execute as @a[scores={1.20.5_PSN_0=1810}] run setblock 0 1 0 minecraft:redstone_block destroy
-execute as @a[scores={1.20.5_PSN_0=2000}] run fill 0 0 0 0 1 0 minecraft:air destroy
+
+
+##Setup Update SUBPSN
+scoreboard players add @a 1.20.5_PSN_0_1 1
+#fare qui
+
+
+##Setup Update SUBPID 0_1
+
+
+##Scoreboard Start SUBPSN 0_1
+#FARE
+
+
+##SETUP PSN END (QUANDO FINISCE IL PSN AGGIUNGERE IL SUBPSN O IL PSN MA SOLO NEL PRIMO SUBPSN. GUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEL SUBPSN DENTRO LA FUNZIONE)
+execute as @a[scores={1.20.5_PSN_0=1015..}] run scoreboard objectives add 1.20.3_PSN_0_1 dummy
