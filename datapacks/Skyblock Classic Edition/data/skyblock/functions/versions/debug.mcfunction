@@ -33,12 +33,13 @@ execute as @a[scores={SkyblockCE_debug=8}] run scoreboard objectives setdisplay 
 
 
 ##DISPLAY DI DEBUG - GENERATED STRUCTURES
-execute as @a[scores={SkyblockCE_debug=9}] run scoreboard objectives setdisplay sidebar PSN_0
+execute as @a[scores={SkyblockCE_debug=9}] run scoreboard objectives setdisplay sidebar 1.20.5_PSN_0
 
 
 ##DISPLAY DI DEBUG - LEGACY STRUCTURES
 execute as @a[scores={SkyblockCE_debug=-10}] run scoreboard objectives setdisplay list PSN_legacy
-execute as @a[scores={SkyblockCE_debug=10}] run scoreboard objectives setdisplay sidebar SkyblockCE_structures
+execute as @a[scores={SkyblockCE_debug=10}] run scoreboard objectives setdisplay sidebar SkyblockCE_structures_id
+execute as @a[scores={SkyblockCE_debug=101}] run scoreboard objectives setdisplay sidebar SkyblockCE_structures
 
 
 ##DISPLAY DI DEBUG - ISLANDS GENERATED
