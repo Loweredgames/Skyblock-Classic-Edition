@@ -17,7 +17,7 @@ Protocol Version: 1.20.5_PVN_0b
 
 Protocol Identifier Data: 1.20.5_PID_0 (Da Aggiungere) \ PID 1
 
-Protocol Structures Number: PSN_0
+Protocol Structures Number: 1.20.5_PSN_0
 
 Github_Tag: 1.20.5_JE-1a
 
