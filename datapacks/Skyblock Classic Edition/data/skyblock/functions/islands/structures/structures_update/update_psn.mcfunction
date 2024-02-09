@@ -43,9 +43,9 @@ execute as @a[scores={1.20.5_PSN_0=505}] run gamemode survival @a
 execute as @a[scores={1.20.5_PSN_0=505}] run title @a times 20 100 20
 execute as @a[scores={1.20.5_PSN_0=505}] run title @a title {"translate":"skyblock_classic_edition.generated_structures.loading.title","italic":true}
 execute as @a[scores={1.20.5_PSN_0=505}] run title @a subtitle {"translate":"skyblock_classic_edition.generated_structures.loading.subtitle","italic":true}
-execute as @a[scores={SkyblockCE_structures=510}] run effect clear @a minecraft:blindness
-execute as @a[scores={SkyblockCE_structures=510}] run effect clear @a minecraft:night_vision
-execute as @a[scores={SkyblockCE_structures=515}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
+execute as @a[scores={1.20.5_PSN_0=510}] run effect clear @a minecraft:blindness
+execute as @a[scores={1.20.5_PSN_0=510}] run effect clear @a minecraft:night_vision
+execute as @a[scores={1.20.5_PSN_0=515}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
 
 
 ##Setup Update SUBPSN
