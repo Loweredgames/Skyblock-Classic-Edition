@@ -99,19 +99,21 @@ execute as @a[scores={1.20.5_PSN_0=610}] run effect clear @a minecraft:night_vis
 
 
 ##Setup Update SUBPSN
-scoreboard players add @a 1.20.5_PSN_0_1 1
-#fare qui
+#scoreboard players add @a 1.20.5_PSN_0_1 1
+#fare qui LTS
 
 
 ##Setup Update SUBPID 0_1
-
+#LTS
 
 ##Scoreboard Start SUBPSN 0_1
 #FARE
 
 
-##SETUP PSN END (QUANDO FINISCE IL PSN AGGIUNGERE IL SUBPSN O IL PSN MA SOLO NEL PRIMO SUBPSN. GUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEL SUBPSN DENTRO LA FUNZIONE)
-execute as @a[scores={1.20.5_PSN_0=620..}] run scoreboard objectives add 1.20.3_PSN_0_1 dummy
+##SETUP PSN END (QUANDO FINISCE IL PSN AGGIUNGERE IL SUBPSN, AGGIUNGERE L'ULTIMA VERSIONE SUBPID? FORSE. GUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEL SUBPSN DENTRO LA FUNZIONE)
+#per LTS
+#execute as @a[scores={1.20.5_PSN_0=620..}] run scoreboard objectives add 1.20.5_PSN_0_1 dummy
+#execute as @a[scores={1.20.5_PID_1_4=620..}] run scoreboard objectives add 1.20.5_PSN_0_1 dummy
 
 
 ##Setup Update (1.20.5 - PSN 1) comming...
