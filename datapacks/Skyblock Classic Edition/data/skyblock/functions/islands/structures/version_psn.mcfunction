@@ -38,7 +38,7 @@ execute as @a[scores={SkyblockCE_generated_book=15..}] run scoreboard objectives
 
 ##PSN REMOVE (RIMUOVERE SOLO QUANDO E FINITO UN PSN VECCHIO)
 execute as @a[scores={PSN_legacy=100..}] run scoreboard objectives remove PSN_0
-execute as @a[scores={PSN_legacy=105..}] run scoreboard objectives remove PSN_legacy
+execute as @a[scores={SkyblockCE_structures_id=13000..14000}] run scoreboard objectives remove PSN_legacy
 
 
 ##MULTIPLAYER PSN
