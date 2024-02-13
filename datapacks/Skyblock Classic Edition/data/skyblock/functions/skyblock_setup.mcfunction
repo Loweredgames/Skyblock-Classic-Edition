@@ -17,7 +17,7 @@ function skyblock:skyblock_test_setup
 function skyblock:versions/changelog/building
 function skyblock:islands/structures/generated_biome
 function skyblock:islands/structures/generated_structures
-function skyblock:islands/structures/structures_update/update_psn
+function skyblock:islands/structures/version_psn
 function skyblock:versions/version_pvn
 function skyblock:versions/debug
 function skyblock:multiplayer_setup
