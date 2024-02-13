@@ -18,8 +18,9 @@ execute as @a[scores={1.20.3_PID_1_2=305}] run playsound minecraft:entity.player
 execute as @a[scores={1.20.3_PID_1_2=5..300}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
-##Skyblock SUBPID 1_2 Reset LOOP
-execute as @a[scores={1.20.3_PID_1_2=2000000..}] run scoreboard players set @a 1.20.3_PID_1_2 100000
+##SKYBLOCK SUBPID VERSION WARNING (CAMBIARE SOLO SE NON CI SONO CONVERSIONI)
+execute as @a[scores={1.20.3_PID_1_2=5}] run tellraw @s {"translate":"skyblock_classic_edition.versions_id.warning_update.on","italic":true,"color":"#d5d5d5"}
+#execute as @a[scores={1.20.3_PID_1_2=5}] run tellraw @s {"translate":"skyblock_classic_edition.versions_id.warning_update.off","italic":true,"color":"#d5d5d5"}
 
 
 ###SUBPID 1_2 - 1.20.4 (SPOSTARE "SUBPID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE IL COMMENTO IN SE)
@@ -49,3 +50,7 @@ execute as @a[scores={1.20.3_PID_1_2=301}] run advancement revoke @a only minecr
 execute as @a[scores={1.20.3_PID_1_2=301}] run time set 0
 execute in minecraft:overworld at @a[scores={1.20.3_PID_1_2=305}] run tp @a 0 66 0 90 0
 execute as @a[scores={1.20.3_PID_1_2=305}] run gamemode survival @a
+
+
+##Skyblock SUBPID 1_2 Reset LOOP
+execute as @a[scores={1.20.3_PID_1_2=2000000..}] run scoreboard players set @a 1.20.3_PID_1_2 100000
