@@ -57,8 +57,3 @@ execute as @a[scores={PID_legacy=730}] run advancement revoke @a only minecraft:
 
 ##PID Legacy Stop (QUANDO FINISCE: CAMBIARE IL NUMERO PER RESETARE TUTTO, AGGIUNGERE SEMPRE NELLE NUOVE VERSIONI IL PID)
 execute as @a[scores={PID_0=1..}] run scoreboard players set @a PID_1 -100
-
-
-##PID Legacy Structures (PER IL LIBRO QUANDO SI CONVERTE IL MONDO IN UNA VECCHIA VERSIONE)
-execute as @a[scores={PID_legacy=730}] run scoreboard objectives add SkyblockCE_structures dummy
-execute as @a[scores={PID_legacy=731}] run scoreboard players set @a SkyblockCE_structures 8

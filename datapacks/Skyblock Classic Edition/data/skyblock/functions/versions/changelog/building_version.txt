@@ -5,7 +5,7 @@ Edition: JAVA EDITION
 
 Release: JE-1.20.5-24w04a-Skyblock_Classic_Edition:BUILDING:25.01.2024a - 5.2.0 [Historical Tales Update]
 
-Nightly Release: JE-1.20.5-24w06a-NIGHTLY_BUILDING_08.02.2024.21220a
+Nightly Release: JE-1.20.5-24w06a-NIGHTLY_BUILDING_13.02.2024.41354a
 
 Data_pack: TRUE
 
@@ -17,7 +17,7 @@ Protocol Version: 1.20.5_PVN_0b
 
 Protocol Identifier Data: 1.20.5_PID_0 (Da Aggiungere) \ PID 1
 
-Protocol Structures Number: PSN_0
+Protocol Structures Number: 1.20.5_PSN_0
 
 Github_Tag: 1.20.5_JE-1a
 
