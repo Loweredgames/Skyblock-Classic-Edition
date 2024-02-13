@@ -11,20 +11,20 @@ execute as @a[scores={SkyblockCE_structures_id=35..}] run scoreboard players add
 scoreboard players add @a SkyblockCE_structures_id 1
 
 
-##STRUCTURES SETUP (NON TOCCARE NIENTE)
+##SETUP STRUCTURES (NON TOCCARE)
+execute as @a[scores={SkyblockCE_structures=1155..}] run scoreboard players add @a 1.20.5_PSN_0 1
+execute as @a[scores={SkyblockCE_structures=5..2000}] run summon minecraft:area_effect_cloud ~ ~1 ~
 execute as @a[scores={SkyblockCE_structures=5}] run scoreboard players set @a SkyblockCE_tp 0
 execute as @a[scores={SkyblockCE_structures=5}] run gamemode spectator @a
 execute as @a[scores={SkyblockCE_structures=5}] run effect give @a blindness 62 0 true
 execute as @a[scores={SkyblockCE_structures=6}] run effect give @a night_vision 61 0 true
-execute as @a[scores={SkyblockCE_structures=5..2000}] run summon minecraft:area_effect_cloud ~ ~1 ~
-execute as @a[scores={SkyblockCE_structures=1155..}] run scoreboard players add @a 1.20.5_PSN_0 1
 
 
-##STRUCTURES PSN SETUP (DELAY PER IL PSN E CREAZIONE DELLA SCORE)
+##STRUCTURES DELAY PSN (DELAY PER IL PSN E CREAZIONE DELLA SCORE)
 execute as @a[scores={SkyblockCE_structures=1155}] run scoreboard objectives add 1.20.5_PSN_0 dummy
 
 
-##TELEPORT PLAYER IN THE STRUCTURES (AGGIUNGERE LE STRUTTURE QUANDO DIVENTANO VECCHIE)
+##TELEPORT PLAYER IN THE STRUCTURES (AGGIUNGERE TUTTE LE STRUTTURE)
 
 #Pillager Outpost
 execute as @a[scores={SkyblockCE_structures=100}] run tp @a 500 45 55 0 0
@@ -54,7 +54,7 @@ execute as @a[scores={SkyblockCE_structures=800}] run tp @a 700 45 700 0 0
 execute as @a[scores={SkyblockCE_structures=900}] run tp @a -700 45 -700 0 0
 
 
-##GENERATED STRUCTURES
+##GENERATED STRUCTURES (GENERA LE STRUTTURE QUANDO VIENE CREATO UN NUOVO MONDO)
 execute as @a[scores={SkyblockCE_structures=150}] run place template skyblock:structures/pillager_outpost 500 45 55
 execute as @a[scores={SkyblockCE_structures=250}] run place template skyblock:structures/village 460 45 350
 execute as @a[scores={SkyblockCE_structures=350}] run place template skyblock:structures/swamp_hut -180 45 -180

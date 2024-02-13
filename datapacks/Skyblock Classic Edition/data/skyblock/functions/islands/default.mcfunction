@@ -15,7 +15,7 @@ execute as @a[scores={SkyblockCE_default=1..}] run scoreboard players set @a Sky
 execute as @a[scores={SkyblockCE_default=1..2400}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
-#Start
+##START GENERATED FUNCTION
 execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run kill @e[type=!minecraft:player]
 execute in minecraft:overworld as @a[scores={SkyblockCE_default=1..5}] run difficulty normal
 execute in minecraft:overworld as @a[scores={SkyblockCE_default=1}] run gamerule commandBlockOutput false
@@ -64,11 +64,10 @@ execute as @a[scores={SkyblockCE_default=130}] run scoreboard players set @a Sky
 execute in minecraft:the_nether as @a[scores={SkyblockCE_default=131}] run place template skyblock:nether_classic_forest -2 50 -50
 
 
-#The End
-## ??? ##
+##The End (???)
 
 
-##Final Function
+##FINAL GENERATED FUNCTION
 execute as @a[scores={SkyblockCE_default=150}] run scoreboard players set @a SkyblockCE_tp 1
 execute as @a[scores={SkyblockCE_default=250..}] run scoreboard objectives add SkyblockCE_structures_id dummy
 execute as @a[scores={SkyblockCE_default=1351}] run spawnpoint @a 0 65 0
