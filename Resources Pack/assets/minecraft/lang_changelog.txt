@@ -21,3 +21,4 @@ esempio: 01.03.1001 - Polacco,Portoghese,Ucraino,italiano
 05.10.2023a - Aggiornate tutte le traduzioni e correzioni
 14.11.2023a - Aggiornate tutte le traduzioni e correzioni
 11.01.2024a - Tedesco, Polacco, Brasiliano, Portoghese, Ucraino
+13.02.2024a - Catalano, Africano, Russo, Cinese Semplificato
