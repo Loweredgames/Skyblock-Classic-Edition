@@ -5,19 +5,19 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Setup Update PID (NON ELIMINARE "Setup Update PID" E NON MODIFICARLO, DISATTIVA SOLO SE NON C'E LA CONVERSIONE)
+##SETUP UPDATE PID (NON ELIMINARE "Setup Update PID" E NON MODIFICARLO, DISATTIVA SOLO SE NON C'E LA CONVERSIONE)
 
 
-##Scoreboard PID SETUP (LASCIARE SEMPRE LA SCOREBOARD)
+##SCOREBOARD PID SETUP (LASCIARE SEMPRE LA SCOREBOARD)
 scoreboard objectives add PID_1 dummy
 scoreboard players add @a PID_1 1
 
 
-##Skyblock PID RESET LOOP
+##SKYBLOCK PID RESET LOOP
 execute as @a[scores={PID_1=2000000..}] run scoreboard players set @a PID_1 10000
 
 
-##Setup Update SUBPID (LASCIARE SEMPRE LA SCOREBOARD E SPOSTARE QUANDO DIVENTA LEGACY)
+##SETUP UPDATE SUBPID (LASCIARE SEMPRE LA SCOREBOARD E SPOSTARE QUANDO DIVENTA LEGACY)
 scoreboard players add @a 1.20.3_PID_1_1 1
 scoreboard players add @a 1.20.3_PID_1_2 1
 scoreboard players add @a 1.20.3_PID_1_3 1
@@ -47,7 +47,7 @@ execute as @a[scores={1.20.3_PID_1_2=325..}] run scoreboard objectives add 1.20.
 execute as @a[scores={1.20.3_PID_1_3=10..}] run scoreboard objectives add 1.20.5_PID_1_4 dummy
 
 
-##Scoreboard Start 1.20.3_PID 1
+##SCOREBOARD START 1.20.3_PID 1
 execute as @a[scores={PID_1=5..100}] run gamemode spectator @a
 execute as @a[scores={PID_1=5}] run time set 0
 execute as @a[scores={PID_1=5}] run gamerule doImmediateRespawn true
@@ -146,11 +146,10 @@ execute in minecraft:the_nether as @a[scores={PID_1=956}] run setblock 4 58 34 m
 execute in minecraft:overworld as @a[scores={PID_1=960}] run tp @a 0 66 0 0 0
 
 
-##The End
-#????
+##The End (???)
 
 
-##Final Function PID 1
+##FINAL GENERATED PID 1 FUNCTION
 execute as @a[scores={PID_1=1001}] run advancement revoke @a only minecraft:end/root
 execute as @a[scores={PID_1=1001}] run advancement revoke @a only minecraft:nether/root
 execute as @a[scores={PID_1=1005}] run tellraw @a ["",{"text":"Due to several problems in The End (","italic":true,"color":"red"},{"text":"see the bug #16","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/issues/16"}},{"text":"). the dimension has been suspended in this release until the issues are resolved.\nThanks you :)","italic":true,"color":"red"}]

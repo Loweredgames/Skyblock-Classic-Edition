@@ -17,7 +17,7 @@ function skyblock:skyblock_test_setup
 function skyblock:versions/changelog/building
 function skyblock:islands/structures/generated_biome
 function skyblock:islands/structures/generated_structures
-function skyblock:islands/structures/legacy_structures
+function skyblock:islands/structures/version_psn
 function skyblock:versions/version_pvn
 function skyblock:versions/debug
 function skyblock:multiplayer_setup
@@ -87,7 +87,7 @@ execute as @a[scores={SkyblockCE_install=1..}] run gamemode spectator @a
 execute as @a[scores={SkyblockCE_install=1..}] run tp @a 0 0 0 0 90
 execute as @a[scores={SkyblockCE_install=1}] run gamerule doDaylightCycle false
 execute as @a[scores={SkyblockCE_install=1}] run gamerule doWeatherCycle false
-execute as @a[scores={SkyblockCE_install=1}] run effect give @a saturation 11 250 true
+execute as @a[scores={SkyblockCE_install=1}] run effect give @a saturation 11 255 true
 execute as @a[scores={SkyblockCE_install=1}] run effect give @a blindness 61 0 false
 execute as @a[scores={SkyblockCE_install=1}] run time set 0
 execute as @a[scores={SkyblockCE_install=1}] run weather clear 5001s
