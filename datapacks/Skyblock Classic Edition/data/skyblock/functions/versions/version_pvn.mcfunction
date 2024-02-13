@@ -25,7 +25,7 @@ execute as @a[scores={PVN_legacy=201..}] run scoreboard objectives remove PVN_le
 
 
 #Rimuovere nella 1.21 (temporaneo)
-scoreboard objectives remove 1.20.2_PVN_0c
+scoreboard objectives remove 1.20.2_PVN_0a
 
 
 ##(AGGIUNGERE CHANGELOG IN GITHUB E POI AGGIORNARE GITHUB)
