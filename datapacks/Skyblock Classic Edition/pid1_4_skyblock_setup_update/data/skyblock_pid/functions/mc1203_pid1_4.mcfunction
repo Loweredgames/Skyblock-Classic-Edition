@@ -20,6 +20,7 @@ execute as @a[scores={1.20.5_PID_1_4=5..200}] run summon minecraft:area_effect_c
 
 ##SKYBLOCK SUBPID VERSION WARNING (CAMBIARE SOLO SE NON CI SONO CONVERSIONI)
 execute as @a[scores={1.20.3_PID_1_4=5}] run tellraw @s [{"translate":"skyblock_classic_edition.versions_id.warning_update.on","color":"#d5d5d5","italic":true},{"text":"1.20.3_PID_1_4"}]
+#da aggiornare alla 1.20.5 e aggiungere bioma :)
 
 
 ###SUBPID 1_4 - 1.20.5 (SPOSTARE "SUBPID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE IL COMMENTO IN SE)
