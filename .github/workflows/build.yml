@@ -50,24 +50,23 @@ jobs:
         name: ${{ steps.construct_filename.outputs.zipname }}
         path: ${{ steps.construct_filename.outputs.zipname }}
     - name: Construct release name
-      id: construct_release_name
       run: |
         base_name="${{ env.MAP_NAME_SPACE }} | ${{ steps.get_version.outputs.RELEASE }}${{ steps.get_version.outputs.NIGHTLY }}"
         release_name="$base_name"
         echo "::set-output name=releasename::$release_name"
-    - name: Construct tag name
-      id: construct_tag
+    - name: Construct nightly release name
       run: |
         tag_name="${{ steps.get_version.outputs.NIGHTLY_TAG }}"
-        echo "::set-output name=tag::${Nightly_Github_Tag}"
+        get_tag_name="$tag_name"
+        echo "::set-output name=tag::$tag_name"
     - name: Create Release
       uses: softprops/action-gh-release@v1
       with:
-        tag_name: ${{ steps.construct_tag.outputs.NIGHTLY_TAG }}
+        tag_name: ${{ steps.get_version.outputs.NIGHTLY_TAG }}
         files: |
           ${{ steps.construct_filename.outputs.zipname }}
       env:
         GH_TOKEN: ${{ steps.get_version.outputs.RELEASE }}${{ steps.get_version.outputs.NIGHTLY_TAG }}
     - name: Get Download URL
       run: |
-        echo "${{ env.REPO_URL }}/releases/download/${{ steps.construct_tag.outputs.NIGHTLY_TAG }}/${{ steps.construct_filename.outputs.zipname }}"
+        echo "${{ env.REPO_URL }}/releases/download/${{ steps.get_version.outputs.NIGHTLY_TAG }}/${{ steps.construct_filename.outputs.zipname }}"
