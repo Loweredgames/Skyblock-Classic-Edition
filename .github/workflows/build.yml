@@ -41,7 +41,7 @@ jobs:
       run: sudo apt-get install p7zip-full
     - name: Zip Custom Map
       run: |
-        7z a -r -mx9 -tzip ${{ steps.construct_filename.outputs.zipname }} . -xr!.gitignore -xr!.github -xr!.git -xr!building_version -xr!*.zip
+        7z a -r -mx9 -tzip ${{ steps.construct_filename.outputs.zipname }} . -xr!.gitignore -xr!.github -xr!.git -xr!*.zip
     - name: Upload Artifact
       uses: actions/upload-artifact@v3
       with:
@@ -57,8 +57,9 @@ jobs:
     - name: Construct tag name
       id: construct_tag
       run: |
-        fi
         tag_name="${{ steps.get_version.outputs.RELEASE }}${{ steps.get_version.outputs.NIGHTLY }}"
+          release_name="$base_name"
+        fi
         echo "::set-output name=tag::$tag_name"
     - name: Create Release
       uses: softprops/action-gh-release@v1
@@ -69,5 +70,5 @@ jobs:
       env:
         GH_TOKEN: ${{ steps.get_version.outputs.RELEASE }}${{ steps.get_version.outputs.NIGHTLY }}
     - name: Get Download URL
-      run: | 
+      run: |
         echo "${{ env.REPO_URL }}/releases/download/${{ steps.construct_tag.outputs.tag }}/${{ steps.construct_filename.outputs.zipname }}"
