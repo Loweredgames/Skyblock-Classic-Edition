@@ -52,8 +52,7 @@ jobs:
       id: construct_release_name
       run: |
         base_name="${{ env.MAP_NAME_SPACE }} | ${{ steps.get_version.outputs.RELEASE }}${{ steps.get_version.outputs.NIGHTLY }}"
-          release_name="$base_name"
-        fi
+        release_name="$base_name"
         echo "::set-output name=releasename::$release_name"
     - name: Construct tag name
       id: construct_tag
