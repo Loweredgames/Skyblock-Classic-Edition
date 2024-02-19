@@ -36,7 +36,6 @@ jobs:
       run: |
         filename="${{ env.MAP_NAME }}${{ steps.get_version.outputs.RELEASE }}${{ steps.get_version.outputs.NIGHTLY }}"
         filename="${filename}.zip"
-        fi
         echo "::set-output name=zipname::$filename"
     - name: Install 7zip
       run: sudo apt-get install p7zip-full
@@ -58,7 +57,6 @@ jobs:
       id: construct_tag
       run: |
         tag_name="${{ steps.get_version.outputs.RELEASE }}${{ steps.get_version.outputs.NIGHTLY }}"
-        fi
         echo "::set-output name=tag::$tag_name"
     - name: Create Release
       uses: softprops/action-gh-release@v1
