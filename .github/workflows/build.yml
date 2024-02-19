@@ -55,8 +55,7 @@ jobs:
     - name: Construct tag name
       run: |
         tag_name="${{ steps.get_version.outputs.NIGHTLY_TAG }}
-        fi
-        echo "::set-output name=tag::${Nightly_Github_Tag}"
+        echo "::tag_name"
     - name: Create Release
       uses: softprops/action-gh-release@v1
       with:
