@@ -53,19 +53,13 @@ jobs:
         base_name="${{ env.MAP_NAME_SPACE }} | ${{ steps.get_version.outputs.RELEASE }}${{ steps.get_version.outputs.NIGHTLY }}"
         release_name="$base_name"
         echo "::set-output name=releasename::$release_name"
-    - name: Construct tag name
-      id: construct_tag
-      run: |
-        tag_name="${{ steps.get_version.outputs.RELEASE }}${{ steps.get_version.outputs.NIGHTLY }}"
-        echo "::set-output name=tag::$tag_name"
     - name: Create Release
       uses: softprops/action-gh-release@v1
       with:
-        tag_name: ${{ steps.construct_tag.outputs.tag }}
         files: |
           ${{ steps.construct_filename.outputs.zipname }}
       env:
         GH_TOKEN: ${{ steps.get_version.outputs.RELEASE }}${{ steps.get_version.outputs.NIGHTLY }}
     - name: Get Download URL
       run: |
-        echo "${{ env.REPO_URL }}/releases/download/${{ steps.construct_tag.outputs.tag }}/${{ steps.construct_filename.outputs.zipname }}"
+        echo "${{ env.REPO_URL }}/releases/download/${{ steps.construct_filename.outputs.zipname }}"
