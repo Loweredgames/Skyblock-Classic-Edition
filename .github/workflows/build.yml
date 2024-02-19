@@ -58,7 +58,7 @@ jobs:
     - name: Construct tag name
       id: construct_tag
       run: |
-        tag_name="${{ steps.get_version.outputs.TAG_RELEASE }}" then
+        tag_name="${{ steps.get_version.outputs.TAG_RELEASE }}"
         tag_name="${tag_name}_${{ steps.get_version.outputs.NIGHTLY_TAG }}"
         echo "::set-output name=tag::$tag_name"
     - name: Create Release
