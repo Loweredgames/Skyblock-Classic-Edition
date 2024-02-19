@@ -37,7 +37,9 @@ jobs:
       id: construct_filename
       run: |
         filename="${{ env.MAP_NAME }}${{ steps.get_version.outputs.RELEASE }}${{ steps.get_version.outputs.NIGHTLY }}"
-        filename="${filename}.zip"
+        if [[ -n "${{ steps.get_version.outputs.NIGHTLY_TAG }}" ]]; then
+          filename="${filename}_${{ steps.get_version.outputs.NIGHTLY_TAG }}"
+          filename="${filename}.zip"
         echo "::set-output name=zipname::$filename"
     - name: Install 7zip
       run: sudo apt-get install p7zip-full
@@ -49,16 +51,12 @@ jobs:
       with:
         name: ${{ steps.construct_filename.outputs.zipname }}
         path: ${{ steps.construct_filename.outputs.zipname }}
-    - name: Construct release name
+    - name: Construct tag name
       run: |
-        base_name="${{ env.MAP_NAME_SPACE }} | ${{ steps.get_version.outputs.RELEASE }}${{ steps.get_version.outputs.NIGHTLY }}"
-        release_name="$base_name"
-        echo "::set-output name=releasename::$release_name"
-    - name: Construct nightly release name
-      run: |
-        tag_name="${{ steps.get_version.outputs.NIGHTLY_TAG }}"
-        get_tag_name="$tag_name"
-        echo "::set-output name=tag::$tag_name"
+        tag_name="${{ steps.get_version.outputs.NIGHTLY_TAG }}
+          tag_name="NIGHTLYTEST_${{ steps.get_version.outputs.NIGHTLY_TAG }}"
+        fi
+        echo "::set-output name=tag::$NIGHTLY_TAG"
     - name: Create Release
       uses: softprops/action-gh-release@v1
       with:
