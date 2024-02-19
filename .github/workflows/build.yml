@@ -39,7 +39,8 @@ jobs:
         filename="${{ env.MAP_NAME }}${{ steps.get_version.outputs.RELEASE }}${{ steps.get_version.outputs.NIGHTLY }}"
         if [[ -n "${{ steps.get_version.outputs.NIGHTLY_TAG }}" ]]; then
           filename="${filename}_${{ steps.get_version.outputs.NIGHTLY_TAG }}"
-          filename="${filename}.zip"
+        fi
+        filename="${filename}.zip"
         echo "::set-output name=zipname::$filename"
     - name: Install 7zip
       run: sudo apt-get install p7zip-full
