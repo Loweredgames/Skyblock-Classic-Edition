@@ -31,7 +31,7 @@ jobs:
         Nightly_Github_Tag = data.get('Nightly_Github_Tag', '')
         print(f"::set-output name=RELEASE::{Release_Id}")
         print(f"::set-output name=NIGHTLY::{Nightly_Release_Id}")
-        print(f"::set-output name=NIGHTLY_Github::{Nightly_Github_Tag}")
+        print(f"::set-output name=NIGHTLY_TAG::{Nightly_Github_Tag}")
       shell: python
     - name: Construct filename
       id: construct_filename
@@ -58,12 +58,13 @@ jobs:
     - name: Construct tag name
       id: construct_tag
       run: |
-        tag_name="${{ steps.get_version.outputs.TAG }}"
-        echo "::set-output name=tag::$Nightly_Github_Tag"
+        tag_name="${{ steps.get_version.outputs.TAG_RELEASE }}" then
+        tag_name="${tag_name}_${{ steps.get_version.outputs.NIGHTLY_TAG }}"
+        echo "::set-output name=tag::$tag_name"
     - name: Create Release
       uses: softprops/action-gh-release@v1
       with:
-        tag_name: ${{ steps.construct_tag.outputs.TAG }}
+        tag_name: ${{ steps.construct_tag.outputs.TAG_RELEASE }}
         files: |
           ${{ steps.construct_filename.outputs.zipname }}
       env:
