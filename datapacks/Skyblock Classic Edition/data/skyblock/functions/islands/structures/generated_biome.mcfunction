@@ -8,6 +8,10 @@
 ##Overworld Biome
 
 
+#Main Island
+execute as @a in minecraft:overworld run fillbiome -21 0 -21 21 255 21 minecraft:snowy_taiga
+
+
 #Badlands Desert
 execute as @a in minecraft:overworld run fillbiome 72 0 2 62 255 -8 minecraft:badlands
 
