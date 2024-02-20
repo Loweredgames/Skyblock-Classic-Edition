@@ -21,6 +21,10 @@ _Steve, Alex, Noor, Sunny, Ari, Zuri, Makena, Kai and Efe, they woke up on an un
 - Compatible with multiplayer.
 - Supports localizations: help me translate into your native language. The languages must be faithful to the English language, respect the punctuation and the capitalization. Click here to translate into your language in Crowdin: https://crowdin.com/project/skyblock-classic-edition
 
+# Credit
+
+DrTrog (Custom World Gen):
+https://www.planetminecraft.com/member/drtrog/
 
 _Thanks to the original Skyblock team for creating the most popular Minecraft map._
 
