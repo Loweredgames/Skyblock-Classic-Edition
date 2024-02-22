@@ -31,6 +31,7 @@ execute as @a[scores={SkyblockCE_structures=100}] run tp @a 500 45 55 0 0
 
 #Village
 execute as @a[scores={SkyblockCE_structures=200}] run tp @a 460 45 350 0 0
+execute as @a[scores={SkyblockCE_structures=205}] run setblock 458 47 351 minecraft:gravel
 
 #Swamp Hut
 execute as @a[scores={SkyblockCE_structures=300}] run tp @a -180 45 -180 0 0
