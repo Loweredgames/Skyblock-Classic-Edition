@@ -35,7 +35,7 @@
 				"directory": "test_skyblock"
 			},
 			{
-				"formats": {"min_inclusive": 30, "max_inclusive": 30},
+				"formats": {"min_inclusive": 20, "max_inclusive": 20},
 				"directory": "custom_dimension"
 			},
 			{
