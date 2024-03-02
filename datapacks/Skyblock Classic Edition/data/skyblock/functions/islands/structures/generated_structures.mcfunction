@@ -14,7 +14,7 @@ scoreboard players add @a SkyblockCE_structures_id 1
 ##SETUP STRUCTURES (NON TOCCARE)
 execute as @a[scores={SkyblockCE_structures=1155..}] run scoreboard players add @a 1.20.5_PSN_0 1
 execute as @a[scores={SkyblockCE_structures=5..2000}] run summon minecraft:area_effect_cloud ~ ~1 ~
-execute as @a[scores={SkyblockCE_structures=5..300}] run summon minecraft:pig 460 45 350
+execute as @a[scores={SkyblockCE_structures=5..300}] run summon minecraft:area_effect_cloud 461 44 351
 execute as @a[scores={SkyblockCE_structures=5}] run scoreboard players set @a SkyblockCE_tp 0
 execute as @a[scores={SkyblockCE_structures=5}] run gamemode spectator @a
 execute as @a[scores={SkyblockCE_structures=5}] run effect give @a blindness 62 0 true
