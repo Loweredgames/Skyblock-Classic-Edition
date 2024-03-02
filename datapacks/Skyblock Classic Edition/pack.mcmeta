@@ -22,10 +22,6 @@
 				"formats": {"min_inclusive": 20, "max_inclusive": 26},
 				"directory": "pid1_3_skyblock_setup_update"
 			},
-			{
-				"formats": {"min_inclusive": 27, "max_inclusive": 33},
-				"directory": "pid1_4_skyblock_setup_update"
-			},
             {
 				"formats": {"min_inclusive": 20, "max_inclusive": 33},
 				"directory": "legacy_pid_skyblock"
