@@ -29,7 +29,7 @@
     "skyblock_classic_edition.version_update.discord": "또한 제안을 하고 싶거나 버그가 발견된 경우 디스코드 서버에서 제보해주세요.",
     "skyblock_classic_edition.version_update.development_version.warning": "⚠주의: 개발 버전을 사용하는 경우, 월드가 손상될 수 있습니다. 항상 백업해주세요 ",
     "skyblock_classic_edition.version_update.development_version.report": "버그를 이곳에 보고해주세요.",
-    "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n로딩중....",
+    "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading....",
     "skyblock_classic_edition.loading.title.chat": "로딩중...",
     "skyblock_classic_edition.loading.subtitle.chat": "월드",
     "skyblock_classic_edition.versions_id.warning_update.off": "이곳엔 아무것도 없습니다.",
@@ -43,6 +43,5 @@
     "skyblock_classic_edition.install.hardcore.lock": "I'm sorry but hardcore mode needs an already loaded and updated world.",
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " and wait for the world to update and then replace the datapack.\n\nThank you",
     "skyblock_classic_edition.link.discord": "Discord Server",
-    "skyblock_classic_edition.link.crowdin": "Crowdin Translations Project",
-    "skyblock_classic_edition.credits": " "
+    "skyblock_classic_edition.link.crowdin": "Crowdin Translations Project"
 }
