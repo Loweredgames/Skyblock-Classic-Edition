@@ -1,5 +1,5 @@
 {
-    "skyblock_classic_edition.folder.test": "Hallo Wereld",
+    "skyblock_classic_edition.folder.test": "Hello World",
     "skyblock_classic_edition.skyblock_setup.welcome": "Welkom bij de Skyblock Klassieke editie",
     "skyblock_classic_edition.skyblock_setup.version": "Versie:",
     "skyblock_classic_edition.skyblock_setup.for_text": "voor",
@@ -43,5 +43,6 @@
     "skyblock_classic_edition.install.hardcore.lock": "I'm sorry but hardcore mode needs an already loaded and updated world.",
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " and wait for the world to update and then replace the datapack.\n\nThank you",
     "skyblock_classic_edition.link.discord": "Discord Server",
-    "skyblock_classic_edition.link.crowdin": "Crowdin Vertalingsproject"
+    "skyblock_classic_edition.link.crowdin": "Crowdin Vertalingsproject",
+    "skyblock_classic_edition.credits": "Translated by -"
 }
