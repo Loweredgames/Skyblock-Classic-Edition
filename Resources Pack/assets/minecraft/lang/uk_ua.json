@@ -29,7 +29,7 @@
     "skyblock_classic_edition.version_update.discord": "Також слідкуйте за мною на сервері Discord, якщо ви хочете зробити пропозицію або якщо ви фінансуєте помилку.",
     "skyblock_classic_edition.version_update.development_version.warning": "⚠УВАГА: ви використовуєте версію для розробки, світ може бути пошкоджений, завжди робіть резервні копії та ",
     "skyblock_classic_edition.version_update.development_version.report": "повідомте про помилки тут",
-    "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nЗавантаження....",
+    "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading....",
     "skyblock_classic_edition.loading.title.chat": "Завантаження...",
     "skyblock_classic_edition.loading.subtitle.chat": "Світ",
     "skyblock_classic_edition.versions_id.warning_update.off": "Тут нема чого дивитися...",
@@ -43,6 +43,5 @@
     "skyblock_classic_edition.install.hardcore.lock": "Вибачте але хардкорд мод потрібно вже встановити та оновити світ(ло).",
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " та чекайте коли світ оновиться й замініть датапак.\n\nДякую",
     "skyblock_classic_edition.link.discord": "Сервер Discord",
-    "skyblock_classic_edition.link.crowdin": "Проєкт перекладу Crowdin",
-    "skyblock_classic_edition.credits": " "
+    "skyblock_classic_edition.link.crowdin": "Проєкт перекладу Crowdin"
 }
