@@ -5,7 +5,7 @@
     "skyblock_classic_edition.skyblock_setup.for_text": "for",
     "skyblock_classic_edition.skyblock_setup.choose_languages": "Choose the languages in the Minecraft options menu",
     "skyblock_classic_edition.skyblock_setup.choose_islands": "Choose the islands:",
-    "skyblock_classic_edition.skyblock_setup.large_easy": "\\u25b6Large (Easy)",
+    "skyblock_classic_edition.skyblock_setup.large_easy": " \\u25b6Large (Easy)",
     "skyblock_classic_edition.skyblock_setup.large_easy.info": "This island is made especially for beginners. This island is the only island not inspired by the original skyblock.",
     "skyblock_classic_edition.skyblock_setup.default_normal": "▶Default (Normal)",
     "skyblock_classic_edition.skyblock_setup.default_normal.info": "This island is the classic island that everyone knows but modernized for new versions of Minecraft. Recommended for those unfamiliar with the original skyblock.",
@@ -43,5 +43,6 @@
     "skyblock_classic_edition.install.hardcore.lock": "I'm sorry but hardcore mode needs an already loaded and updated world.",
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " and wait for the world to update and then replace the datapack.\n\nThank you",
     "skyblock_classic_edition.link.discord": "Discord Server",
-    "skyblock_classic_edition.link.crowdin": "Crowdin Translations Project"
+    "skyblock_classic_edition.link.crowdin": "Crowdin Translations Project",
+    "\"credits\"": "----"
 }
