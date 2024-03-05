@@ -65,6 +65,7 @@ files:
         ig: ig_ng
         ido: io_en
         is: is_is
+        it_CH: it_ch
         it: it_it
         ja: ja_jp
         jbo: jbo_en
@@ -90,7 +91,6 @@ files:
         nds: nds_de
         nl-BE: nl_be
         nl: nl_nl
-        nn-NO: nn_no
         no-NO: no_no
         oc: oc_fr
         oj: oj_ca
@@ -98,7 +98,7 @@ files:
         pt-BR: pt_br
         pt-PT: pt_pt
         qya-AA: qya_aa
-        ro: ro_ro
+        ro-RO: ro_ro
         ru: ru_ru
         ry: ry_ua
         se: se_no
