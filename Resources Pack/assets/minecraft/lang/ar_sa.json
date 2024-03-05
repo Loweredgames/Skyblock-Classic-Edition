@@ -43,6 +43,5 @@
     "skyblock_classic_edition.install.hardcore.lock": "I'm sorry but hardcore mode needs an already loaded and updated world.",
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " and wait for the world to update and then replace the datapack.\n\nThank you",
     "skyblock_classic_edition.link.discord": "خادم ديسكورد",
-    "skyblock_classic_edition.link.crowdin": "مشروع ترجمة كراودين",
-    "skyblock_classic_edition.credits": "الترجمة تمت بواسطة : alidsds11"
+    "skyblock_classic_edition.link.crowdin": "مشروع ترجمة كراودين"
 }
