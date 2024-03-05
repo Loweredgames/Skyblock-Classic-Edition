@@ -29,7 +29,7 @@
     "skyblock_classic_edition.version_update.discord": "Siga-me também no servidor do Discord se quiser fazer uma sugestão ou se encontrou um bug.",
     "skyblock_classic_edition.version_update.development_version.warning": "⚠ATENÇÃO: Está a usar uma versão de desenvolvimento, o mundo pode ficar corrompido e danificado, faça sempre backups e ",
     "skyblock_classic_edition.version_update.development_version.report": "reporte bugs aqui",
-    "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCarregando....",
+    "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading....",
     "skyblock_classic_edition.loading.title.chat": "Carregando...",
     "skyblock_classic_edition.loading.subtitle.chat": "Mundo",
     "skyblock_classic_edition.versions_id.warning_update.off": "Não há nada para ver aqui...",
@@ -43,6 +43,5 @@
     "skyblock_classic_edition.install.hardcore.lock": "I'm sorry but hardcore mode needs an already loaded and updated world.",
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " and wait for the world to update and then replace the datapack.\n\nThank you",
     "skyblock_classic_edition.link.discord": "Servidor do Discord",
-    "skyblock_classic_edition.link.crowdin": "Projeto de Traduções Crowdin",
-    "skyblock_classic_edition.credits": " "
+    "skyblock_classic_edition.link.crowdin": "Projeto de Traduções Crowdin"
 }
