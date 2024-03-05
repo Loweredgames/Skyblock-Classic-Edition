@@ -43,6 +43,5 @@
     "skyblock_classic_edition.install.hardcore.lock": "Przepraszam, ale tryb hardcore wymaga załadowanego i zaktualizowanego świata.",
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " i czekaj aż świat zostanie zaktualizowany, następnie zamień paczkę daty(datapack).\n\nDziękujemy",
     "skyblock_classic_edition.link.discord": "Serwer Discord",
-    "skyblock_classic_edition.link.crowdin": "Projekt Tłumaczeń Crowdin",
-    "skyblock_classic_edition.credits": " "
+    "skyblock_classic_edition.link.crowdin": "Projekt Tłumaczeń Crowdin"
 }
