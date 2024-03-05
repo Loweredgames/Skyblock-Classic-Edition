@@ -29,7 +29,7 @@
     "skyblock_classic_edition.version_update.discord": "Seguitemi anche sul server Discord se volete dare dei suggerimenti o avete trovato un/dei problema/i.",
     "skyblock_classic_edition.version_update.development_version.warning": "⚠ATTENZIONE: Stai usando una versione di sviluppo, il mondo può danneggiarsi e corrompersi, fai sempre dei backups e ",
     "skyblock_classic_edition.version_update.development_version.report": "segnala i/il problemi/a qui",
-    "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCaricamento....",
+    "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading....",
     "skyblock_classic_edition.loading.title.chat": "Caricamento...",
     "skyblock_classic_edition.loading.subtitle.chat": "Del Mondo",
     "skyblock_classic_edition.versions_id.warning_update.off": "Non c'è niente da vedere qui...",
@@ -43,6 +43,5 @@
     "skyblock_classic_edition.install.hardcore.lock": "Mi dispiace ma la modalità hardcore ha bisogno di un mondo già caricato e aggiornato.",
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " e aspetta che il mondo si aggiorni e poi sostituisci il datapack.\n\nGrazie",
     "skyblock_classic_edition.link.discord": "Server Discord",
-    "skyblock_classic_edition.link.crowdin": "Progetto Di Traduzione Crowdin",
-    "skyblock_classic_edition.credits": "Traduzione fatta da: Lorenzo Giannini (Loweredgames)"
+    "skyblock_classic_edition.link.crowdin": "Progetto Di Traduzione Crowdin"
 }
