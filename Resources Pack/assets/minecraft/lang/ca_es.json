@@ -29,7 +29,7 @@
     "skyblock_classic_edition.version_update.discord": "També pots seguir-me al servidor de Discord si vols fer algun suggeriment o si has trobat algun error.",
     "skyblock_classic_edition.version_update.development_version.warning": "⚠ATENCIÓ: Estàs utilitzant una versió de desenvolupament; el món podria corrompre's o malmetre's, així que fer còpies de seguretat i ",
     "skyblock_classic_edition.version_update.development_version.report": "informa de bugs aquí",
-    "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading....",
+    "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCarregant....",
     "skyblock_classic_edition.loading.title.chat": "Carregant...",
     "skyblock_classic_edition.loading.subtitle.chat": "Món",
     "skyblock_classic_edition.versions_id.warning_update.off": "Aquí no hi ha res a veure...",
@@ -43,5 +43,6 @@
     "skyblock_classic_edition.install.hardcore.lock": "Ho sento, però el mode hardcore necessita un món ja carregat i actualitzat.",
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " i espera a que el món s'actualitzi i llavors canvia el datapack.\n\nMoltes gràcies",
     "skyblock_classic_edition.link.discord": "Servidor de Discord",
-    "skyblock_classic_edition.link.crowdin": "Projecte de Traducció Crowdin"
+    "skyblock_classic_edition.link.crowdin": "Projecte de Traducció Crowdin",
+    "skyblock_classic_edition.credits": "Translated by -"
 }
