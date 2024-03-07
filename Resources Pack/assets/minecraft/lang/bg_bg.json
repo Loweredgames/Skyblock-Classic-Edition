@@ -29,7 +29,7 @@
     "skyblock_classic_edition.version_update.discord": "Също така ме последвайте на сървъра на Discord, ако искате да направите предложение или сте намерили грешка.",
     "skyblock_classic_edition.version_update.development_version.warning": "⚠ВНИМАНИЕ: Вие използвате версия в разработка, светът може да се пострада и повреди, винаги правете резервни копия и ",
     "skyblock_classic_edition.version_update.development_version.report": "докладвайте грешки тук",
-    "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading....",
+    "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nЗареждане....",
     "skyblock_classic_edition.loading.title.chat": "Зареждане...",
     "skyblock_classic_edition.loading.subtitle.chat": "Свят",
     "skyblock_classic_edition.versions_id.warning_update.off": "Тук няма какво да се види...",
@@ -44,5 +44,5 @@
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " и изчакайте светът да се актуализира и след това сменете пакета данни.\n\nБлагодаря ти",
     "skyblock_classic_edition.link.discord": "Discord Сървър",
     "skyblock_classic_edition.link.crowdin": "Проект групов превод",
-    "skyblock_classic_edition.credits": "Translated by (NAME,NAME)"
+    "skyblock_classic_edition.credits": "Преведено от Кукумао Пенев (kukumao13), Ivan Kirov"
 }
