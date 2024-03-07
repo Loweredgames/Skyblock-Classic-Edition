@@ -3,5 +3,20 @@
 		"pack_format": 28,
 		"supported_formats": {"min_inclusive": 28, "max_inclusive": 28},
 		"description": "Skyblock Classic Edition By Lorenzo Giannini"
+	},
+	"it_ch": {
+		"name": "Switzerland",
+		"region": "Swiss German",
+		"bidirectional": false
+	},
+	"itaud": {
+		"name": "(ɐɹdosoʇʇos) ouɐᴉlɐʇI",
+		"region": "Sottosopra Italiano",
+		"bidirectional": false
+	},
+	"tem_us": {
+		"name": "Temmie",
+		"region": "Teh world of NUTDEALER",
+		"bidirectional": false
 	}
 }
