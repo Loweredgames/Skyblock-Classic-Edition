@@ -21,7 +21,7 @@
     "skyblock_classic_edition.version_update.compatible.info": " são versões antigas e podem não ser compatíveis com o datapack atual: se o datapack for atualizado, pode ter problemas de compatibilidade, sempre atualize o datapack para a última versão compatível.",
     "skyblock_classic_edition.version_update.welcome": "Bem-vindo à Skyblock Classic Edition:",
     "skyblock_classic_edition.version_update.for_edition": "para o Minecraft Java Edition:",
-    "skyblock_classic_edition.version_update.check_news": "\n\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n\nCheck the news of the latest version here:\n",
+    "skyblock_classic_edition.version_update.check_news": "\n\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n\nVerifique às novidades das últimas versões aqui:\n",
     "skyblock_classic_edition.version_update.changelog": "O que mudou",
     "skyblock_classic_edition.version_update.check_links": "Verifique a versão mais recente nos vários links aqui:",
     "skyblock_classic_edition.version_update.crowdin": "➡Projeto de Traduções Crowdin",
@@ -44,5 +44,5 @@
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " e espere o mundo atualizar e então substitua o pacote de dados.\n\nObrigado",
     "skyblock_classic_edition.link.discord": "Servidor de Discord",
     "skyblock_classic_edition.link.crowdin": "Projeto de Traduções Crowdin",
-    "skyblock_classic_edition.credits": "Translated by (This translation has not yet been translated, please help me translate)"
+    "skyblock_classic_edition.credits": "Traduzir por João Vitor Veiga (jvveigam), Celestino Ferreira Gomes (tinogomes), Gabriel da Silva Figueiredo (Gabriel_da_silva)"
 }
