@@ -44,5 +44,5 @@
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " und warte auf die Aktualisierung der Welt, ersetze dann das Datapack.\n\nVielen Dank",
     "skyblock_classic_edition.link.discord": "Discord Server",
     "skyblock_classic_edition.link.crowdin": "Crowdin Übersetzungsprojekt",
-    "skyblock_classic_edition.credits": "Translated by -"
+    "skyblock_classic_edition.credits": "Translated by (NAME,NAME)"
 }
