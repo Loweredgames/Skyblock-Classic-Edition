@@ -1,6 +1,6 @@
 {
     "skyblock_classic_edition.folder.test": "Witaj Świecie",
-    "skyblock_classic_edition.skyblock_setup.welcome": "Witaj w klasycznej wersji Skyblock",
+    "skyblock_classic_edition.skyblock_setup.welcome": "Welcome to the Skyblock Classic Edition",
     "skyblock_classic_edition.skyblock_setup.version": "Wersja:",
     "skyblock_classic_edition.skyblock_setup.for_text": "dla",
     "skyblock_classic_edition.skyblock_setup.choose_languages": "Wybierz języki w menu opcji Minecraft",
@@ -29,7 +29,7 @@
     "skyblock_classic_edition.version_update.discord": "Śledź mnie na Discordzie aby zgłosić sugestię lub znalezione błędy.",
     "skyblock_classic_edition.version_update.development_version.warning": "⚠UWAGA: Używasz wersji deweloperskiej, świat może zostać uszkodzony i uszkodzony, zawsze tworzysz kopie zapasowe i ",
     "skyblock_classic_edition.version_update.development_version.report": "zgłaszaj błędy tutaj",
-    "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nŁadowanie....",
+    "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading....",
     "skyblock_classic_edition.loading.title.chat": "Ładowanie...",
     "skyblock_classic_edition.loading.subtitle.chat": "Świat",
     "skyblock_classic_edition.versions_id.warning_update.off": "Nic tu nie ma...",
