@@ -34,7 +34,7 @@
     "skyblock_classic_edition.loading.subtitle.chat": "Mundo",
     "skyblock_classic_edition.versions_id.warning_update.off": "Não há nada para ver aqui...",
     "skyblock_classic_edition.versions_id.warning_update.on": "Atualização do mundo e conversão para a nova versão...",
-    "skyblock_classic_edition.setup_version.warning": "⚠Warning: this version is no longer supported!⚠",
+    "skyblock_classic_edition.setup_version.warning": "",
     "skyblock_classic_edition.setup_version.warning.download": "\n\nPlease download the latest version of the custom map here.",
     "skyblock_classic_edition.generated_structures.loading.title": "Estruturas:",
     "skyblock_classic_edition.generated_structures.loading.subtitle": "Foram geradas...",
