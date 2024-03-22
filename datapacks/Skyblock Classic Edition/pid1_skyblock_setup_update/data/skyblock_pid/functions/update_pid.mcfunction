@@ -1,46 +1,47 @@
-#Copyright (C) Loweredgames (Lorenzo Giannini) 
+#Copyright (C) Loweredgames (Lorenzo Giannini)
 #Contacted:<https://github.com/Loweredgames>
 #This Source Code Form is subject to the terms of the License.
 #NOT OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG STUDIO.
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Setup Update PID (NON ELIMINARE "Setup Update PID" E NON MODIFICARLO, DISATTIVA SOLO SE NON C'E LA CONVERSIONE)
+##SETUP UPDATE PID (NON ELIMINARE "Setup Update PID" E NON MODIFICARLO, DISATTIVA SOLO SE NON C'E LA CONVERSIONE)
 
 
-##Scoreboard PID SETUP (LASCIARE SEMPRE LA SCOREBOARD)
+##SCOREBOARD PID SETUP (LASCIARE SEMPRE LA SCOREBOARD)
 scoreboard objectives add PID_1 dummy
 scoreboard players add @a PID_1 1
 
 
-##PID 1.20.3_1_1 - 1.20.3/1.20.4 Fix Elitrà (LASCIARE COSI. PER LA FUNZIONE PID 1_1, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL PID DIVENTA INCOMPATIBILE)
+##SKYBLOCK PID RESET LOOP
+execute as @a[scores={PID_1=2000000..}] run scoreboard players set @a PID_1 10000
+
+
+##SETUP UPDATE SUBPID (LASCIARE SEMPRE LA SCOREBOARD E SPOSTARE QUANDO DIVENTA LEGACY)
 scoreboard players add @a 1.20.3_PID_1_1 1
+scoreboard players add @a 1.20.3_PID_1_2 1
+scoreboard players add @a 1.20.3_PID_1_3 1
+
+
+##SUBPID 1.20.3_1_1 - 1.20.3/1.20.4 Fix Elitrà (LASCIARE COSI. PER LA FUNZIONE SUBPID 1_1, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL PID DIVENTA INCOMPATIBILE)
 function skyblock_pid:mc1203_pid1_1
 
 
-##PID END 1.20.3_1_1 (QUANDO FINISCE IL PID MADRE AGGIUNGERE IL PID MINORE. QUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEI PID MINORI)
-execute as @a[scores={PID_1=1015..}] run scoreboard objectives add 1.20.3_PID_1_1 dummy
-
-
-##PID 1.20.3_1_2 - 1.20.3/1.20.4 Aggiunto loot nei vasi decorativi (LASCIARE COSI. PER LA FUNZIONE PID 1_2, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL PID DIVENTA INCOMPATIBILE)
-scoreboard players add @a 1.20.3_PID_1_2 1
+##SUBPID 1.20.3_1_2 - 1.20.3/1.20.4 Aggiunto loot nei vasi decorativi (LASCIARE COSI. PER LA FUNZIONE SUBPID 1_2, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL PID DIVENTA INCOMPATIBILE)
 function skyblock_pid:mc1203_pid1_2
 
 
-##PID END 1.20.3_1_2 (QUANDO FINISCE IL PID MADRE AGGIUNGERE IL PID MINORE. QUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEI PID MINORI)
+##SUBPID 1.20.3_1_3 - 1.20.3/1.20.4 Fix level.dat - reset valori #251 (LASCIARE COSI. PER LA FUNZIONE SUBPID 1_3, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL PID DIVENTA INCOMPATIBILE)
+#function skyblock_pid:mc1203_pid1_3
+
+
+##SUBPID END (QUANDO FINISCE IL PID AGGIUNGERE IL SUBPID O IL PID MA SOLO NEL PRIMO SUBPID. GUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEL SUBPID DENTRO LA FUNZIONE)
+execute as @a[scores={PID_1=1015..}] run scoreboard objectives add 1.20.3_PID_1_1 dummy
 execute as @a[scores={1.20.3_PID_1_1=315..}] run scoreboard objectives add 1.20.3_PID_1_2 dummy
-
-
-##PID 1.20.3_1_3 - 1.20.3/1.20.4 Fix level.dat, reset valori - #251 (LASCIARE COSI. PER LA FUNZIONE PID 1_3, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL PID DIVENTA INCOMPATIBILE)
-scoreboard players add @a 1.20.3_PID_1_3 1
-function skyblock_pid:mc1203_pid1_3
-
-
-##PID END 1.20.3_1_3 (QUANDO FINISCE IL PID MADRE AGGIUNGERE IL PID MINORE. QUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEI PID MINORI)
 execute as @a[scores={1.20.3_PID_1_2=325..}] run scoreboard objectives add 1.20.3_PID_1_3 dummy
 
 
-##Scoreboard Start PID 1
+##SCOREBOARD START 1.20.3_PID 1
 execute as @a[scores={PID_1=5..100}] run gamemode spectator @a
 execute as @a[scores={PID_1=5}] run time set 0
 execute as @a[scores={PID_1=5}] run gamerule doImmediateRespawn true
@@ -51,29 +52,25 @@ execute as @a[scores={PID_1=1005}] run playsound minecraft:entity.player.levelup
 execute as @a[scores={PID_1=5..1000}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
-##Skyblock PID 1 Reset LOOP
-execute as @a[scores={PID_1=2000000..}] run scoreboard players set @a PID_1 10000
-
-
-###PID 1.20.3_1 - 1.20.3/1.20.4 (SPOSTARE "PID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE IL COMMENTO IN SE)
+###1.20.3_PID 1 - 1.20.3/1.20.4 (SPOSTARE "PID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE IL COMMENTO IN SE)
 
 
 ##Overworld
 execute in minecraft:overworld as @a[scores={PID_1=100}] run tp @a 280 45 0 0 0
-execute in minecraft:overworld as @a[scores={PID_1=150}] run setblock 295 50 2 minecraft:barrel[facing=south,open=false]{Items:[{Count:1b,Slot:13b,id:"minecraft:coast_armor_trim_smithing_template"},{Count:1b,Slot:26b,id:"minecraft:filled_map",tag:{display:{Lore:['{"text":"Here you will find treasures of all kinds but be careful not to fall...","italic":true}'],MapColor:6911,Name:'{"text":"The Flyship","bold":true}'}}}]} destroy
+execute in minecraft:overworld as @a[scores={PID_1=150}] run setblock 295 50 2 minecraft:barrel[facing=south,open=false]{Items:[{Count:1b,Slot:13b,id:"minecraft:coast_armor_trim_smithing_template"}]} destroy
 execute in minecraft:overworld as @a[scores={PID_1=100}] run tp @a 722 50 709 0 0
 execute in minecraft:overworld as @a[scores={PID_1=255..}] run fill 723 48 704 721 48 706 minecraft:infested_cobblestone replace
 execute in minecraft:overworld as @a[scores={PID_1=255..}] run setblock 722 48 703 minecraft:end_portal_frame[eye=false,facing=south] replace
 execute in minecraft:overworld as @a[scores={PID_1=252}] run setblock 722 49 705 oak_sign[rotation=0,waterlogged=false]{front_text:{color:"black",has_glowing_text:1b,messages:['{"text":"The portal is"}','{"text":"broken sorry,"}','{"text":"in this version..."}','{"text":";("}']}} destroy
 execute in minecraft:overworld as @a[scores={PID_1=300}] run tp @a 508 46 71 0 0
-execute in minecraft:overworld as @a[scores={PID_1=350}] run setblock 507 46 71 minecraft:barrel[facing=east,open=false]{Items:[{Count:1b,Slot:8b,id:"minecraft:filled_map",tag:{display:{Lore:['{"text":"You fi al y cce ded an he e ot  r it s th t c n hel   u...","italic":true}'],MapColor:0,Name:'{"text":"J urn Sky lok #02","bold":true}'}}},{Count:1b,Slot:13b,id:"minecraft:sentry_armor_trim_smithing_template"}]} destroy
+execute in minecraft:overworld as @a[scores={PID_1=350}] run setblock 507 46 71 minecraft:barrel[facing=east,open=false]{Items:[{Count:1b,Slot:13b,id:"minecraft:sentry_armor_trim_smithing_template"}]} destroy
 execute in minecraft:overworld as @a[scores={PID_1=400}] run tp @a -694 46 -694 0 0
-execute in minecraft:overworld as @a[scores={PID_1=450}] run setblock -696 47 -695 minecraft:barrel[facing=east,open=false]{Items:[{Count:1b,Slot:1b,id:"minecraft:book"},{Count:1b,Slot:2b,id:"minecraft:amethyst_shard"},{Count:1b,Slot:3b,id:"minecraft:echo_shard"},{Count:1b,Slot:4b,id:"minecraft:amethyst_shard"},{Count:1b,Slot:5b,id:"minecraft:echo_shard"},{Count:1b,Slot:6b,id:"minecraft:amethyst_shard"},{Count:1b,Slot:7b,id:"minecraft:book"},{Count:1b,Slot:8b,id:"minecraft:book"},{Count:1b,Slot:9b,id:"minecraft:book"},{Count:1b,Slot:10b,id:"minecraft:book"},{Count:1b,Slot:11b,id:"minecraft:fire_charge"},{Count:1b,Slot:12b,id:"minecraft:silence_armor_trim_smithing_template"},{Count:1b,Slot:13b,id:"minecraft:calibrated_sculk_sensor"},{Count:1b,Slot:14b,id:"minecraft:ward_armor_trim_smithing_template"},{Count:1b,Slot:15b,id:"minecraft:fire_charge"},{Count:1b,Slot:17b,id:"minecraft:book"},{Count:1b,Slot:18b,id:"minecraft:saddle"},{Count:1b,Slot:19b,id:"minecraft:fire_charge"},{Count:1b,Slot:22b,id:"minecraft:echo_shard"},{Count:1b,Slot:25b,id:"minecraft:fire_charge"},{Count:1b,Slot:26b,id:"minecraft:filled_map",tag:{display:{Lore:['{"text":"This was my home but one day everything died...","italic":true}'],MapColor:4156559,Name:'{"text":"Deep Darkness","bold":true}'}}}]} destroy
+execute in minecraft:overworld as @a[scores={PID_1=450}] run setblock -696 47 -695 minecraft:barrel[facing=east,open=false]{Items:[{Count:1b,Slot:1b,id:"minecraft:book"},{Count:1b,Slot:2b,id:"minecraft:amethyst_shard"},{Count:1b,Slot:3b,id:"minecraft:echo_shard"},{Count:1b,Slot:4b,id:"minecraft:amethyst_shard"},{Count:1b,Slot:5b,id:"minecraft:echo_shard"},{Count:1b,Slot:6b,id:"minecraft:amethyst_shard"},{Count:1b,Slot:7b,id:"minecraft:book"},{Count:1b,Slot:8b,id:"minecraft:book"},{Count:1b,Slot:9b,id:"minecraft:book"},{Count:1b,Slot:10b,id:"minecraft:book"},{Count:1b,Slot:11b,id:"minecraft:fire_charge"},{Count:1b,Slot:12b,id:"minecraft:silence_armor_trim_smithing_template"},{Count:1b,Slot:13b,id:"minecraft:calibrated_sculk_sensor"},{Count:1b,Slot:14b,id:"minecraft:ward_armor_trim_smithing_template"},{Count:1b,Slot:15b,id:"minecraft:fire_charge"},{Count:1b,Slot:17b,id:"minecraft:book"},{Count:1b,Slot:18b,id:"minecraft:saddle"},{Count:1b,Slot:19b,id:"minecraft:fire_charge"},{Count:1b,Slot:22b,id:"minecraft:echo_shard"},{Count:1b,Slot:25b,id:"minecraft:fire_charge"}]} destroy
 execute in minecraft:overworld as @a[scores={PID_1=400..450}] run kill @e[type=minecraft:warden]
 execute in minecraft:overworld as @a[scores={PID_1=500}] run tp @a -179 50 -176 0 0
-execute in minecraft:overworld as @a[scores={PID_1=550}] run setblock -179 52 -177 minecraft:chest[facing=west,type=single,waterlogged=false]{Items:[{Count:1b,Slot:12b,id:"minecraft:allay_spawn_egg"},{Count:1b,Slot:13b,id:"minecraft:vex_armor_trim_smithing_template"},{Count:1b,Slot:14b,id:"minecraft:allay_spawn_egg"},{Count:1b,Slot:26b,id:"minecraft:filled_map",tag:{display:{Lore:['{"text":"Here is a witch and is a black cat. I hope it will keep you friendship...","italic":true}'],MapColor:39183,Name:'{"text":"Weting","bold":true}'}}}]} destroy
+execute in minecraft:overworld as @a[scores={PID_1=550}] run setblock -179 52 -177 minecraft:chest[facing=west,type=single,waterlogged=false]{Items:[{Count:1b,Slot:12b,id:"minecraft:allay_spawn_egg"},{Count:1b,Slot:13b,id:"minecraft:vex_armor_trim_smithing_template"},{Count:1b,Slot:14b,id:"minecraft:allay_spawn_egg"}]} destroy
 execute in minecraft:overworld as @a[scores={PID_1=600}] run tp @a -49 50 503 0 0
-execute in minecraft:overworld as @a[scores={PID_1=650}] run setblock -49 50 503 minecraft:barrel[facing=west,open=false]{Items:[{Count:1b,Slot:8b,id:"minecraft:filled_map",tag:{display:{Lore:['{"text":"Sorry for the traps but it\'s not easy to transport entire constructions. here is the reward...","italic":true}'],MapColor:1810688,Name:'{"text":"Jungle And Traps","bold":true}'}}},{Count:1b,Slot:13b,id:"minecraft:wild_armor_trim_smithing_template"}]} destroy
+execute in minecraft:overworld as @a[scores={PID_1=650}] run setblock -49 50 503 minecraft:barrel[facing=west,open=false]{Items:[{Count:1b,Slot:13b,id:"minecraft:wild_armor_trim_smithing_template"}]} destroy
 execute in minecraft:overworld as @a[scores={PID_1=700}] run tp @a 71 59 -489 0 0
 execute in minecraft:overworld as @a[scores={PID_1=710}] run setblock 73 58 -495 minecraft:sandstone_stairs[facing=west,half=bottom,shape=straight,waterlogged=false] destroy
 execute in minecraft:overworld as @a[scores={PID_1=711}] run setblock 74 57 -495 minecraft:sandstone_stairs[facing=west,half=bottom,shape=straight,waterlogged=false] destroy
@@ -143,11 +140,10 @@ execute in minecraft:the_nether as @a[scores={PID_1=956}] run setblock 4 58 34 m
 execute in minecraft:overworld as @a[scores={PID_1=960}] run tp @a 0 66 0 0 0
 
 
-##The End
-#????
+##The End (???)
 
 
-##Final Function PID
+##FINAL GENERATED PID 1 FUNCTION
 execute as @a[scores={PID_1=1001}] run advancement revoke @a only minecraft:end/root
 execute as @a[scores={PID_1=1001}] run advancement revoke @a only minecraft:nether/root
 execute as @a[scores={PID_1=1005}] run tellraw @a ["",{"text":"Due to several problems in The End (","italic":true,"color":"red"},{"text":"see the bug #16","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/issues/16"}},{"text":"). the dimension has been suspended in this release until the issues are resolved.\nThanks you :)","italic":true,"color":"red"}]

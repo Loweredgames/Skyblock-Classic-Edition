@@ -1,11 +1,11 @@
-#Copyright (C) Loweredgames (Lorenzo Giannini) 
+#Copyright (C) Loweredgames (Lorenzo Giannini)
 #Contacted:<https://github.com/Loweredgames>
 #This Source Code Form is subject to the terms of the License.
 #NOT OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG STUDIO.
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Refactoring Scoreboard (Aggiornato all'ultima versione: 1.0.0 - 5.1.0 Minecraft: 1.20.4)
+##Refactoring Scoreboard (Aggiornato all'ultima versione: 1.0.0 - 5.2.0 Minecraft: 1.20.5)
 execute as @a[scores={refactoring_scoreboard=..20}] run scoreboard objectives add SkyblockCE_install dummy
 execute as @a[scores={skyblock_small=1..}] run scoreboard objectives add SkyblockCE_small minecraft.custom:minecraft.play_time
 execute as @a[scores={skyblock_small=1..}] run scoreboard players add @a SkyblockCE_small 1000

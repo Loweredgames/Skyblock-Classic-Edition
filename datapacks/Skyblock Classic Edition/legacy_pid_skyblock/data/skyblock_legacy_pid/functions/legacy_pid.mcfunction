@@ -1,4 +1,4 @@
-#Copyright (C) Loweredgames (Lorenzo Giannini) 
+#Copyright (C) Loweredgames (Lorenzo Giannini)
 #Contacted:<https://github.com/Loweredgames>
 #This Source Code Form is subject to the terms of the License.
 #NOT OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG STUDIO.
@@ -29,6 +29,9 @@ execute as @a[scores={PID_legacy=1..801}] run summon minecraft:area_effect_cloud
 execute as @a[scores={PID_legacy=740}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
 
 
+###SUBPID_legacy (aggiungere in futuro)
+
+
 ###PID Legacy Update (AGGIUNGERE TUTTI I PID VECCHI, AGGIUNGERE SEMPRE UNA NUOVA CATEGORIA AD ESEMPIO #PID_2, #PID_3, ECC.)
 
 
@@ -54,8 +57,3 @@ execute as @a[scores={PID_legacy=730}] run advancement revoke @a only minecraft:
 
 ##PID Legacy Stop (QUANDO FINISCE: CAMBIARE IL NUMERO PER RESETARE TUTTO, AGGIUNGERE SEMPRE NELLE NUOVE VERSIONI IL PID)
 execute as @a[scores={PID_0=1..}] run scoreboard players set @a PID_1 -100
-
-
-##PID Legacy Structures (PER IL LIBRO QUANDO SI CONVERTE IL MONDO IN UNA VECCHIA VERSIONE)
-execute as @a[scores={PID_legacy=730}] run scoreboard objectives add SkyblockCE_structures dummy
-execute as @a[scores={PID_legacy=731}] run scoreboard players set @a SkyblockCE_structures 8

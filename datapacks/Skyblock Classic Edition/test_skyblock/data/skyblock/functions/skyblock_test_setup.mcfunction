@@ -1,4 +1,4 @@
-#Copyright (C) Loweredgames (Lorenzo Giannini) 
+#Copyright (C) Loweredgames (Lorenzo Giannini)
 #Contacted:<https://github.com/Loweredgames>
 #This Source Code Form is subject to the terms of the License.
 #NOT OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG STUDIO.
@@ -7,6 +7,7 @@
 
 ##Function Setup Test
 function skyblock:test/multiplayer_legacy
+function skyblock:test/legacy_structures_system
 
 
 ##Function Remove Test (DA RIMUOVERE IN FUTURO)

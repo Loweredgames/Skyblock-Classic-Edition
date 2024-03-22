@@ -6,7 +6,7 @@ _Skyblock is one of the most famous maps in Minecraft. the original has been upd
 
 # Story:
 
-_Steve/Alex wake up on an unknown island, inside a chest it says..._
+_Steve, Alex, Noor, Sunny, Ari, Zuri, Makena, Kai and Efe, they woke up on an unknown island, inside a chest it says..._
 
 # Feature:
 
@@ -21,8 +21,12 @@ _Steve/Alex wake up on an unknown island, inside a chest it says..._
 - Compatible with multiplayer.
 - Supports localizations: help me translate into your native language. The languages must be faithful to the English language, respect the punctuation and the capitalization. Click here to translate into your language in Crowdin: https://crowdin.com/project/skyblock-classic-edition
 
+# Credit
 
-_Thanks to the original Skyblock team for creating the most popular Minecraft map_
+DrTrog (Custom World Gen):
+https://www.planetminecraft.com/member/drtrog/
+
+_Thanks to the original Skyblock team for creating the most popular Minecraft map._
 
 READ THE LICENZE BEFORE DOWNLOADING THE DATAPACK:
 https://github.com/Loweredgames/Skyblock-Classic-Edition/blob/main/LICENSE

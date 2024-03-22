@@ -1,0 +1,28 @@
+{
+  "feature": "minecraft:desert_well",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 1000
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE"
+    },
+    {
+      "type": "height_range",
+      "height": {
+        "type": "constant",
+        "value": {
+          "absolute": 63
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
