@@ -31,7 +31,7 @@
     "skyblock_classic_edition.version_update.development_version.report": "báo lỗi tại đây",
     "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading....",
     "skyblock_classic_edition.loading.title.chat": "Loading...",
-    "skyblock_classic_edition.loading.subtitle.chat": "World",
+    "skyblock_classic_edition.loading.subtitle.chat": "Thế giới",
     "skyblock_classic_edition.versions_id.warning_update.off": "Không có gì để xem ở đây...",
     "skyblock_classic_edition.versions_id.warning_update.on": "Cập nhật và chuyển đổi thế giới cho phiên bản mới...",
     "skyblock_classic_edition.setup_version.warning": "⚠Warning: this version is no longer supported!⚠",
@@ -44,5 +44,5 @@
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " and wait for the world to update and then replace the datapack.\n\nThank you",
     "skyblock_classic_edition.link.discord": "Discord Server",
     "skyblock_classic_edition.link.crowdin": "Dự án Dịch thuật Crowdin",
-    "skyblock_classic_edition.credits": "Dịch bởi Siri Channel CV (sonvg0111)"
+    "skyblock_classic_edition.credits": "Dịch bởi Siri Channel CV (sonvg0111), QuangDuck"
 }
