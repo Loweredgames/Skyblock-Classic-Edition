@@ -32,7 +32,8 @@ execute as @a[scores={SkyblockCE_structures=100}] run tp @a 500 45 55 0 0
 
 
 ##GENERATED STRUCTURES (GENERA LE STRUTTURE QUANDO VIENE CREATO UN NUOVO MONDO)
-execute as @a[scores={SkyblockCE_structures=150}] run place template skyblock:structures/pillager_outpost 500 45 55
+execute as @a[scores={SkyblockCE_structures=150}] run place structure minecraft:colosseum 500 45 55
+
 
 
 ##FINAL FUNCTION STRUCTURES GENERATED

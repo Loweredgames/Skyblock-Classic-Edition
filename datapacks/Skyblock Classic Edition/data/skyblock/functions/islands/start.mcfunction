@@ -15,6 +15,7 @@ execute as @a[scores={SkyblockCE_april_fool=1..24000}] run summon minecraft:area
 
 
 ##April Fool Start
+scoreboard players add @a SkyblockCE_potato 1
 execute as @a[scores={SkyblockCE_april_fool=5}] run scoreboard objectives add SkyblockCE_potato dummy
 
 
