@@ -1,0 +1,2 @@
+Rimette tutto nelle stringhe text
+correzione delle prestazioni

@@ -6,11 +6,7 @@
 
 
 ##Function Setup
-execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/start
-execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/potato_2024/potato
-
-
-##Function Padlock
+function skyblock:islands/start
 function skyblock:versions/changelog/building
 function skyblock:islands/structures/generated_biome
 function skyblock:islands/structures/generated_structures
@@ -92,11 +88,11 @@ execute as @a[scores={SkyblockCE_install=3}] run tellraw @a ["",{"text":"If the 
 
 
 ##Quit Game
-execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run scoreboard objectives add SkyblockCE_quit_game minecraft.custom:minecraft.leave_game
+scoreboard objectives add SkyblockCE_quit_game minecraft.custom:minecraft.leave_game
 execute as @a[scores={SkyblockCE_quit_game=1..}] run scoreboard players set @a SkyblockCE_install 1
 execute as @a[scores={SkyblockCE_quit_game=1..}] run scoreboard objectives remove SkyblockCE_quit_game
 
 
 ##Teleports Setup
-execute as @a[scores={SkyblockCE_tp=1..5}] run effect give @a minecraft:regeneration 64 250 true
+execute as @a[scores={SkyblockCE_tp=1}] run effect give @a minecraft:regeneration 64 250 true
 execute in minecraft:overworld run tp @a[scores={SkyblockCE_tp=1}] 0 64 0 0 90

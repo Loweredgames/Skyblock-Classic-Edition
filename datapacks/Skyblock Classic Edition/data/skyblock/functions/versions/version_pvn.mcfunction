@@ -26,7 +26,7 @@ execute as @a[scores={PVN_aprilfool_2024=1}] run tellraw @s ["",{"translate":"sk
 
 
 ##PVN WARNING (NON TOCCARE, SOLO VERSIONI DI SVILUPPO)
-execute as @a[scores={PVN_aprilfool_2024=5}] run tellraw @s ["",{"translate":"skyblock_classic_edition.version_update.development_version.warning","color":"red"},{"translate":"skyblock_classic_edition.version_update.development_version.report","underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/issues"}},{"text":".\u26a0","color":"red"}]
+execute as @a[scores={PVN_aprilfool_2024=5}] run tellraw @s ["",{"translate":"skyblock_classic_edition.version_update.development_version.warning","color":"red"},{"text":".\u26a0","color":"red"}]
 
 
 ##PVN VERSION PROTOCOL LOOP
