@@ -3,7 +3,7 @@ Name: Skyblock Classic Edition
 
 Edition: JAVA EDITION
 
-Release: JE-24w14potato-Skyblock_Classic_Edition:1.0.0Fools
+Release: JE-24w14potato-Skyblock_Classic_Edition:1.0.0potato
 
 Data_pack: TRUE
 

@@ -14,4 +14,4 @@ title @a actionbar {"translate":"\u26a0NOT SUPPORTED!!!\u26a0","bold":true,"colo
 #Version Number
 
 
-bossbar set building name {"text":"JE-24w14potato-Skyblock_Classic_Edition:1.0.0Fools","color":"white","bold":true}
+bossbar set building name {"text":"JE-24w14potato-Skyblock_Classic_Edition:1.0.0potato","color":"white","bold":true}

@@ -23,8 +23,7 @@ execute in minecraft:potato as @a[scores={SkyblockCE_potato=2}] run gamerule ann
 #Classic Potato
 execute in minecraft:potato as @a[scores={SkyblockCE_potato=5}] run execute in minecraft:potato run tp @a -192 64 -112
 execute in minecraft:potato as @a[scores={SkyblockCE_potato=40}] run place template skyblock:classic_potato -192 64 -112
-execute in minecraft:potato as @a[scores={SkyblockCE_potato=43}] run setblock 1 66 -3 birch_wall_sign[facing=south,waterlogged=false]{back_text:{messages:['{"text":"This"}','{"text":"is"}','{"text":"a"}','{"text":"secret!!!"}']},front_text:{color:"white",has_glowing_text:1b,messages:['{"text":"Skyblock"}','{"text":"Classic Edition"}','{"text":"---------------"}','{"text":"1.20.5"}']}} replace
-execute in minecraft:potato as @a[scores={SkyblockCE_potato=45}] run setblock 1 66 -2 minecraft:air
+execute in minecraft:potato as @a[scores={SkyblockCE_potato=43}] run setblock -187 69 -109 potato_wall_sign[facing=south,waterlogged=false]{back_text:{messages:['{"text":"This"}','{"text":"is"}','{"text":"a"}','{"text":"secret!!!"}']},front_text:{color:"white",has_glowing_text:1b,messages:['{"text":"Skyblock"}','{"text":"Potato Edition"}','{"text":"---------------"}','{"text":"24w14potato"}']}} replace
 
 
 #Classic Desert Potato
@@ -33,8 +32,8 @@ execute in minecraft:potato as @a[scores={SkyblockCE_potato=50}] run place templ
 
 
 ##FINAL GENERATED FUNCTION
-#execute as @a[scores={SkyblockCE_potato=150..}] run scoreboard objectives add SkyblockCE_structures_id dummy
-execute as @a[scores={SkyblockCE_potato=151}] run #spawnpoint @a 0 65 0
+####execute as @a[scores={SkyblockCE_potato=150..}] run scoreboard objectives add SkyblockCE_structures_id dummy
+execute as @a[scores={SkyblockCE_potato=151}] run spawnpoint @a -188 68 -106
 execute as @a[scores={SkyblockCE_potato=151}] run weather clear 1000s
 execute as @a[scores={SkyblockCE_potato=151}] run scoreboard objectives add kills deathCount
 execute as @a[scores={SkyblockCE_potato=151}] run scoreboard objectives setdisplay list kills
@@ -47,6 +46,6 @@ execute as @a[scores={SkyblockCE_potato=705..707}] run gamerule doWeatherCycle t
 execute as @a[scores={SkyblockCE_potato=705..707}] run gamerule doImmediateRespawn false
 execute as @a[scores={SkyblockCE_potato=710}] run time set 0
 execute as @a[scores={SkyblockCE_potato=710}] run advancement revoke @a everything
-execute as @a[scores={SkyblockCE_potato=720}] run execute in minecraft:overworld run tp @p 0 66 0 90 0
+execute as @a[scores={SkyblockCE_potato=720}] run execute in minecraft:potato run tp @p -188 68 -106 90 0
 execute as @a[scores={SkyblockCE_potato=721}] run gamemode survival @a
-execute as @a[scores={SkyblockCE_potato=730}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
+execute as @a[scores={SkyblockCE_potato=730}] run playsound minecraft:entity.player.levelup ambient @a -188 68 -106 100 2
