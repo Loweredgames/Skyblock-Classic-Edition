@@ -95,4 +95,4 @@ execute as @a[scores={SkyblockCE_quit_game=1..}] run scoreboard objectives remov
 
 ##Teleports Setup Fool
 execute as @a[scores={SkyblockCE_tp_fool=1}] run effect give @a minecraft:regeneration 64 250 true
-execute in minecraft:potato run tp @a[scores={SkyblockCE_tp_fool=1}] 0 64 0 0 90
+execute in minecraft:potato run tp @a[scores={SkyblockCE_tp_fool=1}] -191 65 -111 0 90

@@ -11,6 +11,7 @@ execute as @a[scores={SkyblockCE_islands=1}] run tellraw @a {"translate":"skyblo
 execute as @a[scores={SkyblockCE_april_fool=1..}] run scoreboard objectives add SkyblockCE_structures_id dummy
 execute as @a[scores={SkyblockCE_april_fool=1..}] run scoreboard players set @a SkyblockCE_install -2
 execute as @a[scores={SkyblockCE_april_fool=1..}] run scoreboard players set @a SkyblockCE_islands -2
+execute as @a[scores={SkyblockCE_april_fool=1}] run scoreboard objectives add SkyblockCE_id dummy
 execute as @a[scores={SkyblockCE_april_fool=1..24000}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
