@@ -30,41 +30,9 @@ execute as @a[scores={SkyblockCE_structures=1155}] run scoreboard objectives add
 #Pillager Outpost
 execute as @a[scores={SkyblockCE_structures=100}] run tp @a 500 45 55 0 0
 
-#Village
-execute as @a[scores={SkyblockCE_structures=200}] run tp @a 460 45 350 0 0
-
-#Swamp Hut
-execute as @a[scores={SkyblockCE_structures=300}] run tp @a -180 45 -180 0 0
-
-#Igloo
-execute as @a[scores={SkyblockCE_structures=400}] run tp @a 180 45 180 0 0
-
-#Jungle Pyramids
-execute as @a[scores={SkyblockCE_structures=500}] run tp @a -60 45 500 0 0
-
-#Desert Pyramid
-execute as @a[scores={SkyblockCE_structures=600}] run tp @a 60 45 -500 0 0
-
-#Shipwrecks
-execute as @a[scores={SkyblockCE_structures=700}] run tp @a 280 45 0 0 0
-
-#Stronghold
-execute as @a[scores={SkyblockCE_structures=800}] run tp @a 700 45 700 0 0
-
-#Ancient City
-execute as @a[scores={SkyblockCE_structures=900}] run tp @a -700 45 -700 0 0
-
 
 ##GENERATED STRUCTURES (GENERA LE STRUTTURE QUANDO VIENE CREATO UN NUOVO MONDO)
 execute as @a[scores={SkyblockCE_structures=150}] run place template skyblock:structures/pillager_outpost 500 45 55
-execute as @a[scores={SkyblockCE_structures=250}] run place template skyblock:structures/village 460 45 350
-execute as @a[scores={SkyblockCE_structures=350}] run place template skyblock:structures/swamp_hut -180 45 -180
-execute as @a[scores={SkyblockCE_structures=450}] run place template skyblock:structures/igloo 180 45 180
-execute as @a[scores={SkyblockCE_structures=550}] run place template skyblock:structures/jungle_pyramids -60 45 500
-execute as @a[scores={SkyblockCE_structures=650}] run place template skyblock:structures/desert_pyramid 60 45 -500
-execute as @a[scores={SkyblockCE_structures=750}] run place template skyblock:structures/shipwrecks 280 45 0
-execute as @a[scores={SkyblockCE_structures=850}] run place template skyblock:structures/stronghold 700 45 700
-execute as @a[scores={SkyblockCE_structures=950}] run place template skyblock:structures/ancient_city -700 45 -700
 
 
 ##FINAL FUNCTION STRUCTURES GENERATED

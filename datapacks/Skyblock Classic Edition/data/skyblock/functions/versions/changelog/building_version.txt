@@ -11,16 +11,8 @@ Data_pack: TRUE
 
 Resource_pack: TRUE
 
-Custom Structures World Update: 2.0.2
+Protocol Version: PVN_aprilfool_2024
 
-Protocol Version: 1.20.5_PVN_0c
+Github_Tag: JE-April_Fool_2024a
 
-Protocol Identifier Data: 1.20.5_PID_0 (Da Aggiungere) \ PID 1
-
-Protocol Structures Number: 1.20.5_PSN_0
-
-Github_Tag: 1.20.5_JE-2a
-
-Github:https://github.com/Loweredgames/Skyblock-Classic-Edition
-
-Website:https://minecraft-map-building-versions.blogspot.com/
+Github:https://github.com/Loweredgames/Skyblock-Classic-Edition/releases/tag/JE-April_Fool_2024a
