@@ -6,4 +6,4 @@
 
 
 ##WARNING LEVEL_DAT (???)
-execute as @a[scores={??=5}] run tellraw @a ["",{"text":"???","bold":true,"italic":true,"color":"red"}] fare
+#execute as @a[scores={??=5}] run tellraw @a ["",{"text":"???","bold":true,"italic":true,"color":"red"}] fare
