@@ -7,7 +7,7 @@
 
 ##April Fool Setup
 execute as @a[scores={SkyblockCE_islands=1}] run scoreboard objectives add SkyblockCE_april_fool minecraft.custom:minecraft.play_time
-execute as @a[scores={SkyblockCE_islands=1}] run tellraw @a {"translate":"skyblock_classic_edition.loading.chat"}
+execute as @a[scores={SkyblockCE_islands=1}] run tellraw @a {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading...."}
 execute as @a[scores={SkyblockCE_april_fool=1..}] run scoreboard objectives add SkyblockCE_structures_id dummy
 execute as @a[scores={SkyblockCE_april_fool=1..}] run scoreboard players set @a SkyblockCE_install -2
 execute as @a[scores={SkyblockCE_april_fool=1..}] run scoreboard players set @a SkyblockCE_islands -2

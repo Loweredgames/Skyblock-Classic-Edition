@@ -11,8 +11,8 @@ execute in minecraft:potato as @a[scores={SkyblockCE_potato=2}] run kill @e[type
 execute in minecraft:potato as @a[scores={SkyblockCE_potato=2..5}] run difficulty hard
 execute in minecraft:potato as @a[scores={SkyblockCE_potato=2}] run gamerule commandBlockOutput false
 execute in minecraft:potato as @a[scores={SkyblockCE_potato=2}] run gamerule doImmediateRespawn true
-execute in minecraft:potato as @a[scores={SkyblockCE_potato=2}] run title @a title {"translate":"skyblock_classic_edition.loading.title.chat"}
-execute in minecraft:potato as @a[scores={SkyblockCE_potato=2}] run title @a subtitle {"translate":"skyblock_classic_edition.loading.subtitle.chat"}
+execute in minecraft:potato as @a[scores={SkyblockCE_potato=2}] run title @a title {"text":"Loading..."}
+execute in minecraft:potato as @a[scores={SkyblockCE_potato=2}] run title @a subtitle {"text":"World"}
 execute in minecraft:potato as @a[scores={SkyblockCE_potato=2}] run title @a times 30 200 20
 execute in minecraft:potato as @a[scores={SkyblockCE_potato=2}] run gamerule announceAdvancements false
 

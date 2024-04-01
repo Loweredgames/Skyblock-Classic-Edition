@@ -9,7 +9,7 @@ bossbar set minecraft:building style progress
 bossbar set minecraft:building max 100
 bossbar set minecraft:building value 100
 bossbar set minecraft:building visible false
-title @a actionbar {"translate":"\u26a0NOT SUPPORTED!!!\u26a0","bold":true,"color":"dark_red"}
+title @a actionbar {"text":"\u26a0NOT SUPPORTED!!!\u26a0","bold":true,"color":"dark_red"}
 
 
 #Version Number
