@@ -3,9 +3,7 @@ Name: Skyblock Classic Edition
 
 Edition: JAVA EDITION
 
-Release: JE-1.20.5-24w06a-Skyblock_Classic_Edition:BUILDING:13.02.2024a - 5.2.0 [Historical Tales Update]
-
-Nightly Release: JE-1.20.5-24w012a-NIGHTLY_BUILDING_22.03.2024.11107a
+Release: JE-24w14potato-Skyblock_Classic_Edition:1.0.0Fools
 
 Data_pack: TRUE
 
