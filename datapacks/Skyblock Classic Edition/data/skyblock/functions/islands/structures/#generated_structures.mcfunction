@@ -17,7 +17,7 @@ execute as @a[scores={SkyblockCE_structures=5..2000}] run summon minecraft:area_
 execute as @a[scores={SkyblockCE_structures=5..300}] run summon minecraft:area_effect_cloud 461 44 351
 execute as @a[scores={SkyblockCE_structures=5}] run scoreboard players set @a SkyblockCE_tp 0
 execute as @a[scores={SkyblockCE_structures=5}] run gamemode spectator @a
-execute as @a[scores={SkyblockCE_structures=5}] run effect give @a blindness 62 0 true
+#execute as @a[scores={SkyblockCE_structures=5}] run effect give @a blindness 62 0 true
 execute as @a[scores={SkyblockCE_structures=6}] run effect give @a night_vision 61 0 true
 
 
