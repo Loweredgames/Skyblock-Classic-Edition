@@ -16,9 +16,7 @@
       "type": "height_range",
       "height": {
         "type": "constant",
-        "value": {
-          "absolute": 63
-        }
+        "absolute": 63
       }
     },
     {
