@@ -8,6 +8,7 @@
 ##Function Setup Fool
 function skyblock:islands/start
 function skyblock:versions/changelog/building
+function skyblock:versions/changelog/nightly_building
 #function skyblock:islands/structures/generated_biome
 #function skyblock:islands/structures/generated_structures
 function skyblock:versions/version_pvn
