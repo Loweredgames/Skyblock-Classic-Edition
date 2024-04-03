@@ -23,7 +23,7 @@ execute as @a[scores={SkyblockCE_legacy_version=27}] run scoreboard objectives a
 execute as @a[scores={SkyblockCE_legacy_version=27}] run scoreboard objectives setdisplay list kills
 execute as @a[scores={SkyblockCE_legacy_version=50}] run scoreboard players set @a SkyblockCE_tp 0
 execute as @a[scores={SkyblockCE_legacy_version=51}] run fill 0 -1 0 0 7 0 minecraft:air destroy
-execute as @a[scores={SkyblockCE_legacy_version=52}] run give @p filled_map{map:0} 1
+execute as @a[scores={SkyblockCE_legacy_version=52}] run give @p filled_map[map_id=0] 1
 execute as @a[scores={SkyblockCE_legacy_version=3000}] run scoreboard objectives add SkyblockCE_id dummy
 execute in minecraft:the_nether as @a[scores={SkyblockCE_legacy_version=4000}] run tp @a 0 -3 30
 execute in minecraft:the_nether as @a[scores={SkyblockCE_legacy_version=4100}] run fill 2 2 33 -2 2 29 minecraft:infested_cobblestone destroy

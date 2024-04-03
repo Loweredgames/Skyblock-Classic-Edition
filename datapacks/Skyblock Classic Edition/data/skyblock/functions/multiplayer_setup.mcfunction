@@ -19,7 +19,7 @@ execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players s
 execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a SkyblockCE_structures_id 24005
 execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a SkyblockCE_structures 24000
 execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a PSN_legacy -1
-execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run clear @a written_book{tag:generated_book}
+execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run clear @a written_book[custom_data={tag:generated_book}]
 execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a SkyblockCE_large 24000
 execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a SkyblockCE_default 24000
 execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a SkyblockCE_small 24000
