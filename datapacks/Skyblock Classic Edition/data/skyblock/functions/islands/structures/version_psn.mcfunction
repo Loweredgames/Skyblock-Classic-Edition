@@ -59,6 +59,7 @@ execute as @a[scores={1.20.5_PSN_0=710}] run advancement revoke @a everything
 execute as @a[scores={1.20.5_PSN_0=720}] run execute in minecraft:overworld run tp @p 0 66 0 90 0
 execute as @a[scores={1.20.5_PSN_0=721}] run gamemode survival @a
 execute as @a[scores={1.20.5_PSN_0=730}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
+execute as @a[scores={1.20.5_PSN_0=735}] run scoreboard objectives remove SkyblockCE_level_dat
 
 
 ##SKYBLOCK ID DELAY (AGGIORNARE SEMPRE QUANDO VENGONO AGGIUNTE NUOVE STRUTTURE. DELAY PID DELLA CONVERSIONE)
