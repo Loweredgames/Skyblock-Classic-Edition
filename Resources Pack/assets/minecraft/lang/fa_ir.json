@@ -29,7 +29,7 @@
     "skyblock_classic_edition.version_update.discord": "همچنین من را در سرور دیسکورد دنبال کنید اگر می‌خواهید پیشنهادی بدهید یا شما اشکالی یافتید.",
     "skyblock_classic_edition.version_update.development_version.warning": "⚠توجه: شما از نسخه درحال توسعه استفاده می‌کنید، دنیا ممکن است خراب و آسیب ببیند، همیشه پشتیبان تهیه کنید و ",
     "skyblock_classic_edition.version_update.development_version.report": "اشکالات را اینجا گزارش کنید",
-    "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading....",
+    "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nدرحال بارگذاری...",
     "skyblock_classic_edition.loading.title.chat": "درحال بارگذاری...",
     "skyblock_classic_edition.loading.subtitle.chat": "دنیا",
     "skyblock_classic_edition.versions_id.warning_update.off": "اینجا چیزی برای دیدن نیست...",
@@ -44,5 +44,5 @@
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " و منتظر بمانید تا دنیا به‌روز شود و سپس دیتاپک را جایگزین کنید.\n\nمتشکرم",
     "skyblock_classic_edition.link.discord": "سرور دیسکورد",
     "skyblock_classic_edition.link.crowdin": "پروژه ترجمه‌های Crowdin",
-    "skyblock_classic_edition.credits": "ترجمه توسط Enderman (aparatcutgame)"
+    "skyblock_classic_edition.credits": "ترجمه توسط EndermanXD (Endermanco)"
 }
