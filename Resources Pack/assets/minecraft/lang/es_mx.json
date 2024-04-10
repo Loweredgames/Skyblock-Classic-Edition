@@ -35,7 +35,7 @@
     "skyblock_classic_edition.versions_id.warning_update.off": "No hay nada que ver aquí...",
     "skyblock_classic_edition.versions_id.warning_update.on": "Actualización del mundo y conversión para nueva versión...",
     "skyblock_classic_edition.setup_version.warning": "⚠Advertencia: esta versión ya no es compatible!⚠",
-    "skyblock_classic_edition.setup_version.warning.download": "\n\n\\n.",
+    "skyblock_classic_edition.setup_version.warning.download": "\n\nDescargue la última versión del mapa personalizado aquí.",
     "skyblock_classic_edition.generated_structures.loading.title": "Estructuras:",
     "skyblock_classic_edition.generated_structures.loading.subtitle": "Se generaron...",
     "skyblock_classic_edition.generated_structures.generated.command_block.info": "⚠Veo que no existe la carpeta (generated) en tu mundo. ",
