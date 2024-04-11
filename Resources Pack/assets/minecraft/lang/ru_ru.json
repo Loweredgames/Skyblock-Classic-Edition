@@ -42,6 +42,10 @@
     "skyblock_classic_edition.generated_structures.generated.command_block.download": " Пожалуйста, скачайте карту заново здесь",
     "skyblock_classic_edition.install.hardcore.lock": "Извините, но для хардкорного режима нужен уже загруженный и обновленный мир.",
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " и подождите, пока мир обновится, а затем замените datapack.\n\nСпасибо",
+    "skyblock_classic_edition.warning_level.dat.issues": "Due to some technical issues that may occur in various versions, the world may suffer a serious bug if the world is in dimensions and vanilla natural structures are not generated. To solve this technical problem you need to follow these simple steps: First you have to put all the things in your inventory, even the armor, in a chest, then exit the world and ",
+    "skyblock_classic_edition.warning_level.dat.download": "download the new (level.dat) here,",
+    "skyblock_classic_edition.warning_level.dat.copy_paste": " copy it and paste it replacing the old one, reopen the world and then open the chat with T as default and copy this command: ",
+    "skyblock_classic_edition.warning_level.dat.end": " you should see the structures in the new chunks, in case repeat the steps again.",
     "skyblock_classic_edition.link.discord": "Сервер Discord",
     "skyblock_classic_edition.link.crowdin": "Проект перевода Crowdin",
     "skyblock_classic_edition.credits": "Перевести с помощью Yury Red (S1lenix), H1_Every1, Artem Yakovlev (Yazik72), vanja-san, ŽłØî"
