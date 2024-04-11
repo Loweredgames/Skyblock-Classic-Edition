@@ -2,7 +2,7 @@ pull_request_title: Update translations from Crowdin
 append_commit_message: 
 commit_message: Updated %language% translations.
 files:
-  - source: /Resources Pack/assets/minecraft/lang/en_US.json
+  - source: /Resources Pack/assets/minecraft/lang/default.json
     translation: /Resources Pack/assets/minecraft/lang/%locale_with_underscore%.json
     languages_mapping:
       locale_with_underscore:
