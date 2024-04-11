@@ -1,5 +1,5 @@
 {
-    "skyblock_classic_edition.folder.test": "Ahoj světe",
+    "skyblock_classic_edition.folder.test": "Hello World",
     "skyblock_classic_edition.skyblock_setup.welcome": "Vítejte na Klasickém Skybloku",
     "skyblock_classic_edition.skyblock_setup.version": "Verze:",
     "skyblock_classic_edition.skyblock_setup.for_text": "pro",
@@ -24,14 +24,14 @@
     "skyblock_classic_edition.version_update.check_news": "Novinky o nejnovější verzi",
     "skyblock_classic_edition.version_update.changelog": "Přehled změn",
     "skyblock_classic_edition.version_update.check_links": "Check the latest version on the various links here:",
-    "skyblock_classic_edition.version_update.crowdin": "➡Projekt překladů Crowdin",
+    "skyblock_classic_edition.version_update.crowdin": "➡Crowdin Translations Project",
     "skyblock_classic_edition.version_update.crowdin.info": "Pomož mi přeložit do tvého rodného jazyka. Jazyky musí být přesně přeloženy z Angličtiny, respektujte interpunkci a kapitalizaci.",
     "skyblock_classic_edition.version_update.discord": "Also follow me on Discord server if you want to make a suggestion or you found a bug.",
     "skyblock_classic_edition.version_update.development_version.warning": "⚠ATTENTION: You are using a development version, the world may become corrupted and damaged, always make backups and ",
     "skyblock_classic_edition.version_update.development_version.report": "report bugs here",
     "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading....",
-    "skyblock_classic_edition.loading.title.chat": "Načítání...",
-    "skyblock_classic_edition.loading.subtitle.chat": "Svět",
+    "skyblock_classic_edition.loading.title.chat": "Loading...",
+    "skyblock_classic_edition.loading.subtitle.chat": "World",
     "skyblock_classic_edition.versions_id.warning_update.off": "There is nothing to see here...",
     "skyblock_classic_edition.versions_id.warning_update.on": "World update and conversion for new version...",
     "skyblock_classic_edition.setup_version.warning": "⚠Warning: this version is no longer supported!⚠",
@@ -44,5 +44,5 @@
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " and wait for the world to update and then replace the datapack.\n\nThank you",
     "skyblock_classic_edition.link.discord": "Discord Server",
     "skyblock_classic_edition.link.crowdin": "Projekt překladů Crowdin",
-    "skyblock_classic_edition.credits": "Přeloženo INFORMAČNÍ_studio, Grey-Wolf"
+    "skyblock_classic_edition.credits": "Přeloženo INFORMAČNÍ_studio"
 }
