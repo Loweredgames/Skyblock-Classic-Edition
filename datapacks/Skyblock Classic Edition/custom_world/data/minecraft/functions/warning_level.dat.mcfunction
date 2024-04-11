@@ -5,5 +5,11 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##WARNING LEVEL_DAT (???)
-execute as @a[scores={??=5}] run tellraw @a ["",{"text":"???","bold":true,"italic":true,"color":"red"}] fare
+##WARNING LEVEL_DAT SETUP
+scoreboard objectives add SkyblockCE_level_dat dummy
+scoreboard players add @a SkyblockCE_level_dat 1
+
+
+##WARNING LEVEL_DAT LOOP MESSAGE
+execute as @a[scores={SkyblockCE_level_dat=200}] run tellraw @a ["",{"text":"???","bold":true,"color":"red"}]
+execute as @a[scores={SkyblockCE_level_dat=900000..}] run scoreboard objectives remove SkyblockCE_level_dat

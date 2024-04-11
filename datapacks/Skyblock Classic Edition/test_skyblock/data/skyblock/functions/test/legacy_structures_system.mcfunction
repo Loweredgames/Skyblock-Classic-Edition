@@ -12,7 +12,7 @@
 execute as @a[scores={SkyblockCE_structures_id=..1}] run scoreboard objectives add NEW_PSN dummy
 execute as @a[scores={SkyblockCE_structures_id=..1}] run scoreboard players set @a NEW_PSN -1
 execute as @a[scores={NEW_PSN=-1..}] run scoreboard players set @a PSN0_OLD_SYSTEM -1
-execute as @a[scores={NEW_PSN=-1..}] run clear @a written_book{tag:generated_book}
+execute as @a[scores={NEW_PSN=-1..}] run clear @a written_book[custom_data={tag:generated_book}]
 
 
 #AGGIORNAMENTO AL NUOVO SISTEMA PID 0

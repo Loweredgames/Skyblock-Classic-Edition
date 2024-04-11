@@ -15,6 +15,9 @@ execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:isl
 ##Function Padlock
 function skyblock:skyblock_test_setup
 function skyblock:versions/changelog/building
+function skyblock:versions/changelog/nightly_building
+function minecraft:warning_level.dat
+function minecraft:fix_custom_world
 function skyblock:islands/structures/generated_biome
 function skyblock:islands/structures/generated_structures
 function skyblock:islands/structures/version_psn
