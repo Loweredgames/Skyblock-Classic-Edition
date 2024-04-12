@@ -31,11 +31,11 @@
 				"directory": "test_skyblock"
 			},
 			{
-				"formats": {"min_inclusive": 20, "max_inclusive": 20},
+				"formats": {"min_inclusive": 26, "max_inclusive": 26},
 				"directory": "custom_dimension"
 			},
 			{
-				"formats": {"min_inclusive": 33, "max_inclusive": 20},
+				"formats": {"min_inclusive": 33, "max_inclusive": 39},
 				"directory": "custom_world"
 			}
 		]
