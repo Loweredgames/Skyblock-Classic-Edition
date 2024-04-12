@@ -43,7 +43,7 @@
     "skyblock_classic_edition.install.hardcore.lock": "Przepraszam, ale tryb hardcore wymaga załadowanego i zaktualizowanego świata.",
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " i czekaj aż świat zostanie zaktualizowany, następnie zamień paczkę daty(datapack).\n\nDziękujemy",
     "skyblock_classic_edition.warning_level.dat.issues": "Due to some technical issues that may occur in various versions, the world may suffer a serious bug if the world is in dimensions and vanilla natural structures are not generated. To solve this technical problem you need to follow these simple steps: first you have to put all the things in your inventory, even the armor, in a chest, then exit the world and ",
-    "skyblock_classic_edition.warning_level.dat.download": "download the new (level.dat) here,",
+    "skyblock_classic_edition.warning_level.dat.download": "download the new (level.dat and level.dat_old) here,",
     "skyblock_classic_edition.warning_level.dat.copy_paste": " copy it and paste it replacing the old one, reopen the world and then open the chat with T as default and copy this command: ",
     "skyblock_classic_edition.warning_level.dat.end": ", you should see the structures in the new chunks, in case repeat the steps again.",
     "skyblock_classic_edition.link.discord": "Serwer Discord",
