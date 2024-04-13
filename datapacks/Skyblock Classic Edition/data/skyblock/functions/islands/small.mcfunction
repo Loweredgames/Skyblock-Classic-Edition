@@ -31,7 +31,7 @@ execute in minecraft:overworld as @a[scores={SkyblockCE_small=1}] run gamerule a
 
 #Small Classic
 execute in minecraft:overworld as @a[scores={SkyblockCE_small=1}] run scoreboard players set @a SkyblockCE_tp 1
-execute in minecraft:overworld as @a[scores={SkyblockCE_small=1}] run fill -7 80 -12 7 55 5 minecraft:air
+execute in minecraft:overworld as @a[scores={SkyblockCE_small=1}] run fill 7 110 -13 -7 -60 5 minecraft:air
 execute in minecraft:overworld as @a[scores={SkyblockCE_small=3}] run place template skyblock:small_classic -1 62 -3
 execute in minecraft:overworld as @a[scores={SkyblockCE_small=10}] run setblock 1 66 0 birch_wall_sign[facing=south,waterlogged=false]{back_text:{messages:['{"text":"This"}','{"text":"is"}','{"text":"a"}','{"text":"secret!!!"}']},front_text:{color:"white",has_glowing_text:1b,messages:['{"text":"Skyblock"}','{"text":"Classic Edition"}','{"text":"---------------"}','{"text":"1.20.5"}']}} replace
 execute in minecraft:overworld as @a[scores={SkyblockCE_small=35}] run setblock 0 62 1 minecraft:dirt destroy
@@ -40,7 +40,7 @@ execute in minecraft:overworld as @a[scores={SkyblockCE_small=35}] run setblock 
 
 #Small Classic Desert
 execute in minecraft:overworld as @a[scores={SkyblockCE_small=40}] run scoreboard players set @a SkyblockCE_tp 2
-execute in minecraft:overworld as @a[scores={SkyblockCE_small=40}] run fill 75 80 11 61 55 -9 minecraft:air
+execute in minecraft:overworld as @a[scores={SkyblockCE_small=40}] run fill 58 110 7 79 -60 -18 minecraft:air
 execute in minecraft:overworld as @a[scores={SkyblockCE_small=41}] run place template skyblock:small_classic_desert 66 60 -4
 
 
@@ -49,8 +49,7 @@ execute in minecraft:overworld as @a[scores={SkyblockCE_small=41}] run place tem
 
 #Small Nether Classic
 execute in minecraft:overworld as @a[scores={SkyblockCE_small=57}] run scoreboard players set @a SkyblockCE_tp 3
-execute in minecraft:the_nether as @a[scores={SkyblockCE_small=100}] run fill 17 65 43 -12 50 -8 minecraft:air
-execute in minecraft:the_nether as @a[scores={SkyblockCE_small=100}] run fill 16 73 -53 -3 49 -44 minecraft:air
+execute in minecraft:the_nether as @a[scores={SkyblockCE_small=100}] run fill 17 1 43 -12 255 -8 minecraft:air
 execute in minecraft:the_nether as @a[scores={SkyblockCE_small=105}] run place template skyblock:nether_classic 2 50 3
 
 
@@ -61,6 +60,7 @@ execute in minecraft:the_nether as @a[scores={SkyblockCE_small=121}] run place t
 
 #Nether Classic Forest
 execute as @a[scores={SkyblockCE_small=130}] run scoreboard players set @a SkyblockCE_tp 5
+execute in minecraft:the_nether as @a[scores={SkyblockCE_small=126}] run fill -4 1 -52 11 255 -44 minecraft:air
 execute in minecraft:the_nether as @a[scores={SkyblockCE_small=131}] run place template skyblock:nether_classic_forest -2 50 -50
 
 
