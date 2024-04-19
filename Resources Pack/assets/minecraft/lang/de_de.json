@@ -42,7 +42,11 @@
     "skyblock_classic_edition.generated_structures.generated.command_block.download": " Bitte lade die Welt hier erneut herunter",
     "skyblock_classic_edition.install.hardcore.lock": "Es tut mir leid, aber Hardcore Modus benötigt eine bereits geladene und aktualisierte Welt.",
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " und warte auf die Aktualisierung der Welt, ersetze dann das Datapack.\n\nVielen Dank",
+    "skyblock_classic_edition.warning_level.dat.issues": "Aufgrund einiger technischer Probleme, die in verschiedenen Versionen auftreten können, könnte die Welt einen schwerwiegenden Fehler erleiden, wenn sie in Dimensionen vorliegt und keine natürlichen Strukturen generiert werden. Um dieses technische Problem zu lösen, müssen Sie diese einfachen Schritte befolgen: Zuerst müssen Sie alle Gegenstände in Ihrem Inventar, einschließlich der Rüstung, in eine Truhe legen. Dann verlassen Sie die Welt und ",
+    "skyblock_classic_edition.warning_level.dat.download": "lade die neue (level.dat und level.dat_old) hier herunter",
+    "skyblock_classic_edition.warning_level.dat.copy_paste": " kopiere es und füge es ein, indem du das alte ersetzt, öffne dann die Welt neu und öffne den Chat mit T als Standard und kopiere diesen Befehl: ",
+    "skyblock_classic_edition.warning_level.dat.end": ", sollten Sie die Strukturen in den neuen Chunks sehen, falls Sie die Schritte wiederholen.",
     "skyblock_classic_edition.link.discord": "Discord Server",
     "skyblock_classic_edition.link.crowdin": "Crowdin Übersetzungsprojekt",
-    "skyblock_classic_edition.credits": "Übersetzt von InfoBlock, Marco Neuzil, NeunEinser, XoQ (XoQ2988)"
+    "skyblock_classic_edition.credits": "Übersetzt von InfoBlock, Marco Neuzil, NeunEinser, XoQ (XoQ2988), Noel Berberich"
 }
