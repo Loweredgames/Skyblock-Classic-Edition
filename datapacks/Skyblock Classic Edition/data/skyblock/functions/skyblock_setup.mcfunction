@@ -109,10 +109,10 @@ execute as @a[scores={SkyblockCE_quit_game=1..}] run scoreboard objectives remov
 
 
 ##Teleports Setup
-execute as @a[scores={SkyblockCE_tp=1..5}] run effect give @a minecraft:regeneration 64 250 true
+execute as @a[scores={SkyblockCE_tp=1..6}] run effect give @a minecraft:regeneration 64 250 true
 execute in minecraft:overworld run tp @a[scores={SkyblockCE_tp=1}] 0 64 0 0 90
 execute in minecraft:overworld run tp @a[scores={SkyblockCE_tp=2}] 67 60 -3 0 90
 execute in minecraft:the_nether run tp @a[scores={SkyblockCE_tp=3}] 0 50 0 0 90
 execute in minecraft:the_nether run tp @a[scores={SkyblockCE_tp=4}] 4 55 33 0 90
 execute in minecraft:the_nether run tp @a[scores={SkyblockCE_tp=5}] -2 50 -50 0 90
-execute in minecraft:overworld run tp @a[scores={SkyblockCE_tp=6}] 0 61 1000 0 90
+execute in minecraft:overworld run tp @a[scores={SkyblockCE_tp=6}] 25 70 1022 0 90

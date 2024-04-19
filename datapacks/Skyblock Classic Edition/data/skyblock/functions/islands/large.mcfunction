@@ -44,9 +44,9 @@ execute in minecraft:overworld as @a[scores={SkyblockCE_large=50}] run place tem
 
 
 #Mushroom House
-execute in minecraft:overworld as @a[scores={SkyblockCE_large=55}] run scoreboard players set @a SkyblockCE_tp 6
-execute in minecraft:overworld as @a[scores={SkyblockCE_large=50}] run fill -3 110 999 28 -7 1026 minecraft:air
-execute in minecraft:overworld as @a[scores={SkyblockCE_large=60}] run place template skyblock:mushroom_house 0 61 1000
+execute in minecraft:overworld as @a[scores={SkyblockCE_large=60}] run scoreboard players set @a SkyblockCE_tp 6
+execute in minecraft:overworld as @a[scores={SkyblockCE_large=65}] run fill -3 110 999 28 -7 1026 minecraft:air
+execute in minecraft:overworld as @a[scores={SkyblockCE_large=70}] run place template skyblock:mushroom_house 0 61 1000
 
 
 ##The Nether

@@ -44,27 +44,27 @@ execute in minecraft:overworld as @a[scores={SkyblockCE_default=50}] run place t
 
 
 #Mushroom House
-execute in minecraft:overworld as @a[scores={SkyblockCE_default=50}] run scoreboard players set @a SkyblockCE_tp 6
-execute in minecraft:overworld as @a[scores={SkyblockCE_default=50}] run fill -3 110 999 28 -7 1026 minecraft:air
-execute in minecraft:overworld as @a[scores={SkyblockCE_default=60}] run place template skyblock:mushroom_house 0 61 1000
+execute in minecraft:overworld as @a[scores={SkyblockCE_default=60}] run scoreboard players set @a SkyblockCE_tp 6
+execute in minecraft:overworld as @a[scores={SkyblockCE_default=85}] run fill -2 110 1000 27 -7 1024 minecraft:air
+execute in minecraft:overworld as @a[scores={SkyblockCE_default=80}] run place template skyblock:mushroom_house 0 61 1000
 
 
 ##The Nether
 
 
 #Nether Classic
-execute in minecraft:overworld as @a[scores={SkyblockCE_default=67}] run scoreboard players set @a SkyblockCE_tp 3
+execute in minecraft:overworld as @a[scores={SkyblockCE_default=120}] run scoreboard players set @a SkyblockCE_tp 3
 execute in minecraft:the_nether as @a[scores={SkyblockCE_default=100}] run fill 17 1 43 -12 255 -8 minecraft:air
 execute in minecraft:the_nether as @a[scores={SkyblockCE_default=105}] run place template skyblock:nether_classic 2 50 3
 
 
 #Nether Classic Bastion
-execute as @a[scores={SkyblockCE_default=120}] run scoreboard players set @a SkyblockCE_tp 4
+#execute as @a[scores={SkyblockCE_default=120}] run scoreboard players set @a SkyblockCE_tp 4
 execute in minecraft:the_nether as @a[scores={SkyblockCE_default=121}] run place template skyblock:nether_classic_bastion 4 55 33
 
 
 #Nether Classic Forest
-execute as @a[scores={SkyblockCE_default=130}] run scoreboard players set @a SkyblockCE_tp 5
+#execute as @a[scores={SkyblockCE_default=130}] run scoreboard players set @a SkyblockCE_tp 5
 execute in minecraft:the_nether as @a[scores={SkyblockCE_default=125}] run fill -4 1 -52 11 255 -44 minecraft:air
 execute in minecraft:the_nether as @a[scores={SkyblockCE_default=131}] run place template skyblock:nether_classic_forest -2 50 -50
 
