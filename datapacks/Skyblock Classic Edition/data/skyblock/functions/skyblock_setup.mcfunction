@@ -115,3 +115,4 @@ execute in minecraft:overworld run tp @a[scores={SkyblockCE_tp=2}] 67 60 -3 0 90
 execute in minecraft:the_nether run tp @a[scores={SkyblockCE_tp=3}] 0 50 0 0 90
 execute in minecraft:the_nether run tp @a[scores={SkyblockCE_tp=4}] 4 55 33 0 90
 execute in minecraft:the_nether run tp @a[scores={SkyblockCE_tp=5}] -2 50 -50 0 90
+execute in minecraft:overworld run tp @a[scores={SkyblockCE_tp=6}] 0 61 1000 0 90

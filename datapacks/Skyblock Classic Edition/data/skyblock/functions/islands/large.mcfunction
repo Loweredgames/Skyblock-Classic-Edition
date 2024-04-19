@@ -43,11 +43,17 @@ execute in minecraft:overworld as @a[scores={SkyblockCE_large=40}] run fill 58 1
 execute in minecraft:overworld as @a[scores={SkyblockCE_large=50}] run place template skyblock:large_classic_desert 61 54 -7
 
 
+#Mushroom House
+execute in minecraft:overworld as @a[scores={SkyblockCE_large=55}] run scoreboard players set @a SkyblockCE_tp 6
+execute in minecraft:overworld as @a[scores={SkyblockCE_large=50}] run fill -3 110 999 28 -7 1026 minecraft:air
+execute in minecraft:overworld as @a[scores={SkyblockCE_large=60}] run place template skyblock:mushroom_house 0 61 1000
+
+
 ##The Nether
 
 
 #Large Nether Classic
-execute in minecraft:overworld as @a[scores={SkyblockCE_large=57}] run scoreboard players set @a SkyblockCE_tp 3
+execute in minecraft:overworld as @a[scores={SkyblockCE_large=80}] run scoreboard players set @a SkyblockCE_tp 3
 execute in minecraft:the_nether as @a[scores={SkyblockCE_large=100}] run fill 17 1 43 -12 255 -8 minecraft:air
 execute in minecraft:the_nether as @a[scores={SkyblockCE_large=105}] run place template skyblock:nether_classic 2 50 3
 
