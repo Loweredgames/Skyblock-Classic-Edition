@@ -46,36 +46,36 @@ execute in minecraft:overworld as @a[scores={SkyblockCE_small=41}] run place tem
 
 #Mushroom House
 execute in minecraft:overworld as @a[scores={SkyblockCE_small=50}] run scoreboard players set @a SkyblockCE_tp 6
-execute in minecraft:overworld as @a[scores={SkyblockCE_small=55}] run fill -3 110 999 28 -7 1026 minecraft:air
-execute in minecraft:overworld as @a[scores={SkyblockCE_small=60}] run place template skyblock:mushroom_house 0 61 1000
+execute in minecraft:overworld as @a[scores={SkyblockCE_small=100}] run fill -3 110 999 28 -7 1026 minecraft:air
+execute in minecraft:overworld as @a[scores={SkyblockCE_small=105}] run place template skyblock:mushroom_house 0 61 1000
 
 
 ##The Nether
 
 
 #Small Nether Classic
-execute in minecraft:overworld as @a[scores={SkyblockCE_small=80}] run scoreboard players set @a SkyblockCE_tp 3
-execute in minecraft:the_nether as @a[scores={SkyblockCE_small=100}] run fill 17 1 43 -12 255 -8 minecraft:air
-execute in minecraft:the_nether as @a[scores={SkyblockCE_small=105}] run place template skyblock:nether_classic 2 50 3
+execute in minecraft:overworld as @a[scores={SkyblockCE_small=200}] run scoreboard players set @a SkyblockCE_tp 3
+execute in minecraft:the_nether as @a[scores={SkyblockCE_small=200}] run fill 17 1 43 -12 255 -8 minecraft:air
+execute in minecraft:the_nether as @a[scores={SkyblockCE_small=205}] run place template skyblock:nether_classic 2 50 3
 
 
 #Small Nether Classic Bastion
 execute as @a[scores={SkyblockCE_small=120}] run scoreboard players set @a SkyblockCE_tp 4
-execute in minecraft:the_nether as @a[scores={SkyblockCE_small=121}] run place template skyblock:nether_classic_bastion 4 55 33
+execute in minecraft:the_nether as @a[scores={SkyblockCE_small=221}] run place template skyblock:nether_classic_bastion 4 55 33
 
 
 #Nether Classic Forest
 execute as @a[scores={SkyblockCE_small=130}] run scoreboard players set @a SkyblockCE_tp 5
-execute in minecraft:the_nether as @a[scores={SkyblockCE_small=126}] run fill -4 1 -52 11 255 -44 minecraft:air
-execute in minecraft:the_nether as @a[scores={SkyblockCE_small=131}] run place template skyblock:nether_classic_forest -2 50 -50
+execute in minecraft:the_nether as @a[scores={SkyblockCE_small=326}] run fill -4 1 -52 11 255 -44 minecraft:air
+execute in minecraft:the_nether as @a[scores={SkyblockCE_small=331}] run place template skyblock:nether_classic_forest -2 50 -50
 
 
 ##The End (???)
 
 
 ##FINAL GENERATED FUNCTION
-execute as @a[scores={SkyblockCE_small=150}] run scoreboard players set @a SkyblockCE_tp 1
-execute as @a[scores={SkyblockCE_small=250..}] run scoreboard objectives add SkyblockCE_structures_id dummy
+execute as @a[scores={SkyblockCE_small=450}] run scoreboard players set @a SkyblockCE_tp 1
+execute as @a[scores={SkyblockCE_small=450..}] run scoreboard objectives add SkyblockCE_structures_id dummy
 execute as @a[scores={SkyblockCE_small=1351}] run spawnpoint @a 0 65 1
 execute as @a[scores={SkyblockCE_small=1351}] run weather clear 1000s
 execute as @a[scores={SkyblockCE_small=1351}] run scoreboard objectives add kills deathCount
