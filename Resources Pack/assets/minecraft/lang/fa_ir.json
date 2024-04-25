@@ -38,7 +38,7 @@
     "skyblock_classic_edition.setup_version.warning.download": "\n\nلطفا آخرین نسخه نقشه سفارشی را از اینجا بارگیری کنید.",
     "skyblock_classic_edition.generated_structures.loading.title": "ساختارها:",
     "skyblock_classic_edition.generated_structures.loading.subtitle": "تولید شدند...",
-    "skyblock_classic_edition.generated_structures.generated.command_block.info": "⚠من می بینم که پوشه ای در دنیا شما (تولید شده) وجود ندارد. ",
+    "skyblock_classic_edition.generated_structures.generated.command_block.info": "⚠من می بینم که پوشه ای در دنیا شما (generated) وجود ندارد. ",
     "skyblock_classic_edition.generated_structures.generated.command_block.download": "لطفا نقشه را دوباره از اینجا بارگیری کنید",
     "skyblock_classic_edition.install.hardcore.lock": "من متاسفم، اما حالت هاردکور به یک دنیای از قبل بارگذاری شده و به‌روز شده نیاز دارد.",
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " و منتظر بمانید تا دنیا به‌روز شود و سپس دیتاپک را جایگزین کنید.\n\nمتشکرم",
