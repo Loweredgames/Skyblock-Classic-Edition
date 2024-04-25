@@ -21,7 +21,7 @@
     "skyblock_classic_edition.version_update.compatible.info": " sind alte Versionen und möglicherweise nicht mit dem aktuellen Datapack kompatibel: Wenn das Datenpaket aktualisiert wird, kann es Kompatibilitätsprobleme haben, aktualisiere das Datenppaket immer auf die aktuellste kompatible Version.",
     "skyblock_classic_edition.version_update.welcome": "Willkommen zur SkyBlock Classic Edition:",
     "skyblock_classic_edition.version_update.for_edition": "für die Minecraft Java Edition:",
-    "skyblock_classic_edition.version_update.check_news": "\n\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n\nÜberprüfen Sie die Neuigkeiten der aktuellen Version hier:",
+    "skyblock_classic_edition.version_update.check_news": "\n\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n\nÜberprüfen Sie die Neuigkeiten der aktuellen Version hier:\n",
     "skyblock_classic_edition.version_update.changelog": "Änderungsprotokoll",
     "skyblock_classic_edition.version_update.check_links": "Überprüfen Sie die aktuelle Version hier auf den verschiedenen Links:",
     "skyblock_classic_edition.version_update.crowdin": "➡Crowdin Übersetzungsprojekt",
