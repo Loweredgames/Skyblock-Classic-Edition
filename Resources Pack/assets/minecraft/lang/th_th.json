@@ -38,7 +38,7 @@
     "skyblock_classic_edition.setup_version.warning.download": "\n\nPlease download the latest version of the custom map here.",
     "skyblock_classic_edition.generated_structures.loading.title": "โครงสร้าง",
     "skyblock_classic_edition.generated_structures.loading.subtitle": "พวกนั้นได้ถูกสร้างขึ้น...",
-    "skyblock_classic_edition.generated_structures.generated.command_block.info": "⚠ฉันเห็นว่าไม่มีโฟลเดอร์ (สร้าง) ในโลกของคุณ ",
+    "skyblock_classic_edition.generated_structures.generated.command_block.info": "⚠ฉันเห็นว่าไม่มีโฟลเดอร์ (generated) ในโลกของคุณ ",
     "skyblock_classic_edition.generated_structures.generated.command_block.download": " โหลด map ใหม่ได้ที่นี่",
     "skyblock_classic_edition.install.hardcore.lock": "I'm sorry but hardcore mode needs an already loaded and updated world.",
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " and wait for the world to update and then replace the datapack.\n\nThank you",
