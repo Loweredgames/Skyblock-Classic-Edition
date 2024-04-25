@@ -21,7 +21,7 @@
     "skyblock_classic_edition.version_update.compatible.info": "は古いバージョンであり、現在のデータパックと互換性がない場合があります。データパックを更新したさいに互換性に問題が生じる可能性があります。常に互換性のある最新版に更新してください。",
     "skyblock_classic_edition.version_update.welcome": "スカイブロッククラシックエディションへようこそ:",
     "skyblock_classic_edition.version_update.for_edition": "Minecraft Java Edition の場合:",
-    "skyblock_classic_edition.version_update.check_news": "\n\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n\n新着情報はこちら:",
+    "skyblock_classic_edition.version_update.check_news": "\n\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n\n新着情報はこちら:\n",
     "skyblock_classic_edition.version_update.changelog": "変更履歴",
     "skyblock_classic_edition.version_update.check_links": "こちらのさまざまなリンクで最新バージョンを確認してください。",
     "skyblock_classic_edition.version_update.crowdin": "➡クラウディン翻訳プロジェクト",
