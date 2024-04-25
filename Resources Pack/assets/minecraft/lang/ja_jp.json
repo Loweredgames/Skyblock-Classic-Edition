@@ -38,7 +38,7 @@
     "skyblock_classic_edition.setup_version.warning.download": "\n\nカスタムマップの最新バージョンはこちらからダウンロードしてください。",
     "skyblock_classic_edition.generated_structures.loading.title": "構造物:",
     "skyblock_classic_edition.generated_structures.loading.subtitle": "生成されました...",
-    "skyblock_classic_edition.generated_structures.generated.command_block.info": "⚠ワールドに（generated）フォルダがないようです。",
+    "skyblock_classic_edition.generated_structures.generated.command_block.info": "⚠ワールドに（生成された）フォルダがないようです。",
     "skyblock_classic_edition.generated_structures.generated.command_block.download": "地図を再度こちらに配置してください",
     "skyblock_classic_edition.install.hardcore.lock": "申し訳ありませんが、ハードコアモードはすでにロードされ、更新された世界が必要です。",
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " そして、世界が更新されるのを待ってから、データパックを交換します。\n\nありがとうございます",
