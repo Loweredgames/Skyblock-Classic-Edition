@@ -9,12 +9,12 @@
 
 
 ##SCOREBOARD PID SETUP (LASCIARE SEMPRE LA SCOREBOARD)
-scoreboard objectives add PID_1 dummy
-scoreboard players add @a PID_1 1
+scoreboard objectives add 1.20.5_PID_0 dummy
+scoreboard players add @a 1.20.5_PID_0 1
 
 
 ##SKYBLOCK PID RESET LOOP
-execute as @a[scores={PID_1=2000000..}] run scoreboard players set @a PID_1 10000
+execute as @a[scores={1.20.5_PID_0=2000000..}] run scoreboard players set @a 1.20.5_PID_0 10000
 
 
 ##SETUP UPDATE SUBPID (LASCIARE SEMPRE LA SCOREBOARD E SPOSTARE QUANDO DIVENTA LEGACY)
@@ -56,8 +56,6 @@ execute as @a[scores={PID_1=5..1000}] run summon minecraft:area_effect_cloud ~ ~
 
 
 ##Overworld
-execute in minecraft:overworld as @a[scores={PID_1=100}] run tp @a 280 45 0 0 0
-execute in minecraft:overworld as @a[scores={PID_1=150}] run setblock 295 50 2 minecraft:barrel[facing=south,open=false]{Items:[{Count:1b,Slot:13b,id:"minecraft:coast_armor_trim_smithing_template"}]} destroy
 execute in minecraft:overworld as @a[scores={PID_1=100}] run tp @a 722 50 709 0 0
 execute in minecraft:overworld as @a[scores={PID_1=255..}] run fill 723 48 704 721 48 706 minecraft:infested_cobblestone replace
 execute in minecraft:overworld as @a[scores={PID_1=255..}] run setblock 722 48 703 minecraft:end_portal_frame[eye=false,facing=south] replace
@@ -71,6 +69,9 @@ execute in minecraft:overworld as @a[scores={PID_1=500}] run tp @a -179 50 -176 
 execute in minecraft:overworld as @a[scores={PID_1=550}] run setblock -179 52 -177 minecraft:chest[facing=west,type=single,waterlogged=false]{Items:[{Count:1b,Slot:12b,id:"minecraft:allay_spawn_egg"},{Count:1b,Slot:13b,id:"minecraft:vex_armor_trim_smithing_template"},{Count:1b,Slot:14b,id:"minecraft:allay_spawn_egg"}]} destroy
 execute in minecraft:overworld as @a[scores={PID_1=600}] run tp @a -49 50 503 0 0
 execute in minecraft:overworld as @a[scores={PID_1=650}] run setblock -49 50 503 minecraft:barrel[facing=west,open=false]{Items:[{Count:1b,Slot:13b,id:"minecraft:wild_armor_trim_smithing_template"}]} destroy
+
+
+####aggiungere la stanza nella struttura
 execute in minecraft:overworld as @a[scores={PID_1=700}] run tp @a 71 59 -489 0 0
 execute in minecraft:overworld as @a[scores={PID_1=710}] run setblock 73 58 -495 minecraft:sandstone_stairs[facing=west,half=bottom,shape=straight,waterlogged=false] destroy
 execute in minecraft:overworld as @a[scores={PID_1=711}] run setblock 74 57 -495 minecraft:sandstone_stairs[facing=west,half=bottom,shape=straight,waterlogged=false] destroy
