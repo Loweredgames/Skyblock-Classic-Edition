@@ -38,7 +38,7 @@
     "skyblock_classic_edition.setup_version.warning.download": "\n\nPlease download the latest version of the custom map here.",
     "skyblock_classic_edition.generated_structures.loading.title": "구조물",
     "skyblock_classic_edition.generated_structures.loading.subtitle": "생성되었습니다.",
-    "skyblock_classic_edition.generated_structures.generated.command_block.info": "⚠사용자의 월드에 (생성된) 폴더가 없습니다. ",
+    "skyblock_classic_edition.generated_structures.generated.command_block.info": "⚠사용자의 월드에 (generated) 폴더가 없습니다. ",
     "skyblock_classic_edition.generated_structures.generated.command_block.download": " 이곳에서 맵를 다운받으세요.",
     "skyblock_classic_edition.install.hardcore.lock": "I'm sorry but hardcore mode needs an already loaded and updated world.",
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " and wait for the world to update and then replace the datapack.\n\nThank you",
