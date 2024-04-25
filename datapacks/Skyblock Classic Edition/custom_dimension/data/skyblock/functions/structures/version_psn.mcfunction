@@ -46,57 +46,53 @@ execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players s
 
 
 ##SKYBLOCK FINAL GENERATED ISLANDS DELAY (GENERA LA POSIZIONE DEL GIOCATORE QUANDO SONO FINITE LE SCORE, DA CAMBIARE SE IL PSN E PIU LUNGO)
-execute as @a[scores={1.20.5_PSN_0=705}] run scoreboard players set @a SkyblockCE_tp 0
-execute as @a[scores={1.20.5_PSN_0=706}] run title @a title ["",{"text":"Sky","bold":true,"color":"aqua"},{"text":"block","bold":true,"color":"dark_green"}]
-execute as @a[scores={1.20.5_PSN_0=706}] run title @a subtitle {"text":"Classic Edition","bold":true,"color":"dark_blue"}
-execute as @a[scores={1.20.5_PSN_0=706}] run title @a times 30 100 30
-execute as @a[scores={1.20.5_PSN_0=705..707}] run gamerule announceAdvancements true
-execute as @a[scores={1.20.5_PSN_0=705..707}] run gamerule doDaylightCycle true
-execute as @a[scores={1.20.5_PSN_0=705..707}] run gamerule doWeatherCycle true
-execute as @a[scores={1.20.5_PSN_0=705..707}] run gamerule doImmediateRespawn false
-execute as @a[scores={1.20.5_PSN_0=710}] run time set 0
-execute as @a[scores={1.20.5_PSN_0=710}] run advancement revoke @a everything
-execute as @a[scores={1.20.5_PSN_0=720}] run execute in minecraft:overworld run tp @p 0 66 0 90 0
-execute as @a[scores={1.20.5_PSN_0=721}] run gamemode survival @a
-execute as @a[scores={1.20.5_PSN_0=730}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
-execute as @a[scores={1.20.5_PSN_0=735}] run scoreboard objectives remove SkyblockCE_level_dat
+execute as @a[scores={1.20.5_PSN_0=605}] run scoreboard players set @a SkyblockCE_tp 0
+execute as @a[scores={1.20.5_PSN_0=606}] run title @a title ["",{"text":"Sky","bold":true,"color":"aqua"},{"text":"block","bold":true,"color":"dark_green"}]
+execute as @a[scores={1.20.5_PSN_0=606}] run title @a subtitle {"text":"Classic Edition","bold":true,"color":"dark_blue"}
+execute as @a[scores={1.20.5_PSN_0=606}] run title @a times 30 100 30
+execute as @a[scores={1.20.5_PSN_0=605..707}] run gamerule announceAdvancements true
+execute as @a[scores={1.20.5_PSN_0=605..707}] run gamerule doDaylightCycle true
+execute as @a[scores={1.20.5_PSN_0=605..707}] run gamerule doWeatherCycle true
+execute as @a[scores={1.20.5_PSN_0=605..707}] run gamerule doImmediateRespawn false
+execute as @a[scores={1.20.5_PSN_0=610}] run time set 0
+execute as @a[scores={1.20.5_PSN_0=610}] run advancement revoke @a everything
+execute as @a[scores={1.20.5_PSN_0=620}] run execute in minecraft:overworld run tp @p 0 66 0 90 0
+execute as @a[scores={1.20.5_PSN_0=621}] run gamemode survival @a
+execute as @a[scores={1.20.5_PSN_0=630}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
+execute as @a[scores={1.20.5_PSN_0=635}] run scoreboard objectives remove SkyblockCE_level_dat
 
 
 ##SKYBLOCK ID DELAY (AGGIORNARE SEMPRE QUANDO VENGONO AGGIUNTE NUOVE STRUTTURE. DELAY PID DELLA CONVERSIONE)
-execute as @a[scores={1.20.5_PSN_0=700}] run scoreboard objectives add SkyblockCE_id dummy
+execute as @a[scores={1.20.5_PSN_0=600}] run scoreboard objectives add SkyblockCE_id dummy
 
 
 ##TELEPORT PLAYER IN THE NEW STRUCTURES (AGGIUNGERE LE NUOVE STRUTTURE. RICORDARSI DI AGGIUNGERLE NEL LIBRO ALLA FINE)
 
-#Mushroom House
-execute as @a[scores={1.20.5_PSN_0=100}] run tp @a 0 45 1000 0 0
-
 #Ocean Ruins
-execute as @a[scores={1.20.5_PSN_0=200}] run tp @a 488 45 -260 0 0
+execute as @a[scores={1.20.5_PSN_0=100}] run tp @a 488 45 -260 0 0
 
 #Cherry Grove
-execute as @a[scores={1.20.5_PSN_0=300}] run tp @a -198 45 -485 0 0
+execute as @a[scores={1.20.5_PSN_0=200}] run tp @a -198 45 -485 0 0
 
 #Trail Ruins
-execute as @a[scores={1.20.5_PSN_0=400}] run tp @a -266 45 -484 0 0
+execute as @a[scores={1.20.5_PSN_0=300}] run tp @a -266 45 -484 0 0
 
 
 ##GENERATED NEW STRUCTURES
-execute as @a[scores={1.20.5_PSN_0=150}] run place template skyblock:structures/mushroom_house 0 45 1000
-execute as @a[scores={1.20.5_PSN_0=250}] run place template skyblock:structures/ocean_ruins 488 45 -260
-execute as @a[scores={1.20.5_PSN_0=350}] run place template skyblock:structures/cherry_grove -198 45 -485
-execute as @a[scores={1.20.5_PSN_0=450}] run place template skyblock:structures/trail_ruins -266 45 -484
+execute as @a[scores={1.20.5_PSN_0=150}] run place template skyblock:structures/ocean_ruins 488 45 -260
+execute as @a[scores={1.20.5_PSN_0=250}] run place template skyblock:structures/cherry_grove -198 45 -485
+execute as @a[scores={1.20.5_PSN_0=350}] run place template skyblock:structures/trail_ruins -266 45 -484
 
 
 ##FINAL FUNCTION GENERATED NEW STRUCTURES
 execute as @a[scores={1.20.5_PSN_0=1}] run gamerule doImmediateRespawn true
-execute as @a[scores={1.20.5_PSN_0=600}] run gamerule doImmediateRespawn false
-execute as @a[scores={1.20.5_PSN_0=600}] run execute in minecraft:overworld run tp @p 0 66 0 90 0
-execute as @a[scores={1.20.5_PSN_0=605}] run title @a times 20 100 20
-execute as @a[scores={1.20.5_PSN_0=605}] run title @a title {"translate":"skyblock_classic_edition.generated_structures.loading.title","italic":true}
-execute as @a[scores={1.20.5_PSN_0=605}] run title @a subtitle {"translate":"skyblock_classic_edition.generated_structures.loading.subtitle","italic":true}
-execute as @a[scores={1.20.5_PSN_0=610}] run effect clear @a minecraft:blindness
-execute as @a[scores={1.20.5_PSN_0=610}] run effect clear @a minecraft:night_vision
+execute as @a[scores={1.20.5_PSN_0=500}] run gamerule doImmediateRespawn false
+execute as @a[scores={1.20.5_PSN_0=500}] run execute in minecraft:overworld run tp @p 0 66 0 90 0
+execute as @a[scores={1.20.5_PSN_0=505}] run title @a times 20 100 20
+execute as @a[scores={1.20.5_PSN_0=505}] run title @a title {"translate":"skyblock_classic_edition.generated_structures.loading.title","italic":true}
+execute as @a[scores={1.20.5_PSN_0=505}] run title @a subtitle {"translate":"skyblock_classic_edition.generated_structures.loading.subtitle","italic":true}
+execute as @a[scores={1.20.5_PSN_0=510}] run effect clear @a minecraft:blindness
+execute as @a[scores={1.20.5_PSN_0=510}] run effect clear @a minecraft:night_vision
 
 
 ##Setup Update SUBPSN (DA FARE)
