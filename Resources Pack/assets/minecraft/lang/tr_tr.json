@@ -38,7 +38,7 @@
     "skyblock_classic_edition.setup_version.warning.download": "\n\nLütfen buradan özel haritanın son sürümünü indirin.",
     "skyblock_classic_edition.generated_structures.loading.title": "Yapılar",
     "skyblock_classic_edition.generated_structures.loading.subtitle": "Onlar Oluşturuldu...",
-    "skyblock_classic_edition.generated_structures.generated.command_block.info": "⚠ Dünyanızda (oluşturulmuş) klasör olmadığını görüyorum.",
+    "skyblock_classic_edition.generated_structures.generated.command_block.info": "⚠ Dünyanızda (generated) klasör olmadığını görüyorum.",
     "skyblock_classic_edition.generated_structures.generated.command_block.download": "Lütfen haritayı buradan tekrar indirin",
     "skyblock_classic_edition.install.hardcore.lock": "Üzgünüm ama imkansız mod hazır olarak yüklenmiş ve güncellenmiş bir dünyaya ihtiyaç duyuyor.",
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " ve dünyanın güncellenmesini bekleyin ve ardından veri paketini değiştirin.\n\nTeşekkürler",

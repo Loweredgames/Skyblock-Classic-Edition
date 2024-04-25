@@ -30,7 +30,7 @@
     "skyblock_classic_edition.version_update.development_version.warning": "⚠ACHTUNG: Du verwendest eine Entwicklungsversion. Die Welt könnte beschädigt oder unspielbar werden. Mache Backups und ",
     "skyblock_classic_edition.version_update.development_version.report": "Fehler hier melden",
     "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLade....",
-    "skyblock_classic_edition.loading.title.chat": "Wird geladen...",
+    "skyblock_classic_edition.loading.title.chat": "Lade....",
     "skyblock_classic_edition.loading.subtitle.chat": "Welt",
     "skyblock_classic_edition.versions_id.warning_update.off": "Hier gibt es noch nichts zu sehen...",
     "skyblock_classic_edition.versions_id.warning_update.on": "Welt-Update und Konvertierung für neue Version...",

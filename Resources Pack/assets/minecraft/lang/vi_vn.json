@@ -38,7 +38,7 @@
     "skyblock_classic_edition.setup_version.warning.download": "\n\nPlease download the latest version of the custom map here.",
     "skyblock_classic_edition.generated_structures.loading.title": "Cấu trúc:",
     "skyblock_classic_edition.generated_structures.loading.subtitle": "Chúng được tạo ra...",
-    "skyblock_classic_edition.generated_structures.generated.command_block.info": "⚠Tôi thấy rằng không có thư mục (được tạo) trong thế giới của bạn. ",
+    "skyblock_classic_edition.generated_structures.generated.command_block.info": "⚠Tôi thấy rằng không có thư mục (generated) trong thế giới của bạn. ",
     "skyblock_classic_edition.generated_structures.generated.command_block.download": " Vui lòng tải lại bản đồ tại đây",
     "skyblock_classic_edition.install.hardcore.lock": "I'm sorry but hardcore mode needs an already loaded and updated world.",
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " and wait for the world to update and then replace the datapack.\n\nThank you",
@@ -48,5 +48,5 @@
     "skyblock_classic_edition.warning_level.dat.end": ", you should see the structures in the new chunks, in case repeat the steps again.",
     "skyblock_classic_edition.link.discord": "Discord Server",
     "skyblock_classic_edition.link.crowdin": "Dự án Dịch thuật Crowdin",
-    "skyblock_classic_edition.credits": "Dịch bởi Siri Channel CV (sonvg0111)"
+    "skyblock_classic_edition.credits": "Dịch bởi Siri Channel CV, QuangDuck"
 }
