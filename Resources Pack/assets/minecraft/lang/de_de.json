@@ -7,8 +7,8 @@
     "skyblock_classic_edition.skyblock_setup.choose_islands": "Wähle die Inseln:",
     "skyblock_classic_edition.skyblock_setup.large_easy": "▶Groß (Einfach)",
     "skyblock_classic_edition.skyblock_setup.large_easy.info": "Diese Insel ist speziell für Anfänger geeignet. Diese Insel ist die einzige insel, die nicht vom ursprünglichen Skyblock inspiriert wurde.",
-    "skyblock_classic_edition.skyblock_setup.default_normal": "▶Default (Normal)",
-    "skyblock_classic_edition.skyblock_setup.default_normal.info": "Diese Insel ist die klassische Insel, die jeder kennt, die aber für neue Versionen von Minecraft modernisiert wurde. Empfohlen für diejenigen, die mit dem ursprünglichen Skyblock nicht vertraut sind.",
+    "skyblock_classic_edition.skyblock_setup.default_normal": "▶Standart (Normal)",
+    "skyblock_classic_edition.skyblock_setup.default_normal.info": "Dies ist die klassische Insel, die jeder kennt, die aber für neue Versionen von Minecraft angepasst wurde. Empfohlen für diejenigen, die das originale Skyblock nicht kennen.",
     "skyblock_classic_edition.skyblock_setup.small_hard": "▶Klein (Schwer)",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "Diese Insel erinnert sehr an den ursprünglichen Skyblock 2.0 wurde aber für neue Versionen von Minecraft modernisiert. Für diejenigen, die schwierige Herausforderungen lieben und alle Tricks und technischen Vorstellungen des Vanilla-Überlebensmodus kennen.",
     "skyblock_classic_edition.skyblock_setup.legacy_version": "▶Legacy Version",
@@ -30,7 +30,7 @@
     "skyblock_classic_edition.version_update.development_version.warning": "⚠ACHTUNG: Du verwendest eine Entwicklungsversion. Die Welt könnte beschädigt oder unspielbar werden. Mache Backups und ",
     "skyblock_classic_edition.version_update.development_version.report": "Fehler hier melden",
     "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLade....",
-    "skyblock_classic_edition.loading.title.chat": "Wird geladen...",
+    "skyblock_classic_edition.loading.title.chat": "Lade....",
     "skyblock_classic_edition.loading.subtitle.chat": "Welt",
     "skyblock_classic_edition.versions_id.warning_update.off": "Hier gibt es noch nichts zu sehen...",
     "skyblock_classic_edition.versions_id.warning_update.on": "Welt-Update und Konvertierung für neue Version...",
@@ -48,5 +48,5 @@
     "skyblock_classic_edition.warning_level.dat.end": ", sollten Sie die Strukturen in den neuen Chunks sehen, falls Sie die Schritte wiederholen.",
     "skyblock_classic_edition.link.discord": "Discord Server",
     "skyblock_classic_edition.link.crowdin": "Crowdin Übersetzungsprojekt",
-    "skyblock_classic_edition.credits": "Übersetzt von InfoBlock, Marco Neuzil, NeunEinser, XoQ (XoQ2988), Noel Berberich"
+    "skyblock_classic_edition.credits": "Übersetzt von InfoBlock, Marco Neuzil, NeunEinser, XoQ (XoQ2988), Noel Berberich, Taeufelmaennchen"
 }
