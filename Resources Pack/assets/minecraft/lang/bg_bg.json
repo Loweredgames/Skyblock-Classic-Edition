@@ -38,7 +38,7 @@
     "skyblock_classic_edition.setup_version.warning.download": "\n\nМоля, изтеглете последната версия на персонализираната карта тук.",
     "skyblock_classic_edition.generated_structures.loading.title": "Структури:",
     "skyblock_classic_edition.generated_structures.loading.subtitle": "Те са генерирани...",
-    "skyblock_classic_edition.generated_structures.generated.command_block.info": "⚠Виждам, че няма (генерирана) папка във вашия свят. ",
+    "skyblock_classic_edition.generated_structures.generated.command_block.info": "⚠Виждам, че няма (generated) папка във вашия свят. ",
     "skyblock_classic_edition.generated_structures.generated.command_block.download": " Моля, изтеглете отново картата тук",
     "skyblock_classic_edition.install.hardcore.lock": "Съжалявам, но хардкор режимът се нуждае от вече зареден и актуализиран свят.",
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " и изчакайте светът да се актуализира и след това сменете пакета данни.\n\nБлагодаря ти",

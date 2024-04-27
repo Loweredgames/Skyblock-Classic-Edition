@@ -11,6 +11,7 @@ files:
         ast: ast_es
         az: az_az
         ba: ba_ru
+        bar-DE: bar
         be: be_by
         bg: bg_bg
         br-FR: br_fr
@@ -75,7 +76,8 @@ files:
         kn: kn_in
         ko: ko_kr
         kw: kw_gb
-        la-LA: la_va
+        la-LA: la_la
+        lo: lo_la
         lb: lb_lu
         li: li_li
         lol: lol_us
@@ -92,20 +94,23 @@ files:
         nl-BE: nl_be
         nl: nl_nl
         no: no_no
+        nn-NO: nn_no
         oc: oc_fr
         oj: oj_ca
         pl: pl_pl
         pt-BR: pt_br
         pt-PT: pt_pt
         qya-AA: qya_aa
+        sah: sah_sah
         ro: ro_ro
         ru: ru_ru
-        ry: ry_ua
+        ry-UA: ry_ua
         se: se_no
         sk: sk_sk
         sl: sl_si
         so: so_so
         sq: sq_al
+        sr-CS: sr_cs
         sr: sr_sp
         sv-SE: sv_se
         ta: ta_in
