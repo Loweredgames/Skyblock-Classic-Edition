@@ -11,7 +11,7 @@
 ##1.21 - FUTURA
 #coming...
 
-##1.20.5 - FUTURA
+##1.20.5/1.20.6 - FUTURA
 scoreboard objectives remove 1.20.5_PVN_0a
 scoreboard objectives remove 1.20.5_PVN_0b
 scoreboard objectives remove 1.20.5_PVN_0c
