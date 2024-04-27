@@ -22,4 +22,4 @@ bossbar set nightly_building name {"text":"JE-1.20.2-Skyblock_Classic_Edition:NI
 
 
 ##NIGHTLY BUILDING VERSION (BOSSBAR VISIBILE: SOLO PER GIT, DISABILITARE PER I RILASCI)
-bossbar set minecraft:nightly_building visible true
+bossbar set minecraft:nightly_building visible false
