@@ -1,4 +1,4 @@
-#Copyright (C) Loweredgames (Lorenzo Giannini) 
+#Copyright (C) Loweredgames (Lorenzo Giannini)
 #Contacted:<https://github.com/Loweredgames>
 #This Source Code Form is subject to the terms of the License.
 #NOT OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG STUDIO.
@@ -21,7 +21,7 @@ execute as @a[scores={SkyblockCE_debug=-5}] run scoreboard objectives setdisplay
 
 ##DISPLAY DI DEBUG - PVN (DA ABBILITARE SOLO PER LE VERSIONI INSTABILI)
 #scoreboard players set @a SkyblockCE_debug 6
-execute as @a[scores={SkyblockCE_debug=6}] run scoreboard objectives setdisplay sidebar 1.20.4_PVN_0
+execute as @a[scores={SkyblockCE_debug=6}] run scoreboard objectives setdisplay sidebar 1.20.5_PVN_0d
 
 
 ##DISPLAY DI DEBUG - PID
@@ -32,12 +32,13 @@ execute as @a[scores={SkyblockCE_debug=8}] run scoreboard objectives setdisplay 
 
 
 ##DISPLAY DI DEBUG - GENERATED STRUCTURES
-execute as @a[scores={SkyblockCE_debug=9}] run scoreboard objectives setdisplay sidebar PSN_0
+execute as @a[scores={SkyblockCE_debug=9}] run scoreboard objectives setdisplay sidebar 1.20.5_PSN_0
 
 
 ##DISPLAY DI DEBUG - LEGACY STRUCTURES
 execute as @a[scores={SkyblockCE_debug=-10}] run scoreboard objectives setdisplay list PSN_legacy
-execute as @a[scores={SkyblockCE_debug=10}] run scoreboard objectives setdisplay sidebar SkyblockCE_structures
+execute as @a[scores={SkyblockCE_debug=10}] run scoreboard objectives setdisplay sidebar SkyblockCE_structures_id
+execute as @a[scores={SkyblockCE_debug=101}] run scoreboard objectives setdisplay sidebar SkyblockCE_structures
 
 
 ##DISPLAY DI DEBUG - ISLANDS GENERATED
