@@ -7,7 +7,7 @@
   },
   "structures": [
     {
-      "structure": "skyblock:desert_pyramid",
+      "structure": "skyblock:structures/desert_pyramid",
       "weight": 1
     }
   ]
