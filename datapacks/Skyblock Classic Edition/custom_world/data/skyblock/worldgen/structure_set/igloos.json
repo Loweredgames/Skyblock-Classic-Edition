@@ -1,13 +1,13 @@
 {
   "placement": {
     "type": "minecraft:random_spread",
-    "salt": 14357620,
+    "salt": 14357618,
     "separation": 8,
     "spacing": 32
   },
   "structures": [
     {
-      "structure": "minecraft:swamp_hut",
+      "structure": "skyblock:igloo",
       "weight": 1
     }
   ]
