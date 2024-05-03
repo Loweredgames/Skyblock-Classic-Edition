@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glow_ink_sac"
+        },
+        {
+            "item": "minecraft:prismarine_shard"
+        }
+    ],
+    "result": {
+        "item": "minecraft:prismarine_crystals",
+        "count": 2
+    },
+    "group": "skyblock"
+}
