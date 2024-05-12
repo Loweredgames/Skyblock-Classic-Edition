@@ -29,7 +29,7 @@
     "skyblock_classic_edition.version_update.discord": "ติดตามฉันบนเซิร์ฟเวอร์ Discord หากคุณต้องการเสนอแนะหรือพบจุดบกพร่อง",
     "skyblock_classic_edition.version_update.development_version.warning": "⚠โปรดทราบ: คุณกำลังใช้เวอร์ชันการพัฒนา โลกอาจเสียหายและเสียหาย สำรองข้อมูลไว้เสมอและ ",
     "skyblock_classic_edition.version_update.development_version.report": "รายงานข้อบกพร่องที่นี่",
-    "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading....",
+    "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nกำลังโหลด…...",
     "skyblock_classic_edition.loading.title.chat": "กำลังโหลด…...",
     "skyblock_classic_edition.loading.subtitle.chat": "โลก",
     "skyblock_classic_edition.versions_id.warning_update.off": "ไม่พบผลลัพธ์",
@@ -46,7 +46,7 @@
     "skyblock_classic_edition.warning_level.dat.download": "ดาวน์โหลดใหม่ (level.dat และ level.dat_old) ที่นี่",
     "skyblock_classic_edition.warning_level.dat.copy_paste": " คัดลอกและวางแทนที่อันเก่าเปิดโลกอีกครั้งจากนั้นเปิดการแชทด้วย T เป็นค่าเริ่มต้นและคัดลอกคําสั่งนี้: ",
     "skyblock_classic_edition.warning_level.dat.end": "คุณควรเห็นโครงสร้างในส่วนใหม่ในกรณีที่ทําซ้ําขั้นตอนอีกครั้ง",
-    "skyblock_classic_edition.link.discord": "เซิร์ฟเวอร์ Discord",
+    "skyblock_classic_edition.link.discord": "เซิร์ฟเวอร์ดิสคอร์ด",
     "skyblock_classic_edition.link.crowdin": "โครงการแปลภาษา Crowdin",
     "skyblock_classic_edition.credits": "แปลโดย Excx Xxxc (xxxccc2649)"
 }
