@@ -1,13 +1,13 @@
 {
   "placement": {
     "type": "minecraft:random_spread",
-    "salt": 20083232,
+    "salt": 14357617,
     "separation": 8,
-    "spacing": 24
+    "spacing": 32
   },
   "structures": [
     {
-      "structure": "minecraft:ancient_city",
+      "structure": "minecraft:desert_pyramid",
       "weight": 1
     }
   ]
