@@ -7,7 +7,7 @@
   },
   "structures": [
     {
-      "structure": "minecraft:void",
+      "structure": "skyblock:custom_igloo",
       "weight": 1
     }
   ]
