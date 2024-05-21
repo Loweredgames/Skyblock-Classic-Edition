@@ -13,7 +13,11 @@
 
 "Custom Structures World Update": "In The Internal Code",
 
-"Protocol Version": "PVN_OLD",
+"Protocol Version": "1.18.2_PVN_OLD",
+
+"Protocol Identifier Data": "1.18.2_PID_OLD",
+
+"Protocol Structures Number": "1.18.2_PSN_OLD",
 
 "Github_Tag": "1.18.2_JE-0a",
 

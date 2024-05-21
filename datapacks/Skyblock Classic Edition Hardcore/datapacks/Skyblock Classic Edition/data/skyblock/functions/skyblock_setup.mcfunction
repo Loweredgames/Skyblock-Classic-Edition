@@ -14,8 +14,8 @@ execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:isl
 
 ##Function Padlock Lock
 function skyblock:versions/changelog/building
+function skyblock:versions/changelog/nightly_building
 function skyblock:islands/structures/generated_islands
-function skyblock:islands/structures/generated_structures
 function skyblock:versions/version_pvn
 function skyblock:multiplayer_setup
 

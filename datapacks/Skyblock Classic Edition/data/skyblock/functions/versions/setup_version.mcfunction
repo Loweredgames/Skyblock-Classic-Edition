@@ -6,22 +6,22 @@
 
 
 ##Skyblock PID (LASCIARE SEMPRE LA SCOREBOARD)
-scoreboard objectives add PID_OLD dummy
-scoreboard players add @a PID_OLD 1
+scoreboard objectives add 1.18.2_PID_OLD dummy
+scoreboard players add @a 1.18.2_PID_OLD 1
 
 
 ##Skyblock PID E INSTALL
-execute as @a[scores={PID_OLD=2000000..}] run scoreboard players set @a PID_OLD 10000
-execute as @a[scores={SkyblockCE_install=1..}] run scoreboard players set @a PID_OLD -10000
-execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a PID_OLD 24000
+execute as @a[scores={1.18.2_PID_OLD=2000000..}] run scoreboard players set @a 1.18.2_PID_OLD 10000
+execute as @a[scores={SkyblockCE_install=1..}] run scoreboard players set @a 1.18.2_PID_OLD -10000
+execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a 1.18.2_PID_OLD 24000
 
 
 ##PID WARNING
-execute as @a[scores={PID_OLD=30}] run tellraw @s {"text":"World update and conversion for old version: Minecraft 1.18.2","italic":true,"color":"gray"}
+execute as @a[scores={1.18.2_PID_OLD=30}] run tellraw @s {"text":"World update and conversion for old version: Minecraft 1.18.2","italic":true,"color":"gray"}
 
 
 ##Display (NON TOCCARE, SOLO DEBUG)
-#scoreboard objectives setdisplay sidebar PID_OLD
+#scoreboard objectives setdisplay sidebar 1.18.2_PID_OLD
 
 
 ##PID VERSIONS (LASCIARE SEMPRE COSI)

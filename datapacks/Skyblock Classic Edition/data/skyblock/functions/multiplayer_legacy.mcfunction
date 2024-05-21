@@ -12,7 +12,7 @@ execute as @a[scores={multiplayer=1..}] run scoreboard players set @a fix_end 24
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_install -2
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_islands -2
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_tp 0
-execute as @a[scores={multiplayer=1..}] run scoreboard players set @a PID_OLD 24000
+execute as @a[scores={multiplayer=1..}] run scoreboard players set @a 1.18.2_PID_OLD 24000
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a PSN_OLD 24000
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_id 24000
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_large 24000
