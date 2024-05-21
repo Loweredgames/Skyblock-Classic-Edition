@@ -1,0 +1,23 @@
+{
+"Name": "Skyblock Classic Edition",
+
+"Edition": "JAVA EDITION",
+
+"Release Versions": "5.0.2 [-]",
+
+"Release Building": "JE-1.19.4-Skyblock_Classic_Edition:5.0.2",
+
+"Data_pack": "TRUE",
+
+"Resource_pack": "TRUE",
+
+"Custom Structures World Update": "Old version",
+
+"Protocol Version": "PVN_OLD",
+
+"Github_Tag": "1.19.4_JE-1a",
+
+"Github":"https://github.com/Loweredgames/Skyblock-Classic-Edition",
+
+"Website":"https://minecraft-map-building-versions.blogspot.com/"
+}
