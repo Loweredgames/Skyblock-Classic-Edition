@@ -34,6 +34,7 @@ execute as @a[scores={SkyblockCE_skip_structures=10}] run time set 0
 execute as @a[scores={SkyblockCE_skip_structures=11}] run advancement revoke @a everything
 execute as @a[scores={SkyblockCE_skip_structures=11}] run execute in minecraft:overworld run tp @p 0 66 0 90 0
 execute as @a[scores={SkyblockCE_skip_structures=20}] run gamemode survival @a
+execute as @a[scores={SkyblockCE_skip_structures=21}] run effect clear @a
 execute as @a[scores={SkyblockCE_skip_structures=21}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
 execute as @a[scores={SkyblockCE_skip_structures=21}] run scoreboard objectives remove SkyblockCE_level_dat
 execute as @a[scores={SkyblockCE_skip_structures=25..50}] run gamerule doImmediateRespawn false
