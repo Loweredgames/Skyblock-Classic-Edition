@@ -34,7 +34,7 @@
     "skyblock_classic_edition.loading.subtitle.chat": "Lume",
     "skyblock_classic_edition.versions_id.warning_update.off": "Nu este nimic de văzut aici...",
     "skyblock_classic_edition.versions_id.warning_update.on": "Actualizare și conversie în lume pentru versiune nouă...",
-    "skyblock_classic_edition.setup_version.warning": "⚠ avertisment: acestă versiune nu mai este acceptata!⚠",
+    "skyblock_classic_edition.setup_version.warning": "⚠Avertisment: acestă versiune nu mai este acceptata!⚠",
     "skyblock_classic_edition.setup_version.warning.download": "\n\nVa rugăm sa descarcați cea mai recentă versiune a lumii aici.",
     "skyblock_classic_edition.generated_structures.loading.title": "Structuri:",
     "skyblock_classic_edition.generated_structures.loading.subtitle": "Au fost generate...",
@@ -48,5 +48,5 @@
     "skyblock_classic_edition.warning_level.dat.end": ", you should see the structures in the new chunks, in case repeat the steps again.",
     "skyblock_classic_edition.link.discord": "Serverul de Discord",
     "skyblock_classic_edition.link.crowdin": "Proiectul de Traduceri Crowdin",
-    "skyblock_classic_edition.credits": "Traducere prin Ant. Rares"
+    "skyblock_classic_edition.credits": "Traducere prin Ant. Rares, Boisic145"
 }
