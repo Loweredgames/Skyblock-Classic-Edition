@@ -72,6 +72,3 @@ execute as @a in minecraft:the_nether run fillbiome 4 0 -42 12 255 -53 minecraft
 
 
 ##The End Biome
-
-
-#Coming soon :)
