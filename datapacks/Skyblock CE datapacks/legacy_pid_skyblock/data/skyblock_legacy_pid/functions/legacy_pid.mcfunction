@@ -23,6 +23,9 @@ execute as @a[scores={PID_legacy_v2=805..}] run scoreboard objectives remove PID
 execute as @a[scores={PID_legacy_v3=990..}] run scoreboard objectives remove PID_1
 
 
+# da rimuovere i subpid: 1.20.3_PID_1_1
+
+
 ##PID Legacy Scoreboard Setup (LASCIARE COSI)
 scoreboard objectives add PID_legacy_v1 dummy
 scoreboard objectives add PID_legacy_v2 dummy
