@@ -18,15 +18,15 @@ execute as @a[scores={1.20.5_PID_0=2000000..}] run scoreboard players set @a 1.2
 
 
 ##SETUP UPDATE SUBPID (LASCIARE SEMPRE LA SCOREBOARD E SPOSTARE QUANDO DIVENTA LEGACY)
-#scoreboard players add @a 1.20.3_PID_1_1 1
+#scoreboard players add @a 1.20.5_PID_0_1 1
 
 
 ##SUBPID 1.20.3_1_1 - 1.20.3/1.20.4 Fix Elitrà (LASCIARE COSI. PER LA FUNZIONE SUBPID 1_1, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL PID DIVENTA INCOMPATIBILE)
-#function skyblock_pid:mc1203_pid1_1
+#function skyblock_pid:mc1205_pid1_1
 
 
 ##SUBPID END (QUANDO FINISCE IL PID AGGIUNGERE IL SUBPID O IL PID MA SOLO NEL PRIMO SUBPID. GUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEL SUBPID DENTRO LA FUNZIONE)
-#execute as @a[scores={1.20.5_PID_0=1015..}] run scoreboard objectives add 1.20.3_PID_1_1 dummy
+#execute as @a[scores={1.20.5_PID_0=1015..}] run scoreboard objectives add 1.20.5_PID_0_1 dummy
 
 
 ##SCOREBOARD START 1.20.5_PID_0 (LASCIARE SEMPRE COSI)
@@ -45,6 +45,7 @@ execute as @a[scores={1.20.5_PID_0=5..1000}] run summon minecraft:area_effect_cl
 
 ##Overworld
 execute in minecraft:overworld as @a[scores={1.20.5_PID_0=100}] run tp @a 0 66 0 90 0
+execute in minecraft:overworld as @a[scores={1.20.5_PID_0=105..}] run setblock 722 48 703 minecraft:end_portal_frame[eye=false,facing=south] replace
 execute as @a[scores={1.20.5_PID_0=100..505}] run scoreboard players set @a SkyblockCE_level_dat 900
 execute as @a[scores={1.20.5_PID_0=100..501}] run time set 0
 execute as @a[scores={1.20.5_PID_0=100..505}] run gamemode survival @a

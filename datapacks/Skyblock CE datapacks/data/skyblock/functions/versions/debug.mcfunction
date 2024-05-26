@@ -25,9 +25,10 @@ execute as @a[scores={SkyblockCE_debug=6}] run scoreboard objectives setdisplay 
 
 
 ##DISPLAY DI DEBUG - PID
+execute as @a[scores={SkyblockCE_debug=7}] run scoreboard objectives setdisplay sidebar 1.20.5_PID_0
 execute as @a[scores={SkyblockCE_debug=-7}] run scoreboard objectives setdisplay sidebar PID_0
-execute as @a[scores={SkyblockCE_debug=7}] run scoreboard objectives setdisplay sidebar PID_1
-execute as @a[scores={SkyblockCE_debug=71}] run scoreboard objectives setdisplay sidebar 1.20.3_PID_1_1
+execute as @a[scores={SkyblockCE_debug=-71}] run scoreboard objectives setdisplay sidebar PID_1
+#execute as @a[scores={SkyblockCE_debug=71}] run scoreboard objectives setdisplay sidebar 1.20.5_PID_1_1
 execute as @a[scores={SkyblockCE_debug=8}] run scoreboard objectives setdisplay list PID_warning
 
 
