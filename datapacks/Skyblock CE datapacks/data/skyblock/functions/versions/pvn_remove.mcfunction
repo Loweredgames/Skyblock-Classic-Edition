@@ -11,14 +11,13 @@
 ##1.21 - FUTURA
 #coming...
 
-##1.20.5/1.20.6 - FUTURA
+##1.20.5/1.20.6 - STABILE
 scoreboard objectives remove 1.20.5_PVN_0a
 scoreboard objectives remove 1.20.5_PVN_0b
 scoreboard objectives remove 1.20.5_PVN_0c
 
 
 ##1.20.3/1.20.4 - STABILE
-#da aggiungere stabile ma in futuro
 scoreboard objectives remove 1.20.3_PVN_0a
 scoreboard objectives remove 1.20.3_PVN_0b
 scoreboard objectives remove 1.20.3_PVN_0c

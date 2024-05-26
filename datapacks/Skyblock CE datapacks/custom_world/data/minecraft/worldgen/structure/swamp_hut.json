@@ -2,7 +2,30 @@
   "type": "minecraft:jigsaw",
   "biomes": "#minecraft:has_structure/swamp_hut",
   "step": "surface_structures",
-  "spawn_overrides": {},
+  "spawn_overrides": {
+    "creature": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:cat",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 1
+        }
+      ]
+    },
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:witch",
+          "maxCount": 2,
+          "minCount": 1,
+          "weight": 1
+        }
+      ]
+    }
+  },
   "terrain_adaptation": "beard_thin",
   "start_pool": "skyblock:swamp_hut",
   "size": 1,
