@@ -6,9 +6,9 @@
 
 
 ##PID Legacy Versions (DA AGGIUNGERE IL PID NUOVO QUANDO E FINITO DI CONVERTIRE, SE C'E QUALCOSA DA AGGIORNARE, AUMENTA IL CONTATORE QUANDO LA PRECEDENTE CONVERSIONE FINISCE)
-execute as @a[scores={PID_1=-100..}] run scoreboard players set @a ID_5 1
-execute as @a[scores={PID_1=-100..}] run scoreboard players set @a PID_0 1
-execute as @a[scores={PID_1=-1000..}] run scoreboard players set @a 1.20.5_PID_0 1
+execute as @a[scores={1.20.5_PID_0=-100..}] run scoreboard players set @a ID_5 1
+execute as @a[scores={1.20.5_PID_0=-100..}] run scoreboard players set @a PID_0 1
+execute as @a[scores={1.20.5_PID_0=-1000..}] run scoreboard players set @a PID_1 1
 
 
 ##PID Update Old (AGGIUNGERE I PID VECCHI: ogni 3 versioni e poi l'ultima diventa incompatibile, quindi aggionare sempre in "update_pid")
@@ -20,6 +20,7 @@ execute as @a[scores={PID_1=1..}] run scoreboard players add @a PID_legacy 1
 ##PID Remove (RIMUOVERE SOLO QUANDO E FINITO UN PID VECCHIO. CANCELLARE SOLO QUANDO E FINITA E AGGIORNARE IL CONTATORE)
 execute as @a[scores={PID_legacy=100..}] run scoreboard objectives remove ID_5
 execute as @a[scores={PID_legacy=805..}] run scoreboard objectives remove PID_0
+execute as @a[scores={PID_legacy=990..}] run scoreboard objectives remove PID_1
 
 
 ##PID Legacy Setup (Aggiornato all'ultima versione: 5.2.0 Minecraft: 1.20.5) Ricordati di aggiornare UPDATE ID e di aggiungere l'ultima conversione. ricordarsi di rimuovere i pid secondari come PID_1_1 nella stessa categoria.
@@ -146,5 +147,5 @@ execute in minecraft:overworld as @a[scores={PID_1=960}] run tp @a 0 66 0 0 0
 
 
 ##PID Legacy Stop (QUANDO FINISCE: CAMBIARE IL NUMERO PER RESETARE TUTTO, AGGIUNGERE SEMPRE NELLE NUOVE VERSIONI IL PID)
-execute as @a[scores={PID_0=1..}] run scoreboard players set @a PID_1 -100
-execute as @a[scores={PID_0=1..}] run scoreboard players set @a PID_1 -100
+execute as @a[scores={PID_0=1..}] run scoreboard players set @a 1.20.5_PID_0 -100
+execute as @a[scores={PID_1=1..}] run scoreboard players set @a 1.20.5_PID_0 -100
