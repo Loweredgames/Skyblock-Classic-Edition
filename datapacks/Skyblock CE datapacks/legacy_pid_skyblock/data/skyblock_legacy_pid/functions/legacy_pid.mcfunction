@@ -5,25 +5,22 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##PID Legacy Versions (DA AGGIUNGERE IL PID NUOVO QUANDO E FINITO DI CONVERTIRE, SE C'E QUALCOSA DA AGGIORNARE, AUMENTA IL CONTATORE QUANDO LA PRECEDENTE CONVERSIONE FINISCE)
+##PID Legacy Versions (DA AGGIUNGERE IL PID NUOVO QUANDO E FINITO DI CONVERTIRE, SE C'E QUALCOSA DA AGGIORNARE, AUMENTA IL CONTATORE QUANDO LA PRECEDENTE CONVERSIONE FINISCE. SOLO NELLA VERSIONE PIU VECCHI: AGGIUNGERE SEMPRE UNA NUOVA CATEGORIA MA DISABILITATA SEMPRE SOLO QUANDO IL PID DIVENTA VECCHIO (ESEMPIO PID 1), ABBILITARE QUANDO C'E LA NUOVA VERSIONE (ESEMPIO 1.21) E LA NUOVA CONVERSIONE (ESEMPIO PID 2, DISABILITARE PER IL FUTURO), AGGIUNGERE NEI COMMENTI LA VERSIONE DA ABBILITARE, RIPETERE IL LOOP.)
 execute as @a[scores={1.20.5_PID_0=-100..}] run scoreboard players set @a ID_5 1
 execute as @a[scores={1.20.5_PID_0=-100..}] run scoreboard players set @a PID_0 1
-execute as @a[scores={1.20.5_PID_0=-1000..}] run scoreboard players set @a PID_1 1
+#execute as @a[scores={1.20.5_PID_0=-1000..}] run scoreboard players set @a PID_1 1 LTS ABBILITARE IN 1.21.x,
 
 
-##PID Update Old (AGGIUNGERE I PID VECCHI: ogni 3 versioni e poi l'ultima diventa incompatibile, quindi aggionare sempre in "update_pid")
+##PID Update Old (AGGIUNGERE I PID VECCHI: ogni 3 versioni e poi l'ultima diventa incompatibile, quindi aggionare sempre in "update_pid", ABBILITARE SEMPRE NELLA VERSIONE LTS)
 execute as @a[scores={ID_5=1..}] run scoreboard players set @a PID_legacy_v1 1
 execute as @a[scores={PID_0=1..}] run scoreboard players add @a PID_legacy_v2 1
-execute as @a[scores={PID_1=1..}] run scoreboard players add @a PID_legacy_v3 1
+#execute as @a[scores={PID_1=1..}] run scoreboard players add @a PID_legacy_v3 1 LTS ABBILITARE IN 1.21.x,
 
 
 ##PID Remove (RIMUOVERE SOLO QUANDO E FINITO UN PID VECCHIO. CANCELLARE SOLO QUANDO E FINITA E AGGIORNARE IL CONTATORE)
 execute as @a[scores={PID_legacy_v1=100..}] run scoreboard objectives remove ID_5
 execute as @a[scores={PID_legacy_v2=805..}] run scoreboard objectives remove PID_0
-execute as @a[scores={PID_legacy_v3=990..}] run scoreboard objectives remove PID_1
-
-
-# da rimuovere i subpid: 1.20.3_PID_1_1
+#execute as @a[scores={PID_legacy_v3=990..}] run scoreboard objectives remove PID_1 LTS ABBILITARE IN 1.21.x,
 
 
 ##PID Legacy Scoreboard Setup (LASCIARE COSI)
@@ -32,14 +29,14 @@ scoreboard objectives add PID_legacy_v2 dummy
 scoreboard objectives add PID_legacy_v3 dummy
 
 
-###PID Legacy Update (AGGIUNGERE TUTTI I PID VECCHI, AGGIUNGERE SEMPRE UNA NUOVA CATEGORIA AD ESEMPIO #PID_2, #PID_3, ECC.)
+###PID Legacy Update (AGGIUNGERE TUTTI I PID VECCHI, AD ESEMPIO #PID_2, #PID_3, ECC.)
 
 
 ##ID_5 (COMPATIBILITA LEGACY)
-execute as @a[scores={ID_5=1..}] run scoreboard objectives remove PID_0
+#execute as @a[scores={ID_5=1..}] run scoreboard objectives remove PID_0
 
 
-##PID_0 - 1.20.4 (LTS FINO A 1.21.0_PID_0, NON RIMUOVERE IL COMMENTO IN SE, AGGIUNGERE QUESTO COMMENTO NEI NUOVI PID)
+##PID_0 - 1.20.4 (LTS ABBILITARE IN 1.20.x, NON RIMUOVERE IL COMMENTO IN SE, AGGIUNGERE QUESTO COMMENTO NEI NUOVI PID)
 
 
 ##The Nether
@@ -65,18 +62,17 @@ execute as @a[scores={PID_legacy_v2=745}] run scoreboard objectives add PID_1 du
 execute as @a[scores={PID_legacy_v2=750}] run scoreboard objectives add PID_legacy dummy
 
 
-##PID_1 - 1.20.5/1.20.6 (NON RIMUOVERE IL COMMENTO IN SE, AGGIUNGERE QUESTO COMMENTO NEI NUOVI PID)
+##PID_1 - 1.20.5/1.20.6 (LTS ABBILITARE IN 1.21.x, NON RIMUOVERE IL COMMENTO IN SE, AGGIUNGERE QUESTO COMMENTO NEI NUOVI PID)
 
-
+#Sistemare nella 1.21 o in LTS e abbilitare
 ##Overworld
 execute in minecraft:overworld as @a[scores={PID_legacy_v3=100}] run tp @a 280 45 0 0 0
 execute in minecraft:overworld as @a[scores={PID_legacy_v3=150}] run setblock 295 50 2 minecraft:barrel[facing=south,open=false]{Items:[{Count:1b,Slot:13b,id:"minecraft:coast_armor_trim_smithing_template"}]} destroy
-execute in minecraft:overworld as @a[scores={PID_legacy_v3=100}] run tp @a 722 50 709 0 0
-execute in minecraft:overworld as @a[scores={PID_legacy_v3=101}] run say funziona!!!!
-execute in minecraft:overworld as @a[scores={PID_legacy_v3=105}] run setblock 722 49 708 minecraft:air replace
-execute in minecraft:overworld as @a[scores={PID_legacy_v3=110}] run setblock 722 49 708 chest[facing=south,type=single,waterlogged=false]{Items:[{Slot:3b,id:"minecraft:chorus_fruit",count:1},{Slot:4b,id:"minecraft:chorus_fruit",count:1},{Slot:5b,id:"minecraft:chorus_fruit",count:1},{Slot:10b,id:"minecraft:shulker_shell",count:1},{Slot:11b,id:"minecraft:chorus_fruit",count:1},{Slot:12b,id:"minecraft:eye_armor_trim_smithing_template",count:1},{Slot:13b,id:"minecraft:elytra",count:1,components:{"minecraft:damage":0}},{Slot:14b,id:"minecraft:spire_armor_trim_smithing_template",count:1},{Slot:15b,id:"minecraft:chorus_fruit",count:1},{Slot:16b,id:"minecraft:shulker_shell",count:1},{Slot:21b,id:"minecraft:chorus_fruit",count:1},{Slot:22b,id:"minecraft:chorus_fruit",count:1},{Slot:23b,id:"minecraft:chorus_fruit",count:1},{Slot:26b,id:"minecraft:written_book",count:1,components:{"minecraft:written_book_content":{title:"Lost Memories",author:"for you",generation:3,resolved:true,pages:['{"text":"10411611611211558474797114991041051181014611111410347100101116971051081154710811111511645109101109111114105101115955048494949494956","italic":true}']}}}]} replace
+execute in minecraft:overworld as @a[scores={PID_legacy_v3=200}] run tp @a 722 50 709 0 0
+execute in minecraft:overworld as @a[scores={PID_legacy_v3=205}] run setblock 722 49 708 minecraft:air replace
+execute in minecraft:overworld as @a[scores={PID_legacy_v3=210}] run setblock 722 49 708 chest[facing=south,type=single,waterlogged=false]{Items:[{Slot:3b,id:"minecraft:chorus_fruit",count:1},{Slot:4b,id:"minecraft:chorus_fruit",count:1},{Slot:5b,id:"minecraft:chorus_fruit",count:1},{Slot:10b,id:"minecraft:shulker_shell",count:1},{Slot:11b,id:"minecraft:chorus_fruit",count:1},{Slot:12b,id:"minecraft:eye_armor_trim_smithing_template",count:1},{Slot:13b,id:"minecraft:elytra",count:1,components:{"minecraft:damage":0}},{Slot:14b,id:"minecraft:spire_armor_trim_smithing_template",count:1},{Slot:15b,id:"minecraft:chorus_fruit",count:1},{Slot:16b,id:"minecraft:shulker_shell",count:1},{Slot:21b,id:"minecraft:chorus_fruit",count:1},{Slot:22b,id:"minecraft:chorus_fruit",count:1},{Slot:23b,id:"minecraft:chorus_fruit",count:1},{Slot:26b,id:"minecraft:written_book",count:1,components:{"minecraft:written_book_content":{title:"Lost Memories",author:"for you",generation:3,resolved:true,pages:['{"text":"10411611611211558474797114991041051181014611111410347100101116971051081154710811111511645109101109111114105101115955048494949494956","italic":true}']}}}]} replace
 execute in minecraft:overworld as @a[scores={PID_legacy_v3=120}] run setblock 722 49 709 minecraft:oak_wall_sign[facing=south,waterlogged=false]{back_text:{color:"black",has_glowing_text:0b,messages:['{"text":""}','{"text":""}','{"text":""}','{"text":""}']},front_text:{color:"black",has_glowing_text:1b,messages:['{"text":"I\'m sorry but"}','{"text":"The End City"}','{"text":"is broken :("}','{"text":""}']},is_waxed:0b} destroy
-execute in minecraft:overworld as @a[scores={PID_legacy_v3=255}] run fill 723 48 704 721 48 706 minecraft:infested_cobblestone replace
+execute in minecraft:overworld as @a[scores={PID_legacy_v3=255}] run fill 723 48 704 721 48 706 minecraft:infested_cobblestone keep
 execute in minecraft:overworld as @a[scores={PID_legacy_v3=255}] run setblock 722 48 703 minecraft:obsidian replace
 execute in minecraft:overworld as @a[scores={PID_legacy_v3=252}] run setblock 722 49 705 oak_sign[rotation=0,waterlogged=false]{front_text:{color:"black",has_glowing_text:1b,messages:['{"text":"The portal is"}','{"text":"broken sorry,"}','{"text":"in this version..."}','{"text":";("}']}} destroy
 execute in minecraft:overworld as @a[scores={PID_legacy_v3=300}] run tp @a 508 46 71 0 0
@@ -181,18 +177,18 @@ execute as @a[scores={PID_legacy_v3=10..600}] run effect give @a blindness 11 0 
 execute as @a[scores={PID_legacy_v3=10..600}] run effect give @a night_vision 11 0 true
 execute as @a[scores={PID_legacy_v3=1..801}] run summon minecraft:area_effect_cloud ~ ~1 ~
 execute as @a[scores={PID_legacy_v3=740}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
-#execute as @a[scores={PID_legacy_v1=745}] run scoreboard objectives add 1.21_PID_2 dummy aggiungere in futuro il Pid legacy v1 qui
+#execute as @a[scores={PID_legacy_v1=745}] run scoreboard objectives add 1.21_PID_2 dummy - aggiungere in futuro il Pid legacy v1 qui
 execute as @a[scores={PID_legacy_v3=950}] run scoreboard objectives add PID_legacy dummy
 
 
 ##PID Legacy Stop (QUANDO FINISCE: CAMBIARE IL NUMERO PER RESETARE TUTTO, AGGIUNGERE SEMPRE NELLE NUOVE VERSIONI IL PID)
 execute as @a[scores={PID_0=1..}] run scoreboard players set @a 1.20.5_PID_0 -100
-execute as @a[scores={PID_1=1..}] run scoreboard players set @a 1.20.5_PID_0 -100
+#execute as @a[scores={PID_1=1..}] run scoreboard players set @a 1.20.5_PID_0 -100
 
 
 ##PID Legacy Remove (AGGIUNGERE SEMPRE L'ULTIMO PID LEGACY PER RIMUOVERE TUTTO)
 scoreboard players add @a PID_legacy 1
+execute as @a[scores={PID_legacy=105..}] run scoreboard objectives remove PID_legacy
 execute as @a[scores={PID_legacy=100..}] run scoreboard objectives remove PID_legacy_v1
 execute as @a[scores={PID_legacy=100..}] run scoreboard objectives remove PID_legacy_v2
 execute as @a[scores={PID_legacy=100..}] run scoreboard objectives remove PID_legacy_v3
-execute as @a[scores={PID_legacy=105..}] run scoreboard objectives remove PID_legacy
