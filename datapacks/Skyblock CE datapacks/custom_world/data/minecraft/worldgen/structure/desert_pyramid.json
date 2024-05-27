@@ -2,7 +2,19 @@
   "type": "minecraft:jigsaw",
   "biomes": "#minecraft:has_structure/desert_pyramid",
   "step": "surface_structures",
-  "spawn_overrides": {},
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "minecraft:husk",
+          "maxCount": 16,
+          "minCount": 8,
+          "weight": 1
+        }
+      ]
+    }
+  },
   "terrain_adaptation": "beard_thin",
   "start_pool": "skyblock:desert_pyramid",
   "size": 1,
