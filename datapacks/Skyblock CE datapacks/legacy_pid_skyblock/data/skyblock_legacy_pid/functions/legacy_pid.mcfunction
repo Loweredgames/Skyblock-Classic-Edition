@@ -12,7 +12,7 @@ execute as @a[scores={1.20.5_PID_0=-1000..}] run scoreboard players set @a PID_1
 
 
 ##PID Update Old (AGGIUNGERE I PID VECCHI: ogni 3 versioni e poi l'ultima diventa incompatibile, quindi aggionare sempre in "update_pid")
-execute as @a[scores={ID_5=1..}] run scoreboard players set @a PID_legacy_v1 705
+execute as @a[scores={ID_5=1..}] run scoreboard players set @a PID_legacy_v1 1
 execute as @a[scores={PID_0=1..}] run scoreboard players add @a PID_legacy_v2 1
 execute as @a[scores={PID_1=1..}] run scoreboard players add @a PID_legacy_v3 1
 
@@ -36,7 +36,6 @@ scoreboard objectives add PID_legacy_v3 dummy
 
 
 ##ID_5 (COMPATIBILITA LEGACY)
-execute as @a[scores={PID_legacy=1..}] run scoreboard objectives remove PID_legacy
 execute as @a[scores={ID_5=1..}] run scoreboard objectives remove PID_0
 
 
@@ -62,6 +61,8 @@ execute as @a[scores={PID_legacy_v2=10..600}] run effect give @a blindness 11 0 
 execute as @a[scores={PID_legacy_v2=10..600}] run effect give @a night_vision 11 0 true
 execute as @a[scores={PID_legacy_v2=1..801}] run summon minecraft:area_effect_cloud ~ ~1 ~
 execute as @a[scores={PID_legacy_v2=740}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
+execute as @a[scores={PID_legacy_v2=745}] run scoreboard objectives add PID_1 dummy
+execute as @a[scores={PID_legacy_v2=750}] run scoreboard objectives add PID_legacy dummy
 
 
 ##PID_1 - 1.20.5/1.20.6 (NON RIMUOVERE IL COMMENTO IN SE, AGGIUNGERE QUESTO COMMENTO NEI NUOVI PID)
@@ -180,8 +181,18 @@ execute as @a[scores={PID_legacy_v3=10..600}] run effect give @a blindness 11 0 
 execute as @a[scores={PID_legacy_v3=10..600}] run effect give @a night_vision 11 0 true
 execute as @a[scores={PID_legacy_v3=1..801}] run summon minecraft:area_effect_cloud ~ ~1 ~
 execute as @a[scores={PID_legacy_v3=740}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
+#execute as @a[scores={PID_legacy_v1=745}] run scoreboard objectives add 1.21_PID_2 dummy aggiungere in futuro il Pid legacy v1 qui
+execute as @a[scores={PID_legacy_v3=950}] run scoreboard objectives add PID_legacy dummy
 
 
 ##PID Legacy Stop (QUANDO FINISCE: CAMBIARE IL NUMERO PER RESETARE TUTTO, AGGIUNGERE SEMPRE NELLE NUOVE VERSIONI IL PID)
 execute as @a[scores={PID_0=1..}] run scoreboard players set @a 1.20.5_PID_0 -100
 execute as @a[scores={PID_1=1..}] run scoreboard players set @a 1.20.5_PID_0 -100
+
+
+##PID Legacy Remove (AGGIUNGERE SEMPRE L'ULTIMO PID LEGACY PER RIMUOVERE TUTTO)
+scoreboard players add @a PID_legacy 1
+execute as @a[scores={PID_legacy=100..}] run scoreboard objectives remove PID_legacy_v1
+execute as @a[scores={PID_legacy=100..}] run scoreboard objectives remove PID_legacy_v2
+execute as @a[scores={PID_legacy=100..}] run scoreboard objectives remove PID_legacy_v3
+execute as @a[scores={PID_legacy=105..}] run scoreboard objectives remove PID_legacy
