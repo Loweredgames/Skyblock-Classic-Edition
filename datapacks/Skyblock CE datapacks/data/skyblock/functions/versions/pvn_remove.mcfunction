@@ -15,6 +15,7 @@
 scoreboard objectives remove 1.20.5_PVN_0a
 scoreboard objectives remove 1.20.5_PVN_0b
 scoreboard objectives remove 1.20.5_PVN_0c
+scoreboard objectives remove 1.20.5_PVN_0d
 
 
 ##1.20.3/1.20.4 - STABILE
