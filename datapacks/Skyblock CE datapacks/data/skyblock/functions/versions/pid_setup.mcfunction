@@ -16,4 +16,4 @@ execute as @a[scores={1.20.5_PID_0=1000..}] run scoreboard objectives remove PID
 
 
 ##SETUP VERSION SkyblockCE_ID (CAMBIARE LA SCORE IN "SkyblockCE_id". VEDERE LA SCORE PID_X PER RIFERIMENTO)
-#execute as @a[scores={SkyblockCE_id=30}] run scoreboard players set @a 1.20.5_PID_0 -100
+execute as @a[scores={SkyblockCE_id=30}] run scoreboard players set @a 1.20.5_PID_0 -100

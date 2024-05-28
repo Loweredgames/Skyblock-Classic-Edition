@@ -30,7 +30,6 @@ execute as @a[scores={1.20.3_PID_1_1=5}] run tellraw @s [{"translate":"skyblock_
 
 
 ##Final Function SUBPID 1_1
-execute as @a[scores={1.20.5_PID_0=1001}] run advancement revoke @a only minecraft:story/root
 execute as @a[scores={1.20.3_PID_1_1=301}] run advancement revoke @a only minecraft:nether/root
 execute as @a[scores={1.20.3_PID_1_1=301}] run advancement revoke @a only minecraft:end/root
 execute as @a[scores={1.20.3_PID_1_1=301}] run time set 0
