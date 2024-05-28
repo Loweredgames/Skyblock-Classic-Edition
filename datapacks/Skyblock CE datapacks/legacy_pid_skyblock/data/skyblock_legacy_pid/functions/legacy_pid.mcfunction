@@ -29,7 +29,7 @@ scoreboard objectives add PID_legacy_v2 dummy
 scoreboard objectives add PID_legacy_v3 dummy
 
 
-###PID Legacy Update (AGGIUNGERE TUTTI I PID VECCHI, AD ESEMPIO #PID_2, #PID_3, ECC.)
+###PID LEGACY UPDATE (AGGIUNGERE TUTTI I PID VECCHI, AD ESEMPIO #PID_2, #PID_3, ECC.)
 
 
 ##ID_5 (COMPATIBILITA LEGACY)
@@ -52,7 +52,7 @@ execute in minecraft:overworld as @a[scores={PID_legacy_v2=650}] run setblock 0 
 execute as @a[scores={PID_legacy_v2=730}] run advancement revoke @a only minecraft:nether/root
 
 
-##PID Legacy Setup v2 (Ricordati di aggiornare UPDATE ID e di aggiungere l'ultima conversione. ricordarsi di rimuovere i pid secondari come PID_1_1 nella stessa categoria).
+##PID LEGACY SETUP - v2 (Ricordati di aggiornare UPDATE ID e di aggiungere l'ultima conversione. ricordarsi di rimuovere i pid secondari come PID_1_1 nella stessa categoria).
 execute as @a[scores={PID_legacy_v2=1..50}] run gamemode spectator @a
 execute as @a[scores={PID_legacy_v2=10..600}] run effect give @a blindness 11 0 true
 execute as @a[scores={PID_legacy_v2=10..600}] run effect give @a night_vision 11 0 true
@@ -141,7 +141,7 @@ execute in minecraft:overworld as @a[scores={PID_legacy_v3=788}] run summon came
 execute in minecraft:overworld as @a[scores={PID_legacy_v3=788}] run summon camel 71 60 -489 {CustomNameVisible:1b,PersistenceRequired:1b,CustomName:'{"text":"Camel"}'}
 
 
-###SUBPID_legacy (AGGIUNGERE TUTTI I SUBPID ATTACCATO AL PID MADRE. SE NON CI SONO SUBPID NON AGGIUNGERE QUESTA SEZIONE)
+###SUBPID LEGACY (AGGIUNGERE TUTTI I SUBPID ATTACCATO AL PID MADRE. SE NON CI SONO SUBPID NON AGGIUNGERE QUESTA SEZIONE)
 execute in minecraft:overworld as @a[scores={PID_legacy_v3=100}] run tp @a -252 60 -476 0 0
 execute in minecraft:overworld as @a[scores={PID_legacy_v3=210}] run setblock -252 52 -476 minecraft:air replace
 execute in minecraft:overworld as @a[scores={PID_legacy_v3=215}] run setblock -252 52 -476 minecraft:decorated_pot[cracked=false,facing=south,waterlogged=false]{item:{Count:7b,id:"minecraft:iron_nugget"}} replace
@@ -171,7 +171,7 @@ execute in minecraft:the_nether as @a[scores={PID_legacy_v3=956}] run setblock 4
 execute in minecraft:overworld as @a[scores={PID_legacy_v3=960}] run tp @a 0 66 0 0 0
 
 
-##PID Legacy v3 Setup (Aggiornato all'ultima versione: 5.2.0 Minecraft: 1.20.5) Ricordati di aggiornare UPDATE ID e di aggiungere l'ultima conversione. ricordarsi di rimuovere i pid secondari come PID_1_1 nella stessa categoria.
+##PID LEGACY SETUP - v3 (Aggiornato all'ultima versione: 5.2.0 Minecraft: 1.20.5) Ricordati di aggiornare UPDATE ID e di aggiungere l'ultima conversione. ricordarsi di rimuovere i pid secondari come PID_1_1 nella stessa categoria.
 execute as @a[scores={PID_legacy_v3=1..5000}] run gamemode spectator @a
 execute as @a[scores={PID_legacy_v3=10..600}] run effect give @a blindness 11 0 true
 execute as @a[scores={PID_legacy_v3=10..600}] run effect give @a night_vision 11 0 true
@@ -181,12 +181,12 @@ execute as @a[scores={PID_legacy_v3=740}] run playsound minecraft:entity.player.
 execute as @a[scores={PID_legacy_v3=950}] run scoreboard objectives add PID_legacy dummy
 
 
-##PID Legacy Stop (QUANDO FINISCE: CAMBIARE IL NUMERO PER RESETARE TUTTO, AGGIUNGERE SEMPRE NELLE NUOVE VERSIONI IL PID)
+##PID LEGACY STOP (QUANDO FINISCE: CAMBIARE IL NUMERO PER RESETARE TUTTO, AGGIUNGERE SEMPRE NELLE NUOVE VERSIONI IL PID)
 execute as @a[scores={PID_0=1..}] run scoreboard players set @a 1.20.5_PID_0 -100
 #execute as @a[scores={PID_1=1..}] run scoreboard players set @a 1.20.5_PID_0 -100
 
 
-##PID Legacy Remove (AGGIUNGERE SEMPRE L'ULTIMO PID LEGACY PER RIMUOVERE TUTTO)
+##PID LEGACY REMOVE (AGGIUNGERE SEMPRE L'ULTIMO PID LEGACY PER RIMUOVERE TUTTO)
 scoreboard players add @a PID_legacy 1
 execute as @a[scores={PID_legacy=105..}] run scoreboard objectives remove PID_legacy
 execute as @a[scores={PID_legacy=100..}] run scoreboard objectives remove PID_legacy_v1
