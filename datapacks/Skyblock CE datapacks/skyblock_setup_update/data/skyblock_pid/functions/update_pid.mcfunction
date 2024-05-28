@@ -59,7 +59,6 @@ execute as @a[scores={1.20.5_PID_0=100..505}] run gamemode survival @a
 
 
 ##FINAL GENERATED PID 1 FUNCTION
-execute as @a[scores={1.20.5_PID_0=601}] run advancement revoke @a only minecraft:story/root
 execute as @a[scores={1.20.5_PID_0=601}] run advancement revoke @a only minecraft:nether/root
 execute as @a[scores={1.20.5_PID_0=601}] run advancement revoke @a only minecraft:end/root
 execute as @a[scores={1.20.5_PID_0=605}] run tellraw @a ["",{"text":"Due to several problems in The End (","italic":true,"color":"red"},{"text":"see the bug #16","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/issues/16"}},{"text":"). the dimension has been suspended in this release until the issues are resolved.\nThanks you :)","italic":true,"color":"red"}]
