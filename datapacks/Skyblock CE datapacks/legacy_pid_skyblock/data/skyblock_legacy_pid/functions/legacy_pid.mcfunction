@@ -5,25 +5,25 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##PID Legacy Versions (DA AGGIUNGERE IL PID NUOVO QUANDO E FINITO DI CONVERTIRE, SE C'E QUALCOSA DA AGGIORNARE, AUMENTA IL CONTATORE QUANDO LA PRECEDENTE CONVERSIONE FINISCE. SOLO NELLA VERSIONE PIU VECCHI: AGGIUNGERE SEMPRE UNA NUOVA CATEGORIA MA DISABILITATA SEMPRE SOLO QUANDO IL PID DIVENTA VECCHIO (ESEMPIO PID 1), ABBILITARE QUANDO C'E LA NUOVA VERSIONE (ESEMPIO 1.21) E LA NUOVA CONVERSIONE (ESEMPIO PID 2, DISABILITARE PER IL FUTURO), AGGIUNGERE NEI COMMENTI LA VERSIONE DA ABBILITARE, RIPETERE IL LOOP.)
+##PID LEGACY VERSIONS (DA AGGIUNGERE IL PID NUOVO QUANDO E FINITO DI CONVERTIRE, SE C'E QUALCOSA DA AGGIORNARE, AUMENTA IL CONTATORE QUANDO LA PRECEDENTE CONVERSIONE FINISCE. SOLO NELLA VERSIONE PIU VECCHI: AGGIUNGERE SEMPRE UNA NUOVA CATEGORIA MA DISABILITATA SEMPRE SOLO QUANDO IL PID DIVENTA VECCHIO (ESEMPIO PID 1), ABBILITARE QUANDO C'E LA NUOVA VERSIONE (ESEMPIO 1.21) E LA NUOVA CONVERSIONE (ESEMPIO PID 2, DISABILITARE PER IL FUTURO), AGGIUNGERE NEI COMMENTI LA VERSIONE DA ABBILITARE, RIPETERE IL LOOP).
 execute as @a[scores={1.20.5_PID_0=-100..}] run scoreboard players set @a ID_5 1
 execute as @a[scores={1.20.5_PID_0=-100..}] run scoreboard players set @a PID_0 1
 #execute as @a[scores={1.20.5_PID_0=-1000..}] run scoreboard players set @a PID_1 1 LTS ABBILITARE IN 1.21.x,
 
 
-##PID Update Old (AGGIUNGERE I PID VECCHI: ogni 3 versioni e poi l'ultima diventa incompatibile, quindi aggionare sempre in "update_pid", ABBILITARE SEMPRE NELLA VERSIONE LTS)
+##PID UPDATE OLD (AGGIUNGERE I PID VECCHI: ogni 3 versioni e poi l'ultima diventa incompatibile, quindi aggionare sempre in "update_pid", ABBILITARE SEMPRE NELLA VERSIONE LTS)
 execute as @a[scores={ID_5=1..}] run scoreboard players set @a PID_legacy_v1 1
 execute as @a[scores={PID_0=1..}] run scoreboard players add @a PID_legacy_v2 1
 #execute as @a[scores={PID_1=1..}] run scoreboard players add @a PID_legacy_v3 1 LTS ABBILITARE IN 1.21.x,
 
 
-##PID Remove (RIMUOVERE SOLO QUANDO E FINITO UN PID VECCHIO. CANCELLARE SOLO QUANDO E FINITA E AGGIORNARE IL CONTATORE)
+##PID REMOVE (RIMUOVERE SOLO QUANDO E FINITO UN PID VECCHIO. CANCELLARE SOLO QUANDO E FINITA E AGGIORNARE IL CONTATORE)
 execute as @a[scores={PID_legacy_v1=100..}] run scoreboard objectives remove ID_5
 execute as @a[scores={PID_legacy_v2=805..}] run scoreboard objectives remove PID_0
 #execute as @a[scores={PID_legacy_v3=990..}] run scoreboard objectives remove PID_1 LTS ABBILITARE IN 1.21.x,
 
 
-##PID Legacy Scoreboard Setup (LASCIARE COSI)
+##PID LEGACY SCOREBOARD SETUP (LASCIARE COSI)
 scoreboard objectives add PID_legacy_v1 dummy
 scoreboard objectives add PID_legacy_v2 dummy
 scoreboard objectives add PID_legacy_v3 dummy
