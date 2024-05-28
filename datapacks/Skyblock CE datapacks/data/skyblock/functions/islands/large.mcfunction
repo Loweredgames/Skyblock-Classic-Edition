@@ -53,28 +53,28 @@ execute in minecraft:overworld as @a[scores={SkyblockCE_large=105}] run place te
 
 
 #Large Nether Classic
-execute in minecraft:overworld as @a[scores={SkyblockCE_large=200}] run scoreboard players set @a SkyblockCE_tp 3
-execute in minecraft:the_nether as @a[scores={SkyblockCE_large=200}] run fill 17 1 43 -12 255 -8 minecraft:air
-execute in minecraft:the_nether as @a[scores={SkyblockCE_large=205}] run place template skyblock:nether_classic 2 50 3
+execute in minecraft:overworld as @a[scores={SkyblockCE_large=130}] run scoreboard players set @a SkyblockCE_tp 3
+execute in minecraft:the_nether as @a[scores={SkyblockCE_large=150}] run fill 17 1 43 -12 255 -8 minecraft:air
+execute in minecraft:the_nether as @a[scores={SkyblockCE_large=155}] run place template skyblock:nether_classic 2 50 3
 
 
 #Large Nether Classic Bastion
-execute as @a[scores={SkyblockCE_large=120}] run scoreboard players set @a SkyblockCE_tp 4
-execute in minecraft:the_nether as @a[scores={SkyblockCE_large=315}] run place structure minecraft:bastion_remnant -4 55 80
+execute as @a[scores={SkyblockCE_large=200}] run scoreboard players set @a SkyblockCE_tp 4
+execute in minecraft:the_nether as @a[scores={SkyblockCE_large=250}] run place structure minecraft:bastion_remnant -4 55 80
 
 #Large Nether Classic Forest
-execute as @a[scores={SkyblockCE_large=130}] run scoreboard players set @a SkyblockCE_tp 5
-execute in minecraft:the_nether as @a[scores={SkyblockCE_large=325}] run fill -4 1 -52 11 255 -44 minecraft:air
-execute in minecraft:the_nether as @a[scores={SkyblockCE_large=331}] run place template skyblock:nether_classic_forest -2 50 -50
+execute as @a[scores={SkyblockCE_large=300}] run scoreboard players set @a SkyblockCE_tp 5
+execute in minecraft:the_nether as @a[scores={SkyblockCE_large=350}] run fill -4 1 -52 11 255 -44 minecraft:air
+execute in minecraft:the_nether as @a[scores={SkyblockCE_large=355}] run place template skyblock:nether_classic_forest -2 50 -50
 
 
 ##The End (???)
 
 
 ##FINAL GENERATED FUNCTION
-execute as @a[scores={SkyblockCE_large=450}] run scoreboard players set @a SkyblockCE_tp 1
+execute as @a[scores={SkyblockCE_large=400}] run scoreboard players set @a SkyblockCE_tp 1
 execute as @a[scores={SkyblockCE_large=450..}] run scoreboard objectives add SkyblockCE_structures_id dummy
-execute as @a[scores={SkyblockCE_large=1351}] run spawnpoint @a 0 65 0
-execute as @a[scores={SkyblockCE_large=1351}] run weather clear 1000s
-execute as @a[scores={SkyblockCE_large=1351}] run scoreboard objectives add kills deathCount
-execute as @a[scores={SkyblockCE_large=1351}] run scoreboard objectives setdisplay list kills
+execute as @a[scores={SkyblockCE_large=500}] run spawnpoint @a 0 67 0
+execute as @a[scores={SkyblockCE_large=500}] run weather clear 1000s
+execute as @a[scores={SkyblockCE_large=500}] run scoreboard objectives add kills deathCount
+execute as @a[scores={SkyblockCE_large=500}] run scoreboard objectives setdisplay list kills
