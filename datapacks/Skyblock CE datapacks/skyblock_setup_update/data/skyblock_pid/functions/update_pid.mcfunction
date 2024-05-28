@@ -29,15 +29,15 @@ execute as @a[scores={1.20.5_PID_0=2000000..}] run scoreboard players set @a 1.2
 #execute as @a[scores={1.20.5_PID_0=1015..}] run scoreboard objectives add 1.20.5_PID_0_1 dummy
 
 
-##SCOREBOARD START 1.20.5_PID_0 (LASCIARE SEMPRE COSI)
+##SCOREBOARD START 1.20.5_PID_0 (LASCIARE SEMPRE COSI, MODIFICARE SE LA CONVERSIONE E PIU CORTA O PIU LUNGHA)
 execute as @a[scores={1.20.5_PID_0=5..100}] run gamemode spectator @a
 execute as @a[scores={1.20.5_PID_0=5}] run time set 0
 execute as @a[scores={1.20.5_PID_0=5}] run gamerule doImmediateRespawn true
-execute as @a[scores={1.20.5_PID_0=5..1000}] run effect give @a blindness 5 0 true
-execute as @a[scores={1.20.5_PID_0=5..1000}] run effect give @a night_vision 5 0 true
-execute as @a[scores={1.20.5_PID_0=1000}] run gamerule doImmediateRespawn false
-execute as @a[scores={1.20.5_PID_0=1005}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
-execute as @a[scores={1.20.5_PID_0=5..1000}] run summon minecraft:area_effect_cloud ~ ~1 ~
+execute as @a[scores={1.20.5_PID_0=5..600}] run effect give @a blindness 5 0 true
+execute as @a[scores={1.20.5_PID_0=5..600}] run effect give @a night_vision 5 0 true
+execute as @a[scores={1.20.5_PID_0=600}] run gamerule doImmediateRespawn false
+execute as @a[scores={1.20.5_PID_0=605}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
+execute as @a[scores={1.20.5_PID_0=5..600}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
 ###1.20.3_PID 1 - 1.20.3/1.20.4 (SPOSTARE "PID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE IL COMMENTO IN SE)
@@ -58,13 +58,13 @@ execute as @a[scores={1.20.5_PID_0=100..505}] run gamemode survival @a
 
 
 ##FINAL GENERATED PID 1 FUNCTION
-execute as @a[scores={1.20.5_PID_0=1001}] run advancement revoke @a only minecraft:story/root
-execute as @a[scores={1.20.5_PID_0=1001}] run advancement revoke @a only minecraft:nether/root
-execute as @a[scores={1.20.5_PID_0=1001}] run advancement revoke @a only minecraft:end/root
-execute as @a[scores={1.20.5_PID_0=1005}] run tellraw @a ["",{"text":"Due to several problems in The End (","italic":true,"color":"red"},{"text":"see the bug #16","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/issues/16"}},{"text":"). the dimension has been suspended in this release until the issues are resolved.\nThanks you :)","italic":true,"color":"red"}]
-execute as @a[scores={1.20.5_PID_0=1006}] run tellraw @a {"translate":"skyblock_classic_edition.version_update.crowdin.info","color":"yellow","clickEvent":{"action":"open_url","value":"https://crowdin.com/project/skyblock-classic-edition"}}
-execute as @a[scores={1.20.5_PID_0=1007}] run tellraw @a {"translate":"skyblock_classic_edition.version_update.discord","underlined":true,"color":"light_purple","clickEvent":{"action":"open_url","value":"https://discord.gg/T6PHxhznJ6"}}
-execute as @a[scores={1.20.5_PID_0=1010}] run time set 0
-execute as @a[scores={1.20.5_PID_0=1011}] run playsound minecraft:music_disc.relic ambient @a 0 65 0 10000 1
-execute in minecraft:overworld at @a[scores={1.20.5_PID_0=1005}] run tp @a 0 66 0 90 0
-execute as @a[scores={1.20.5_PID_0=1011}] run gamemode survival @a
+execute as @a[scores={1.20.5_PID_0=601}] run advancement revoke @a only minecraft:story/root
+execute as @a[scores={1.20.5_PID_0=601}] run advancement revoke @a only minecraft:nether/root
+execute as @a[scores={1.20.5_PID_0=601}] run advancement revoke @a only minecraft:end/root
+execute as @a[scores={1.20.5_PID_0=605}] run tellraw @a ["",{"text":"Due to several problems in The End (","italic":true,"color":"red"},{"text":"see the bug #16","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/issues/16"}},{"text":"). the dimension has been suspended in this release until the issues are resolved.\nThanks you :)","italic":true,"color":"red"}]
+execute as @a[scores={1.20.5_PID_0=606}] run tellraw @a {"translate":"skyblock_classic_edition.version_update.crowdin.info","color":"yellow","clickEvent":{"action":"open_url","value":"https://crowdin.com/project/skyblock-classic-edition"}}
+execute as @a[scores={1.20.5_PID_0=607}] run tellraw @a {"translate":"skyblock_classic_edition.version_update.discord","underlined":true,"color":"light_purple","clickEvent":{"action":"open_url","value":"https://discord.gg/T6PHxhznJ6"}}
+execute as @a[scores={1.20.5_PID_0=610}] run time set 0
+execute as @a[scores={1.20.5_PID_0=611}] run playsound minecraft:music_disc.relic ambient @a 0 65 0 10000 1
+execute in minecraft:overworld at @a[scores={1.20.5_PID_0=605}] run tp @a 0 66 0 90 0
+execute as @a[scores={1.20.5_PID_0=611}] run gamemode survival @a
