@@ -45,8 +45,8 @@ execute as @a[scores={1.20.5_PID_0=5..600}] run summon minecraft:area_effect_clo
 
 ##Overworld
 execute in minecraft:overworld as @a[scores={1.20.5_PID_0=100..605}] run tp @a 0 66 0 90 0
+execute as @a[scores={1.20.5_PID_0=100}] run scoreboard players set @a SkyblockCE_level_dat 4000
 execute in minecraft:overworld as @a[scores={1.20.5_PID_0=105..}] run setblock 722 48 703 minecraft:end_portal_frame[eye=false,facing=south] replace
-execute as @a[scores={1.20.5_PID_0=100}] run scoreboard players set @a SkyblockCE_level_dat 5000
 execute as @a[scores={1.20.5_PID_0=100..501}] run time set 0
 execute as @a[scores={1.20.5_PID_0=100..505}] run gamemode survival @a
 
