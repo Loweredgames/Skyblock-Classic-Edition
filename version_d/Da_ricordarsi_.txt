@@ -1,0 +1,2 @@
+- rimuovere la cartella quando c'è un rilascio
+- aggiungere hardcore, aggiungere data cartella con dentro map, aggiornare datapack mantenendo la versione, aggiungere "generated" cartella e aggiornare resources pack

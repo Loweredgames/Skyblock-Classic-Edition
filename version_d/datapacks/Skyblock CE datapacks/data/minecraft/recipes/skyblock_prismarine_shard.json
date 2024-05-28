@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "SFP",
+        " K "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:ink_sac"
+        },
+        "S": {
+            "item": "minecraft:sea_pickle"
+        },
+        "F": {
+            "item": "minecraft:flint"
+        },
+        "P": {
+            "item": "minecraft:pufferfish"
+        },
+        "K": {
+            "item": "minecraft:kelp"
+        }
+    },
+    "result": {
+        "item": "minecraft:prismarine_shard",
+        "count": 4
+    },
+    "group": "skyblock"
+}
