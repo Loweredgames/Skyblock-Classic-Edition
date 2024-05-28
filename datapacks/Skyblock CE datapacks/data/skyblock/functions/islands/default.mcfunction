@@ -53,29 +53,29 @@ execute in minecraft:overworld as @a[scores={SkyblockCE_default=105}] run place 
 
 
 #Nether Classic
-execute in minecraft:overworld as @a[scores={SkyblockCE_default=120}] run scoreboard players set @a SkyblockCE_tp 3
-execute in minecraft:the_nether as @a[scores={SkyblockCE_default=200}] run fill 17 1 43 -12 255 -8 minecraft:air
-execute in minecraft:the_nether as @a[scores={SkyblockCE_default=205}] run place template skyblock:nether_classic 2 50 3
+execute in minecraft:overworld as @a[scores={SkyblockCE_default=130}] run scoreboard players set @a SkyblockCE_tp 3
+execute in minecraft:the_nether as @a[scores={SkyblockCE_default=150}] run fill 17 1 43 -12 255 -8 minecraft:air
+execute in minecraft:the_nether as @a[scores={SkyblockCE_default=155}] run place template skyblock:nether_classic 2 50 3
 
 
 #Nether Classic Bastion
-execute as @a[scores={SkyblockCE_default=320}] run scoreboard players set @a SkyblockCE_tp 4
-execute in minecraft:the_nether as @a[scores={SkyblockCE_default=321}] run place template skyblock:nether_classic_bastion 4 55 33
+execute as @a[scores={SkyblockCE_default=200}] run scoreboard players set @a SkyblockCE_tp 4
+execute in minecraft:the_nether as @a[scores={SkyblockCE_default=250}] run place template skyblock:nether_classic_bastion 4 55 33
 
 
 #Nether Classic Forest
-execute as @a[scores={SkyblockCE_default=430}] run scoreboard players set @a SkyblockCE_tp 5
-execute in minecraft:the_nether as @a[scores={SkyblockCE_default=425}] run fill -4 1 -52 11 255 -44 minecraft:air
-execute in minecraft:the_nether as @a[scores={SkyblockCE_default=431}] run place template skyblock:nether_classic_forest -2 50 -50
+execute as @a[scores={SkyblockCE_default=300}] run scoreboard players set @a SkyblockCE_tp 5
+execute in minecraft:the_nether as @a[scores={SkyblockCE_default=350}] run fill -4 1 -52 11 255 -44 minecraft:air
+execute in minecraft:the_nether as @a[scores={SkyblockCE_default=355}] run place template skyblock:nether_classic_forest -2 50 -50
 
 
 ##The End (???)
 
 
 ##FINAL GENERATED FUNCTION
-execute as @a[scores={SkyblockCE_default=450}] run scoreboard players set @a SkyblockCE_tp 1
+execute as @a[scores={SkyblockCE_default=400}] run scoreboard players set @a SkyblockCE_tp 1
 execute as @a[scores={SkyblockCE_default=450..}] run scoreboard objectives add SkyblockCE_structures_id dummy
-execute as @a[scores={SkyblockCE_default=1351}] run spawnpoint @a 0 65 0
-execute as @a[scores={SkyblockCE_default=1351}] run weather clear 1000s
-execute as @a[scores={SkyblockCE_default=1351}] run scoreboard objectives add kills deathCount
-execute as @a[scores={SkyblockCE_default=1351}] run scoreboard objectives setdisplay list kills
+execute as @a[scores={SkyblockCE_default=500}] run spawnpoint @a 0 65 0
+execute as @a[scores={SkyblockCE_default=500}] run weather clear 1000s
+execute as @a[scores={SkyblockCE_default=500}] run scoreboard objectives add kills deathCount
+execute as @a[scores={SkyblockCE_default=500}] run scoreboard objectives setdisplay list kills
