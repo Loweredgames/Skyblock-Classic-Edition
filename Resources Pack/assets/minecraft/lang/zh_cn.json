@@ -42,7 +42,7 @@
     "skyblock_classic_edition.generated_structures.generated.command_block.download": " 请在此处重新下载地图。",
     "skyblock_classic_edition.install.hardcore.lock": "很抱歉，硬核模式需要一个已加载且最新的世界。",
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " 等待世界更新并替换数据包。\n\n谢谢你",
-    "skyblock_classic_edition.warning_level.dat.issues": "Due to some technical issues that may occur in various versions, the world may suffer a serious bug if the world is in dimensions and vanilla natural structures are not generated. To solve this technical problem you need to follow these simple steps: first you have to put all the things in your inventory, even the armor, in a chest, then exit the world and ",
+    "skyblock_classic_edition.warning_level.dat.issues": "由于各种版本可能出现一些技术性问题， 如果世界规模庞大，没有产生香草自然结构，世界可能会遭受严重错误。 要解决这个技术问题，你需要遵循这些简单的步骤：首先你必须将所有东西放在你的库存中。 甚至军械库，胸部，然后退出世界并 ",
     "skyblock_classic_edition.warning_level.dat.download": "在此下载新的 (level.dat 和 level.dat_old)。",
     "skyblock_classic_edition.warning_level.dat.copy_paste": " 复制并粘贴它以替换旧的，重新打开世界，然后以默认方式打开与 T 的聊天并复制此命令： ",
     "skyblock_classic_edition.warning_level.dat.end": ", 你应该看到新区块中的结构, 以便再次重复这些步骤。",
