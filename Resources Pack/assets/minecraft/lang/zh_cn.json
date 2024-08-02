@@ -20,7 +20,7 @@
     "skyblock_classic_edition.version_update.compatible.minecraft_versions": "Mc版本： ",
     "skyblock_classic_edition.version_update.compatible.info": " 您目前正在使用旧版，可能与当前数据包不兼容：若已更新数据包，则目前有兼容性问题，请始终将数据包更新到最新兼容版本。",
     "skyblock_classic_edition.version_update.welcome": "欢迎来到空岛生存经典版:",
-    "skyblock_classic_edition.version_update.for_edition": "用于 Minecraft Java Edition:",
+    "skyblock_classic_edition.version_update.for_edition": "用于Java版MC：",
     "skyblock_classic_edition.version_update.check_news": "\n\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n\n在此处检查有关最新版本的新闻：\n",
     "skyblock_classic_edition.version_update.changelog": "更改日志",
     "skyblock_classic_edition.version_update.check_links": "在下述链接中查看最新版本:",
