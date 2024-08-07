@@ -42,7 +42,7 @@ execute as @a[scores={SkyblockCE_structures_id=13000..14000}] run scoreboard obj
 
 
 ##MULTIPLAYER PSN (PER IL MULTIPLAYER, NON TOCCARE)
-execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run scoreboard players set @a 1.20.5_PSN_0 10000
+execute as @a[scores={SkyblockCE_multiplayer_join=2..}] run scoreboard players set @a 1.20.5_PSN_0 10000
 
 
 ##SKYBLOCK FINAL GENERATED ISLANDS DELAY (GENERA LA POSIZIONE DEL GIOCATORE QUANDO SONO FINITE LE SCORE, DA CAMBIARE SE IL PSN E PIU LUNGO)
