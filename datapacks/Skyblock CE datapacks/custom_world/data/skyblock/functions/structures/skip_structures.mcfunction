@@ -31,7 +31,8 @@ execute as @a[scores={SkyblockCE_skip_structures=7..20}] run gamerule announceAd
 execute as @a[scores={SkyblockCE_skip_structures=7..20}] run gamerule doDaylightCycle true
 execute as @a[scores={SkyblockCE_skip_structures=7..20}] run gamerule doWeatherCycle true
 execute as @a[scores={SkyblockCE_skip_structures=10}] run time set 0
-execute as @a[scores={SkyblockCE_skip_structures=11}] run advancement revoke @a everything
+execute as @a[scores={SkyblockCE_skip_structures=11}] run advancement revoke @a only minecraft:nether/root
+#execute as @a[scores={SkyblockCE_skip_structures=11}] run advancement revoke @a everything (da aggiungere nella 1.22.X)
 execute as @a[scores={SkyblockCE_skip_structures=11}] run execute in minecraft:overworld run tp @p 0 66 0 90 0
 execute as @a[scores={SkyblockCE_skip_structures=20}] run gamemode survival @a
 execute as @a[scores={SkyblockCE_skip_structures=21}] run effect clear @a
