@@ -1,0 +1,2 @@
+- rimuovere la cartella quando c'è un rilascio e rinominare la cartella in "Skyblock Classic Edition Dimensions Version"
+- aggiungere hardcore, aggiungere data cartella con dentro map, aggiornare datapack mantenendo la versione, aggiungere "generated" cartella e aggiornare resources pack
