@@ -1,6 +1,6 @@
 {
 	"env": {
-		"gameVersion": "1.20.5",
+		"gameVersion": "auto",
 		"permissionLevel": 2
 	},
 	"format": {
