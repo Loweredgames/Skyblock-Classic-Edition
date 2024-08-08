@@ -44,10 +44,15 @@ execute as @a[scores={1.20.5_PID_0=5..600}] run summon minecraft:area_effect_clo
 
 
 ##Overworld
-execute in minecraft:overworld as @a[scores={1.20.5_PID_0=100..605}] run tp @a 0 66 0 90 0
-execute as @a[scores={1.20.5_PID_0=100}] run scoreboard players set @a SkyblockCE_level_dat 4900
-execute as @a[scores={1.20.5_PID_0=100..600}] run effect give @a resistance 11 255 false
-execute in minecraft:overworld as @a[scores={1.20.5_PID_0=105..}] run setblock 722 48 703 minecraft:end_portal_frame[eye=false,facing=south] replace
+execute in minecraft:overworld as @a[scores={1.20.5_PID_0=100}] run tp @a -253 66 -476
+execute in minecraft:overworld as @a[scores={1.20.5_PID_0=105}] run fill -251 63 -478 -255 63 -474 minecraft:acacia_planks keep
+execute in minecraft:overworld as @a[scores={1.20.5_PID_0=150}] run setblock -253 64 -476 minecraft:spawner{Delay:0s,MaxNearbyEntities:6s,MaxSpawnDelay:800s,MinSpawnDelay:200s,RequiredPlayerRange:16s,SpawnCount:4s,SpawnData:{entity:{id:"minecraft:armadillo"}},SpawnPotentials:[],SpawnRange:4s} destroy
+execute in minecraft:overworld as @a[scores={1.20.5_PID_0=155}] run setblock -253 64 -475 minecraft:oak_wall_sign[facing=south,waterlogged=false]{back_text:{color:"black",has_glowing_text:0b,messages:['""','""','""','""']},front_text:{color:"black",has_glowing_text:1b,messages:['"To farming"','"armadillos"','""','""']},is_waxed:0b} destroy
+execute in minecraft:overworld as @a[scores={1.20.5_PID_0=156}] run setblock -253 65 -476 minecraft:torch keep
+execute in minecraft:overworld as @a[scores={1.20.5_PID_0=200..605}] run tp @a 0 66 0 90 0
+execute as @a[scores={1.20.5_PID_0=200}] run scoreboard players set @a SkyblockCE_level_dat 4900
+execute as @a[scores={1.20.5_PID_0=200..600}] run effect give @a resistance 11 255 false
+execute in minecraft:overworld as @a[scores={1.20.5_PID_0=205..}] run setblock 722 48 703 minecraft:end_portal_frame[eye=false,facing=south] replace
 execute as @a[scores={1.20.5_PID_0=100..501}] run time set 0
 execute as @a[scores={1.20.5_PID_0=100..505}] run gamemode survival @a
 
