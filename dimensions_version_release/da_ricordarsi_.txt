@@ -1,2 +1,0 @@
-- rimuovere la cartella quando c'è un rilascio e rinominare la cartella in "Skyblock Classic Edition Dimensions Version" solo versione normale, rimuovere anche il mondo delle strutture
-- aggiornare il datapack e tutto il resto, mantenendo la versione.
