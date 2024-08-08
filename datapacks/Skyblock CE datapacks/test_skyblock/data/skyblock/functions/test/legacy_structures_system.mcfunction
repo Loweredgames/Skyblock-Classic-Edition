@@ -28,6 +28,7 @@ execute as @a[scores={NEW_PSN=-2}] run scoreboard objectives remove NEW_PSN
 
 
 #AGGIORNAMENTO AL NUOVO SISTEMA PID 1
+execute as @a[scores={1.20.5_PID_0=100..}] run scoreboard players set @a PID_1 200000
 execute as @a[scores={PID_1=1005..}] run scoreboard objectives add PSN1_OLD_SYSTEM dummy
 scoreboard players add @a PSN1_OLD_SYSTEM 1
 execute as @a[scores={PSN1_OLD_SYSTEM=2..}] run scoreboard players set @a SkyblockCE_structures_id 10000

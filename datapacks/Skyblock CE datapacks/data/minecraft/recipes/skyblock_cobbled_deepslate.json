@@ -1,17 +1,17 @@
 {
     "type": "minecraft:crafting_shaped",
+    "group": "skyblock",
     "pattern": [
-        "##",
-        "##"
+      "##",
+      "##"
     ],
     "key": {
-        "#": {
-            "item": "minecraft:cobblestone"
-        }
+      "#": {
+        "item": "minecraft:cobblestone"
+      }
     },
     "result": {
-        "item": "minecraft:cobbled_deepslate",
-        "count": 4
-    },
-    "group": "skyblock"
-}
+      "id": "minecraft:cobbled_deepslate",
+      "count": 4
+    }
+  }  

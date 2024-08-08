@@ -17,6 +17,7 @@ execute as @a[scores={skyblock_large=1..}] run scoreboard objectives add Skybloc
 execute as @a[scores={skyblock_large=1..}] run scoreboard players add @a SkyblockCE_large 1000
 execute as @a[scores={SkyblockCE_large=1005..}] run scoreboard objectives remove skyblock_large
 execute as @a[scores={SkyblockCE_structures=1..}] run scoreboard objectives remove structure_skyblock
+execute as @a[scores={1.20.5_PID_0=1..}] run scoreboard objectives remove structure_skyblock
 execute as @a[scores={SkyblockCE_islands=-2..}] run scoreboard objectives remove skyblock_island
 execute as @a[scores={skyblock_ID=0..}] run scoreboard objectives add SkyblockCE_id dummy
 execute as @a[scores={SkyblockCE_id=0..}] run scoreboard objectives remove skyblock_ID
