@@ -53,7 +53,7 @@ execute in minecraft:overworld as @a[scores={1.20.5_PID_0=200..605}] run tp @a 0
 execute as @a[scores={1.20.5_PID_0=200}] run scoreboard players set @a SkyblockCE_level_dat 4900
 execute as @a[scores={1.20.5_PID_0=200..600}] run effect give @a resistance 11 255 false
 execute in minecraft:overworld as @a[scores={1.20.5_PID_0=205..}] run setblock 722 48 703 minecraft:end_portal_frame[eye=false,facing=south] replace
-execute as @a[scores={1.20.5_PID_0=100..501}] run time set 0
+execute as @a[scores={1.20.5_PID_0=200..501}] run time set 0
 execute as @a[scores={1.20.5_PID_0=200..505}] run gamemode survival @a
 
 
