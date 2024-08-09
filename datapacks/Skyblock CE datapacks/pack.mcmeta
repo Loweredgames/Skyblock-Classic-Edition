@@ -32,15 +32,15 @@
 		},
 		{
 		  "formats": {
-			"min_inclusive": 26,
-			"max_inclusive": 26
+			"min_inclusive": 27,
+			"max_inclusive": 41
 		  },
 		  "directory": "custom_dimension"
 		},
 		{
 		  "formats": {
-			"min_inclusive": 27,
-			"max_inclusive": 41
+			"min_inclusive": 26,
+			"max_inclusive": 26
 		  },
 		  "directory": "custom_world"
 		}
