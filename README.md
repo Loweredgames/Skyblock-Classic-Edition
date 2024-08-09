@@ -2,6 +2,8 @@
 
 [![Crowdin](https://badges.crowdin.net/skyblock-classic-edition/localized.svg)](https://crowdin.com/project/skyblock-classic-edition)
 
+![promo_version](https://github.com/user-attachments/assets/064ca5aa-2b0f-4539-9c5c-47f1a766d0dc)
+
 _Skyblock is one of the most famous maps in Minecraft. the original has been updated and now supports all future versions of Minecraft._
 
 # Story:
