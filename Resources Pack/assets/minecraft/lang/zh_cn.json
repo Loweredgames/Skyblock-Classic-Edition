@@ -28,7 +28,7 @@
     "skyblock_classic_edition.version_update.crowdin.info": "请帮我翻译成你的母语。翻译应基于英语且保持标点符号和大写字母的一一映射.",
     "skyblock_classic_edition.version_update.discord": "如有建议或提交bug请在Discord关注我。",
     "skyblock_classic_edition.version_update.development_version.warning": "⚠注意：您正在使用开发版本，数据包可能会损坏，请随时备份文件 ",
-    "skyblock_classic_edition.version_update.development_version.report": "报告 bug",
+    "skyblock_classic_edition.version_update.development_version.report": "report bugs here",
     "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n载入中....",
     "skyblock_classic_edition.loading.title.chat": "载入中...",
     "skyblock_classic_edition.loading.subtitle.chat": "世界",
@@ -46,7 +46,7 @@
     "skyblock_classic_edition.warning_level.dat.download": "在此下载新的 (level.dat 和 level.dat_old)。",
     "skyblock_classic_edition.warning_level.dat.copy_paste": " 复制并粘贴它以替换旧的，重新打开世界，然后以默认方式打开与 T 的聊天并复制此命令： ",
     "skyblock_classic_edition.warning_level.dat.end": ", 你应该看到新区块中的结构, 以便再次重复这些步骤。",
-    "skyblock_classic_edition.link.discord": "Discord 服务器",
+    "skyblock_classic_edition.link.discord": "Discord Server",
     "skyblock_classic_edition.link.crowdin": "Crowdin 翻译项目",
     "skyblock_classic_edition.credits": "被某某人翻译 黄明龙 (roberthuang1023), lgch"
 }
