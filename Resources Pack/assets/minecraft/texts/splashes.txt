@@ -50,7 +50,6 @@ Building di sviluppo
 Git_hub
 Anche Gitlab ogni tanto!
 Crowdin
-\\ \ devo farlo sempre nelle traduzioni :/
 Anche versioni stabili!
 PVN
 PID
@@ -59,6 +58,7 @@ ID - non piu supportato!!
 This is a secret!!!
 Ha un finale!
 Finalmente completo!
+Finalmente delle dimensioni vuote!
 Secchio di lava!
 Acqua + lava = pietrisco
 Non guardare giu...
@@ -79,6 +79,7 @@ Sopra sotto!
 L'isola nel cielo
 Non sei solo di notte!
 Illumina d'immenso
+Strutture autogenerate incluse
 Strutture autocostruite incluse
 Prova qualcosa di nuovo!
 Prova la versione originale ma modernizzata!
@@ -90,7 +91,7 @@ https://minecraft.wiki...
 Guarda il ricettario...
 Guarda gli avanzamenti vanilla...
 Nether incluso!
-End incluso! forse?
+End incluso! forse un giorno?
 Felice Steveeeeeee
 Niente arboscelli :(
 Niente lava o acqua :/
@@ -105,9 +106,10 @@ Creeper, Aww man!
 BETA
 Nostalgia unica
 Ricordi......unici
-10 anni di Mining e Crafting!
-10 anni di Storie e Creazioni!
-10 anni di Esplorazioni e Scoperte!
+15 anni di Mining e Crafting!
+15 anni di Storie e Creazioni!
+15 anni di Esplorazioni e Scoperte!
+15 anni di Continua Sorpresa!
 Questo non è uno splash
 Splash casuale
 Trentatré trentini entrarono a Trento, tutti e trentatré trotterellando!
@@ -120,13 +122,14 @@ Fantozzi alla riscossa!!!
 Technoblade non muore mai!
 iShoya the blue round penguin!
 iShoya il pinguino blu!
-iShoya il primo vero youtuber beta tester!
+iShoya il primo vero beta tester youtuber!
 lave!
 Disponibile per tutti
 Infinite lingue supportate!
 Le Persone Scure Sono il Benvenute
 Le Vite Scure Contano!
 Contiene infiniti generi!
+Contiene Tutto!
 LGBT plus infinity...
 Salvate la terra, salvate il mondo!
 Sei valido!
@@ -138,6 +141,7 @@ Scoprire!
 Costruire!
 Fabbricare!
 Sopravvivere!
+Distruggere!
 Gordon Freeman
 Toby Fox
 W. D. Gaster
@@ -199,23 +203,29 @@ Il nuovo Minecraft?
 Hytale Italia!!
 Brennenburg
 More Pigs!! More!!
-SFM
-Source/2
-Gmod
-fnaf
+Fnaf
+FLaF
+10 anni di pizza, horror, robot assasini e bambini innocenti :)
 Fnaf: finalmente Disponibile in Streaming!!!
 Foxy o Bonnie?
 Endoskeletons
 Bad Cupcake
 La colazione è il pasto più importante della giornata ma ehi, that’s just a theory...
+The Game Theorists!!!
+Infinite teorie da speculare...
+LORE!!!
+THE LORE!!!
 Bite of '87
+The Mimic
 RWQFSFASXC
 Freddy Fazbear Pizza
+Into the Pit...
 Freddy è anche sul grande schermo!!
+Can you survive?
+Super Star!!!
 L'inverno sta arrivando!
 Boi!!!
 Boy!!!
-LORE!!!
 Sunny
 Stai aspettando che succeda qualcosa?
 143
@@ -229,25 +239,39 @@ Collezionali tutti!!!
 Blender (solo animazioni)
 Godot (forse?)
 Bevy Engine? (da provare!!)
+Borderland
 DOOM
 DOOM GUY
 EPICO GIOCO!!!
 Steam
+Half Life 3
+SFM
+Source/2
+Gmod
 La torta è una bugia!
 SPACEEEEEEEEEEEEEEEE!!
 Trovaci, se osi!!!
 MC 2077
 I am Malegnia!
+Helluva Boss
 Planet of the Apes!!! (niente api incluse)
+Cesare
+Noa
+Proximus
+Scimmia non uccide scimmia!!!
+Scimmie insieme forti!!!
 Evoluzione, Rivoluzione!!!
+Questa è la legge;
+Ma la legge è sbagliata!!!
 Il regno delle scimmie...
+Il regno del pianeta delle scimmie...
 Bestie!!!
 Non fidarti dei carnivori...
 Shishi-Gumi
 Legoshi!
 Haru!
 Insieme?
-Sagwan che stai facendo?
+Sagwan che fai?
 Letto solo in italiano :/
 Paru Itagaki!
 Tomorrowland!!
@@ -261,7 +285,9 @@ Questo testo è lunghissssssssssssssssssssssssssssssssssssssssssssssssssssssssss
 Broooooooooooo
 Ehi Fra!!!
 godo!!
+il godimento
 Morto...!
+Ridere!!! AHAHAHA
 Le mucche fanno...?
 Birrrrch quanto le odio!!!
 EL
