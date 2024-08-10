@@ -60,7 +60,7 @@ scoreboard objectives remove PVN_10i
 scoreboard objectives remove PVN_9
 
 
-#1.18.2 (PROSSIMA RIMOZIONE)
+#1.17.1/1.18.2 (PROSSIMA RIMOZIONE)
 #da rimuovere in futuro nella 1.22 e spostare scritta...
 scoreboard objectives remove PVN_8
 scoreboard objectives remove PVN_7
