@@ -14,5 +14,6 @@ execute as @a[scores={fix_custom_world=0..50}] run tellraw @a {"translate":"skyb
 execute as @a[scores={fix_custom_world=1..50}] run gamemode spectator @a
 execute as @a[scores={fix_custom_world=0..1}] run setblock 0 63 0 minecraft:air destroy
 execute as @a[scores={fix_custom_world=0..1}] run setblock 0 64 0 minecraft:air destroy
+execute as @a[scores={fix_custom_world=50..51}] run difficulty normal
 execute as @a[scores={fix_custom_world=50..51}] run gamemode survival @a
 execute as @a[scores={fix_custom_world=51..}] run scoreboard objectives remove fix_custom_world
