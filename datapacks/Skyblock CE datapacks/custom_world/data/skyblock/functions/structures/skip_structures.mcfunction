@@ -22,23 +22,28 @@ execute as @a[scores={SkyblockCE_skip_structures=5}] run gamemode spectator @a
 
 
 ##SKIP FINAL FUNCTION STRUCTURES GENERATED
-execute as @a[scores={SkyblockCE_skip_structures=1..25}] run gamerule doImmediateRespawn true
+execute as @a[scores={SkyblockCE_skip_structures=1..45}] run gamerule doImmediateRespawn true
 execute as @a[scores={SkyblockCE_skip_structures=5}] run scoreboard players set @a SkyblockCE_tp 0
 execute as @a[scores={SkyblockCE_skip_structures=6}] run title @a title ["",{"text":"Sky","bold":true,"color":"aqua"},{"text":"block","bold":true,"color":"dark_green"}]
 execute as @a[scores={SkyblockCE_skip_structures=6}] run title @a subtitle {"text":"Classic Edition","bold":true,"color":"dark_blue"}
 execute as @a[scores={SkyblockCE_skip_structures=6}] run title @a times 30 100 30
-execute as @a[scores={SkyblockCE_skip_structures=7..20}] run gamerule announceAdvancements true
-execute as @a[scores={SkyblockCE_skip_structures=7..20}] run gamerule doDaylightCycle true
-execute as @a[scores={SkyblockCE_skip_structures=7..20}] run gamerule doWeatherCycle true
+execute as @a[scores={SkyblockCE_skip_structures=7..40}] run gamerule announceAdvancements true
+execute as @a[scores={SkyblockCE_skip_structures=7..40}] run gamerule doDaylightCycle true
+execute as @a[scores={SkyblockCE_skip_structures=7..40}] run gamerule doWeatherCycle true
 execute as @a[scores={SkyblockCE_skip_structures=10}] run time set 0
 execute as @a[scores={SkyblockCE_skip_structures=11}] run advancement revoke @a only minecraft:nether/root
 #execute as @a[scores={SkyblockCE_skip_structures=11}] run advancement revoke @a everything (da aggiungere nella 1.22.X)
 execute as @a[scores={SkyblockCE_skip_structures=11}] run execute in minecraft:overworld run tp @p 0 66 0 90 0
 execute as @a[scores={SkyblockCE_skip_structures=20}] run gamemode survival @a
-execute as @a[scores={SkyblockCE_skip_structures=21}] run effect clear @a
-execute as @a[scores={SkyblockCE_skip_structures=21}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
-execute as @a[scores={SkyblockCE_skip_structures=21}] run scoreboard objectives remove SkyblockCE_level_dat
-execute as @a[scores={SkyblockCE_skip_structures=25..50}] run gamerule doImmediateRespawn false
+execute as @a[scores={SkyblockCE_skip_structures=20..50}] run place template skyblock:air 0 0 0
+execute as @a[scores={SkyblockCE_skip_structures=30}] run setblock 0 0 0 minecraft:command_block[conditional=false,facing=west]{Command:'/tellraw @a [{"translate":"skyblock_classic_edition.generated_structures.generated.command_block.info","italic":true,"color":"red"},[""],{"translate":"skyblock_classic_edition.generated_structures.generated.command_block.download","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/releases"}}]',CustomName:'{"text":"@"}',SuccessCount:0,TrackOutput:1b,UpdateLastExecution:1b,auto:0b,conditionMet:0b,powered:0b} destroy
+execute as @a[scores={SkyblockCE_skip_structures=35}] run tellraw @a ["",{"text":"If the resource pack is not in the world and can cause damage to the text: add the resource pack in the world folder or ","italic":true,"color":"gray"},{"text":"reinstall the map here","italic":true,"underlined":true,"color":"gray","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/releases"}},{"text":" and add manually in the world folder.","italic":true,"color":"gray"}]
+execute as @a[scores={SkyblockCE_skip_structures=35}] run setblock 0 1 0 minecraft:redstone_block destroy
+execute as @a[scores={SkyblockCE_skip_structures=40}] run fill 0 0 0 0 1 0 minecraft:air destroy
+execute as @a[scores={SkyblockCE_skip_structures=41}] run effect clear @a
+execute as @a[scores={SkyblockCE_skip_structures=41}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
+execute as @a[scores={SkyblockCE_skip_structures=41}] run scoreboard objectives remove SkyblockCE_level_dat
+execute as @a[scores={SkyblockCE_skip_structures=45..50}] run gamerule doImmediateRespawn false
 
 
 ##SKIP FUNCTION STRUCTURES LOOP

@@ -37,5 +37,6 @@ execute as @a[scores={SkyblockCE_multiplayer_join=0..5}] run setworldspawn 0 63 
 
 ##MULTIPLAYER LOOP
 execute as @a[scores={SkyblockCE_multiplayer_join=10005..}] run scoreboard players set @p SkyblockCE_multiplayer_join 1000
-execute as @a[scores={SkyblockCE_multiplayer=2000000..}] run scoreboard players set @p SkyblockCE_multiplayer 100
-execute as @a[scores={SkyblockCE_multiplayer_tick=2000000..}] run scoreboard players set @p SkyblockCE_multiplayer_tick 100
+execute as @a[scores={SkyblockCE_multiplayer=2000000..}] run scoreboard players set @p SkyblockCE_multiplayer 1000
+execute as @a[scores={SkyblockCE_multiplayer_tick=2000000..}] run scoreboard players set @p SkyblockCE_multiplayer_tick 1000
+execute as @a[scores={SkyblockCE_multiplayer_reset=61..}] run scoreboard players set @a SkyblockCE_multiplayer_reset 60
