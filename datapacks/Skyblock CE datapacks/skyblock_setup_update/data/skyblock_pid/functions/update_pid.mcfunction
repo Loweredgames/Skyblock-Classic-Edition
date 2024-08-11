@@ -21,7 +21,7 @@ execute as @a[scores={1.20.5_PID_0=2000000..}] run scoreboard players set @a 1.2
 #scoreboard players add @a 1.20.5_PID_0_1 1
 
 
-##SUBPID 1.20.3_1_1 - 1.20.3/1.20.4 Fix Elitrà (LASCIARE COSI. PER LA FUNZIONE SUBPID 1_1, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL PID DIVENTA INCOMPATIBILE)
+##SUBPID 1.20.5_0_1 - 1.20.5/1.20.6 \\ (LASCIARE COSI. PER LA FUNZIONE SUBPID 0_1, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL PID DIVENTA INCOMPATIBILE)
 #function skyblock_pid:mc1205_pid1_1
 
 
@@ -40,7 +40,7 @@ execute as @a[scores={1.20.5_PID_0=605}] run playsound minecraft:entity.player.l
 execute as @a[scores={1.20.5_PID_0=5..600}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
-###1.20.3_PID 1 - 1.20.3/1.20.4 (SPOSTARE "PID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE IL COMMENTO IN SE)
+###1.20.5_PID 0 - 1.20.5/1.20.6 (SPOSTARE "PID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE IL COMMENTO IN SE)
 
 
 ##Overworld
