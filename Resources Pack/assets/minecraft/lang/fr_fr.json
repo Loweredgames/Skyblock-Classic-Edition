@@ -44,8 +44,8 @@
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " et attendez que le monde se mette à jour puis remplacez le datapack.\n\nMerci de votre attention",
     "skyblock_classic_edition.warning_level.dat.issues": "Due to some technical issues that may occur in various versions, the world may suffer a serious bug if the world is in dimensions and vanilla natural structures are not generated. To solve this technical problem you need to follow these simple steps: first you have to put all the things in your inventory, even the armor, in a chest, then exit the world and ",
     "skyblock_classic_edition.warning_level.dat.download": "télécharger le nouveau (level.dat et level.dat_old) ici",
-    "skyblock_classic_edition.warning_level.dat.copy_paste": "Copiez-le et collez-le en remplaçant l'ancien, rouvrez le monde et ouvrez le chat avec T par défaut et copiez cette commande : ",
-    "skyblock_classic_edition.warning_level.dat.end": ", vous devriez voir les structures dans les nouveaux chunks, au cas où répéter les étapes à nouveau.",
+    "skyblock_classic_edition.warning_level.dat.copy_paste": " Copiez-le et collez-le en remplaçant l'ancien, rouvrez le monde et ouvrez le chat avec T par défaut et copiez cette commande : ",
+    "skyblock_classic_edition.warning_level.dat.end": ",vous devriez voir les structures dans les nouveaux chunks, au cas où répéter les étapes à nouveau.",
     "skyblock_classic_edition.link.discord": "Serveur Discord",
     "skyblock_classic_edition.link.crowdin": "Projet de traduction Crowdin",
     "skyblock_classic_edition.credits": "Traduire par Legarsjules, Jen Sev"
