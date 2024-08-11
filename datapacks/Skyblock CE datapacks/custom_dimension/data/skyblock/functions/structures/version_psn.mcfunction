@@ -16,8 +16,8 @@ execute as @a[scores={1.20.5_PSN_0=5..600}] run clear @a written_book[custom_dat
 
 ##SKYBLOCK PSN VERSION WARNING (CAMBIARE SOLO SE NON CI SONO AGGIORNAMENTI NELLE STRUTTURE. LASCIARE COSI IL TITLE TIMES)
 execute as @a[scores={1.20.5_PSN_0=10}] run title @a times 20 100 20
-#execute as @a[scores={1.20.5_PSN_0=15}] run title @a title {"translate":"skyblock_classic_edition.loading.title.chat","italic":true,"color":"#d5d5d5"}
-execute as @a[scores={1.20.5_PSN_0=15}] run title @a title {"translate":"skyblock_classic_edition.versions_id.warning_update.off","italic":true,"color":"#d5d5d5"}
+execute as @a[scores={1.20.5_PSN_0=15}] run title @a title {"translate":"skyblock_classic_edition.loading.title.chat","italic":true,"color":"#d5d5d5"}
+#execute as @a[scores={1.20.5_PSN_0=15}] run title @a title {"translate":"skyblock_classic_edition.versions_id.warning_update.off","italic":true,"color":"#d5d5d5"}
 
 
 ##PSN LEGACY VERSIONS SETUP (PER LE VECCHIE VERSIONI)
