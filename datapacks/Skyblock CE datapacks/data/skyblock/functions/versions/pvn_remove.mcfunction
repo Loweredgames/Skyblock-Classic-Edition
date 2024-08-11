@@ -19,6 +19,7 @@
 #coming...
 
 ##1.20.5 - STABILE
+scoreboard objectives remove 1.20.5_PVN_0e
 scoreboard objectives remove 1.20.5_PVN_0d
 scoreboard objectives remove 1.20.5_PVN_0c
 scoreboard objectives remove 1.20.5_PVN_0b
