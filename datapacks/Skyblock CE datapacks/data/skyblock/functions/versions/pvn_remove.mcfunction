@@ -18,7 +18,7 @@
 ##1.20.6 - LTS FUTURA (PROSSIMA VERSIONE)
 #coming...
 
-##1.20.5 - STABILE
+##1.20.5/1.20.6 - STABILE
 scoreboard objectives remove 1.20.5_PVN_0e
 scoreboard objectives remove 1.20.5_PVN_0d
 scoreboard objectives remove 1.20.5_PVN_0c
