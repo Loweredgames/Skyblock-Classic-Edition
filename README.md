@@ -2,11 +2,13 @@
 
 [![Crowdin](https://badges.crowdin.net/skyblock-classic-edition/localized.svg)](https://crowdin.com/project/skyblock-classic-edition)
 
+![Logo](https://github.com/user-attachments/assets/8eed1eb4-1904-4226-baee-3865ec1e36e2)
+
 _Skyblock is one of the most famous maps in Minecraft. the original has been updated and now supports all future versions of Minecraft._
 
 # Story:
 
-_Steve/Alex wake up on an unknown island, inside a chest it says..._
+_Steve, Alex, Noor, Sunny, Ari, Zuri, Makena, Kai and Efe, they woke up on an unknown island, inside a chest it says..._
 
 # Feature:
 
@@ -21,8 +23,14 @@ _Steve/Alex wake up on an unknown island, inside a chest it says..._
 - Compatible with multiplayer.
 - Supports localizations: help me translate into your native language. The languages must be faithful to the English language, respect the punctuation and the capitalization. Click here to translate into your language in Crowdin: https://crowdin.com/project/skyblock-classic-edition
 
+# [FAQ - Troubleshooting and Help Requests](https://discord.com/channels/960603544480780308/1255129836494655488)
 
-_Thanks to the original Skyblock team for creating the most popular Minecraft map_
+# Credit
+
+DrTrog (Custom World Gen):
+https://www.planetminecraft.com/member/drtrog/
+
+_Thanks to the original Skyblock team for creating the most popular Minecraft map._
 
 READ THE LICENZE BEFORE DOWNLOADING THE DATAPACK:
 https://github.com/Loweredgames/Skyblock-Classic-Edition/blob/main/LICENSE

@@ -1,0 +1,60 @@
+{
+  "sea_level": -256,
+  "disable_mob_generation": false,
+  "aquifers_enabled": false,
+  "ore_veins_enabled": false,
+  "legacy_random_source": false,
+  "default_block": {
+    "Name": "minecraft:stone"
+  },
+  "default_fluid": {
+    "Name": "minecraft:water",
+    "Properties": {
+      "level": "0"
+    }
+  },
+  "noise": {
+    "min_y": -64,
+    "height": 384,
+    "size_horizontal": 1,
+    "size_vertical": 2
+  },
+  "noise_router": {
+    "barrier": 0,
+    "fluid_level_floodedness": 0,
+    "fluid_level_spread": 0,
+    "lava": 0,
+    "temperature": {
+      "type": "minecraft:shifted_noise",
+      "noise": "minecraft:temperature_large",
+      "xz_scale": 0.25,
+      "y_scale": 0,
+      "shift_x": "minecraft:shift_x",
+      "shift_y": 0,
+      "shift_z": "minecraft:shift_z"
+    },
+    "vegetation": {
+      "type": "minecraft:shifted_noise",
+      "noise": "minecraft:vegetation_large",
+      "xz_scale": 0.25,
+      "y_scale": 0,
+      "shift_x": "minecraft:shift_x",
+      "shift_y": 0,
+      "shift_z": "minecraft:shift_z"
+    },
+    "continents": "minecraft:overworld_large_biomes/continents",
+    "erosion": "minecraft:overworld_large_biomes/erosion",
+    "depth": "minecraft:overworld_large_biomes/depth",
+    "ridges": "minecraft:overworld/ridges",
+    "initial_density_without_jaggedness": 0,
+    "final_density": 0,
+    "vein_toggle": 0,
+    "vein_ridged": 0,
+    "vein_gap": 0
+  },
+  "spawn_target": [],
+  "surface_rule": {
+    "type": "minecraft:sequence",
+    "sequence": []
+  }
+}
