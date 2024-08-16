@@ -40,7 +40,7 @@ scoreboard objectives remove 1.20.3_PVN_0b
 scoreboard objectives remove 1.20.3_PVN_0a
 
 
-##1.20.1/1.20.2 - LTS OLD
+##1.20.1/1.20.2 - LTS VECCHIA
 scoreboard objectives remove 1.20.2_PVN_1
 scoreboard objectives remove 1.20.2_PVN_0
 scoreboard objectives remove 1.20.2_PVN_0c
