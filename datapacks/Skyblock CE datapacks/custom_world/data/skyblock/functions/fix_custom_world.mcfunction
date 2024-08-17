@@ -8,7 +8,7 @@
 ##FIX FUNCTION CUSTOM WORLD (FA UN TP PER RISOLVERE IL PROBLEMA, CREARE LA SCOREBOARD PER FARLO FUNZIONARE)
 scoreboard players add @a fix_custom_world 1
 
-
+#QUESTO DOVRA ESSERE SPOSTATO NELLA SEZIONE CUSTOM_DIMENSION PER IL MESSAGGIO IN 1.20.6
 execute as @a[scores={fix_custom_world=0..50}] run execute in minecraft:overworld run tp @a 0 64 0 90 0
 execute as @a[scores={fix_custom_world=0..50}] run tellraw @a {"translate":"skyblock_classic_edition.loading.chat"}
 execute as @a[scores={fix_custom_world=1..50}] run gamemode spectator @a
