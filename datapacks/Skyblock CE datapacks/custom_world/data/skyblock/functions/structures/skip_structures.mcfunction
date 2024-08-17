@@ -49,3 +49,4 @@ execute as @a[scores={SkyblockCE_skip_structures=45..50}] run gamerule doImmedia
 ##SKIP FUNCTION STRUCTURES LOOP
 execute as @a[scores={SkyblockCE_structures_id=2000000..}] run scoreboard players set @a SkyblockCE_structures_id 10000
 execute as @a[scores={SkyblockCE_skip_structures=2000000..}] run scoreboard players set @a SkyblockCE_structures 10000
+execute as @a[scores={SkyblockCE_skip_structures=2000000..}] run scoreboard players set @a SkyblockCE_skip_structures 10000
