@@ -24,11 +24,18 @@
 		  "directory": "legacy_pid_skyblock"
 		},
 		{
+			"formats": {
+			  "min_inclusive": 26,
+			  "max_inclusive": 41
+			},
+			"directory": "legacy_skyblock"
+		  },
+		{
 		  "formats": {
 			"min_inclusive": 26,
 			"max_inclusive": 41
 		  },
-		  "directory": "test_skyblock"
+		  "directory": "skyblock_test"
 		},
 		{
 		  "formats": {
