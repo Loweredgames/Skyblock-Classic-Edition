@@ -32,17 +32,17 @@
 		  },
 		{
 		  "formats": {
-			"min_inclusive": 27,
-			"max_inclusive": 41
+			"min_inclusive": 26,
+			"max_inclusive": 26
 		  },
 		  "directory": "skyblock_test"
 		},
 		{
 		  "formats": {
 			"min_inclusive": 26,
-			"max_inclusive": 26
+			"max_inclusive": 41
 		  },
-		  "directory": "custom_world"
+		  "directory": "skyblock_custom_world"
 		}
 	  ]
 	}

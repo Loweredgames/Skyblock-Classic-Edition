@@ -17,8 +17,6 @@ function skyblock:structures/skip_structures
 function skyblock:skyblock_test_setup
 function skyblock:versions/changelog/building
 function skyblock:versions/changelog/nightly_building
-function skyblock:warning_level.dat
-function skyblock:fix_custom_world
 function skyblock:structures/generated_biome
 function skyblock:structures/generated_structures
 function skyblock:structures/version_psn

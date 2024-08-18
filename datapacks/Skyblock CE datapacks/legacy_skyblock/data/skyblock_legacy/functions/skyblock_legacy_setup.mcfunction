@@ -6,15 +6,15 @@
 
 
 ##Function Setup Test
-function skyblock:test/multiplayer_legacy
-function skyblock:test/legacy_structures_system
+function skyblock_legacy:legacy_remove/multiplayer_legacy
+function skyblock_legacy:legacy_remove/legacy_structures_system
 
 
 ##Function Remove Test (DA RIMUOVERE IN FUTURO)
 execute as @a[scores={fix_end=0..}] run scoreboard objectives remove fix_end
 scoreboard players set @a fix_end 24000
-execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:test/refactoring_scoreboard
-execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:legacy_version
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock_legacy:legacy_remove/refactoring_scoreboard
+execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock_legacy:legacy_version
 
 
 ##Scoreboard Setup Test
