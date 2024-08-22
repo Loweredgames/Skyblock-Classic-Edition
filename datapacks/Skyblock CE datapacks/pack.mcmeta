@@ -33,7 +33,7 @@
 		{
 		  "formats": {
 			"min_inclusive": 30,
-			"max_inclusive": 30
+			"max_inclusive": 35
 		  },
 		  "directory": "skyblock_test"
 		},
