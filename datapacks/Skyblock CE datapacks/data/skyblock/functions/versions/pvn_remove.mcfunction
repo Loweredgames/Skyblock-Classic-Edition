@@ -14,14 +14,16 @@
 ##1.21.2 - FUTURA
 #coming...
 
-##1.21/1.21.1 - FUTURA PROSSIMA
+##1.21/1.21.1 - FUTURA (PROSSIMA VERSIONE)
 #coming...
 
 
-##1.20.6 - LTS FUTURA (PROSSIMA VERSIONE)
-#coming...
+##1.20.6 - LTS STABILE
+#scoreboard objectives remove 1.20.6_PVN_0a (DA AGGIUNGERE NELLA PROSSIMA VERSIONE)
+
 
 ##1.20.5/1.20.6 - STABILE
+#scoreboard objectives remove 1.20.5_PVN_0
 scoreboard objectives remove 1.20.5_PVN_0h
 scoreboard objectives remove 1.20.5_PVN_0g
 scoreboard objectives remove 1.20.5_PVN_0f
