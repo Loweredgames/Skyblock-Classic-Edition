@@ -25,14 +25,14 @@
 		},
 		{
 			"formats": {
-			  "min_inclusive": 26,
+			  "min_inclusive": 30,
 			  "max_inclusive": 41
 			},
 			"directory": "legacy_skyblock"
 		  },
 		{
 		  "formats": {
-			"min_inclusive": 30,
+			"min_inclusive": 35,
 			"max_inclusive": 35
 		  },
 		  "directory": "skyblock_test"
