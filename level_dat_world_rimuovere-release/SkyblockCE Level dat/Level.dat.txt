@@ -1,4 +1,0 @@
-aggiornare il level.dat quando la versione diventa obsoleta nella mappa o nelle versioni stabili di Minecraft
-1. aggiornare o ricreare il mondo con questo seed sempre nelle versioni stabili di Minecraft (9144958664959995471) usare LTS installazione
-2. prendere i valori delle versioni in version:
-3. cambiare il nome in "Skyblock Classic Edition"
