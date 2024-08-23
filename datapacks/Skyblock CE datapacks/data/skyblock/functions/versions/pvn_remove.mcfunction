@@ -11,14 +11,22 @@
 ##1.22 - FUTURA
 #coming...
 
-##1.21/1.21.1 - FUTURA
+##1.21.2 - FUTURA
+#coming...
+
+##1.21/1.21.1 - FUTURA (PROSSIMA VERSIONE)
 #coming...
 
 
-##1.20.6 - LTS FUTURA (PROSSIMA VERSIONE)
-#coming...
+##1.20.6 - LTS STABILE
+#scoreboard objectives remove 1.20.6_PVN_0a (DA AGGIUNGERE NELLA PROSSIMA VERSIONE)
+
 
 ##1.20.5/1.20.6 - STABILE
+#scoreboard objectives remove 1.20.5_PVN_0
+scoreboard objectives remove 1.20.5_PVN_0h
+scoreboard objectives remove 1.20.5_PVN_0g
+scoreboard objectives remove 1.20.5_PVN_0f
 scoreboard objectives remove 1.20.5_PVN_0e
 scoreboard objectives remove 1.20.5_PVN_0d
 scoreboard objectives remove 1.20.5_PVN_0c
@@ -37,7 +45,7 @@ scoreboard objectives remove 1.20.3_PVN_0b
 scoreboard objectives remove 1.20.3_PVN_0a
 
 
-##1.20.1/1.20.2 - LTS OLD
+##1.20.1/1.20.2 - LTS VECCHIA
 scoreboard objectives remove 1.20.2_PVN_1
 scoreboard objectives remove 1.20.2_PVN_0
 scoreboard objectives remove 1.20.2_PVN_0c

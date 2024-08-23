@@ -9,7 +9,7 @@
 scoreboard objectives add SkyblockCE_level_dat dummy
 scoreboard players add @a SkyblockCE_level_dat 1
 
-
+#QUESTO DOVRA ESSERE SPOSTATO NELLA SEZIONE CUSTOM_DIMENSION PER IL MESSAGGIO IN 1.20.6
 ##WARNING LEVEL_DAT LOOP MESSAGE
 execute as @a[scores={SkyblockCE_level_dat=5005}] run tellraw @a [{"translate":"skyblock_classic_edition.warning_level.dat.issues","color":"red","italic":true},{"translate":"skyblock_classic_edition.warning_level.dat.download","color":"red","italic":true,"underlined":true,"clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/raw/main/level_dat_world_rimuovere-release/Level.dat.zip"}},{"translate":"skyblock_classic_edition.warning_level.dat.copy_paste","color":"red","italic":true},{"text":"/scoreboard objectives add fix_custom_world dummy","underlined":true,"clickEvent":{"action":"copy_to_clipboard","value":"/scoreboard objectives add fix_custom_world dummy"}},{"translate":"skyblock_classic_edition.warning_level.dat.end","color":"red","italic":true}]
 execute as @a[scores={SkyblockCE_level_dat=900000005..}] run scoreboard objectives remove SkyblockCE_level_dat
