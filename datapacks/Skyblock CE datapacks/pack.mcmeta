@@ -24,25 +24,25 @@
 		  "directory": "legacy_pid_skyblock"
 		},
 		{
-		  "formats": {
-			"min_inclusive": 30,
-			"max_inclusive": 41
+			"formats": {
+			  "min_inclusive": 30,
+			  "max_inclusive": 41
+			},
+			"directory": "legacy_skyblock"
 		  },
-		  "directory": "test_skyblock"
+		{
+		  "formats": {
+			"min_inclusive": 25,
+			"max_inclusive": 25
+		  },
+		  "directory": "skyblock_test"
 		},
 		{
 		  "formats": {
-			"min_inclusive": 35,
-			"max_inclusive": 35
-		  },
-		  "directory": "custom_dimension"
-		},
-		{
-		  "formats": {
-			"min_inclusive": 30,
+			"min_inclusive": 36,
 			"max_inclusive": 41
 		  },
-		  "directory": "custom_world"
+		  "directory": "skyblock_custom_world"
 		}
 	  ]
 	}

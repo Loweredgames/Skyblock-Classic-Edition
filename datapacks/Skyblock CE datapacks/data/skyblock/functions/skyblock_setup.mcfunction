@@ -14,11 +14,10 @@ execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:isl
 
 ##Function Padlock
 function skyblock:structures/skip_structures
+function skyblock_legacy:skyblock_legacy_setup
 function skyblock:skyblock_test_setup
 function skyblock:versions/changelog/building
 function skyblock:versions/changelog/nightly_building
-function skyblock:warning_level.dat
-function skyblock:fix_custom_world
 function skyblock:structures/generated_biome
 function skyblock:structures/generated_structures
 function skyblock:structures/version_psn
