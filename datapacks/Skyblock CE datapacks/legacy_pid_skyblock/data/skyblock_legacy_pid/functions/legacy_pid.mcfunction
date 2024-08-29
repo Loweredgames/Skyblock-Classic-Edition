@@ -11,6 +11,10 @@ execute as @a[scores={1.20.5_PID_0=-100..}] run scoreboard players set @a PID_0 
 #execute as @a[scores={1.20.5_PID_0=-1000..}] run scoreboard players set @a PID_1 1 LTS ABBILITARE IN 1.21.x,
 
 
+##PID REMOVE FUNCTION (PER I PID OBSOLETI E PRONTI PER LA RIMOZIONE)
+function skyblock_legacy_pid:pid_remove
+
+
 ##PID UPDATE OLD (AGGIUNGERE I PID VECCHI: ogni 3 versioni e poi l'ultima diventa incompatibile, quindi aggionare sempre in "update_pid", ABBILITARE SEMPRE NELLA VERSIONE LTS)
 execute as @a[scores={ID_5=1..}] run scoreboard players set @a PID_legacy_v1 1
 execute as @a[scores={PID_0=1..}] run scoreboard players add @a PID_legacy_v2 1
