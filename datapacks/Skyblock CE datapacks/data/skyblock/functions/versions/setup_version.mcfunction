@@ -7,6 +7,7 @@
 
 ##SKYBLOCK PID INSTALL (AGGIORNARE SE IL PID NEL NUOVO NUMERO)
 execute as @a[scores={SkyblockCE_install=1..}] run scoreboard players set @a 1.20.5_PID_0 -10000
+execute as @a[scores={SkyblockCE_install_test=1..}] run scoreboard players set @a 1.20.5_PID_0 -10000
 execute as @a[scores={SkyblockCE_multiplayer_join=2..}] run scoreboard players set @a 1.20.5_PID_0 24000
 
 
