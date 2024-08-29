@@ -39,7 +39,7 @@
 		},
 		{
 		  "formats": {
-			"min_inclusive": 30,
+			"min_inclusive": 36,
 			"max_inclusive": 41
 		  },
 		  "directory": "skyblock_custom_world"
