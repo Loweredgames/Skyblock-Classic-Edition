@@ -1,25 +1,21 @@
 {
 "Name": "Skyblock Classic Edition",
 
-"Edition": "JAVA EDITION",
+"Edition": "JAVA EDITION^April-Fools",
 
-"Release Versions": "5.3.0 LTS [Custom World Update]",
+"Release Versions": "1.0.1 Poisonous Potato Islands Update",
 
-"Release Building": "JE-1.20.6-Skyblock_Classic_Edition:BUILDING:TODO_LTS",
+"Release Building": "JE-24w14potato-Skyblock_Classic_Edition:1.0.1:potato",
 
 "Data_pack": "TRUE",
 
-"Resource_pack": "TRUE",
+"Resource_pack": "FALSE",
 
-"Custom Structures World Update": "3.0.0",
+"Protocol Version": "PVN_aprilfool_2024",
 
-"Protocol Version": "1.20.5_PVN_0",
+"Protocol Structures Number": "???",
 
-"Protocol Identifier Data": "1.20.5_PID_0",
-
-"Protocol Structures Number": "1.20.5_PSN_0",
-
-"Github_Tag": "1.20.5_JE-9a",
+"Github_Tag": "???",
 
 "Github":"https://github.com/Loweredgames/Skyblock-Classic-Edition",
 
