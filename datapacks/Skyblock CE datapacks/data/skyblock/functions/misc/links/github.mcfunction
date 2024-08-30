@@ -6,4 +6,4 @@
 
 
 ##Github
-tellraw @a {"text":"Github","color":"gray","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/releases/tag/JE-April_Fool_2024a"}}
+tellraw @a {"text":"Github","color":"gray","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/releases/tag/JE-April_Fools_2024a"}}

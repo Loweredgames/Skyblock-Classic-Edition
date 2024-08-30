@@ -5,11 +5,11 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##MULTIPLAYER SETUP
+##MULTIPLAYER SETUP FOOLS
 execute store result score SkyblockCE_PlayerOnline SkyblockCE_multiplayer if entity @a
 execute if score SkyblockCE_PlayerOnline SkyblockCE_multiplayer matches 1 run scoreboard players set @a SkyblockCE_multiplayer_reset 1
 execute if score SkyblockCE_PlayerOnline SkyblockCE_multiplayer matches 2.. run scoreboard players set @a SkyblockCE_multiplayer_reset -1
 
 
-##MULTIPLAYER RESET (RESETTA LE SCOREBOARD E ALTRO)
+##MULTIPLAYER RESET FOOLS (RESETTA LE SCOREBOARD E ALTRO)
 execute as @a[scores={SkyblockCE_multiplayer_reset=-1}] run tellraw @a ["",{"text":"WARNING: multiplayer does not work in this version!!!","bold":true,"color":"red"}]

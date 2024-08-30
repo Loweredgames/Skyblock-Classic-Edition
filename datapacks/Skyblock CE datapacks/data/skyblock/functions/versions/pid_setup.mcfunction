@@ -5,10 +5,10 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##PID LEGACY REMOVE (RIMUOVE LA SCORE DOPO LA CONVERSIONE. AGGIORNARE SEMPRE LA SCORE)
-execute as @a[scores={PID_april_fool=1000..}] run scoreboard objectives remove PID_legacy
+##PID LEGACY REMOVE FOOLS (RIMUOVE LA SCORE DOPO LA CONVERSIONE. AGGIORNARE SEMPRE LA SCORE)
+execute as @a[scores={PID_april_fools=1000..}] run scoreboard objectives remove PID_legacy
 
 
-##SETUP VERSION SkyblockCE_ID (CAMBIARE LA SCORE IN "SkyblockCE_id". VEDERE LA SCORE PID_X PER RIFERIMENTO)
-execute as @a[scores={SkyblockCE_id=30}] run scoreboard players set @a PID_april_fool -100
-execute as @a[scores={PID_april_fool=100000..}] run scoreboard players set @a PID_april_fool 10000
+##SETUP VERSION SkyblockCE_ID FOOLS (CAMBIARE LA SCORE IN "SkyblockCE_id". VEDERE LA SCORE PID_X PER RIFERIMENTO)
+execute as @a[scores={SkyblockCE_id=30}] run scoreboard players set @a PID_april_fools -100
+execute as @a[scores={PID_april_fools=100000..}] run scoreboard players set @a PID_april_fools 10000
