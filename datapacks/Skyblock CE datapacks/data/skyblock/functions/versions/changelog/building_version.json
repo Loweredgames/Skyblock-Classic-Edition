@@ -1,11 +1,11 @@
 {
 "Name": "Skyblock Classic Edition",
 
-"Edition": "JAVA EDITION^April-Fools",
+"Edition": "JAVA EDITION-April-Fools",
 
 "Release Versions": "1.0.1 Poisonous Potato Islands Update",
 
-"Release Building": "JE-24w14potato-Skyblock_Classic_Edition:1.0.1:potato",
+"Release Building": "JE-24w14potato-Skyblock_Classic_Edition:1.0.1-potato",
 
 "Data_pack": "TRUE",
 
@@ -13,11 +13,11 @@
 
 "Protocol Version": "PVN_aprilfools_2024",
 
-"Protocol Identifier Data": "PID_april_fools",
+"Protocol Identifier Data": "PID_april_fools-2024",
 
-"Protocol Structures Number": "???",
+"Protocol Structures Number": "PSN_april_fools-2024",
 
-"Github_Tag": "???",
+"Github_Tag": "???TODO",
 
 "Github":"https://github.com/Loweredgames/Skyblock-Classic-Edition",
 

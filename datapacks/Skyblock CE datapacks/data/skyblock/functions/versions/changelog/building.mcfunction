@@ -20,7 +20,7 @@ title @a actionbar {"text":"\u26a0NOT SUPPORTED!!!\u26a0","bold":true,"color":"d
 
 
 ##BUILDING VERSION NUMBER (NUMERO DELLA VERSIONE VISTO IN ALTRO, SOLO NELLE VERSIONI DI SVILUPPO)
-bossbar set building name {"text":"JE-24w14potato-Skyblock_Classic_Edition:1.0.1:potato","color":"white","bold":true}
+bossbar set building name {"text":"JE-24w14potato-Skyblock_Classic_Edition:1.0.1-potato","color":"white","bold":true}
 
 
 ##MAP PROGRESS (I PROGRESSI DELLA MAPPA, E UN NUMERO APROSSIMATO)
