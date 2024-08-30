@@ -1,5 +1,0 @@
-- per le lingue custom: aggiungere in Crowdin
-- aggiungere ISO gia corretto, fa gia tutto da solo
-
-
-NON TOCCARE MAI crowdin.yml
