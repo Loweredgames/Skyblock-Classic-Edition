@@ -1,0 +1,27 @@
+{
+"Name": "Skyblock Classic Edition",
+
+"Edition": "JAVA EDITION",
+
+"Release Versions": "5.3.0 LTS [Custom World Update]",
+
+"Release Building": "JE-1.20.6-Skyblock_Classic_Edition:BUILDING:TODO_LTS",
+
+"Data_pack": "TRUE",
+
+"Resource_pack": "TRUE",
+
+"Custom Structures World Update": "3.0.0",
+
+"Protocol Version": "1.20.5_PVN_0",
+
+"Protocol Identifier Data": "1.20.5_PID_0",
+
+"Protocol Structures Number": "1.20.5_PSN_0",
+
+"Github_Tag": "1.20.5_JE-9a",
+
+"Github":"https://github.com/Loweredgames/Skyblock-Classic-Edition",
+
+"Website":"https://minecraft-map-building-versions.blogspot.com/"
+}
