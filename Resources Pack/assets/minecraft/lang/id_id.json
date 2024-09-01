@@ -1,10 +1,10 @@
 {
     "skyblock_classic_edition.folder.test": "Hello World",
-    "skyblock_classic_edition.skyblock_setup.welcome": "Welcome to the Skyblock Classic Edition",
-    "skyblock_classic_edition.skyblock_setup.version": "Version:",
+    "skyblock_classic_edition.skyblock_setup.welcome": "Indonesia",
+    "skyblock_classic_edition.skyblock_setup.version": "",
     "skyblock_classic_edition.skyblock_setup.for_text": "for",
     "skyblock_classic_edition.skyblock_setup.choose_languages": "Pilih bahasa di menu pilihan Minecraft",
-    "skyblock_classic_edition.skyblock_setup.choose_islands": "Choose the islands:",
+    "skyblock_classic_edition.skyblock_setup.choose_islands": "",
     "skyblock_classic_edition.skyblock_setup.large_easy": "▶Large (Easy)",
     "skyblock_classic_edition.skyblock_setup.large_easy.info": "This island is made especially for beginners. This island is the only island not inspired by the original skyblock.",
     "skyblock_classic_edition.skyblock_setup.default_normal": "▶Default (Normal)",
