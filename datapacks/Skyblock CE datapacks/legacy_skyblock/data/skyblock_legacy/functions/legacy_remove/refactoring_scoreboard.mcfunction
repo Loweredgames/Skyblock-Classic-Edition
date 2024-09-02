@@ -5,7 +5,7 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Refactoring Scoreboard (Aggiornato all'ultima versione: 1.0.0 - 5.3.0 Minecraft: 1.20.6)
+##Refactoring Scoreboard (Aggiornato all'ultima versione: 1.0.1 - 5.3.0 Minecraft: 1.20.6)
 execute as @a[scores={refactoring_scoreboard=..20}] run scoreboard objectives add SkyblockCE_install dummy
 execute as @a[scores={skyblock_small=1..}] run scoreboard objectives add SkyblockCE_small minecraft.custom:minecraft.play_time
 execute as @a[scores={skyblock_small=1..}] run scoreboard players add @a SkyblockCE_small 1000
@@ -25,6 +25,8 @@ execute as @a[scores={SkyblockCE_quit_game=0..}] run scoreboard objectives remov
 execute as @a[scores={skyblock_quit_game=0..}] run scoreboard objectives remove skyblock_quit_game
 execute as @a[scores={SkyblockCE_tp=0..}] run scoreboard objectives remove tp
 execute as @a[scores={SkyblockCE_legacy_version=1..}] run scoreboard objectives remove legacy
+execute as @a[scores={PSN_0=1..}] run scoreboard objectives add 1.20.5_PSN_0 dummy
+execute as @a[scores={PSN_legacy=1..10}] run scoreboard objectives remove PSN_0
 
 
 #Scoreboard Remove

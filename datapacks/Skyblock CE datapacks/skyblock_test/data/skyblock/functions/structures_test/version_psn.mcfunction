@@ -10,8 +10,8 @@ execute as @a[scores={1.20.6_PSN_0=5}] run scoreboard players set @a SkyblockCE_
 execute as @a[scores={1.20.6_PSN_0=5}] run gamemode spectator @a
 execute as @a[scores={1.20.6_PSN_0=5}] run effect give @a blindness 62 0 true
 execute as @a[scores={1.20.6_PSN_0=6}] run effect give @a night_vision 61 0 true
-execute as @a[scores={1.20.6_PSN_0=5..600}] run summon minecraft:area_effect_cloud ~ ~1 ~
-execute as @a[scores={1.20.6_PSN_0=5..600}] run clear @a written_book[custom_data={tag:generated_book}]
+execute as @a[scores={1.20.6_PSN_0=5..200}] run summon minecraft:area_effect_cloud ~ ~1 ~
+execute as @a[scores={1.20.6_PSN_0=5..200}] run clear @a written_book[custom_data={tag:generated_book}]
 
 
 ##SKYBLOCK PSN VERSION WARNING (CAMBIARE SOLO SE NON CI SONO AGGIORNAMENTI NELLE STRUTTURE. LASCIARE COSI IL TITLE TIMES)
@@ -32,7 +32,7 @@ execute as @a[scores={1.20.5_PSN_0=-1}] run scoreboard players add @a PSN_legacy
 
 ##GIVE BOOK - PSN 0 (DA IL LIBRO AL GIOCATORE PER AGGIORNARE I MONDI VECCHI)
 execute as @a[scores={PSN_legacy=5}] run scoreboard objectives add SkyblockCE_generated_book dummy
-#execute as @a[scores={SkyblockCE_generated_book=10}] run give @s written_book[custom_data={tag:generated_book},written_book_content={title:"Custom Structures Book",author:"Custom Structures Version: 1.20.6 - PSN 0",pages:['[{"text":"Info:\\n\\n","color":"black","bold":true,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"hoverEvent":{"action":"show_text","value":[{"text":"","color":"black"}]}},{"text":"Before adding the structures in the world, check if there are any constructions you have made within the custom structures area.","color":"black","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"hoverEvent":{"action":"show_text","value":[{"text":"","color":"black"}]}}]','{"text":"Add the (Generated) folder in the world. If not spawn the structures in the world.","color":"red","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}','[{"text":"Go to the next pages to see all coordinates. remember activate the coordinated with F3.\\n\\n\\n","color":"black","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"Yes I understand and I\'m ready immediately","color":"red","bold":true,"italic":true,"underlined":true,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"change_page","value":"5"}}]','[{"text":"Custom Structures:","color":"black","bold":true,"italic":true,"underlined":true,"strikethrough":false,"obfuscated":false},{"text":"\\n\\nMushroom House: 0 45 1000","color":"black","bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"\\n\\nOcean Ruins: 488 45 -260","color":"black","bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"\\n\\nCherry Grove: -198 45 -485","color":"black","bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"\\n\\nTrail Ruins: -266 45 -484","color":"black","bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false}]','[{"text":"Generated:\\n\\n\\n\\n\\n","color":"black","bold":true,"underlined":true,"strikethrough":false,"obfuscated":false},{"text":"⚠ I am ready to generate all structures ⚠","color":"red","bold":true,"italic":true,"underlined":true,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"run_command","value":"/scoreboard objectives add 1.20.6_PSN_0 dummy"}}]']}] 1 da fare
+execute as @a[scores={SkyblockCE_generated_book=10}] run give @s written_book[unbreakable={show_in_tooltip:true},custom_data={tag:generated_book},written_book_content={title:"Custom Structures Book",author:"Custom Structures Version: 1.20.6 - PSN 0",pages:['[{"text":"Info:\\n\\n","color":"black","bold":true,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"hoverEvent":{"action":"show_text","value":[{"text":"","color":"black"}]}},{"text":"Before adding the structures in the world, check if there are any constructions you have made within the custom structures area.","color":"black","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"hoverEvent":{"action":"show_text","value":[{"text":"","color":"black"}]}}]','{"text":"Add the (Generated) folder in the world. If not spawn the structures in the world.","color":"red","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}','[{"text":"Go to the next pages to see all coordinates. remember activate the coordinated with F3.\\n\\n\\n","color":"black","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"Yes I understand and I\'m ready immediately","color":"red","bold":true,"italic":true,"underlined":true,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"change_page","value":"5"}}]','[{"text":"Custom Structures:","color":"black","bold":true,"italic":true,"underlined":true,"strikethrough":false,"obfuscated":false},{"text":"\\n\\nWolfs Pack: 570 44 350","color":"black","bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false}]','[{"text":"Generated:\\n\\n\\n\\n\\n","color":"black","bold":true,"underlined":true,"strikethrough":false,"obfuscated":false},{"text":"⚠ I am ready to generate all structures ⚠","color":"red","bold":true,"italic":true,"underlined":true,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"run_command","value":"/scoreboard objectives add 1.20.6_PSN_0 dummy"}}]']}] 1
 execute as @a[scores={SkyblockCE_generated_book=15..}] run scoreboard objectives remove SkyblockCE_generated_book
 
 
@@ -46,33 +46,32 @@ execute as @a[scores={SkyblockCE_multiplayer_join=2..}] run scoreboard players s
 
 
 ##SKYBLOCK ID DELAY (AGGIORNARE SEMPRE QUANDO VENGONO AGGIUNTE NUOVE STRUTTURE. DELAY PID DELLA CONVERSIONE)
-execute as @a[scores={1.20.6_PSN_0=800}] run scoreboard objectives add SkyblockCE_id dummy
+execute as @a[scores={1.20.6_PSN_0=400}] run scoreboard objectives add SkyblockCE_id dummy
 
 
 ##TELEPORT PLAYER IN THE NEW STRUCTURES (AGGIUNGERE LE NUOVE STRUTTURE. RICORDARSI DI AGGIUNGERLE NEL LIBRO ALLA FINE)
 
-#AGGIUNGERE STRUTTURE
-execute as @a[scores={1.20.6_PSN_0=100}] run say 1
+#Wolfs Pack
+execute as @a[scores={1.20.6_PSN_0=100}] run tp @a 570 44 350 0 0
 
 
 ##GENERATED NEW STRUCTURES
-execute as @a[scores={1.20.6_PSN_0=110}] run say 2
-#AGGIUNGERE STRUTTURE
+execute as @a[scores={1.20.6_PSN_0=110}] run place template skyblock:structures/wolfs_pack 570 45 350
 
 
 ##FINAL FUNCTION GENERATED NEW STRUCTURES
 execute as @a[scores={1.20.6_PSN_0=1}] run gamerule doImmediateRespawn true
-execute as @a[scores={1.20.6_PSN_0=500}] run gamerule doImmediateRespawn false
-execute as @a[scores={1.20.6_PSN_0=500}] run execute in minecraft:overworld run tp @p 0 66 0 90 0
-execute as @a[scores={1.20.6_PSN_0=505}] run title @a times 20 100 20
-execute as @a[scores={1.20.6_PSN_0=505}] run title @a title {"translate":"skyblock_classic_edition.generated_structures.loading.title","italic":true}
-execute as @a[scores={1.20.6_PSN_0=505}] run title @a subtitle {"translate":"skyblock_classic_edition.generated_structures.loading.subtitle","italic":true}
-execute as @a[scores={1.20.6_PSN_0=510}] run effect clear @a minecraft:blindness
-execute as @a[scores={1.20.6_PSN_0=510}] run effect clear @a minecraft:night_vision
+execute as @a[scores={1.20.6_PSN_0=200}] run gamerule doImmediateRespawn false
+execute as @a[scores={1.20.6_PSN_0=200}] run execute in minecraft:overworld run tp @p 0 66 0 90 0
+execute as @a[scores={1.20.6_PSN_0=205}] run title @a times 20 100 20
+execute as @a[scores={1.20.6_PSN_0=205}] run title @a title {"translate":"skyblock_classic_edition.generated_structures.loading.title","italic":true}
+execute as @a[scores={1.20.6_PSN_0=205}] run title @a subtitle {"translate":"skyblock_classic_edition.generated_structures.loading.subtitle","italic":true}
+execute as @a[scores={1.20.6_PSN_0=210}] run effect clear @a minecraft:blindness
+execute as @a[scores={1.20.6_PSN_0=210}] run effect clear @a minecraft:night_vision
 
 
 ##SKYBLOCK PSN STRUCTURES DELAY (AGGIORNARE SE LA SCORE SE E STATA CAMBIATA IL PSN) 
-execute as @a[scores={1.20.6_PSN_0=515..5005}] run scoreboard players add @a SkyblockCE_final 1
+execute as @a[scores={1.20.6_PSN_0=215..5005}] run scoreboard players add @a SkyblockCE_final 1
 scoreboard objectives add SkyblockCE_final dummy
 
 
