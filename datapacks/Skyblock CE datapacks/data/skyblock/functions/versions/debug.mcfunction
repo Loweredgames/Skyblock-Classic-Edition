@@ -34,7 +34,8 @@ execute as @a[scores={SkyblockCE_debug=8}] run scoreboard objectives setdisplay 
 
 
 ##DISPLAY DI DEBUG - GENERATED STRUCTURES
-execute as @a[scores={SkyblockCE_debug=9}] run scoreboard objectives setdisplay sidebar 1.20.5_PSN_0
+execute as @a[scores={SkyblockCE_debug=9}] run scoreboard objectives setdisplay sidebar 1.20.6_PSN_0
+execute as @a[scores={SkyblockCE_debug=-92}] run scoreboard objectives setdisplay sidebar SkyblockCE_final
 
 
 ##DISPLAY DI DEBUG - LEGACY STRUCTURES
