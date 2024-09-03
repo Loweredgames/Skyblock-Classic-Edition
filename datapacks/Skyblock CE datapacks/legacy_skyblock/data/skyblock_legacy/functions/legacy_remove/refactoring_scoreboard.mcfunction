@@ -19,7 +19,7 @@ execute as @a[scores={SkyblockCE_large=1005..}] run scoreboard objectives remove
 execute as @a[scores={structure_skyblock=1..}] run scoreboard players set @a SkyblockCE_structures 1
 execute as @a[scores={structure_skyblock=1..}] run scoreboard players set @a SkyblockCE_id -2000
 execute as @a[scores={structure_skyblock=1..}] run scoreboard players set @a SkyblockCE_final 5001
-execute as @a[scores={SkyblockCE_structures=0..}] run scoreboard objectives remove structure_skyblock
+execute as @a[scores={SkyblockCE_structures=1..}] run scoreboard objectives remove structure_skyblock
 execute as @a[scores={SkyblockCE_islands=-2..}] run scoreboard objectives remove skyblock_island
 execute as @a[scores={SkyblockCE_id=0..}] run scoreboard objectives remove skyblock_ID
 execute as @a[scores={SkyblockCE_quit_game=0..}] run scoreboard objectives remove skyblock_quit_game
