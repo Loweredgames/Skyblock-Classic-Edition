@@ -5,7 +5,7 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Refactoring Scoreboard (Aggiornato all'ultima versione: 1.0.1 - 5.3.0 Minecraft: 1.20.6)
+##Refactoring Scoreboard (Aggiornato all'ultima versione: 1.1.0 - 5.3.0 LTS Minecraft: 1.20.6)
 execute as @a[scores={refactoring_scoreboard=..20}] run scoreboard objectives add SkyblockCE_install dummy
 execute as @a[scores={skyblock_small=1..}] run scoreboard objectives add SkyblockCE_small minecraft.custom:minecraft.play_time
 execute as @a[scores={skyblock_small=1..}] run scoreboard players add @a SkyblockCE_small 1000
@@ -16,17 +16,16 @@ execute as @a[scores={SkyblockCE_default=1005..}] run scoreboard objectives remo
 execute as @a[scores={skyblock_large=1..}] run scoreboard objectives add SkyblockCE_large minecraft.custom:minecraft.play_time
 execute as @a[scores={skyblock_large=1..}] run scoreboard players add @a SkyblockCE_large 1000
 execute as @a[scores={SkyblockCE_large=1005..}] run scoreboard objectives remove skyblock_large
-execute as @a[scores={SkyblockCE_structures=1..}] run scoreboard objectives remove structure_skyblock
-execute as @a[scores={1.20.5_PID_0=1..}] run scoreboard objectives remove structure_skyblock
+execute as @a[scores={structure_skyblock=1..}] run scoreboard players set @a SkyblockCE_structures 1
+execute as @a[scores={structure_skyblock=1..}] run scoreboard players set @a SkyblockCE_id -2000
+execute as @a[scores={structure_skyblock=1..}] run scoreboard players set @a SkyblockCE_final 5001
+execute as @a[scores={SkyblockCE_structures=0..}] run scoreboard objectives remove structure_skyblock
 execute as @a[scores={SkyblockCE_islands=-2..}] run scoreboard objectives remove skyblock_island
-execute as @a[scores={skyblock_ID=0..}] run scoreboard objectives add SkyblockCE_id dummy
 execute as @a[scores={SkyblockCE_id=0..}] run scoreboard objectives remove skyblock_ID
 execute as @a[scores={SkyblockCE_quit_game=0..}] run scoreboard objectives remove skyblock_quit_game
 execute as @a[scores={skyblock_quit_game=0..}] run scoreboard objectives remove skyblock_quit_game
 execute as @a[scores={SkyblockCE_tp=0..}] run scoreboard objectives remove tp
 execute as @a[scores={SkyblockCE_legacy_version=1..}] run scoreboard objectives remove legacy
-execute as @a[scores={PSN_0=1..}] run scoreboard objectives add 1.20.5_PSN_0 dummy
-execute as @a[scores={PSN_legacy=1..10}] run scoreboard objectives remove PSN_0
 
 
 #Scoreboard Remove

@@ -12,7 +12,6 @@ execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_tp 0
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a 1.20.5_PID_0 24000
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a PID_1 24000
-execute as @a[scores={multiplayer=1..}] run scoreboard players set @a PSN_legacy 24000
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_id 24000
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_large 24000
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_default 24000

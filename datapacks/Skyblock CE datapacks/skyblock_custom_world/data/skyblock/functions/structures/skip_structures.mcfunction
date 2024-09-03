@@ -11,12 +11,8 @@ execute as @a[scores={SkyblockCE_structures_id=35..}] run scoreboard players add
 scoreboard players add @a SkyblockCE_structures_id 1
 
 
-##SKYBLOCK ID DELAY (AGGIORNARE SEMPRE QUANDO VENGONO AGGIUNTE NUOVE STRUTTURE. DELAY PID DELLA CONVERSIONE)
-execute as @a[scores={SkyblockCE_skip_structures=105}] run scoreboard objectives add SkyblockCE_id dummy
-
-
 ##SKIP SETUP STRUCTURES (NON TOCCARE)
-execute as @a[scores={SkyblockCE_skip_structures=5..100}] run summon minecraft:area_effect_cloud ~ ~1 ~
+execute as @a[scores={SkyblockCE_skip_structures=5..105}] run summon minecraft:area_effect_cloud ~ ~1 ~
 execute as @a[scores={SkyblockCE_skip_structures=5}] run scoreboard players set @a SkyblockCE_tp 0
 execute as @a[scores={SkyblockCE_skip_structures=5}] run gamemode spectator @a
 
@@ -32,7 +28,7 @@ execute as @a[scores={SkyblockCE_skip_structures=7..40}] run gamerule doDaylight
 execute as @a[scores={SkyblockCE_skip_structures=7..40}] run gamerule doWeatherCycle true
 execute as @a[scores={SkyblockCE_skip_structures=10}] run time set 0
 execute as @a[scores={SkyblockCE_skip_structures=11}] run advancement revoke @a only minecraft:nether/root
-#execute as @a[scores={SkyblockCE_skip_structures=11}] run advancement revoke @a everything (da aggiungere nella 1.21.X)
+#execute as @a[scores={SkyblockCE_skip_structures=11}] run advancement revoke @a everything (da aggiungere nella 1.21.X e backporting)
 execute as @a[scores={SkyblockCE_skip_structures=11}] run execute in minecraft:overworld run tp @p 0 66 0 90 0
 execute as @a[scores={SkyblockCE_skip_structures=20}] run gamemode survival @a
 execute as @a[scores={SkyblockCE_skip_structures=20..50}] run place template skyblock:air 0 0 0
@@ -44,6 +40,10 @@ execute as @a[scores={SkyblockCE_skip_structures=41}] run effect clear @a
 execute as @a[scores={SkyblockCE_skip_structures=41}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
 execute as @a[scores={SkyblockCE_skip_structures=41}] run scoreboard objectives remove SkyblockCE_level_dat
 execute as @a[scores={SkyblockCE_skip_structures=45..50}] run gamerule doImmediateRespawn false
+
+
+##SKYBLOCK ID DELAY (DELAY PID DELLA CONVERSIONE, NON TOCCARE)
+execute as @a[scores={SkyblockCE_skip_structures=100}] run scoreboard objectives add SkyblockCE_id dummy
 
 
 ##SKIP FUNCTION STRUCTURES LOOP
