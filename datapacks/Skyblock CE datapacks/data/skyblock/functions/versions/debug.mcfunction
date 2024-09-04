@@ -37,7 +37,7 @@ execute as @a[scores={SkyblockCE_debug=8}] run scoreboard objectives setdisplay 
 execute as @a[scores={SkyblockCE_debug=9}] run scoreboard objectives setdisplay sidebar SkyblockCE_final
 
 
-##DISPLAY DI DEBUG - LEGACY STRUCTURES
+##DISPLAY DI DEBUG - TEST
 execute as @a[scores={SkyblockCE_debug=10}] run scoreboard objectives setdisplay sidebar SkyblockCE_structures_id
 execute as @a[scores={SkyblockCE_debug=11}] run scoreboard objectives setdisplay sidebar SkyblockCE_structures
 
@@ -53,8 +53,3 @@ execute as @a[scores={SkyblockCE_debug=15}] run scoreboard objectives setdisplay
 execute as @a[scores={SkyblockCE_debug=16}] run scoreboard objectives setdisplay sidebar SkyblockCE_multiplayer_reset
 execute as @a[scores={SkyblockCE_debug=17}] run scoreboard objectives setdisplay sidebar SkyblockCE_multiplayer_tick
 execute as @a[scores={SkyblockCE_debug=18}] run scoreboard objectives setdisplay list SkyblockCE_multiplayer_join
-
-
-##DISPLAY DI DEBUG - TEST
-execute as @a[scores={SkyblockCE_debug=1000}] run scoreboard objectives setdisplay sidebar refactoring_scoreboard
-execute as @a[scores={SkyblockCE_debug=2000}] run scoreboard objectives setdisplay sidebar SkyblockCE_legacy_version
