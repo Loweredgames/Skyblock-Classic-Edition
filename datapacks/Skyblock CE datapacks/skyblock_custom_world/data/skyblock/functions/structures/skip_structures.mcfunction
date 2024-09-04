@@ -28,7 +28,7 @@ execute as @a[scores={SkyblockCE_skip_structures=7..40}] run gamerule doDaylight
 execute as @a[scores={SkyblockCE_skip_structures=7..40}] run gamerule doWeatherCycle true
 execute as @a[scores={SkyblockCE_skip_structures=10}] run time set 0
 execute as @a[scores={SkyblockCE_skip_structures=11}] run advancement revoke @a only minecraft:nether/root
-#execute as @a[scores={SkyblockCE_skip_structures=11}] run advancement revoke @a everything (da aggiungere nella 1.21.X e backporting)
+execute as @a[scores={SkyblockCE_skip_structures=11}] run advancement revoke @a everything
 execute as @a[scores={SkyblockCE_skip_structures=11}] run execute in minecraft:overworld run tp @p 0 66 0 90 0
 execute as @a[scores={SkyblockCE_skip_structures=20}] run gamemode survival @a
 execute as @a[scores={SkyblockCE_skip_structures=20..50}] run place template skyblock:air 0 0 0
@@ -50,3 +50,10 @@ execute as @a[scores={SkyblockCE_skip_structures=100}] run scoreboard objectives
 execute as @a[scores={SkyblockCE_structures_id=2000000..}] run scoreboard players set @a SkyblockCE_structures_id 10000
 execute as @a[scores={SkyblockCE_skip_structures=2000000..}] run scoreboard players set @a SkyblockCE_structures 10000
 execute as @a[scores={SkyblockCE_skip_structures=2000000..}] run scoreboard players set @a SkyblockCE_skip_structures 10000
+
+
+##CONVERSIONE AL FORMATO "SkyblockCE_skip_structures" (da rimuovere nella 1.21)
+execute as @a[scores={SkyblockCE_structures=1..}] run scoreboard objectives add SkyblockCE_skip_structures dummy
+execute as @a[scores={SkyblockCE_structures=1..}] run scoreboard players set @a SkyblockCE_skip_structures 10001
+execute as @a[scores={SkyblockCE_structures=1..}] run scoreboard objectives remove SkyblockCE_structures
+execute as @a[scores={SkyblockCE_skip_structures=1..}] run scoreboard objectives remove SkyblockCE_structures_id
