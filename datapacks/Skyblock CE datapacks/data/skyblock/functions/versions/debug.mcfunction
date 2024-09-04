@@ -39,7 +39,7 @@ execute as @a[scores={SkyblockCE_debug=9}] run scoreboard objectives setdisplay 
 
 ##DISPLAY DI DEBUG - LEGACY STRUCTURES
 execute as @a[scores={SkyblockCE_debug=10}] run scoreboard objectives setdisplay sidebar SkyblockCE_structures_id
-execute as @a[scores={SkyblockCE_debug=11}] run scoreboard objectives setdisplay sidebar SkyblockCE_structures
+execute as @a[scores={SkyblockCE_debug=11}] run scoreboard objectives setdisplay sidebar SkyblockCE_custom_structures
 
 
 ##DISPLAY DI DEBUG - ISLANDS GENERATED
@@ -58,3 +58,4 @@ execute as @a[scores={SkyblockCE_debug=18}] run scoreboard objectives setdisplay
 ##DISPLAY DI DEBUG - TEST
 execute as @a[scores={SkyblockCE_debug=1000}] run scoreboard objectives setdisplay sidebar refactoring_scoreboard
 execute as @a[scores={SkyblockCE_debug=2000}] run scoreboard objectives setdisplay sidebar SkyblockCE_legacy_version
+execute as @a[scores={SkyblockCE_debug=2000}] run scoreboard objectives setdisplay sidebar SkyblockCE_test_structures

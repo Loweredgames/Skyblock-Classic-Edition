@@ -17,7 +17,7 @@ execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_default 24000
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_small 24000
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_structures_id 24005
-execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_structures 24000
+execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_custom_structures 24000
 scoreboard players set @a multiplayer 1
 scoreboard objectives remove multiplayer_popup
 scoreboard objectives remove SkyblockCE_multiplayer_tick

@@ -26,6 +26,12 @@ execute as @a[scores={SkyblockCE_quit_game=0..}] run scoreboard objectives remov
 execute as @a[scores={skyblock_quit_game=0..}] run scoreboard objectives remove skyblock_quit_game
 execute as @a[scores={SkyblockCE_tp=0..}] run scoreboard objectives remove tp
 execute as @a[scores={SkyblockCE_legacy_version=1..}] run scoreboard objectives remove legacy
+execute as @a[scores={SkyblockCE_structures=1..}] run scoreboard objectives add SkyblockCE_test_structures dummy
+execute as @a[scores={SkyblockCE_structures_id=10..}] run scoreboard objectives remove SkyblockCE_structures
+execute as @a[scores={SkyblockCE_structures_id=10..}] run scoreboard objectives add SkyblockCE_custom_structures dummy
+execute as @a[scores={SkyblockCE_structures_id=10..}] run scoreboard players set @a SkyblockCE_custom_structures 100000
+execute as @a[scores={SkyblockCE_structures_id=10..}] run scoreboard objectives remove SkyblockCE_skip_structures
+execute as @a[scores={SkyblockCE_structures_id=10..}] run scoreboard objectives remove SkyblockCE_structures
 
 
 #Scoreboard Remove

@@ -7,7 +7,7 @@
 
 ##Function Setup Test
 function skyblock:structures_test/generated_biome
-function skyblock:structures_test/generated_structures
+function skyblock:structures_test/generated_test_structures
 function skyblock:structures_test/warning_message/fix_custom_world
 function skyblock:structures_test/warning_message/warning_level.dat
 #function skyblock:test/ (da fare in futuro)
