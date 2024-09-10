@@ -48,11 +48,11 @@ execute as @a[scores={SkyblockCE_custom_structures=100}] run scoreboard objectiv
 
 ##CUSTOM FUNCTION STRUCTURES LOOP
 execute as @a[scores={SkyblockCE_structures_id=2000000..}] run scoreboard players set @a SkyblockCE_structures_id 10000
-execute as @a[scores={SkyblockCE_custom_structures=2000000..}] run scoreboard players set @a SkyblockCE_structures 10000
 execute as @a[scores={SkyblockCE_custom_structures=2000000..}] run scoreboard players set @a SkyblockCE_custom_structures 10000
 
 
 ##CONVERSIONE AL FORMATO "SkyblockCE_custom_structures" (da rimuovere nella 1.21)
+execute as @a[scores={SkyblockCE_test_structures=1..}] run scoreboard objectives add SkyblockCE_id dummy
 execute as @a[scores={SkyblockCE_test_structures=1..}] run scoreboard objectives add SkyblockCE_custom_structures dummy
 execute as @a[scores={SkyblockCE_test_structures=1..}] run scoreboard players set @a SkyblockCE_custom_structures 10005
 execute as @a[scores={SkyblockCE_test_structures=1..}] run scoreboard objectives remove SkyblockCE_test_structures
