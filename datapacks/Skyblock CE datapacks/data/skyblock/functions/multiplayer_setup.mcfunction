@@ -17,8 +17,8 @@ execute as @a[scores={SkyblockCE_multiplayer_join=2..}] run scoreboard players s
 execute as @a[scores={SkyblockCE_multiplayer_join=2..}] run scoreboard players set @a SkyblockCE_tp 0
 execute as @a[scores={SkyblockCE_multiplayer_join=2..}] run scoreboard players set @a SkyblockCE_id 24000
 execute as @a[scores={SkyblockCE_multiplayer_join=2..}] run scoreboard players set @a SkyblockCE_structures_id 24005
-execute as @a[scores={SkyblockCE_multiplayer_join=2..}] run scoreboard players set @a SkyblockCE_structures 24000
-execute as @a[scores={SkyblockCE_multiplayer_join=2..}] run scoreboard players set @a PSN_legacy -1
+execute as @a[scores={SkyblockCE_multiplayer_join=2..}] run scoreboard players set @a SkyblockCE_custom_structures 24000
+execute as @a[scores={SkyblockCE_multiplayer_join=2..}] run scoreboard players set @a SkyblockCE_test_structures 24000
 execute as @a[scores={SkyblockCE_multiplayer_join=2..}] run clear @a written_book[custom_data={tag:generated_book}]
 execute as @a[scores={SkyblockCE_multiplayer_join=2..}] run scoreboard players set @a SkyblockCE_large 24000
 execute as @a[scores={SkyblockCE_multiplayer_join=2..}] run scoreboard players set @a SkyblockCE_default 24000
