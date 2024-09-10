@@ -39,7 +39,7 @@ execute as @a[scores={SkyblockCE_debug=9}] run scoreboard objectives setdisplay 
 
 ##DISPLAY DI DEBUG - TEST
 execute as @a[scores={SkyblockCE_debug=10}] run scoreboard objectives setdisplay sidebar SkyblockCE_structures_id
-execute as @a[scores={SkyblockCE_debug=11}] run scoreboard objectives setdisplay sidebar SkyblockCE_structures
+execute as @a[scores={SkyblockCE_debug=11}] run scoreboard objectives setdisplay sidebar SkyblockCE_custom_structures
 
 
 ##DISPLAY DI DEBUG - ISLANDS GENERATED
