@@ -55,8 +55,7 @@ execute as @a[scores={SkyblockCE_custom_structures=2000000..}] run scoreboard pl
 execute as @a[scores={SkyblockCE_test_structures=1..}] run scoreboard objectives add SkyblockCE_id dummy
 execute as @a[scores={SkyblockCE_test_structures=1..}] run scoreboard objectives add SkyblockCE_custom_structures dummy
 execute as @a[scores={SkyblockCE_test_structures=1..}] run scoreboard players set @a SkyblockCE_custom_structures 10005
-execute as @a[scores={SkyblockCE_test_structures=1..}] run scoreboard objectives remove SkyblockCE_test_structures
-execute as @a[scores={SkyblockCE_test_structures=1..}] run scoreboard objectives remove SkyblockCE_install_test
-execute as @a[scores={SkyblockCE_test_structures=1..}] run scoreboard objectives remove SkyblockCE_final
-execute as @a[scores={SkyblockCE_test_structures=1..}] run scoreboard objectives remove SkyblockCE_level_dat
-execute as @a[scores={SkyblockCE_test_structures=2..}] run scoreboard objectives remove SkyblockCE_test_structures
+execute as @a[scores={SkyblockCE_custom_structures=2..}] run scoreboard objectives remove SkyblockCE_test_structures
+execute as @a[scores={SkyblockCE_custom_structures=20005..}] run scoreboard objectives remove SkyblockCE_install_test
+execute as @a[scores={SkyblockCE_custom_structures=20005..}] run scoreboard objectives remove SkyblockCE_final
+execute as @a[scores={SkyblockCE_custom_structures=20005..}] run scoreboard objectives remove SkyblockCE_level_dat
