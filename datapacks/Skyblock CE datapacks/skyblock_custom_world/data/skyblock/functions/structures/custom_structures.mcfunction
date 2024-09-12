@@ -14,7 +14,7 @@ scoreboard players add @a SkyblockCE_structures_id 1
 ##CUSTOM SETUP STRUCTURES (NON TOCCARE)
 execute as @a[scores={SkyblockCE_custom_structures=5..105}] run summon minecraft:area_effect_cloud ~ ~1 ~
 execute as @a[scores={SkyblockCE_custom_structures=5}] run scoreboard players set @a SkyblockCE_tp 0
-execute as @a[scores={SkyblockCE_custom_structures=5}] run gamemode spectator @a
+execute as @a[scores={SkyblockCE_custom_structures=5..11}] run gamemode spectator @a
 
 
 ##CUSTOM FINAL FUNCTION STRUCTURES GENERATED
