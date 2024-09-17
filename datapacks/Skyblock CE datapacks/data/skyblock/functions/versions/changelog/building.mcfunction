@@ -21,7 +21,7 @@ bossbar set building name {"text":"JE-1.20.6-Skyblock_Classic_Edition:BUILDING:1
 
 
 ##MAP PROGRESS (I PROGRESSI DELLA MAPPA, E UN NUMERO APROSSIMATO)
-bossbar set minecraft:building value 97
+bossbar set minecraft:building value 98
 
 
 ##WARNING MESSAGE (MESSAGGIO DA ABILITARE SOLO NELLE VERSIONI DI SVILUPPO)
