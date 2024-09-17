@@ -35,7 +35,7 @@ scoreboard objectives remove 1.20.5_PVN_0a
 
 
 ##1.20.3/1.20.4 - VECCHIA STABILE
-#scoreboard objectives remove 1.20.3_PVN_1 (da aggiungere nella 1.21)
+scoreboard objectives remove 1.20.3_PVN_1
 scoreboard objectives remove 1.20.3_PVN_1b
 scoreboard objectives remove 1.20.3_PVN_1a
 scoreboard objectives remove 1.20.3_PVN_0
