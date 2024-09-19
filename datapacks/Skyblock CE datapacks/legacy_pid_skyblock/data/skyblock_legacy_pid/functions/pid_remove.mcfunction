@@ -9,8 +9,8 @@
 
 
 ##PID VECCHISSIMI E NON PIU USATI
-#scoreboard objectives remove PID_1
-#scoreboard objectives remove PID_0
+#scoreboard objectives remove PID_1 (aggiungere in futuro)
+#scoreboard objectives remove PID_0 (aggiungere in futuro)
 scoreboard objectives remove ID_4
 scoreboard objectives remove ID_3
 scoreboard objectives remove ID_2
