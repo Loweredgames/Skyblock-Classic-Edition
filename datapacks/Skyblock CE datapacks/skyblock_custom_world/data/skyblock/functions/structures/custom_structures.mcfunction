@@ -28,7 +28,7 @@ execute as @a[scores={SkyblockCE_custom_structures=7..40}] run gamerule doDaylig
 execute as @a[scores={SkyblockCE_custom_structures=7..40}] run gamerule doWeatherCycle true
 execute as @a[scores={SkyblockCE_custom_structures=10}] run time set 0
 execute as @a[scores={SkyblockCE_custom_structures=11}] run advancement revoke @a only minecraft:nether/root
-execute as @a[scores={SkyblockCE_custom_structures=11}] run advancement revoke @a everything
+#execute as @a[scores={SkyblockCE_custom_structures=11}] run advancement revoke @a everything // DA RIAGGIUNGERE NELLA 1.21
 execute as @a[scores={SkyblockCE_custom_structures=11}] run execute in minecraft:overworld run tp @p 0 66 0 90 0
 execute as @a[scores={SkyblockCE_custom_structures=20}] run gamemode survival @a
 execute as @a[scores={SkyblockCE_custom_structures=20..50}] run place template skyblock:air 0 0 0
@@ -51,7 +51,7 @@ execute as @a[scores={SkyblockCE_structures_id=2000000..}] run scoreboard player
 execute as @a[scores={SkyblockCE_custom_structures=2000000..}] run scoreboard players set @a SkyblockCE_custom_structures 10000
 
 
-##CONVERSIONE AL FORMATO "SkyblockCE_custom_structures" (da rimuovere nella 1.21)
+##CONVERSIONE AL FORMATO "SkyblockCE_custom_structures"
 execute as @a[scores={SkyblockCE_test_structures=1..}] run scoreboard objectives add SkyblockCE_id dummy
 execute as @a[scores={SkyblockCE_test_structures=1..}] run scoreboard objectives add SkyblockCE_custom_structures dummy
 execute as @a[scores={SkyblockCE_test_structures=1..}] run scoreboard players set @a SkyblockCE_custom_structures 10005
