@@ -19,7 +19,8 @@
 
 
 ##1.20.6 - LTS STABILE
-#scoreboard objectives remove 1.20.6_PVN_0a (DA AGGIUNGERE NELLA PROSSIMA VERSIONE)
+#scoreboard objectives remove 1.20.6_PVN_0b
+scoreboard objectives remove 1.20.6_PVN_0a
 
 
 ##1.20.5/1.20.6 - STABILE
