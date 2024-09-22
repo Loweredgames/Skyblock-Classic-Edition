@@ -44,8 +44,8 @@
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " و منتظر بمانید تا دنیا به‌روز شود و سپس دیتاپک را جایگزین کنید.\n\nمتشکرم",
     "skyblock_classic_edition.warning_level.dat.issues": "Due to some technical issues that may occur in various versions, the world may suffer a serious bug if the world is in dimensions and vanilla natural structures are not generated. To solve this technical problem you need to follow these simple steps: first you have to put all the things in your inventory, even the armor, in a chest, then exit the world and ",
     "skyblock_classic_edition.warning_level.dat.download": "(level.dat جدید و level.dat قدیمی) را از اینجا بارگیری کنید،",
-    "skyblock_classic_edition.warning_level.dat.copy_paste": " copy it and paste it replacing the old one, reopen the world and then open the chat with T as default and copy this command: ",
-    "skyblock_classic_edition.warning_level.dat.end": ", you should see the structures in the new chunks, in case repeat the steps again.",
+    "skyblock_classic_edition.warning_level.dat.copy_paste": " آن را کپی کنید و آن را جایگزین یک قدیمی اش کنید، دنیایتان را دوباره باز کنید و سپس چت را با T به عنوان پیش فرض باز کنید و بعد این دستور را کپی کنید: ",
+    "skyblock_classic_edition.warning_level.dat.end": "، تو باید استراکچرها را در چانک های جدید ببینی، در صورت تکرار مجدد مراحل.",
     "skyblock_classic_edition.link.discord": "سرور دیسکورد",
     "skyblock_classic_edition.link.crowdin": "پروژه ترجمه‌های Crowdin",
     "skyblock_classic_edition.credits": "ترجمه توسط EndermanXD (aparatcutgame)"
