@@ -16,3 +16,4 @@ scoreboard objectives remove ID_3
 scoreboard objectives remove ID_2
 scoreboard objectives remove ID_1
 scoreboard objectives remove ID_0
+scoreboard objectives remove PID_Fix_LTS

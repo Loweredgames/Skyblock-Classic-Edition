@@ -5,7 +5,7 @@
 
 "Release Versions": "5.3.0 LTS [Custom World Update]",
 
-"Release Building": "JE-1.20.6-5.3.0-Skyblock_Classic_Edition:RELEASE-CANDIDATE-1_LTS",
+"Release Building": "JE-1.20.6-5.3.0-Skyblock_Classic_Edition:5.3.0_LTS",
 
 "Data_pack": "TRUE",
 
@@ -19,7 +19,7 @@
 
 "Sub Protocol Identifier Data": "1.20.5_SUBPID_0_1,da aggiungere subpid...",
 
-"Github_Tag": "1.20.6_JE-2a",
+"Github_Tag": "1.20.6_JE-3a",
 
 "Github":"https://github.com/Loweredgames/Skyblock-Classic-Edition",
 
