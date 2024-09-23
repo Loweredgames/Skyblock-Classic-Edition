@@ -29,7 +29,7 @@ execute as @a[scores={SkyblockCE_multiplayer_join=2..}] run scoreboard players s
 execute as @a[scores={SkyblockCE_multiplayer_reset=2..}] run scoreboard objectives add SkyblockCE_multiplayer_join dummy
 execute as @a[scores={SkyblockCE_multiplayer_reset=2..}] run scoreboard players add @a SkyblockCE_multiplayer_join 1
 execute as @a[gamemode=spectator,scores={SkyblockCE_multiplayer_join=0..5}] run tp @p 0 65 0 0 0
-execute as @a[gamemode=spectator,scores={SkyblockCE_multiplayer_join=1..10}] run gamemode survival @p
+execute as @a[gamemode=spectator,scores={SkyblockCE_multiplayer_join=1..}] run gamemode survival @p
 execute as @a[scores={SkyblockCE_multiplayer_join=0..5}] run fill 0 63 0 0 64 0 minecraft:air destroy
 execute as @a[scores={SkyblockCE_multiplayer_join=0..5}] run spawnpoint @p 0 63 0
 execute as @a[scores={SkyblockCE_multiplayer_join=0..5}] run setworldspawn 0 63 0
