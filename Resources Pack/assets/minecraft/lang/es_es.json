@@ -43,10 +43,10 @@
     "skyblock_classic_edition.install.hardcore.lock": "Lo siento, pero el modo hardcore necesita un mundo ya cargado y actualizado.",
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " y espera a que el mundo actualice y luego reemplace la base de datos.\n\nGracias",
     "skyblock_classic_edition.warning_level.dat.issues": "Debido a algunos problemas técnicos que pueden ocurrir en varias versiones, el mundo puede sufrir un grave error si el mundo tiene dimensiones y las estructuras naturales de vainilla no se generan. Para resolver este problema técnico necesitas seguir estos simples pasos: primero tienes que poner todas las cosas en tu inventario, incluso la armadura, en un pecho, luego salir del mundo y ",
-    "skyblock_classic_edition.warning_level.dat.download": "Descargue el nuevo (level.dat y level.dat_old) aquí,",
+    "skyblock_classic_edition.warning_level.dat.download": "descargue el nuevo (level.dat y level.dat_old) aquí,",
     "skyblock_classic_edition.warning_level.dat.copy_paste": " cópialo y pégalo reemplazando al antiguo, reabra el mundo y luego abra el chat con T por defecto y copie este comando: ",
     "skyblock_classic_edition.warning_level.dat.end": ", deberías ver las estructuras en los nuevos chunks, en caso contario, repita los pasos nuevamente.",
     "skyblock_classic_edition.link.discord": "Servidor de Discord",
     "skyblock_classic_edition.link.crowdin": "Proyecto de Traducción de Crowdin",
-    "skyblock_classic_edition.credits": "Traducir por OEMunlag, Pablo Pasos, María Linares"
+    "skyblock_classic_edition.credits": "Traducir por OEMunlag, Pablo Pasos, María Linares, Power7677"
 }
