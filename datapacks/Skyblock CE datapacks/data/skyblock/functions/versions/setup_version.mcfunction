@@ -18,7 +18,7 @@ execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:ver
 ##SKYBLOCK PID VERSION WARNING (CAMBIARE SOLO SE NON CI SONO CONVERSIONI, DISABILITARE LA SECONDA RIGA SE C'E IL PID)
 #execute as @a[scores={1.20.6_PID_0=30}] run tellraw @s {"translate":"skyblock_classic_edition.versions_id.warning_update.on","italic":true,"color":"#d5d5d5"}
 execute as @a[scores={1.20.6_PID_0=30}] run tellraw @s {"translate":"skyblock_classic_edition.versions_id.warning_update.off","italic":true,"color":"#d5d5d5"}
-execute as @a[scores={1.20.6_PID_0=35..40},gamemode=spectator] run gamemode survival @a
+execute as @a[scores={1.20.6_PID_0=35..100},gamemode=spectator] run gamemode survival @a
 
 
 ##SKYBLOCK PID WARNING (SOLO VERSIONI NON PIU SUPPORTATE, ATTIVARE QUANDO LA VERSIONE NON E PIU SUPPORTATA)
