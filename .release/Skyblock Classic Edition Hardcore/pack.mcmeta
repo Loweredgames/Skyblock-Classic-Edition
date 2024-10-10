@@ -1,0 +1,49 @@
+{
+	"pack": {
+	  "pack_format": 30,
+	  "supported_formats": {
+		"min_inclusive": 30,
+		"max_inclusive": 41
+	  },
+	  "description": "Skyblock Classic Edition Hardcore By Lorenzo Giannini"
+	},
+	"overlays": {
+	  "entries": [
+		{
+		  "formats": {
+			"min_inclusive": 30,
+			"max_inclusive": 41
+		  },
+		  "directory": "skyblock_setup_update"
+		},
+		{
+		  "formats": {
+			"min_inclusive": 30,
+			"max_inclusive": 41
+		  },
+		  "directory": "legacy_pid_skyblock"
+		},
+		{
+		   "formats": {
+			"min_inclusive": 30,
+			"max_inclusive": 41
+			},
+			"directory": "legacy_skyblock"
+		},
+		{
+		   "formats": {
+			"min_inclusive": 36,
+			"max_inclusive": 41
+		  	},
+		  "directory": "skyblock_custom_world"
+		},
+		{
+		   "formats": {
+			"min_inclusive": 25,
+			"max_inclusive": 25
+			},
+		  "directory": "skyblock_test"
+		}
+	  ]
+	}
+}

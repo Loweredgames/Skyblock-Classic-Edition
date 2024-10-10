@@ -1,4 +1,6 @@
-### Skyblock Classic Edition
+### Skyblock Classic Edition Portable Version
+
+> :warning: **Warning: The Portable Version does not load the ```generated``` folder and the Resource Pack by default, you have to do it manually every time you create a new world. Simply create the world with the datapack active, then exit and inside the datapack there is the ```generated``` folder, move it and enter the world normally, for the Resource Pack you load it separately (always download the latest version available). Enter the world and play normally. If you do not do this you cannot load the islands.**
 
 [![Crowdin](https://badges.crowdin.net/skyblock-classic-edition/localized.svg)](https://crowdin.com/project/skyblock-classic-edition)
 
