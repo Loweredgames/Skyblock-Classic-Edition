@@ -35,7 +35,7 @@ execute as @a[scores={1.20.5_PID_0=250..}] run scoreboard objectives add 1.20.5_
 #>execute as @a[scores={1.20.5_PID_0_1=1015..}] run scoreboard objectives add 1.20.5_PID_0_2 dummy (per il futuro)
 
 
-##SCOREBOARD START 1.20.5_PID_0 (LASCIARE SEMPRE COSI, MODIFICARE SE LA CONVERSIONE E PIU CORTA O PIU LUNGHA)
+##SCOREBOARD START 1.20.5_PID_0 (LASCIARE SEMPRE COSI, MODIFICARE SE LA CONVERSIONE E PIU CORTA O PIU LUNGHA, DISABILITARE TUTTO SE NON C'E NESSUN PID)
 execute as @a[scores={SkyblockCE_final=351}] run scoreboard players set @a 1.20.5_PID_0 -250
 execute as @a[scores={1.20.5_PID_0=5..100}] run gamemode spectator @a
 execute as @a[scores={1.20.5_PID_0=5}] run time set 0
@@ -68,7 +68,7 @@ execute in minecraft:overworld as @a[scores={1.20.5_PID_0=200..}] run setblock 7
 ##The End (???)
 
 
-##FINAL GENERATED PID 1 FUNCTION
+##FINAL GENERATED PID 1 FUNCTION (DISABILITARE TUTTO SE NON C'E NESSUN PID)
 execute as @a[scores={1.20.5_PID_0=201}] run advancement revoke @a only minecraft:nether/root
 execute as @a[scores={1.20.5_PID_0=201}] run advancement revoke @a only minecraft:end/root
 execute as @a[scores={1.20.5_PID_0=205}] run tellraw @a ["",{"text":"Due to several problems in The End (","italic":true,"color":"red"},{"text":"see the bug #16","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/issues/16"}},{"text":"). the dimension has been suspended in this release until the issues are resolved.\nThanks you :)","italic":true,"color":"red"}]
