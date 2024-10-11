@@ -1,9 +1,9 @@
 {
 	"pack": {
-	  "pack_format": 30,
+	  "pack_format": 48,
 	  "supported_formats": {
 		"min_inclusive": 30,
-		"max_inclusive": 41
+		"max_inclusive": 48
 	  },
 	  "description": "Skyblock Classic Edition By Lorenzo Giannini"
 	},
@@ -40,7 +40,7 @@
 		{
 		   "formats": {
 			"min_inclusive": 25,
-			"max_inclusive": 25
+			"max_inclusive": 48
 			},
 		  	"directory": "skyblock_test"
 		}
