@@ -68,7 +68,7 @@ execute as @a[scores={PID_legacy_v2=750}] run scoreboard objectives add PID_lega
 
 ##PID_1 - 1.20.5/1.20.6 (LTS ABBILITARE IN 1.21.x, NON RIMUOVERE IL COMMENTO IN SE, AGGIUNGERE QUESTO COMMENTO NEI NUOVI PID)
 
-#Sistemare nella 1.21 o in LTS e abbilitare
+#Sistemare nella 1.21 abbilitare
 ##Overworld
 execute in minecraft:overworld as @a[scores={PID_legacy_v3=100}] run tp @a 280 45 0 0 0
 execute in minecraft:overworld as @a[scores={PID_legacy_v3=150}] run setblock 295 50 2 minecraft:barrel[facing=south,open=false]{Items:[{count:1b,Slot:13b,id:"minecraft:coast_armor_trim_smithing_template"}]} destroy
