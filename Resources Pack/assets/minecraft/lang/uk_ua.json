@@ -12,7 +12,7 @@
     "skyblock_classic_edition.skyblock_setup.small_hard": "▶Малий (важко)",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "Цей острів дуже нагадує оригінальний skyblock 2.0, але модернізований для нових версій Minecraft. Для тих, хто любить складні випробування та знає всі прийоми та технічні поняття ванільного режиму виживання.",
     "skyblock_classic_edition.skyblock_setup.legacy_version": "▶Legacy Версія",
-    "skyblock_classic_edition.skyblock_setup.legacy_version.info": "Застаріла версія – це версії, сумісні з останньою версією пакета даних. Завжди перевіряйте, чи поточна версія сумісна з пакетом даних, не оновлюйте пакет даних, якщо версія несумісна або якщо її не потрібно оновлювати. Може знищити світ, завжди робіть резервні копії.",
+    "skyblock_classic_edition.skyblock_setup.legacy_version.info": "Legacy версія – це версії, сумісні з останньою версією пакета даних. Завжди перевіряйте, чи поточна версія сумісна з пакетом даних, не оновлюйте пакет даних, якщо версія несумісна або якщо її не потрібно оновлювати. Може знищити світ, то ж завжди робіть резервні копії.",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible": "З версії:",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "до",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack": "сумісний із пакетом даних.",
