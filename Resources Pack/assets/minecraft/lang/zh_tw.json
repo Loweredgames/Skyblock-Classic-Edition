@@ -14,7 +14,7 @@
     "skyblock_classic_edition.skyblock_setup.legacy_version": "▶舊版本",
     "skyblock_classic_edition.skyblock_setup.legacy_version.info": "舊版本是與最新版本的資料包相容的版本。經常檢查目前版本是否與資料包相容，如果版本不相容或不需要更新，則不要更新資料包。可能會毀滅世界，請務必做好備份。",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible": "來自版本：",
-    "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "to",
+    "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "到",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack": "與數據包相容。",
     "skyblock_classic_edition.multiplayer.popup": "多人遊戲已停用，請在此處的 skyblock 資料夾中啟動： ",
     "skyblock_classic_edition.version_update.compatible.minecraft_versions": "Minecraft 版本： ",
