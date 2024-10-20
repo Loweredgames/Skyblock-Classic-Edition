@@ -40,7 +40,7 @@
     "skyblock_classic_edition.generated_structures.loading.subtitle": "Вони були створені...",
     "skyblock_classic_edition.generated_structures.generated.command_block.info": "⚠Я бачу, що у вашому світі немає (generated) папки. ",
     "skyblock_classic_edition.generated_structures.generated.command_block.download": " Будь ласка, завантажте мапу ще раз тут",
-    "skyblock_classic_edition.install.hardcore.lock": "Вибачте але гардкору потрібне вже встановлений та оновлений світ.",
+    "skyblock_classic_edition.install.hardcore.lock": "Вибачте але гардкору потрібен вже встановлений та оновлений світ.",
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " і зачекайте, поки світ оновиться, а потім замініть пакет даних.\n\nДякую вам",
     "skyblock_classic_edition.warning_level.dat.issues": "Через деякі технічні проблеми, які можуть виникнути в різних версіях, світ може зазнати серйозної помилки, якщо світ знаходиться в вимірах і не буде створено ванільних природних структур. Щоб вирішити цю технічну проблему, необхідно виконати ці прості кроки: спершу вам потрібно перемістити весь свій інвентар, навіть броню, в скриню, потім вийти зі світу і ",
     "skyblock_classic_edition.warning_level.dat.download": "завантажте новий (level.dat і level.dat_old) тут,",
