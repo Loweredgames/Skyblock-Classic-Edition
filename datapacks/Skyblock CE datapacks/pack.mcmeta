@@ -33,14 +33,14 @@
 		{
 		   "formats": {
 			"min_inclusive": 36,
-			"max_inclusive": 41
+			"max_inclusive": 48
 		  	},
 		  	"directory": "skyblock_custom_world"
 		},
 		{
 		   "formats": {
 			"min_inclusive": 25,
-			"max_inclusive": 48
+			"max_inclusive": 41
 			},
 		  	"directory": "skyblock_test"
 		}
