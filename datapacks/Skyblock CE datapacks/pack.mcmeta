@@ -19,14 +19,14 @@
 		{
 		  "formats": {
 			"min_inclusive": 30,
-			"max_inclusive": 41
+			"max_inclusive": 48
 		  },
 		  	"directory": "legacy_pid_skyblock"
 		},
 		{
 		   "formats": {
 			"min_inclusive": 30,
-			"max_inclusive": 41
+			"max_inclusive": 48
 			},
 			"directory": "legacy_skyblock"
 		},

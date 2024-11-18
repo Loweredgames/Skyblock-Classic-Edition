@@ -17,7 +17,6 @@ scoreboard objectives remove fix_end
 
 
 ##Scoreboard Setup Test
-scoreboard objectives add refactoring_scoreboard dummy
 scoreboard players add @a refactoring_scoreboard 1
 scoreboard players add @a SkyblockCE_legacy_version 1
 
