@@ -10,7 +10,7 @@ execute as @a[scores={SkyblockCE_multiplayer=..5}] run scoreboard objectives rem
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_install -2
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_islands -2
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_tp 0
-execute as @a[scores={multiplayer=1..}] run scoreboard players set @a 1.20.5_PID_0 24000
+execute as @a[scores={multiplayer=1..}] run scoreboard players set @a 1.20.6_PID_0 24000
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a PID_1 24000
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_id 24000
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a SkyblockCE_large 24000
