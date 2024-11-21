@@ -11,8 +11,6 @@
     "skyblock_classic_edition.skyblock_setup.default_normal.info": "Bu ada herkesin bildiği klasik adanın yeni Minecraft sürümleri için modernize edilmiş halidir. Orjinal skyblock'a aşina olmayanlar için önerilir.",
     "skyblock_classic_edition.skyblock_setup.small_hard": "Küçük (Zor)",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "Bu ada orjinal skyblock 2.0 haritasını anımsatır ama yeni Minecraft sürümleri için modernize edilmiş halidir. Zorlu mücadeleleri sevenler ve hayatta kalma modunun bütün inceliklerini, teknik kavramlarını bilenler içindir.",
-    "skyblock_classic_edition.skyblock_setup.legacy_version": "Eski Sürüm",
-    "skyblock_classic_edition.skyblock_setup.legacy_version.info": "Eski sürüm son veri paketi versiyonu ile uyumlu sürümdür. Her zaman o an ki sürümün veri paketiyle uygun olup olmadığını kontrol et. Eğer veri paketi o versiyonla uyumsuz değilse ve güncellenmesi gerekmiyorsa güncellemeyin. Dünyanız sonsuza kadar yok olabilir. Her zaman yedek alın.",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible": "Bu sürümden:",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "ile",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack": "veri paketi ile uyumludur.",
