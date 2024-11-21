@@ -11,8 +11,6 @@
     "skyblock_classic_edition.skyblock_setup.default_normal.info": "هذه الجزيرة هي التقليدية التي يعرفها الجميع ولكن تم تحديثها للحصول على إصدارات جديدة من ماينكرافت. \nموصى بها لهؤلاء غير الملمين بالخريطة الأصلية.",
     "skyblock_classic_edition.skyblock_setup.small_hard": "▶صغير (صعب)",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "هذه الجزيرة تذكرنا كثيرا بالنسخة الثانية من الخريطة الأصلية ولكن تم تحديثها لنسخ جديدة من ماينكرافت. الجزيرة لمن يحبون التحديات الصعبة ويعرفون جميع الحيل والمفاهيم التقنية للعبة.",
-    "skyblock_classic_edition.skyblock_setup.legacy_version": "▶النسخة القديمة",
-    "skyblock_classic_edition.skyblock_setup.legacy_version.info": "النسخة القديمة هي إصدار متوافقة مع أحدث إصدار من حُزْمَة الموارد. تحقق دائمًا مما إذا كان الإصدار الحالي متوافقاً مع حُزْمَة الموارد، لا تحدث حُزْمَة الموارد إذا كان الإصدار غير متوافق، أو إذا لم يكن بحاجة إلى تحديث. فعل هذا الأمر قد يدمر العالم، أحتاط دائما عن طريق صنع نسخ الاحتياطية.",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible": "من الإصدار:",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "إلى",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack": "متوافقة مع حزمة البيانات.",
