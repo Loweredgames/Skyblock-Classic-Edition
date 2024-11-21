@@ -11,8 +11,6 @@
     "skyblock_classic_edition.skyblock_setup.default_normal.info": "이 섬은 모두가 알고있는 마크의 새로운 버전을 위해 현대화된 고전적인 섬입니다. 오리지널 스카이블록이 익숙하지 않은 분들에게 추천합니다.",
     "skyblock_classic_edition.skyblock_setup.small_hard": "작은 (어려움)",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "이 섬은 원래의 스카이블록 2.0을 매우 연상시키지만 마인크래프트의 새로운 버전을 위해 현대화되었습니다. 어려운 도전을 사랑하고 바닐라 서바이벌 모드의 모든 요령과 기술적 개념을 아는 사람들을 위한 것입니다.",
-    "skyblock_classic_edition.skyblock_setup.legacy_version": "전설적인 버전",
-    "skyblock_classic_edition.skyblock_setup.legacy_version.info": "기존 버전은 데이터 팩의 최신 버전과 호환되는 버전입니다. 현재 버전이 데이터 팩과 호환되는지 항상 확인하고, 버전이 호환되지 않거나 업데이트할 필요가 없는 경우 데이터 팩을 업데이트하지 마십시오. 세상을 파괴할 수도 있고, 항상 백업을 만들 수도 있습니다.",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible": "원본 버전:",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "으로",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack": "데이터 팩과 호환됩니다.",
