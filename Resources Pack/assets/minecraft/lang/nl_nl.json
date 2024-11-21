@@ -11,8 +11,6 @@
     "skyblock_classic_edition.skyblock_setup.default_normal.info": "Dit eiland is het klassieke eiland dat iedereen kent, maar gemoderniseerd voor nieuwe versies van Minecraft. Aanbevolen voor diegenen die niet bekend zijn met het originele skyblock.",
     "skyblock_classic_edition.skyblock_setup.small_hard": "Klein (Moeilijk)",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "Dit eiland doet sterk denken aan de originele Skyblock 2.0, maar dan gemoderniseerd voor de nieuwe versies van Minecraft. Voor degenen die houden van uitdagende moeilijkheden en alle trucs en technische kennis van de standaard survivalmodus kennen.",
-    "skyblock_classic_edition.skyblock_setup.legacy_version": "▶Verouderde versie",
-    "skyblock_classic_edition.skyblock_setup.legacy_version.info": "De verouderde versie is een versie die compatibel is met de meest recente versie van de datapack. Kijk altijd of the huidige versie compatibel is met de datapack, en werk de datapack niet bij als de versie niet compatibel is of niet bijgewerkt hoeft te worden. Dit kan de wereld verwijderen, zorg er dus voor dat je altijd een backup maakt.",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible": "Van versie:",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "naar",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack": "is compatibel met de datapack.",
