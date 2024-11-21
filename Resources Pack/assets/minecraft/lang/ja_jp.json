@@ -11,8 +11,6 @@
     "skyblock_classic_edition.skyblock_setup.default_normal.info": "元のスカイブロック（2.0など）に慣れていない場合、こちらの典型的な空島をおすすめします。この島はよく知られている古き良き空島ですが、新しいバージョンのMinecraftに合わせて近代化しています。",
     "skyblock_classic_edition.skyblock_setup.small_hard": "▶小（難）",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "汝、困難な挑戦を愛し、戦略と智略に長けるか？——ならばこの島を選ぶがよい……。この島は元のスカイブロック2.0に強く影響を受けていますが、新しいバージョンのMinecraftに合わせて近代化しています。バニラMinecraftのサバイバルモードにおける仕様を知りつくし技巧を使いこなせる方に向いています。",
-    "skyblock_classic_edition.skyblock_setup.legacy_version": "▶旧いバージョン",
-    "skyblock_classic_edition.skyblock_setup.legacy_version.info": "旧いバージョンは、データパックの最新版と互換性が保たれています。現在のバージョンがデータパックと互換性があるかどうかを常に確認し、互換性がない場合や必要がない場合はデータパックを更新しないでください。このバージョンはワールドを破壊する虞れがあります。バックアップを取るのを怠らないでください。",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible": "バージョン",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "は",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack": "データパックと互換性があります。",
