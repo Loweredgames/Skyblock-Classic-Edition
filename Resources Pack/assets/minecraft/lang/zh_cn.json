@@ -11,8 +11,6 @@
     "skyblock_classic_edition.skyblock_setup.default_normal.info": "针对新版MC进行改造的知名经典岛屿。推荐给不熟悉原版空岛生存的玩家。",
     "skyblock_classic_edition.skyblock_setup.small_hard": "▶小型（困难）",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "针对新版MC改造的类原版空岛生存2.0风格岛屿。为热衷挑战且精通香草生存模式技艺的挑战者。",
-    "skyblock_classic_edition.skyblock_setup.legacy_version": "▶旧版本",
-    "skyblock_classic_edition.skyblock_setup.legacy_version.info": "旧版应与最新版数据包兼容。请随时检查数据包与当前版本兼容性，如无必要或不兼容，请勿更新。否则将导致数据包损坏。请保持随时备份的良好习惯。",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible": "自版本:",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "至",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack": "与数据包兼容。",
