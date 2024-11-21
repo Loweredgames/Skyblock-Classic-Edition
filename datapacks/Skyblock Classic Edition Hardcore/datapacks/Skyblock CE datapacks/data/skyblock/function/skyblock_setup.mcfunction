@@ -14,6 +14,7 @@ execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:isl
 
 ##Function Padlock Lock
 function skyblock:import
+function skyblock:skyblock_mc_setup
 function skyblock:structures/custom_structures
 function skyblock:structures/generated_biome
 function skyblock_legacy:skyblock_legacy_setup
