@@ -20,7 +20,7 @@ execute as @a[scores={SkyblockCE_import=1..}] run scoreboard players set @a Skyb
 execute as @a[scores={SkyblockCE_import=1..}] run scoreboard players set @a SkyblockCE_large 24000
 execute as @a[scores={SkyblockCE_import=1..}] run scoreboard players set @a SkyblockCE_default 24000
 execute as @a[scores={SkyblockCE_import=1..}] run scoreboard players set @a SkyblockCE_small 24000
-execute as @a[scores={SkyblockCE_import=1..24}] run summon minecraft:area_effect_cloud ~ ~1 ~
+execute as @a[scores={SkyblockCE_import=1..100}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
 ##START GENERATED FUNCTION
@@ -32,7 +32,7 @@ execute as @a[scores={SkyblockCE_import=2}] run title @a times 30 200 20
 
 ##Generated Platform
 execute in minecraft:overworld as @a[scores={SkyblockCE_import=2}] run scoreboard players set @a SkyblockCE_tp 1
-execute as @a[scores={SkyblockCE_import=3}] run give @a map[minecraft:map_id=0]
+execute as @a[scores={SkyblockCE_import=3}] run give @p map
 execute as @a[scores={SkyblockCE_import=3}] run fill 0 63 0 0 64 0 minecraft:air destroy
 execute as @a[scores={SkyblockCE_import=3}] run fill 1 62 1 -1 62 -1 minecraft:glass keep
 
@@ -56,4 +56,5 @@ execute as @a[scores={SkyblockCE_import=15..24}] run stopsound @a
 execute as @a[scores={SkyblockCE_import=15}] run scoreboard objectives add kills deathCount
 execute as @a[scores={SkyblockCE_import=15}] run scoreboard objectives setdisplay list kills
 execute as @a[scores={SkyblockCE_import=15}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
+execute as @a[scores={SkyblockCE_import=24..100}] run effect give @a minecraft:regeneration 11 250 false
 execute as @a[scores={SkyblockCE_import=24..100}] run gamerule doImmediateRespawn false
