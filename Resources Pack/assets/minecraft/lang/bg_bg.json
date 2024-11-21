@@ -11,8 +11,6 @@
     "skyblock_classic_edition.skyblock_setup.default_normal.info": "Този остров е класическият остров, който всички знаят, но е осъвременен за новите версии на майнкрафт. Припоръчва се за тези незапознати с оригинарният скайблок.",
     "skyblock_classic_edition.skyblock_setup.small_hard": "Малък (Трудно)",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "Този остров е много напомня на оригиналният скайблок 2.0, но е осъвременен за новите версии на майнкрафт. За тези които обичат трудни предизвикателства и знаят всички трикове и технически понятия на основният режим на оцеляване.",
-    "skyblock_classic_edition.skyblock_setup.legacy_version": "Наследена версия",
-    "skyblock_classic_edition.skyblock_setup.legacy_version.info": "Наследената версия е версия, която е съвместима с най-новата версия на пакетните данни. Винаги проверявайте дали текущата версия е съвместима с пакета данни, не актуализирайте пакета данни, ако версията е несъвместима или ако не е необходимо да се актуализира. Може да унищожи света, винаги правете резервни копия.",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible": "От версия:",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "до",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack": "е къвместима са пакета данни.",
