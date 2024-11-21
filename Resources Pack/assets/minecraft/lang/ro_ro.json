@@ -11,8 +11,6 @@
     "skyblock_classic_edition.skyblock_setup.default_normal.info": "Această insulă este insula clasică pe care toată lumea o cunoaște, dar modernizată pentru noile versiuni de Minecraft. Recomandată pentru cei care nu sunt familiarizați cu skyblock-ul original.",
     "skyblock_classic_edition.skyblock_setup.small_hard": "▶Mic (Greu)",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "Această insulă aminteşte de skyblock-ul 2.0 original dar modernizat pentru noi versiuni de Minecraft. Pentru cei care iubesc provocările dificile şi cunosc toate trucurile şi noţiunile tehnice ale modului de supravieţuire vanilla.",
-    "skyblock_classic_edition.skyblock_setup.legacy_version": "▶Versiunea Legacy",
-    "skyblock_classic_edition.skyblock_setup.legacy_version.info": "Versiunea Legacy este o versiune compatibilă cu cea mai recentă versiune a datapack-urilor. Verifică întotdeauna dacă versiunea curentă este compatibilă cu datapack-urile, nu actualizați setul de date dacă versiunea este incompatibilă sau dacă nu trebuie actualizată. Ar putea distruge lumea, face-ti mereu copii de rezervă.",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible": "De la versiunea:",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "pana la",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack": "este compatibil cu setul de date.",
