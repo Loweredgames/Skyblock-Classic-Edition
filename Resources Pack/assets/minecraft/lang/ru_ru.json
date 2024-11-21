@@ -11,8 +11,6 @@
     "skyblock_classic_edition.skyblock_setup.default_normal.info": "Этот skyblock - классический skyblock, который все знают, но сделанный для новых версий Minecraft. Рекомендуется тем, кто не знаком с оригинальным skyblock'ом.",
     "skyblock_classic_edition.skyblock_setup.small_hard": "▶Маленький (Сложно)",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "Эта карта очень напоминает оригинальный skyblock 2.0, но переделан для новых версий Minecraft. Для тех, кто любит трудные задачи и знает все механики и фишки ванильного режима выживания.",
-    "skyblock_classic_edition.skyblock_setup.legacy_version": "▶Legacy Версия",
-    "skyblock_classic_edition.skyblock_setup.legacy_version.info": "Версии legacy - это версии, которые совместимы с последней версией datapack. Всегда проверяйте совместимость текущей версии с datapack, не обновляйте datapack, если версия несовместима или не нуждается в обновлении. Может сломать мир, всегда делайте резервные копии.",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible": "С версии:",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "до",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack": "совместимо с datapack.",
