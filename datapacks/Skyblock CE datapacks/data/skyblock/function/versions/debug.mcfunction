@@ -31,6 +31,7 @@ execute as @a[scores={SkyblockCE_debug=7}] run scoreboard objectives setdisplay 
 execute as @a[scores={SkyblockCE_debug=-71}] run scoreboard objectives setdisplay sidebar PID_0
 execute as @a[scores={SkyblockCE_debug=-72}] run scoreboard objectives setdisplay sidebar PID_1
 execute as @a[scores={SkyblockCE_debug=8}] run scoreboard objectives setdisplay list PID_warning
+execute as @a[scores={SkyblockCE_debug=-8}] run scoreboard objectives setdisplay sidebar PID_lts_warning
 
 
 ##DISPLAY DI DEBUG - GENERATED STRUCTURES
