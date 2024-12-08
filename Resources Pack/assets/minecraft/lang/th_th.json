@@ -11,8 +11,6 @@
     "skyblock_classic_edition.skyblock_setup.default_normal.info": "เกาะนี้เป็นเกาะคลาสสิคที่ทุกคนรู้จัก แต่ปรับปรุงให้ทันสมัยสำหรับ Minecraft เวอร์ชั่นใหม่ แนะนำสำหรับผู้ที่ไม่คุ้นเคยกับ skyblock ดั้งเดิม",
     "skyblock_classic_edition.skyblock_setup.small_hard": "▶ขนาดเล็ก (ยาก)",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "เกาะนี้ชวนให้นึกถึง skyblock ดั้งเดิม 2.0 แต่ได้รับการปรับปรุงให้ทันสมัยสำหรับ Minecraft เวอร์ชันใหม่ สำหรับผู้ที่รักความท้าทายที่ยากและรู้กลเม็ดและแนวคิดทางเทคนิคทั้งหมดของโหมดเอาชีวิตรอด",
-    "skyblock_classic_edition.skyblock_setup.legacy_version": "▶เวอร์ชั่น ดั้งเดิม",
-    "skyblock_classic_edition.skyblock_setup.legacy_version.info": "เวอร์ชันดั้งเดิมคือเวอร์ชันที่เข้ากันได้กับ datapack เวอร์ชันล่าสุด ตรวจสอบเสมอว่าเวอร์ชันปัจจุบันเข้ากันได้กับ datapack หรือไม่ อย่าอัปเดต datapack หากเวอร์ชันเข้ากันไม่ได้หรือหากไม่จำเป็นต้องอัปเดต สามารถทำลายโลกได้ สำรองข้อมูลไว้เสมอ",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible": "จากเวอร์ชั่น:",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "ถึง",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack": "เข้ากันได้กับ datapack",

@@ -11,8 +11,6 @@
     "skyblock_classic_edition.skyblock_setup.default_normal.info": "Aquesta illa és la clàssica que tothom coneix, però modernitzada per les noves versions de Minecraft. Recomanada per aquells no experimentats en el Skyblock original.",
     "skyblock_classic_edition.skyblock_setup.small_hard": "▶Petita (Difícil)",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "Aquesta illa és molt semblant a l'original del Skyblock 2.0, però modernitzada per les noves versions de Minecraft. Recomanada per aquells que busquen reptes difícils i es coneixen totes les mecàniques del mode supervivència.",
-    "skyblock_classic_edition.skyblock_setup.legacy_version": "▶Versió Llegenda",
-    "skyblock_classic_edition.skyblock_setup.legacy_version.info": "La versió Llegenda és la versió compatible amb l'última versió del datapack. Sempre t'has d'assegurar que la versió actual sigui compatible amb el datapack, però no l'actualitzis si és incompatible o si no ho necessita, ja que això podria destruir el teu món (assegura't de fer-ne còpies!).",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible": "De la versió:",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "a la",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack": "són compatibles amb el datapack.",

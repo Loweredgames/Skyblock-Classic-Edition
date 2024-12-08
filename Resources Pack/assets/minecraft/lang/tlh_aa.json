@@ -11,8 +11,6 @@
     "skyblock_classic_edition.skyblock_setup.default_normal.info": "'ambay wa'DIch Sovbogh Hoch 'oH 'ambayvam'e'. 'ach ‹Minecraft› Segh chu'vaD choHlu'. 'ambayvam wIv ‹Skyblock› qo' wa'DIch Sovbe'wI' net chup.",
     "skyblock_classic_edition.skyblock_setup.small_hard": "▶mach (Qatlh)",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "‹Skyblock› cha' vI' pagh qo' wa'DIch rur 'ambayvam'e', 'ach ‹Minecraft› Segh chu'vaD choHlu'. qaD Qatlh tIvwI'vaD 'ej taHmeH lo' motlh Hoch gho''ong Hoch qech 'Itlh je SovwI'vaD 'ambayvam renlu'.",
-    "skyblock_classic_edition.skyblock_setup.legacy_version": "▶'ISyar Segh",
-    "skyblock_classic_edition.skyblock_setup.legacy_version.info": "The legacy version is a versions that is compatible with the latest version of the datapack. always check if the current version is compatible with the datapack, don't update the datapack if the version is incompatible or if it doesn't need to be updated. could destroy the world, always make backups.",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible": "From version:",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "to",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack": "is compatible with the datapack.",

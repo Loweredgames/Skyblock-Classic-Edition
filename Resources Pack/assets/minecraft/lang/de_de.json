@@ -11,8 +11,6 @@
     "skyblock_classic_edition.skyblock_setup.default_normal.info": "Diese Insel ist die klassische Insel, die jeder kennt, die aber für neue Versionen von Minecraft modernisiert wurde. Empfohlen für diejenigen, die mit dem ursprünglichen Skyblock nicht vertraut sind.",
     "skyblock_classic_edition.skyblock_setup.small_hard": "▶Klein (Schwer)",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "Diese Insel erinnert sehr an den ursprünglichen Skyblock 2.0 wurde aber für neue Versionen von Minecraft modernisiert. Für diejenigen, die schwierige Herausforderungen lieben und alle Tricks und technischen Vorstellungen des Vanilla-Überlebensmodus kennen.",
-    "skyblock_classic_edition.skyblock_setup.legacy_version": "▶Legacy Version",
-    "skyblock_classic_edition.skyblock_setup.legacy_version.info": "Die alte Version ist eine Version, die mit der neuesten Version des Datapacks kompatibel ist. Immer prüfen, ob die aktuelle Version mit dem Datapack kompatibel ist, nicht aktualisieren, wenn die Version inkompatibel ist oder nicht aktualisiert werden muss. Könnte die Welt zerstören, immer Backups machen.",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible": "Ab Version:",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "zu",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack": "ist kompatibel mit dem datapack.",

@@ -11,8 +11,6 @@
     "skyblock_classic_edition.skyblock_setup.default_normal.info": "Hòn đảo này là hòn đảo cổ điển mà mọi người đều biết nhưng đã được hiện đại hóa cho các phiên bản Minecraft mới. Đề xuất cho những người chưa quen với skyblock cổ điển.",
     "skyblock_classic_edition.skyblock_setup.small_hard": "Nhỏ (Khó)",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "Hòn đảo này rất giống với skyblock 2.0 ban đầu nhưng được hiện đại hóa cho các phiên bản Minecraft mới. Dành cho những ai thích những thử thách khó khăn và biết tất cả các mánh khóe cũng như khái niệm kỹ thuật của chế độ sinh tồn vanilla.",
-    "skyblock_classic_edition.skyblock_setup.legacy_version": "Phiên bản kế thừa",
-    "skyblock_classic_edition.skyblock_setup.legacy_version.info": "Phiên bản kế thừa là phiên bản tương thích với phiên bản mới nhất của datapack. Luôn kiểm tra xem phiên bản hiện tại có tương thích với gói dữ liệu hay không, không cập nhật datapack nếu phiên bản không tương thích hoặc nếu không cần cập nhật. Có thể phá hủy thế giới, luôn luôn sao lưu.",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible": "Từ phiên bản:",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "đến",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack": "tương thích với gói dữ liệu.",
