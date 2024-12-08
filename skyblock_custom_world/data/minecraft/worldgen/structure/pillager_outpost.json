@@ -16,7 +16,7 @@
     }
   },
   "terrain_adaptation": "beard_thin",
-  "start_pool": "skyblock:pillager_outpost",
+  "start_pool": "skyblock:worldgen/pillager_outpost",
   "size": 1,
   "start_height": {
     "absolute": 0

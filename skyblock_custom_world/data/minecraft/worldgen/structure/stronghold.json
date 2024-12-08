@@ -4,7 +4,7 @@
   "step": "surface_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_thin",
-  "start_pool": "skyblock:stronghold",
+  "start_pool": "skyblock:worldgen/stronghold",
   "size": 1,
   "start_height": {
     "absolute": 0
