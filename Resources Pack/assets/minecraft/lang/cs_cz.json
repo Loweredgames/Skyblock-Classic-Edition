@@ -11,8 +11,6 @@
     "skyblock_classic_edition.skyblock_setup.default_normal.info": "Tenhle ostrov je jako klasický ostrov který všichni známe, ale je vylepšen pro novější verze Minecraftu. Doporučenu pro ty co neznají originální skyblock.",
     "skyblock_classic_edition.skyblock_setup.small_hard": "▶Malý (Těžký)",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "Tenhle ostrov velmi připomíná originální skyblock 2.0 ale je vylepšen pro nové verze Minecraftu. Pro ty co milují obtížné výzvy a znají všechny triky a techniky o vanilla minecraft přežití.",
-    "skyblock_classic_edition.skyblock_setup.legacy_version": "▶ Legacy verze",
-    "skyblock_classic_edition.skyblock_setup.legacy_version.info": "Starší verze je verze, která je kompatibilní s nejnovější verzí datového balíčku. vždy zkontrolujte, zda je aktuální verze kompatibilní s datovým balíčkem, neaktualizujte datový balíček, pokud je verze nekompatibilní nebo pokud není třeba ji aktualizovat. mohlo by to zničit svět, vždy si vytvořte zálohy.",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible": "Z verze:",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "do",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack": "je kompatibilní s datapackem.",

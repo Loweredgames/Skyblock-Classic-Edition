@@ -11,8 +11,6 @@
     "skyblock_classic_edition.skyblock_setup.default_normal.info": "این جزیره،جزیره کلاسیک است که همه آن را می شناسند اما برای نسخه های جدید ماینکرفت مدرن‌سازی شده است. برای کسانی که با اسکای بلاک اصلی آشنا نیستند توصیه می شود.",
     "skyblock_classic_edition.skyblock_setup.small_hard": "▶کوچک (سخت)",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "این جزیره بسیار یادآور اسکای بلاک 2.0 اصلی است اما برای نسخه های جدید ماینکرفت مدرن‌سازی شده است. برای کسانی که عاشق چالش های دشوار هستند و تمام ترفندها و مفاهیم فنی حالت بقای وانیلا را می‌دانند.",
-    "skyblock_classic_edition.skyblock_setup.legacy_version": "نسخه قدیمی",
-    "skyblock_classic_edition.skyblock_setup.legacy_version.info": "نسخه قدیمی نسخه ای است که با آخرین نسخه دیتاپک سازگار است. همیشه بررسی کنید که آیا نسخه فعلی با دیتاپک سازگار است، اگر نسخه ناسازگار است یا اگر نیازی به‌ بروزرسانی ندارد دیتاپک را به‌روز نکنید. می‌تواند دنیا را نابود کند، همیشه پشتیبان تهیه کنید.",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible": "از نسخه:",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "به",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack": "با دیتاپک سازگار است.",

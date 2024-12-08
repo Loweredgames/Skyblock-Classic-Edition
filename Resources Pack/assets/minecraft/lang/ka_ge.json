@@ -11,8 +11,6 @@
     "skyblock_classic_edition.skyblock_setup.default_normal.info": "ეს კუნძული არის კლასიკური კუნძული, რომელიც ყველამ იცის, მაგრამ მოდერნიზებულია Minecraft-ის ახალი ვერსიებისთვის. რეკომენდირებულია მათთვის, ვინც არ იცნობს ორიგინალურ skyblock-ს.",
     "skyblock_classic_edition.skyblock_setup.small_hard": "პატარა (რთული)",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "ეს კუნძული ძალიან მოგაგონებთ ორიგინალურ skyblock 2.0-ს, მაგრამ მოდერნიზებულია Minecraft-ის ახალი ვერსიებისთვის. მათთვის, ვისაც უყვარს რთული გამოწვევები და იცის ვანილის გადარჩენის რეჟიმის ყველა ხრიკი და ტექნიკური ცნება.",
-    "skyblock_classic_edition.skyblock_setup.legacy_version": "▶Legacy Version",
-    "skyblock_classic_edition.skyblock_setup.legacy_version.info": "The legacy version is a versions that is compatible with the latest version of the datapack. always check if the current version is compatible with the datapack, don't update the datapack if the version is incompatible or if it doesn't need to be updated. could destroy the world, always make backups.",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible": "ვერსიიდან:",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "რომ",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack": "is compatible with the datapack.",

@@ -11,8 +11,6 @@
     "skyblock_classic_edition.skyblock_setup.default_normal.info": "這個島是每個人都知道的經典島嶼，但為新版本的 Minecraft 進行了現代化改造。 推薦給那些不熟悉原始 skyblock 的人。",
     "skyblock_classic_edition.skyblock_setup.small_hard": "▶小（困難）",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "這個島讓人想起最初的 skyblock 2.0，但為新版本的 Minecraft 進行了現代化改造。",
-    "skyblock_classic_edition.skyblock_setup.legacy_version": "▶舊版本",
-    "skyblock_classic_edition.skyblock_setup.legacy_version.info": "舊版本是與最新版本的數據包兼容的版本。 始終檢查當前版本是否與數據包兼容，如果版本不兼容或不需要更新則不要更新數據包。 可以毀滅世界，永遠做備份。",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible": "From version:",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "to",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack": "與數據包兼容。",
