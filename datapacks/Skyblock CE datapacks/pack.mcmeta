@@ -17,6 +17,13 @@
 		  	"directory": "skyblock_setup_update"
 		},
 		{
+			"formats": {
+			  "min_inclusive": 48,
+			  "max_inclusive": 48
+			},
+				"directory": "skyblock_mc121"
+		},
+		{
 		  "formats": {
 			"min_inclusive": 30,
 			"max_inclusive": 41
