@@ -14,6 +14,7 @@ function skyblock:versions/pvn_remove
 scoreboard objectives add 1.20.6_PVN_0 dummy
 scoreboard players add @a 1.20.6_PVN_0 1
 execute as @a[scores={SkyblockCE_id=10}] run scoreboard objectives remove 1.20.6_PVN_0
+execute as @a[scores={SkyblockCE_import=20}] run scoreboard objectives remove 1.20.6_PVN_0a
 
 
 ##PVN VERSION LEGACY PROTOCOL (DA AGGIUNGERE SOLO QUANDO IL NUMERO CAMBIA)
