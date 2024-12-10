@@ -4,7 +4,7 @@
   "step": "surface_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_thin",
-  "start_pool": "skyblock:ocean_ruins_warm",
+  "start_pool": "skyblock:worldgen/ocean_ruins_warm",
   "size": 1,
   "start_height": {
     "absolute": 0
