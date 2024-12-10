@@ -57,4 +57,5 @@ execute as @a[scores={SkyblockCE_import=15}] run scoreboard objectives add kills
 execute as @a[scores={SkyblockCE_import=15}] run scoreboard objectives setdisplay list kills
 execute as @a[scores={SkyblockCE_import=15}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
 execute as @a[scores={SkyblockCE_import=24..100}] run effect give @a minecraft:regeneration 11 250 false
+execute as @a[scores={SkyblockCE_import=24..100}] run effect give @a minecraft:resistance 11 250 false
 execute as @a[scores={SkyblockCE_import=24..100}] run gamerule doImmediateRespawn false
