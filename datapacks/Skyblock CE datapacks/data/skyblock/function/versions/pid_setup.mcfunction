@@ -20,4 +20,4 @@ execute as @a[scores={SkyblockCE_id=30}] run scoreboard players set @a 1.21_PID_
 
 
 ##VERSION IMPORT LOCK (BLOCCA LA CONVERSIONE SE SI USA IMPORT)
-execute as @a[scores={SkyblockCE_import=1..}] run scoreboard players set @a 1.21_PID_0 24000
+execute as @a[scores={SkyblockCE_import=1..100}] run scoreboard players set @a 1.21_PID_0 2400
