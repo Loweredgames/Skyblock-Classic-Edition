@@ -91,7 +91,7 @@ execute in minecraft:overworld as @a[scores={PID_legacy_v2=856}] run setblock -2
 execute in minecraft:overworld as @a[scores={PID_legacy_v2=860}] run scoreboard players set @a SkyblockCE_level_dat 50000
 execute in minecraft:overworld as @a[scores={PID_legacy_v2=860}] run tellraw @a [{"translate":"skyblock_classic_edition.warning_level.dat.issues","color":"red","italic":true},{"translate":"skyblock_classic_edition.warning_level.dat.download","color":"red","italic":true,"underlined":true,"clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/raw/main/.worlds/.worlds-level.dat/Level.dat.zip"}},{"translate":"skyblock_classic_edition.warning_level.dat.copy_paste","color":"red","italic":true},{"text":"/scoreboard objectives add fix_custom_world dummy","underlined":true,"clickEvent":{"action":"copy_to_clipboard","value":"/scoreboard objectives add fix_custom_world dummy"}},{"translate":"skyblock_classic_edition.warning_level.dat.end","color":"red","italic":true}]
 execute in minecraft:overworld as @a[scores={PID_legacy_v2=860}] run tp @a 722 50 703 0.0 0.0
-execute in minecraft:overworld as @a[scores={PID_legacy_v2=865..}] run setblock 722 48 703 minecraft:cobweb replace
+execute in minecraft:overworld as @a[scores={PID_legacy_v2=865}] run setblock 722 48 703 minecraft:cobweb replace
 
 
 ##The Nether
