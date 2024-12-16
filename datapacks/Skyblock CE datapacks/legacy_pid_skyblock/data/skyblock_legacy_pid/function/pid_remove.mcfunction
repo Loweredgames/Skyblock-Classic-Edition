@@ -25,3 +25,9 @@ scoreboard objectives remove skyblock_ID
 scoreboard objectives remove PID_OLD
 scoreboard objectives remove PSN_OLD
 scoreboard objectives remove PSN_legacy
+
+
+##SUBPID
+scoreboard objectives remove 1.20.3_PID_1_3
+scoreboard objectives remove 1.20.3_PID_1_2
+scoreboard objectives remove 1.20.3_PID_1_1

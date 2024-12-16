@@ -17,3 +17,9 @@ scoreboard objectives remove NEW_PSN
 scoreboard objectives remove PSN_1
 scoreboard objectives remove PSN_0
 scoreboard objectives remove PSN_legacy
+scoreboard objectives remove skyblock_install
+scoreboard objectives remove skyblock_island
+scoreboard objectives remove skyblock_normal
+scoreboard objectives remove skyblock_quit_game
+scoreboard objectives remove structure_skyblock
+scoreboard objectives remove tp
