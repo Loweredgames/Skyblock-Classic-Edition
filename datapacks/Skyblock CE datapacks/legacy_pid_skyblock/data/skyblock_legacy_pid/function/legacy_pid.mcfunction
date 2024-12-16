@@ -155,6 +155,7 @@ execute as @a[scores={PID_legacy_v1=1..5}] run scoreboard players set @a PID_leg
 execute as @a[scores={PID_legacy_v1=850..}] run scoreboard players set @a PID_legacy_locks 1
 execute as @a[scores={PID_legacy_v2=1460..}] run scoreboard players set @a PID_legacy_locks 2
 #execute as @a[scores={PID_legacy_v3=1350..}] run scoreboard players set @a PID_legacy_locks 3
+#execute as @a[scores={PID_legacy_v3=???..}] run scoreboard players set @a PID_legacy_locks 0 < da resetare in futuro
 
 
 ##PID LEGACY REMOVE (AGGIUNGERE SEMPRE L'ULTIMO PID LEGACY PER RIMUOVERE L'ULTIMO PID)
