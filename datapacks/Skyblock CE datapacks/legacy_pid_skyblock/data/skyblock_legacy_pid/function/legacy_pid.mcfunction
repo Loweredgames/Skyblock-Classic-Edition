@@ -120,7 +120,7 @@ execute in minecraft:overworld as @a[scores={PID_legacy_v2=1160}] run setblock -
 execute in minecraft:overworld as @a[scores={PID_legacy_v2=1165}] run setblock -262 57 -471 minecraft:decorated_pot[cracked=false,facing=west,waterlogged=false]{item:{count:1b,id:"minecraft:orange_dye"}} keep
 execute in minecraft:overworld as @a[scores={PID_legacy_v2=1170}] run setblock -245 53 -474 minecraft:air keep
 execute in minecraft:overworld as @a[scores={PID_legacy_v2=1175}] run setblock -245 53 -474 minecraft:decorated_pot[cracked=false,facing=north,waterlogged=false]{item:{count:6b,id:"minecraft:blue_dye"}} keep
-execute in minecraft:overworld as @a[scores={PID_legacy_v2=1180}] run tp @a 0 64 0 0 0
+execute in minecraft:overworld as @a[scores={PID_legacy_v2=1180}] run tp @a 0 65 0 0 0
 
 
 ##PID LEGACY SETUP - v2 (Aggiornato all'ultima versione: 6.0.0 Minecraft: 1.21) Ricordati di aggiornare UPDATE ID e di aggiungere l'ultima conversione. ricordarsi di rimuovere i pid secondari come PID_1_1 nella stessa categoria.
