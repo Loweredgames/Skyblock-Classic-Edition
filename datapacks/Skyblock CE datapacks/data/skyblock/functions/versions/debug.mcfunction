@@ -38,7 +38,7 @@ execute as @a[scores={SkyblockCE_debug=-8}] run scoreboard objectives setdisplay
 execute as @a[scores={SkyblockCE_debug=9}] run scoreboard objectives setdisplay sidebar SkyblockCE_final
 
 
-##DISPLAY DI DEBUG - LEGACY STRUCTURES
+##DISPLAY DI DEBUG - TEST
 execute as @a[scores={SkyblockCE_debug=10}] run scoreboard objectives setdisplay sidebar SkyblockCE_structures_id
 execute as @a[scores={SkyblockCE_debug=11}] run scoreboard objectives setdisplay sidebar SkyblockCE_custom_structures
 

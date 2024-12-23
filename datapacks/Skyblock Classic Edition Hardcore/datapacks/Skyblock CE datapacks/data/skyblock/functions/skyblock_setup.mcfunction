@@ -13,6 +13,7 @@ execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:isl
 
 
 ##Function Padlock Lock
+function skyblock:import
 function skyblock:skyblock_mc_setup
 function skyblock:structures/custom_structures
 function skyblock:structures/generated_biome
@@ -46,6 +47,7 @@ execute as @a[scores={SkyblockCE_id=2000000..}] run scoreboard players set @a Sk
 execute as @a[scores={SkyblockCE_large=2000000..}] run scoreboard players set @a SkyblockCE_large 10000
 execute as @a[scores={SkyblockCE_default=2000000..}] run scoreboard players set @a SkyblockCE_default 10000
 execute as @a[scores={SkyblockCE_small=2000000..}] run scoreboard players set @a SkyblockCE_small 10000
+execute as @a[scores={SkyblockCE_import=2000000..}] run scoreboard players set @a SkyblockCE_import 10000
 
 
 ##Gamerules Setup
