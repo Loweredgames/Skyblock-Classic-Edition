@@ -10,7 +10,7 @@ function skyblock_legacy:legacy_remove/legacy_structures_system
 
 
 ##Function Remove Test (DA RIMUOVERE IN FUTURO)
-execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock_legacy:legacy_version
+function skyblock_legacy:legacy_version
 function skyblock_legacy:legacy_remove/refactoring_scoreboard
 function skyblock_legacy:legacy_remove/multiplayer_legacy
 scoreboard objectives remove fix_end

@@ -5,7 +5,7 @@
 
 "Release Versions": "6.0.0 - Portable Version - [The Removal Update]",
 
-"Release Building": "JE-1.21/1.21.1-6.0.0-Skyblock_Classic_Edition:BUILDING:08.12.2024a_portable",
+"Release Building": "JE-1.21/1.21.1-6.0.0-Skyblock_Classic_Edition:PRE-RELEASE 1_portable",
 
 "Data_pack": "TRUE",
 
@@ -15,11 +15,11 @@
 
 "Protocol Version": "1.21_PVN_0a",
 
-"Protocol Identifier Data": "\\1.21_PID_0",
+"Protocol Identifier Data": "1.21_PID_0",
 
-"Sub Protocol Identifier Data": "DA-FARE1.21_SUBPID_0_1",
+"Sub Protocol Identifier Data": "1.21_SUBPID_0_0",
 
-"Github_Tag": "1.21_JE-0a",
+"Github_Tag": "1.21_JE-1a",
 
 "Github":"https://github.com/Loweredgames/Skyblock-Classic-Edition",
 

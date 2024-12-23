@@ -6,4 +6,4 @@
 
 
 ##Skyblock Minecraft (1.21)
-#execute as @a[scores={mc121=1}] run tellraw @s {"translate":"skyblock_classic_edition.versions_id.warning_update.off","italic":true,"color":"#d5d5d5"}
+execute as @a[scores={mc121=1}] run tellraw @s {"translate":"skyblock_classic_edition.versions_id.warning_update.off","italic":true,"color":"#d5d5d5"}

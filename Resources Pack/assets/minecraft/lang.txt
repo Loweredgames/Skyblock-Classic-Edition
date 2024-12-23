@@ -1,0 +1,5 @@
+- per le lingue: modificare la lingua "default.json"
+- automaticamnente fa tutto lui
+
+
+NON TOCCARE MAI crowdin.yml
