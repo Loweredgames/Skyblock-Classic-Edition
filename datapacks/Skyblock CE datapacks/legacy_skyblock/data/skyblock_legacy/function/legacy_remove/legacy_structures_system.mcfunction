@@ -9,13 +9,18 @@
 
 
 #PSN LEGACY
-#execute as @a[scores={SkyblockCE_structures_id=1..5000}] run scoreboard players set @a SkyblockCE_id 25
-#execute as @a[scores={SkyblockCE_final=1..200}] run scoreboard players set @a 1.20.5_PID_0 10000
-execute as @a[scores={SkyblockCE_final=1..}] run scoreboard objectives remove NEW_PSN
-execute as @a[scores={SkyblockCE_final=1..}] run scoreboard objectives remove PSN0_OLD_SYSTEM
-execute as @a[scores={SkyblockCE_final=1..}] run scoreboard objectives remove 1.20.5_PSN_0
-execute as @a[scores={SkyblockCE_final=1..}] run scoreboard objectives remove PSN1_OLD_SYSTEM
-execute as @a[scores={SkyblockCE_final=1..}] run scoreboard objectives remove NEW_PSN
-execute as @a[scores={SkyblockCE_final=1..}] run scoreboard objectives remove PSN_1
-execute as @a[scores={SkyblockCE_final=1..}] run scoreboard objectives remove PSN_0
-execute as @a[scores={SkyblockCE_final=1..}] run scoreboard objectives remove PSN_legacy
+scoreboard objectives remove NEW_PSN
+scoreboard objectives remove PSN0_OLD_SYSTEM
+scoreboard objectives remove 1.20.5_PSN_0
+scoreboard objectives remove PSN1_OLD_SYSTEM
+scoreboard objectives remove NEW_PSN
+scoreboard objectives remove PSN_1
+scoreboard objectives remove PSN_0
+scoreboard objectives remove PSN_legacy
+scoreboard objectives remove skyblock_install
+scoreboard objectives remove skyblock_island
+scoreboard objectives remove skyblock_normal
+scoreboard objectives remove skyblock_quit_game
+scoreboard objectives remove structure_skyblock
+scoreboard objectives remove SkyblockCE_skip_structures
+scoreboard objectives remove tp

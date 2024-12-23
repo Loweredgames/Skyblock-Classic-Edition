@@ -27,7 +27,7 @@
     }
   },
   "terrain_adaptation": "beard_thin",
-  "start_pool": "skyblock:swamp_hut",
+  "start_pool": "skyblock:worldgen/swamp_hut",
   "size": 1,
   "start_height": {
     "absolute": 0

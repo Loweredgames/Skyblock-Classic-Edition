@@ -16,7 +16,7 @@
     }
   },
   "terrain_adaptation": "beard_thin",
-  "start_pool": "skyblock:desert_pyramid",
+  "start_pool": "skyblock:worldgen/desert_pyramid",
   "size": 1,
   "start_height": {
     "absolute": 0

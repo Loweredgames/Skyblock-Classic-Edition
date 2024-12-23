@@ -23,21 +23,22 @@ execute as @a[scores={SkyblockCE_debug=5}] run scoreboard objectives setdisplay 
 
 
 ##DISPLAY DI DEBUG - PVN (DA ABBILITARE SOLO PER LE VERSIONI INSTABILI)
-execute as @a[scores={SkyblockCE_debug=6}] run scoreboard objectives setdisplay sidebar 1.21_PVN_0a
+execute as @a[scores={SkyblockCE_debug=6}] run scoreboard objectives setdisplay sidebar 1.21_PVN_0b
 
 
 ##DISPLAY DI DEBUG - PID
-execute as @a[scores={SkyblockCE_debug=7}] run scoreboard objectives setdisplay sidebar 1.20.5_PID_0
+execute as @a[scores={SkyblockCE_debug=7}] run scoreboard objectives setdisplay sidebar 1.21_PID_0
 execute as @a[scores={SkyblockCE_debug=-71}] run scoreboard objectives setdisplay sidebar PID_0
 execute as @a[scores={SkyblockCE_debug=-72}] run scoreboard objectives setdisplay sidebar PID_1
 execute as @a[scores={SkyblockCE_debug=8}] run scoreboard objectives setdisplay list PID_warning
+execute as @a[scores={SkyblockCE_debug=-8}] run scoreboard objectives setdisplay sidebar PID_lts_warning
 
 
 ##DISPLAY DI DEBUG - GENERATED STRUCTURES
 execute as @a[scores={SkyblockCE_debug=9}] run scoreboard objectives setdisplay sidebar SkyblockCE_final
 
 
-##DISPLAY DI DEBUG - LEGACY STRUCTURES
+##DISPLAY DI DEBUG - TEST
 execute as @a[scores={SkyblockCE_debug=10}] run scoreboard objectives setdisplay sidebar SkyblockCE_structures_id
 execute as @a[scores={SkyblockCE_debug=11}] run scoreboard objectives setdisplay sidebar SkyblockCE_custom_structures
 
@@ -53,9 +54,3 @@ execute as @a[scores={SkyblockCE_debug=15}] run scoreboard objectives setdisplay
 execute as @a[scores={SkyblockCE_debug=16}] run scoreboard objectives setdisplay sidebar SkyblockCE_multiplayer_reset
 execute as @a[scores={SkyblockCE_debug=17}] run scoreboard objectives setdisplay sidebar SkyblockCE_multiplayer_tick
 execute as @a[scores={SkyblockCE_debug=18}] run scoreboard objectives setdisplay list SkyblockCE_multiplayer_join
-
-
-##DISPLAY DI DEBUG - TEST
-execute as @a[scores={SkyblockCE_debug=1000}] run scoreboard objectives setdisplay sidebar refactoring_scoreboard
-execute as @a[scores={SkyblockCE_debug=2000}] run scoreboard objectives setdisplay sidebar SkyblockCE_legacy_version
-execute as @a[scores={SkyblockCE_debug=2000}] run scoreboard objectives setdisplay sidebar SkyblockCE_test_structures
