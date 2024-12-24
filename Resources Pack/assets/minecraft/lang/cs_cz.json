@@ -11,12 +11,13 @@
     "skyblock_classic_edition.skyblock_setup.default_normal.info": "Tenhle ostrov je jako klasický ostrov který všichni známe, ale je vylepšen pro novější verze Minecraftu. Doporučenu pro ty co neznají originální skyblock.",
     "skyblock_classic_edition.skyblock_setup.small_hard": "▶Malý (Těžký)",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "Tenhle ostrov velmi připomíná originální skyblock 2.0 ale je vylepšen pro nové verze Minecraftu. Pro ty co milují obtížné výzvy a znají všechny triky a techniky o vanilla minecraft přežití.",
-    "skyblock_classic_edition.skyblock_setup.legacy_version": "▶ Legacy verze",
-    "skyblock_classic_edition.skyblock_setup.legacy_version.info": "Starší verze je verze, která je kompatibilní s nejnovější verzí datového balíčku. vždy zkontrolujte, zda je aktuální verze kompatibilní s datovým balíčkem, neaktualizujte datový balíček, pokud je verze nekompatibilní nebo pokud není třeba ji aktualizovat. mohlo by to zničit svět, vždy si vytvořte zálohy.",
+    "skyblock_classic_edition.skyblock_setup.import": "▶Importovat svět",
+    "skyblock_classic_edition.skyblock_setup.import.info": "Umožňuje importovat jiný svět, než je Skyblock Classic Edition, což může být další Skyblock. Přidá všechny potřebné tabulky skóre, aniž by poškodil svět a již existující struktury, také vytvoří malou skleněnou platformu, pokud tu nic není. POUŽÍVEJTE S OPATRNOSTÍ: FUNKCE NEGENERUJE ŽÁDNÝ OSTROV, ZNEMOŽŇUJE ZDROJE A MAPU SAMOTNOU. POKUD NENÍ ŽÁDNÝ BIOM/STRUKTURA VYGENEROVÁNA, JEDNÁ SE OCHYBU: VYTVOŘTE ZÁLOHU, VLOŽTE POLOŽKY DO TRUHLY A NAHRAĎTE LEVEL.DAT PŮVODNÍM.",
+    "skyblock_classic_edition.skyblock_test_setup": "Aktuálně používáte jinou verzi pro interní testování, která se používá v případě, že vlastní svět není kompatibilní s hlavní verzí. Může zde být několik závažných problémů a kritických chyb: tato verze obsahuje prázdný svět s pouze jediným biomem (zasněžená tajga), soubory level.dat a level.dat_old uchovávají pouze jeden biom a obsahují předgenerované testovací struktury, pokud chcete přejít na normální svět s mnoha biomy a strukturami generovanými vanilla metodami, musíte nahradit datový balíček kompatibilním souborem level.dat nebo znovu nainstalovat mapu s novější verzí. Tato verze bude při vývoji verze nahrazena vlastním světem. Doporučujeme svět negenerovat, ale počkat na vydání.",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible": "Z verze:",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "do",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack": "je kompatibilní s datapackem.",
-    "skyblock_classic_edition.multiplayer.popup": "Multiplayer je zakázán, aktivujte jej ve složce skyblock zde: ",
+    "skyblock_classic_edition.multiplayer.popup": "Hra pro více hráčů je zakázána, aktivujte ji ve složce skyblock zde: ",
     "skyblock_classic_edition.version_update.compatible.minecraft_versions": "Minecraft Verze: ",
     "skyblock_classic_edition.version_update.compatible.info": " jsou staré verze a nemusí být kompatibilní s aktuálním datovým balíčkem: pokud je datový balíček aktualizován, může mít problémy s kompatibilitou, vždy aktualizujte datový balíček na nejnovější kompatibilní verzi.",
     "skyblock_classic_edition.version_update.welcome": "Vítejte na Klasickém Skyblocku:",
@@ -36,6 +37,8 @@
     "skyblock_classic_edition.versions_id.warning_update.on": "Aktualizace světa a převod na novou verzi...",
     "skyblock_classic_edition.setup_version.warning": "⚠Upozornění: tato verze již není podporována!⚠",
     "skyblock_classic_edition.setup_version.warning.download": "\n\nNejnovější verzi vlastní mapy si stáhněte zde.",
+    "skyblock_classic_edition.setup_version.lts_warning": "Udržovací verzi (LTS) brzy skončí její životnost a nebude již udržována. Zbývající problémy budou přesunuty do další udržovací verze (LTS) nebo uzavřeny na konci této verze. Jedná se o minimální očekávanou dobu, kdy ji nahradí další verze, tato doba se může změnit a není 100% přesná, proto může být v každé udržovacím verzi aktualizována. Zde je uvedeno, za jak dlouho se další verze stane zastaralou:",
+    "skyblock_classic_edition.setup_version.lts_warning.month": "měsíce",
     "skyblock_classic_edition.generated_structures.loading.title": "Struktury:",
     "skyblock_classic_edition.generated_structures.loading.subtitle": "Byly vygenerovány...",
     "skyblock_classic_edition.generated_structures.generated.command_block.info": "⚠Vidím, že ve vašem světě není (vygenerovaná) složka. ",
@@ -48,5 +51,5 @@
     "skyblock_classic_edition.warning_level.dat.end": ", měli byste vidět struktury v nových částech, v případě opakování kroků znovu.",
     "skyblock_classic_edition.link.discord": "Discord Server",
     "skyblock_classic_edition.link.crowdin": "Projekt překladů Crowdin",
-    "skyblock_classic_edition.credits": "Přeloženo INFORMAČNÍ_studio, Grey-Wolf, Lukáš Mazánek (lukkwer)"
+    "skyblock_classic_edition.credits": "Přeloženo INFORMAČNÍ_studio, Grey-Wolf, Lukáš Mazánek (lukkwer), FoltinV, napnuta sunka,"
 }
