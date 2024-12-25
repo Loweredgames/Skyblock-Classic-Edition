@@ -1,0 +1,27 @@
+{
+"Name": "Skyblock Classic Edition",
+
+"Edition": "JAVA EDITION",
+
+"Release Versions": "6.0.0 [The Removal Update]",
+
+"Release Building": "JE-1.21/1.21.1-6.0.0-Skyblock_Classic_Edition:PRE-RELEASE 1",
+
+"Data_pack": "TRUE",
+
+"Resource_pack": "TRUE",
+
+"Custom Structures World": "4.0.0",
+
+"Protocol Version": "1.21_PVN_0a",
+
+"Protocol Identifier Data": "1.21_PID_0",
+
+"Sub Protocol Identifier Data": "1.21_SUBPID_0_0",
+
+"Github_Tag": "1.21_JE-1a",
+
+"Github":"https://github.com/Loweredgames/Skyblock-Classic-Edition",
+
+"Website":"https://minecraft-map-building-versions.blogspot.com/"
+}
