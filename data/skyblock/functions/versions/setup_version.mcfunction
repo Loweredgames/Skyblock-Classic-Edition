@@ -21,6 +21,13 @@ execute as @a[scores={1.20.6_PID_0=30}] run tellraw @s {"translate":"skyblock_cl
 execute as @a[scores={1.20.6_PID_0=35..100},gamemode=spectator] run gamemode survival @a
 
 
+##SKYBLOCK LTS WARNING (SOLO QUANDO LTS STA PER FINIRE, TEMPO PER AVVISARE I GIOCATORI CHE LA VERSIONE STA DIVENTANDO OBSOLETA, ATTIVARE QUANDO C'E LA PENULTIMA VERSIONE LTS. DISABILITARE QUANDO SI ATTIVA LA VERSIONE OBSOLETA SOTTO.)
+#execute as @a[scores={SkyblockCE_id=2000..}] run scoreboard objectives add PID_lts_warning dummy
+scoreboard players add @a PID_lts_warning 1
+execute as @a[scores={PID_lts_warning=15}] run tellraw @a [{"translate":"skyblock_classic_edition.setup_version.lts_warning","bold":true,"color":"red"},{"text":" "},{"text":"??? ","bold":true,"color":"red"},{"translate":"skyblock_classic_edition.setup_version.lts_warning.month","bold":true,"color":"red"}]
+execute as @a[scores={PID_lts_warning=900000..}] run scoreboard objectives remove PID_lts_warning
+
+
 ##SKYBLOCK PID WARNING (SOLO VERSIONI NON PIU SUPPORTATE, ATTIVARE QUANDO LA VERSIONE NON E PIU SUPPORTATA)
 #execute as @a[scores={SkyblockCE_id=2000..}] run scoreboard objectives add PID_warning dummy
 scoreboard players add @a PID_warning 1

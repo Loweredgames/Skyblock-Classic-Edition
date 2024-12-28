@@ -31,13 +31,14 @@ execute as @a[scores={SkyblockCE_debug=7}] run scoreboard objectives setdisplay 
 execute as @a[scores={SkyblockCE_debug=-71}] run scoreboard objectives setdisplay sidebar PID_0
 execute as @a[scores={SkyblockCE_debug=-72}] run scoreboard objectives setdisplay sidebar PID_1
 execute as @a[scores={SkyblockCE_debug=8}] run scoreboard objectives setdisplay list PID_warning
+execute as @a[scores={SkyblockCE_debug=-8}] run scoreboard objectives setdisplay sidebar PID_lts_warning
 
 
 ##DISPLAY DI DEBUG - GENERATED STRUCTURES
 execute as @a[scores={SkyblockCE_debug=9}] run scoreboard objectives setdisplay sidebar SkyblockCE_final
 
 
-##DISPLAY DI DEBUG - LEGACY STRUCTURES
+##DISPLAY DI DEBUG - TEST
 execute as @a[scores={SkyblockCE_debug=10}] run scoreboard objectives setdisplay sidebar SkyblockCE_structures_id
 execute as @a[scores={SkyblockCE_debug=11}] run scoreboard objectives setdisplay sidebar SkyblockCE_custom_structures
 

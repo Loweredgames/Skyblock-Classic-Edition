@@ -61,7 +61,7 @@ execute as @a[scores={PID_legacy_v2=1..50}] run gamemode spectator @a
 execute as @a[scores={PID_legacy_v2=10..600}] run effect give @a blindness 11 0 true
 execute as @a[scores={PID_legacy_v2=10..600}] run effect give @a night_vision 11 0 true
 execute as @a[scores={PID_legacy_v2=1..801}] run summon minecraft:area_effect_cloud ~ ~1 ~
-execute as @a[scores={PID_legacy_v2=740}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
+execute as @a[scores={PID_legacy_v2=740}] run playsound minecraft:block.note_block.bell ambient @a 0 66 0 100 2
 execute as @a[scores={PID_legacy_v2=745}] run scoreboard objectives add PID_1 dummy
 execute as @a[scores={PID_legacy_v2=750}] run scoreboard objectives add PID_legacy dummy
 
@@ -180,7 +180,7 @@ execute as @a[scores={PID_legacy_v3=1..5000}] run gamemode spectator @a
 execute as @a[scores={PID_legacy_v3=10..600}] run effect give @a blindness 11 0 true
 execute as @a[scores={PID_legacy_v3=10..600}] run effect give @a night_vision 11 0 true
 execute as @a[scores={PID_legacy_v3=1..801}] run summon minecraft:area_effect_cloud ~ ~1 ~
-execute as @a[scores={PID_legacy_v3=740}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
+execute as @a[scores={PID_legacy_v3=740}] run playsound minecraft:block.note_block.bell ambient @a 0 66 0 100 2
 #execute as @a[scores={PID_legacy_v1=745}] run scoreboard objectives add 1.21_PID_2 dummy - aggiungere in futuro il Pid legacy v1 qui
 execute as @a[scores={PID_legacy_v3=950}] run scoreboard objectives add PID_legacy dummy
 
