@@ -14,7 +14,7 @@ execute as @a[scores={1.20.5_SUBPID_0_1=5}] run gamerule doImmediateRespawn true
 execute as @a[scores={1.20.5_SUBPID_0_1=5..200}] run effect give @a blindness 5 0 true
 execute as @a[scores={1.20.5_SUBPID_0_1=5..200}] run effect give @a night_vision 5 0 true
 execute as @a[scores={1.20.5_SUBPID_0_1=200}] run gamerule doImmediateRespawn false
-execute as @a[scores={1.20.5_SUBPID_0_1=205}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
+execute as @a[scores={1.20.5_SUBPID_0_1=205}] run playsound minecraft:block.note_block.chime ambient @a 0 66 0 100 1
 execute as @a[scores={1.20.5_SUBPID_0_1=5..200}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
