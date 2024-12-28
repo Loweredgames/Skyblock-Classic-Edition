@@ -18,7 +18,7 @@ bossbar set minecraft:nightly_building value 100
 
 
 ##NIGHTLY BUILDING VERSION NUMBER (NUMERO DELLA VERSIONE VISTO IN ALTRO, SOLO NELLE VERSIONI DI SVILUPPO)
-bossbar set nightly_building name {"text":"JE-1.20.6-5.3.1-Skyblock_Classic_Edition:NIGHTLY_BUILDING_08.12.2024.51638a_[5.0.0-1.20.X]","color":"white","bold":true}
+bossbar set nightly_building name {"text":"JE-1.20.6-5.3.1-Skyblock_Classic_Edition:NIGHTLY_BUILDING_28.12.2024.11514a_[5.0.0-1.20.X]","color":"white","bold":true}
 
 
 ##NIGHTLY BUILDING VERSION (BOSSBAR VISIBILE: SOLO PER GIT, DISABILITARE PER I RILASCI)

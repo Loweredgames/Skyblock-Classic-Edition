@@ -19,7 +19,7 @@
 
 
 ##1.20.6 - LTS STABILE
-#scoreboard objectives remove 1.20.6_PVN_0 (da aggiungere nella 1.22)
+#scoreboard objectives remove 1.20.6_PVN_0 <- da rimuovere in futuro
 scoreboard objectives remove 1.20.6_PVN_0d
 scoreboard objectives remove 1.20.6_PVN_0c
 scoreboard objectives remove 1.20.6_PVN_0b
@@ -27,7 +27,6 @@ scoreboard objectives remove 1.20.6_PVN_0a
 
 
 ##1.20.5/1.20.6 - STABILE
-#scoreboard objectives remove 1.20.5_PVN_0 (da aggiungere nella 1.21)
 scoreboard objectives remove 1.20.5_PVN_0h
 scoreboard objectives remove 1.20.5_PVN_0g
 scoreboard objectives remove 1.20.5_PVN_0f
@@ -86,7 +85,7 @@ scoreboard objectives remove PVN_1
 scoreboard objectives remove PVN_0
 
 
-#PVN VECCHISSIMI E NON PIU USATI (DA RIMUOVERE NELLA 1.21)
+#PVN VECCHISSIMI E NON PIU USATI
 scoreboard objectives remove PVN_X0a
 scoreboard objectives remove 1.20.3_PVN_0ZA
 scoreboard objectives remove 1.20.3_PVN_0a-
