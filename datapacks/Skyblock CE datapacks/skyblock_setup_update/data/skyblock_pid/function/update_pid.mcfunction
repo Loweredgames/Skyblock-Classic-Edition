@@ -42,7 +42,7 @@ execute as @a[scores={1.21_PID_0=2000000..}] run scoreboard players set @a 1.21_
 #execute as @a[scores={1.21_PID_0=5..200}] run effect give @a blindness 5 0 true
 #execute as @a[scores={1.21_PID_0=5..200}] run effect give @a night_vision 5 0 true
 #execute as @a[scores={1.21_PID_0=200}] run gamerule doImmediateRespawn false
-#execute as @a[scores={1.21_PID_0=205}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
+#execute as @a[scores={1.21_PID_0=205}] run playsound minecraft:block.note_block.chime ambient @a 0 66 0 100 2
 #execute as @a[scores={1.21_PID_0=5..200}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
