@@ -1,4 +1,4 @@
-### Skyblock Classic Edition Portable Version
+### Skyblock Classic Edition
 
 [![Crowdin](https://badges.crowdin.net/skyblock-classic-edition/localized.svg)](https://crowdin.com/project/skyblock-classic-edition)
 
