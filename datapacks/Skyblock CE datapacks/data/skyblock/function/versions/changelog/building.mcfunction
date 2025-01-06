@@ -17,7 +17,7 @@ bossbar set minecraft:building max 100
 
 
 ##BUILDING VERSION NUMBER (NUMERO DELLA VERSIONE VISTO IN ALTRO, SOLO NELLE VERSIONI DI SVILUPPO)
-bossbar set building name {"text":"JE-1.21/1.21.1-6.0.0-Skyblock_Classic_Edition:RELEASE-CANDIDATE 1","color":"white","bold":true}
+bossbar set building name {"text":"JE-1.21/1.21.1-6.0.0-Skyblock_Classic_Edition:RELEASE-CANDIDATE 2","color":"white","bold":true}
 
 
 ##MAP PROGRESS (I PROGRESSI DELLA MAPPA, E UN NUMERO APROSSIMATO)
