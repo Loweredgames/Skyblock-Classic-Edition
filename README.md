@@ -25,7 +25,7 @@ _Steve, Alex, Noor, Sunny, Ari, Zuri, Makena, Kai and Efe, they woke up on an un
 
 # [FAQ - Troubleshooting and Help Requests](https://discord.com/channels/960603544480780308/1255129836494655488)
 
-# Credit
+# Credits:
 
 DrTrog (Custom World Gen):
 https://www.planetminecraft.com/member/drtrog/
