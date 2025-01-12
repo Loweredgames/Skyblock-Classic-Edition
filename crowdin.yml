@@ -93,7 +93,7 @@ files:
         nds: nds_de
         nl-BE: nl_be
         nl: nl_nl
-        no: no_no
+        'no': no_no
         nn-NO: nn_no
         oc: oc_fr
         oj: oj_ca
