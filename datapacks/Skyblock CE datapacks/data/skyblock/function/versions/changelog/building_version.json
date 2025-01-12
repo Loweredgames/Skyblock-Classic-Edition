@@ -5,7 +5,7 @@
 
 "Release Versions": "6.0.0 [The Removal Update]",
 
-"Release Building": "JE-1.21/1.21.1-6.0.0-Skyblock_Classic_Edition:PRE-RELEASE 1",
+"Release Building": "JE-1.21/1.21.1-6.0.0-Skyblock_Classic_Edition:6.0.0",
 
 "Data_pack": "TRUE",
 
@@ -13,13 +13,13 @@
 
 "Custom Structures World": "4.0.0",
 
-"Protocol Version": "1.21_PVN_0a",
+"Protocol Version": "1.21_PVN_0",
 
 "Protocol Identifier Data": "1.21_PID_0",
 
 "Sub Protocol Identifier Data": "1.21_SUBPID_0_0",
 
-"Github_Tag": "1.21_JE-1a",
+"Github_Tag": "1.21_JE-4a",
 
 "Github":"https://github.com/Loweredgames/Skyblock-Classic-Edition",
 
