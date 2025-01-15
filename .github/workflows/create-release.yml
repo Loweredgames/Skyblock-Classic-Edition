@@ -17,9 +17,9 @@ jobs:
       
       - name: Check if Release Building changed
         id: check
+        shell: bash
         run: |
-          CHANGED=$(git diff HEAD^ HEAD -- "datapacks/Skyblock CE datapacks/data/skyblock/function/versions/changelog/building_version.json" | grep '"Release Building"' || true)
-          if [ ! -z "$CHANGED" ]; then
+          if git diff HEAD^ HEAD -- "datapacks/Skyblock CE datapacks/data/skyblock/function/versions/changelog/building_version.json" | grep -q '"Release Building"'; then
             echo "changed=true" >> $GITHUB_OUTPUT
           else
             echo "changed=false" >> $GITHUB_OUTPUT
@@ -38,11 +38,13 @@ jobs:
           name: Skyblock_CE_Latest
           path: |
             **/*
-            !.git/**
-            !.github/**
-            !.worlds/**
-            !Resources Pack/**
+            !.git/
+            !.github/
+            !.gitignore
+            !.worlds/
+            !Resources Pack/
             !crowdin.yml
             !spyglass.json
             !*.zip
             !.DS_Store
+          if-no-files-found: error
