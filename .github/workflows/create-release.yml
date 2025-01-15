@@ -11,19 +11,12 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Get version
-        id: get_version
-        run: |
-          VERSION=$(jq -r '."Release Building"' "datapacks/Skyblock CE datapacks/data/skyblock/function/versions/changelog/building_version.json")
-          CLEAN_VERSION=$(echo $VERSION | grep -oP 'Skyblock_Classic_Edition:\K[0-9]+\.[0-9]+\.[0-9]+')
-          echo "version=$CLEAN_VERSION" >> $GITHUB_OUTPUT
-
       - name: Create ZIP
         run: |
-          zip -r "Skyblock-Classic-Edition_v${{ steps.get_version.outputs.version }}.zip" .
+          zip -r "Skyblock-Classic-Edition.zip" .
 
       - name: Upload ZIP as artifact
         uses: actions/upload-artifact@v3
         with:
           name: Skyblock-Classic-Edition
-          path: Skyblock-Classic-Edition_v${{ steps.get_version.outputs.version }}.zip
+          path: Skyblock-Classic-Edition.zip
