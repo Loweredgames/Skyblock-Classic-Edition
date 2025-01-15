@@ -13,7 +13,13 @@ jobs:
 
       - name: Create ZIP
         run: |
-          zip -r "Skyblock-Classic-Edition.zip" . -x "*.zip"
+          zip -r "Skyblock-Classic-Edition.zip" . \
+          -x "*.git/*" \
+          -x "*.github/*" \
+          -x "*crowdin.yml" \
+          -x "*spyglass.json" \
+          -x "*.zip" \
+          -x "*.DS_Store"
 
       - name: Upload ZIP as artifact
         uses: actions/upload-artifact@v3
