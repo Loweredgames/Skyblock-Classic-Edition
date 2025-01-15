@@ -7,11 +7,11 @@ on:
 
 jobs:
   check_changes:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     outputs:
       should_build: ${{ steps.check.outputs.changed }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 2
       
@@ -28,21 +28,21 @@ jobs:
   build:
     needs: check_changes
     if: needs.check_changes.outputs.should_build == 'true'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Upload folder content as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Skyblock_CE_Latest
           path: |
             **/*
-            !.git/
-            !.github/
+            !.git/**
+            !.github/**
             !.gitignore
-            !.worlds/
-            !Resources Pack/
+            !.worlds/**
+            !Resources Pack/**
             !crowdin.yml
             !spyglass.json
             !*.zip
