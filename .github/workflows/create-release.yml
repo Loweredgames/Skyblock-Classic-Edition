@@ -13,10 +13,10 @@ jobs:
 
       - name: Create ZIP
         run: |
-          zip -r "Skyblock-Classic-Edition.zip" .
+          zip -r "Skyblock-Classic-Edition.zip" . -x "*.zip"
 
       - name: Upload ZIP as artifact
         uses: actions/upload-artifact@v3
         with:
-          name: Skyblock-Classic-Edition
+          name: Skyblock_CE_Latest
           path: Skyblock-Classic-Edition.zip
