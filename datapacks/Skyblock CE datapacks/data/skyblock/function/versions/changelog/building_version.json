@@ -7,6 +7,8 @@
 
 "Release Building": "JE-1.21/1.21.1-6.0.0-Skyblock_Classic_Edition:9testCI",
 
+"Nightly Building": "JE-1.21/1.21.1-6.0.0-Skyblock_Classic_Edition:NIGHTLY_BUILDING_12.01.2025.11108a_[main]",
+
 "Data_pack": "TRUE",
 
 "Resource_pack": "TRUE",

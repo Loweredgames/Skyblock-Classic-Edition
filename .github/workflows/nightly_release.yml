@@ -1,4 +1,4 @@
-name: Create Release Build
+name: Create Nightly Release Build
 
 on:
   push:
@@ -15,11 +15,11 @@ jobs:
         with:
           fetch-depth: 2
       
-      - name: Check if Release Building changed
+      - name: Check if Nightly Release Building changed
         id: check
         shell: bash
         run: |
-          if git diff HEAD^ HEAD -- "datapacks/Skyblock CE datapacks/data/skyblock/function/versions/changelog/building_version.json" | grep -q '"Release Building"'; then
+          if git diff HEAD^ HEAD -- "datapacks/Skyblock CE datapacks/data/skyblock/function/versions/changelog/building_version.json" | grep -q '"Nightly Building"'; then
             echo "changed=true" >> $GITHUB_OUTPUT
           else
             echo "changed=false" >> $GITHUB_OUTPUT
@@ -35,7 +35,7 @@ jobs:
       - name: Upload folder content as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Skyblock_CE_Latest
+          name: Skyblock_CE_Nightly_Snapshots
           path: |
             **/*
             !.git/**
