@@ -32,20 +32,17 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Create ZIP
-        run: |
-          zip -r "Skyblock-Classic-Edition.zip" . \
-          -x "*.git/*" \
-          -x "*.github/*" \
-          -x "*.worlds/*" \
-          -x "*Resources Pack/*" \
-          -x "*crowdin.yml" \
-          -x "*spyglass.json" \
-          -x "*.zip" \
-          -x "*.DS_Store"
-
-      - name: Upload ZIP as artifact
+      - name: Upload folder content as artifact
         uses: actions/upload-artifact@v3
         with:
           name: Skyblock_CE_Latest
-          path: Skyblock-Classic-Edition.zip
+          path: |
+            **/*
+            !.git/**
+            !.github/**
+            !.worlds/**
+            !Resources Pack/**
+            !crowdin.yml
+            !spyglass.json
+            !*.zip
+            !.DS_Store
