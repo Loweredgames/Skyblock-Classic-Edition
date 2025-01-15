@@ -16,6 +16,8 @@ jobs:
           zip -r "Skyblock-Classic-Edition.zip" . \
           -x "*.git/*" \
           -x "*.github/*" \
+          -x "*.worlds/" \
+          -x "*Resources Pack/" \
           -x "*crowdin.yml" \
           -x "*spyglass.json" \
           -x "*.zip" \
