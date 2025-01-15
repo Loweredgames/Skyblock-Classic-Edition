@@ -6,7 +6,28 @@ on:
       - 'datapacks/Skyblock CE datapacks/data/skyblock/function/versions/changelog/building_version.json'
 
 jobs:
+  check_changes:
+    runs-on: ubuntu-latest
+    outputs:
+      should_build: ${{ steps.check.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+      
+      - name: Check if Release Building changed
+        id: check
+        run: |
+          CHANGED=$(git diff HEAD^ HEAD -- "datapacks/Skyblock CE datapacks/data/skyblock/function/versions/changelog/building_version.json" | grep '"Release Building"' || true)
+          if [ ! -z "$CHANGED" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
   build:
+    needs: check_changes
+    if: needs.check_changes.outputs.should_build == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -16,8 +37,8 @@ jobs:
           zip -r "Skyblock-Classic-Edition.zip" . \
           -x "*.git/*" \
           -x "*.github/*" \
-          -x "*.worlds/" \
-          -x "*Resources Pack/" \
+          -x "*.worlds/*" \
+          -x "*Resources Pack/*" \
           -x "*crowdin.yml" \
           -x "*spyglass.json" \
           -x "*.zip" \
