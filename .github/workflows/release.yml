@@ -27,11 +27,7 @@ jobs:
         id: check
         run: |
           if echo "${{ steps.changed-files.outputs.diff }}" | grep -q '"Release Building"'; then
-            if ! echo "${{ steps.changed-files.outputs.diff }}" | grep -q '"Nightly Building"'; then
-              echo "changed=true" >> $GITHUB_OUTPUT
-            else
-              echo "changed=false" >> $GITHUB_OUTPUT
-            fi
+            echo "changed=true" >> $GITHUB_OUTPUT
           else
             echo "changed=false" >> $GITHUB_OUTPUT
           fi
