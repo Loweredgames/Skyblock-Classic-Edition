@@ -35,7 +35,7 @@ jobs:
       - name: Upload folder content as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Skyblock CE Nightly Snapshots
+          name: Skyblock_CE_Nightly_Snapshots
           path: |
             **/*
             !.git/**
