@@ -5,7 +5,7 @@ name: Create Builds
 on:
   push:
     paths:
-      - 'datapacks/Skyblock CE datapacks/data/skyblock/function/versions/changelog/building_version.json'
+      - 'datapacks/Skyblock CE datapacks/data/skyblock/functions/versions/changelog/building_version.json'
 
 jobs:
   # Job per controllare quali versioni sono state modificate:
@@ -26,7 +26,7 @@ jobs:
         shell: bash
         run: |
           # Definisce il percorso del file da controllare:
-          FILE="datapacks/Skyblock CE datapacks/data/skyblock/function/versions/changelog/building_version.json"
+          FILE="datapacks/Skyblock CE datapacks/data/skyblock/functions/versions/changelog/building_version.json"
           
           # Gestisce il caso del primo commit:
           if ! git rev-parse HEAD^ >/dev/null 2>&1; then
