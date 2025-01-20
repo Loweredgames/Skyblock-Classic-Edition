@@ -1,26 +1,34 @@
+# Definisce il nome del workflow
 name: Create Builds
 
+# Trigger del workflow quando viene modificato il file delle versioni
 on:
   push:
     paths:
       - 'datapacks/Skyblock CE datapacks/data/skyblock/function/versions/changelog/building_version.json'
 
 jobs:
+  # Job per controllare quali versioni sono state modificate
   check_changes:
     runs-on: ubuntu-24.04
     outputs:
       release_changed: ${{ steps.check.outputs.release_changed }}
       nightly_changed: ${{ steps.check.outputs.nightly_changed }}
     steps:
+      # Checkout del repository
       - uses: actions/checkout@v4
         with:
           fetch-depth: 2
 
+      # Script per verificare i cambiamenti nelle versioni
       - name: Check changes
         id: check
         shell: bash
         run: |
+          # Definisce il percorso del file da controllare
           FILE="datapacks/Skyblock CE datapacks/data/skyblock/function/versions/changelog/building_version.json"
+          
+          # Gestisce il caso del primo commit
           if ! git rev-parse HEAD^ >/dev/null 2>&1; then
             echo "First commit - setting both as changed"
             echo "release_changed=true" >> "$GITHUB_OUTPUT"
@@ -28,33 +36,41 @@ jobs:
             exit 0
           fi
           
+          # Confronta le versioni Release tra commit precedente e attuale
           OLD_RELEASE=$(git show HEAD^:"$FILE" | grep '"Release Building"' || echo "")
           NEW_RELEASE=$(git show HEAD:"$FILE" | grep '"Release Building"' || echo "")
           OLD_NIGHTLY=$(git show HEAD^:"$FILE" | grep '"Nightly Building"' || echo "")
           NEW_NIGHTLY=$(git show HEAD:"$FILE" | grep '"Nightly Building"' || echo "")
           
+          # Imposta i flag per i cambiamenti Release
           if [ "$OLD_RELEASE" != "$NEW_RELEASE" ]; then
             echo "release_changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "release_changed=false" >> "$GITHUB_OUTPUT"
           fi
           
+          # Imposta i flag per i cambiamenti Nightly
           if [ "$OLD_NIGHTLY" != "$NEW_NIGHTLY" ]; then
             echo "nightly_changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "nightly_changed=false" >> "$GITHUB_OUTPUT"
           fi
 
+  # Job per creare il build Release
   release_build:
     needs: check_changes
     if: needs.check_changes.outputs.release_changed == 'true'
     runs-on: ubuntu-24.04
     steps:
+      # Checkout del repository
       - uses: actions/checkout@v4
+      
+      # Carica i file della Release come artifact
       - name: Upload release content
         uses: actions/upload-artifact@v4
         with:
           name: Skyblock_CE_Latest
+          # Include tutti i file tranne quelli specificati
           path: |
             .
             !.git/
@@ -66,18 +82,23 @@ jobs:
             !*.zip
             !.DS_Store
           if-no-files-found: error
-          retention-days: 90
+          retention-days: 60
 
+  # Job per creare il build Nightly
   nightly_build:
     needs: check_changes
     if: needs.check_changes.outputs.nightly_changed == 'true'
     runs-on: ubuntu-24.04
     steps:
+      # Checkout del repository
       - uses: actions/checkout@v4
+      
+      # Carica i file Nightly come artifact
       - name: Upload nightly content
         uses: actions/upload-artifact@v4
         with:
           name: Skyblock_CE_Nightly_Snapshots
+          # Include tutti i file tranne quelli specificati
           path: |
             .
             !.git/
@@ -89,4 +110,4 @@ jobs:
             !*.zip
             !.DS_Store
           if-no-files-found: error
-          retention-days: 90
+          retention-days: 60
