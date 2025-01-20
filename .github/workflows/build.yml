@@ -21,10 +21,17 @@ jobs:
         shell: bash
         run: |
           FILE="datapacks/Skyblock CE datapacks/data/skyblock/function/versions/changelog/building_version.json"
-          OLD_RELEASE=$(git show HEAD^:"$FILE" | grep "Release Building" || echo "")
-          NEW_RELEASE=$(git show HEAD:"$FILE" | grep "Release Building" || echo "")
-          OLD_NIGHTLY=$(git show HEAD^:"$FILE" | grep "Nightly Building" || echo "")
-          NEW_NIGHTLY=$(git show HEAD:"$FILE" | grep "Nightly Building" || echo "")
+          if ! git rev-parse HEAD^ >/dev/null 2>&1; then
+            echo "First commit - setting both as changed"
+            echo "release_changed=true" >> "$GITHUB_OUTPUT"
+            echo "nightly_changed=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          
+          OLD_RELEASE=$(git show HEAD^:"$FILE" | grep '"Release Building"' || echo "")
+          NEW_RELEASE=$(git show HEAD:"$FILE" | grep '"Release Building"' || echo "")
+          OLD_NIGHTLY=$(git show HEAD^:"$FILE" | grep '"Nightly Building"' || echo "")
+          NEW_NIGHTLY=$(git show HEAD:"$FILE" | grep '"Nightly Building"' || echo "")
           
           if [ "$OLD_RELEASE" != "$NEW_RELEASE" ]; then
             echo "release_changed=true" >> "$GITHUB_OUTPUT"
