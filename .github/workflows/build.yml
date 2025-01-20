@@ -27,12 +27,13 @@ jobs:
       - name: Check changes
         id: check
         run: |
-          if echo "${{ steps.changed-files.outputs.diff }}" | grep -q '"Release Building"'; then
+          DIFF="${{ steps.changed-files.outputs.diff }}"
+          if echo "$DIFF" | grep -q '"Release Building"'; then
             echo "release_changed=true" >> $GITHUB_OUTPUT
           else
             echo "release_changed=false" >> $GITHUB_OUTPUT
           fi
-          if echo "${{ steps.changed-files.outputs.diff }}" | grep -q '"Nightly Building"'; then
+          if echo "$DIFF" | grep -q '"Nightly Building"'; then
             echo "nightly_changed=true" >> $GITHUB_OUTPUT
           else
             echo "nightly_changed=false" >> $GITHUB_OUTPUT
@@ -49,7 +50,7 @@ jobs:
         with:
           name: Skyblock_CE_Latest
           path: |
-            **/*
+            datapacks/**/*
             !.git/**
             !.github/**
             !.gitignore
@@ -60,6 +61,7 @@ jobs:
             !*.zip
             !.DS_Store
           if-no-files-found: error
+          retention-days: 90
 
   nightly_build:
     needs: check_changes
@@ -72,7 +74,7 @@ jobs:
         with:
           name: Skyblock_CE_Nightly_Snapshots
           path: |
-            **/*
+            datapacks/**/*
             !.git/**
             !.github/**
             !.gitignore
@@ -83,3 +85,4 @@ jobs:
             !*.zip
             !.DS_Store
           if-no-files-found: error
+          retention-days: 90
