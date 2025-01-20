@@ -15,12 +15,23 @@ jobs:
         with:
           fetch-depth: 2
       
+      - name: Get file changes
+        id: changed-files
+        run: |
+          DIFF=$(git diff HEAD^ HEAD -- "datapacks/Skyblock CE datapacks/data/skyblock/function/versions/changelog/building_version.json")
+          echo "diff<<EOF" >> $GITHUB_OUTPUT
+          echo "$DIFF" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
       - name: Check if Release Building changed
         id: check
-        shell: bash
         run: |
-          if git diff HEAD^ HEAD -- "datapacks/Skyblock CE datapacks/data/skyblock/function/versions/changelog/building_version.json" | grep -q '"Release Building"'; then
-            echo "changed=true" >> $GITHUB_OUTPUT
+          if echo "${{ steps.changed-files.outputs.diff }}" | grep -q '"Release Building"'; then
+            if ! echo "${{ steps.changed-files.outputs.diff }}" | grep -q '"Nightly Building"'; then
+              echo "changed=true" >> $GITHUB_OUTPUT
+            else
+              echo "changed=false" >> $GITHUB_OUTPUT
+            fi
           else
             echo "changed=false" >> $GITHUB_OUTPUT
           fi
