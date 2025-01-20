@@ -21,12 +21,18 @@ jobs:
         shell: bash
         run: |
           FILE="datapacks/Skyblock CE datapacks/data/skyblock/function/versions/changelog/building_version.json"
-          if git diff HEAD^ HEAD -- "$FILE" | grep -q "Release Building"; then
+          OLD_RELEASE=$(git show HEAD^:"$FILE" | grep "Release Building" || echo "")
+          NEW_RELEASE=$(git show HEAD:"$FILE" | grep "Release Building" || echo "")
+          OLD_NIGHTLY=$(git show HEAD^:"$FILE" | grep "Nightly Building" || echo "")
+          NEW_NIGHTLY=$(git show HEAD:"$FILE" | grep "Nightly Building" || echo "")
+          
+          if [ "$OLD_RELEASE" != "$NEW_RELEASE" ]; then
             echo "release_changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "release_changed=false" >> "$GITHUB_OUTPUT"
           fi
-          if git diff HEAD^ HEAD -- "$FILE" | grep -q "Nightly Building"; then
+          
+          if [ "$OLD_NIGHTLY" != "$NEW_NIGHTLY" ]; then
             echo "nightly_changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "nightly_changed=false" >> "$GITHUB_OUTPUT"
@@ -43,12 +49,11 @@ jobs:
         with:
           name: Skyblock_CE_Latest
           path: |
-            datapacks/**/*
-            !.git/**
-            !.github/**
+            .
+            !.git/
+            !.github/
             !.gitignore
-            !.worlds/**
-            !Resources Pack/**
+            !Resources Pack/
             !crowdin.yml
             !spyglass.json
             !*.zip
@@ -67,12 +72,11 @@ jobs:
         with:
           name: Skyblock_CE_Nightly_Snapshots
           path: |
-            datapacks/**/*
-            !.git/**
-            !.github/**
+            .
+            !.git/
+            !.github/
             !.gitignore
-            !.worlds/**
-            !Resources Pack/**
+            !Resources Pack/
             !crowdin.yml
             !spyglass.json
             !*.zip
