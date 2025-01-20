@@ -8,6 +8,7 @@
 ##Function Setup Test
 function skyblock_legacy:legacy_remove/multiplayer_legacy
 function skyblock_legacy:legacy_remove/legacy_structures_system
+function skyblock_legacy:legacy_remove/nightly_building
 
 
 ##Function Remove Test (DA RIMUOVERE IN FUTURO)
