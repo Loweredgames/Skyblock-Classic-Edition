@@ -1,4 +1,4 @@
-name: Create Nightly Release Build
+name: Create Builds
 
 on:
   push:
@@ -9,7 +9,8 @@ jobs:
   check_changes:
     runs-on: ubuntu-24.04
     outputs:
-      should_build: ${{ steps.check.outputs.changed }}
+      release_changed: ${{ steps.check.outputs.release_changed }}
+      nightly_changed: ${{ steps.check.outputs.nightly_changed }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -23,23 +24,50 @@ jobs:
           echo "$DIFF" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
-      - name: Check if Nightly Building changed
+      - name: Check changes
         id: check
         run: |
-          if echo "${{ steps.changed-files.outputs.diff }}" | grep -q '"Nightly Building"'; then
-            echo "changed=true" >> $GITHUB_OUTPUT
+          if echo "${{ steps.changed-files.outputs.diff }}" | grep -q '"Release Building"'; then
+            echo "release_changed=true" >> $GITHUB_OUTPUT
           else
-            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "release_changed=false" >> $GITHUB_OUTPUT
+          fi
+          if echo "${{ steps.changed-files.outputs.diff }}" | grep -q '"Nightly Building"'; then
+            echo "nightly_changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "nightly_changed=false" >> $GITHUB_OUTPUT
           fi
 
-  build:
+  release_build:
     needs: check_changes
-    if: needs.check_changes.outputs.should_build == 'true'
+    if: needs.check_changes.outputs.release_changed == 'true'
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
+      - name: Upload release content
+        uses: actions/upload-artifact@v4
+        with:
+          name: Skyblock_CE_Latest
+          path: |
+            **/*
+            !.git/**
+            !.github/**
+            !.gitignore
+            !.worlds/**
+            !Resources Pack/**
+            !crowdin.yml
+            !spyglass.json
+            !*.zip
+            !.DS_Store
+          if-no-files-found: error
 
-      - name: Upload folder content as artifact
+  nightly_build:
+    needs: check_changes
+    if: needs.check_changes.outputs.nightly_changed == 'true'
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Upload nightly content
         uses: actions/upload-artifact@v4
         with:
           name: Skyblock_CE_Nightly_Snapshots
