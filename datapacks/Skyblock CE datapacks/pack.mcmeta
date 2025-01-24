@@ -1,9 +1,9 @@
 {
 	"pack": {
-	  "pack_format": 48,
+	  "pack_format": 57,
 	  "supported_formats": {
 		"min_inclusive": 48,
-		"max_inclusive": 48
+		"max_inclusive": 57
 	  },
 	  "description": "Skyblock Classic Edition By Lorenzo Giannini"
 	},
@@ -12,7 +12,7 @@
 		{
 		  "formats": {
 			"min_inclusive": 48,
-			"max_inclusive": 48
+			"max_inclusive": 57
 		  },
 		  	"directory": "skyblock_setup_update"
 		},
@@ -26,21 +26,21 @@
 		{
 		  "formats": {
 			"min_inclusive": 48,
-			"max_inclusive": 48
+			"max_inclusive": 57
 		  },
 		  	"directory": "legacy_pid_skyblock"
 		},
 		{
 		   "formats": {
 			"min_inclusive": 48,
-			"max_inclusive": 48
+			"max_inclusive": 57
 			},
 			"directory": "legacy_skyblock"
 		},
 		{
 		   "formats": {
 			"min_inclusive": 48,
-			"max_inclusive": 48
+			"max_inclusive": 57
 		  	},
 		  	"directory": "skyblock_custom_world"
 		},

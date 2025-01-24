@@ -12,11 +12,7 @@
 		"timeOmitTickUnit": false
 	},
 	"lint": {"undeclaredSymbol": [
-			{
-				"lint": {
-					"undeclaredSymbol": null
-				}
-			}
+			null
 		]
 	}
 }
