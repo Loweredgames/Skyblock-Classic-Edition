@@ -1,8 +1,8 @@
 {
-    "skyblock_classic_edition.folder.test": "Здравствуй, мир",
-    "skyblock_classic_edition.skyblock_setup.welcome": "Добро пожаловать в Skyblock Classic Edition",
-    "skyblock_classic_edition.skyblock_setup.version": "Версия:",
-    "skyblock_classic_edition.skyblock_setup.for_text": "для",
+    "skyblock_classic_edition.folder.test": "Hello World",
+    "skyblock_classic_edition.skyblock_setup.welcome": "Welcome to the Skyblock Classic Edition",
+    "skyblock_classic_edition.skyblock_setup.version": "Version:",
+    "skyblock_classic_edition.skyblock_setup.for_text": "for",
     "skyblock_classic_edition.skyblock_setup.choose_languages": "Choose the languages in the Minecraft options menu",
     "skyblock_classic_edition.skyblock_setup.choose_islands": "Choose the islands:",
     "skyblock_classic_edition.skyblock_setup.large_easy": "▶Large (Easy)",
