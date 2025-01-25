@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "skyblock",
+  "pattern": [
+    " M",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:pink_petals"
+    },
+    "M": {
+      "item": "minecraft:moss_block"
+    }
+  },
+  "result": {
+    "id": "minecraft:spore_blossom",
+    "count": 1
+  }
+}

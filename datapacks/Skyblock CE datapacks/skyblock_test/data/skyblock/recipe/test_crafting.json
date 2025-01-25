@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "group": "skyblock_test",
   "ingredients": [
-    {
-      "item": "minecraft:blackstone"
-    },
-    {
-      "item": "minecraft:command_block"
-    }
+    [
+      "minecraft:green_bed"
+    ],
+    [
+      "minecraft:command_block"
+    ]
   ],
   "result": {
     "id": "minecraft:stick",

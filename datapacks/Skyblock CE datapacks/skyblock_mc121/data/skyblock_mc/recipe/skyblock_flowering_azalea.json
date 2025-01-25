@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "skyblock",
+  "pattern": [
+    "M#P"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:oak_sapling"
+    },
+    "M": {
+      "item": "minecraft:moss_block"
+    },
+    "P": {
+      "item": "minecraft:pink_petals"
+    }
+  },
+  "result": {
+    "id": "minecraft:flowering_azalea",
+    "count": 1
+  }
+}
