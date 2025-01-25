@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "skyblock",
+  "pattern": [
+    "#R",
+    "R#"
+  ],
+  "key": {
+    "#": [
+      "minecraft:coarse_dirt"
+    ],
+    "R": [
+      "minecraft:rotten_flesh"
+    ]
+  },
+  "result": {
+    "id": "minecraft:sand",
+    "count": 4
+  }
+}
