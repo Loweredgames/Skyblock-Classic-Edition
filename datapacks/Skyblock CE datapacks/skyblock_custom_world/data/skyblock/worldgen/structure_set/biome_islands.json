@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "skyblock:cherry_grove",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 10387312,
+    "spread_type": "triangular",
+    "spacing": 20,
+    "separation": 8
+  }
+}
