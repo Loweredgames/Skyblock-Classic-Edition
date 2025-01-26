@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
   "group": "skyblock_test",
-  "ingredient": {
-    "item": "minecraft:debug_stick"
-  },
+  "ingredient": [
+    "minecraft:structure_block"
+  ],
   "result": {
     "id": "minecraft:red_dye"
   },
