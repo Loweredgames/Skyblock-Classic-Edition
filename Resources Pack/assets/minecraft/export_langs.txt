@@ -1,0 +1,7 @@
+- scaricare il file zip
+- mettere il file "lang" dentro "import"
+- eseguire lo script export_langs.py dentro o con il terminale
+- poi mettere e copiare tutto su "lang"
+
+
+USARE SEMPRE IL BRANCH: "main_translated"
