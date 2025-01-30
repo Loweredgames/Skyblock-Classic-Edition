@@ -6,8 +6,8 @@
 
 
 ##Skyblock Classic Edition Import
-execute as @a[scores={SkyblockCE_islands=4}] run scoreboard objectives add SkyblockCE_import minecraft.custom:minecraft.play_time
-execute as @a[scores={SkyblockCE_islands=4}] run tellraw @a {"translate":"skyblock_classic_edition.loading.chat"}
+execute as @a[scores={SkyblockCE_islands=5}] run scoreboard objectives add SkyblockCE_import minecraft.custom:minecraft.play_time
+execute as @a[scores={SkyblockCE_islands=5}] run tellraw @a {"translate":"skyblock_classic_edition.loading.chat"}
 execute as @a[scores={SkyblockCE_import=1..}] run clear @a written_book[custom_data={tag:generated_book}]
 execute as @a[scores={SkyblockCE_import=1..}] run scoreboard players set @a SkyblockCE_install -2
 execute as @a[scores={SkyblockCE_import=1..}] run scoreboard players set @a SkyblockCE_install_test -2
@@ -20,6 +20,7 @@ execute as @a[scores={SkyblockCE_import=1..}] run scoreboard players set @a Skyb
 execute as @a[scores={SkyblockCE_import=1..}] run scoreboard players set @a SkyblockCE_large 24000
 execute as @a[scores={SkyblockCE_import=1..}] run scoreboard players set @a SkyblockCE_default 24000
 execute as @a[scores={SkyblockCE_import=1..}] run scoreboard players set @a SkyblockCE_small 24000
+execute as @a[scores={SkyblockCE_import=1..}] run scoreboard players set @a SkyblockCE_very_small 24000
 execute as @a[scores={SkyblockCE_import=1..100}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 

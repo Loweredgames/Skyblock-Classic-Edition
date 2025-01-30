@@ -23,6 +23,7 @@ execute as @a[scores={SkyblockCE_multiplayer_join=2..}] run clear @a written_boo
 execute as @a[scores={SkyblockCE_multiplayer_join=2..}] run scoreboard players set @a SkyblockCE_large 24000
 execute as @a[scores={SkyblockCE_multiplayer_join=2..}] run scoreboard players set @a SkyblockCE_default 24000
 execute as @a[scores={SkyblockCE_multiplayer_join=2..}] run scoreboard players set @a SkyblockCE_small 24000
+execute as @a[scores={SkyblockCE_multiplayer_join=2..}] run scoreboard players set @a SkyblockCE_very_small 24000
 
 
 ##MULTIPLAYER JOIN PLAYERS
