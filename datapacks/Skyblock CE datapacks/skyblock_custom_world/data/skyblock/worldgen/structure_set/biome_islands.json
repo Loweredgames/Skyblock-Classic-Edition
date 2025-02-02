@@ -3,6 +3,10 @@
     {
       "structure": "skyblock:cherry_grove",
       "weight": 1
+    },
+    {
+      "structure": "skyblock:monster_room",
+      "weight": 1
     }
   ],
   "placement": {
