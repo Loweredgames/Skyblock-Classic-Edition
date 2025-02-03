@@ -7,6 +7,10 @@
     {
       "structure": "skyblock:monster_room",
       "weight": 1
+    },
+    {
+      "structure": "skyblock:desert_well",
+      "weight": 1
     }
   ],
   "placement": {
