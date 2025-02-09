@@ -1,7 +1,31 @@
 {
   "structures": [
     {
+      "structure": "skyblock:badland",
+      "weight": 1
+    },
+    {
+      "structure": "skyblock:birch_forest",
+      "weight": 1
+    },
+    {
       "structure": "skyblock:cherry_grove",
+      "weight": 1
+    },
+    {
+      "structure": "skyblock:dark_forest",
+      "weight": 1
+    },
+    {
+      "structure": "skyblock:desert_well",
+      "weight": 1
+    },
+    {
+      "structure": "skyblock:jungle",
+      "weight": 1
+    },
+    {
+      "structure": "skyblock:mangrove_swamp",
       "weight": 1
     },
     {
@@ -9,7 +33,11 @@
       "weight": 1
     },
     {
-      "structure": "skyblock:desert_well",
+      "structure": "skyblock:savanna",
+      "weight": 1
+    },
+    {
+      "structure": "skyblock:taiga",
       "weight": 1
     }
   ],
