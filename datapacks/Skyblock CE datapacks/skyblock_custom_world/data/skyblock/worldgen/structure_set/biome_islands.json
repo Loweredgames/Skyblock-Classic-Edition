@@ -39,6 +39,10 @@
     {
       "structure": "skyblock:taiga",
       "weight": 1
+    },
+    {
+      "structure": "skyblock:pale_garden",
+      "weight": 1
     }
   ],
   "placement": {
