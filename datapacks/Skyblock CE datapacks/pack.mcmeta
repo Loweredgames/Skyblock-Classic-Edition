@@ -31,6 +31,13 @@
 				"directory": "skyblock_mc1212"
 		},
 		{
+			"formats": {
+			  "min_inclusive": 61,
+			  "max_inclusive": 61
+			},
+				"directory": "skyblock_mc1214"
+		},
+		{
 		  "formats": {
 			"min_inclusive": 48,
 			"max_inclusive": 61

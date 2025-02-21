@@ -5,7 +5,7 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Small (Hard)
+##Very Small (Extreme)
 
 
 execute as @a[scores={SkyblockCE_islands=4}] run scoreboard objectives add SkyblockCE_very_small minecraft.custom:minecraft.play_time
@@ -34,7 +34,6 @@ execute in minecraft:overworld as @a[scores={SkyblockCE_very_small=1}] run gamer
 execute in minecraft:overworld as @a[scores={SkyblockCE_very_small=1}] run scoreboard players set @a SkyblockCE_tp 1
 execute in minecraft:overworld as @a[scores={SkyblockCE_very_small=1}] run fill 7 110 -13 -7 -60 5 minecraft:air
 execute in minecraft:overworld as @a[scores={SkyblockCE_very_small=3}] run place template skyblock:very_small_classic -1 62 -1
-execute in minecraft:overworld as @a[scores={SkyblockCE_very_small=10}] run setblock -1 65 0 birch_wall_sign[facing=west,waterlogged=false]{back_text:{messages:['{"text":"This"}','{"text":"is"}','{"text":"a"}','{"text":"secret!!!"}']},front_text:{color:"white",has_glowing_text:1b,messages:['{"text":"Skyblock"}','{"text":"Classic Edition"}','{"text":"---------------"}','{"text":"1.21/1.21.1"}']}} replace
 
 
 #Very Small Classic Desert
