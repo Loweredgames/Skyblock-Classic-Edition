@@ -13,6 +13,10 @@ function skyblock:structures_test/warning_message/warning_level.dat
 #function skyblock:test/ (da fare in futuro)
 
 
+##Setup Test
+recipe give @a *
+
+
 ##Scoreboard Install Test
 scoreboard objectives add SkyblockCE_install_test dummy
 scoreboard players add @a SkyblockCE_install_test 1
