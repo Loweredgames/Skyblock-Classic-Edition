@@ -7,7 +7,7 @@
   "start_pool": "skyblock:worldgen/buried_treasure",
   "size": 1,
   "start_height": {
-    "absolute": 0
+    "absolute": -25
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "max_distance_from_center": 80,

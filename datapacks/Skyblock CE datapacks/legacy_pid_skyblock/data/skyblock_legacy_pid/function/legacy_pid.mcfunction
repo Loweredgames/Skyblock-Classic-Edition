@@ -34,7 +34,7 @@ scoreboard objectives add PID_legacy_v2 dummy
 
 
 ##The Nether
-execute as @a[scores={PID_legacy_v1=100..500}] run scoreboard players set @a SkyblockCE_islands 4
+execute as @a[scores={PID_legacy_v1=100..500}] run scoreboard players set @a SkyblockCE_islands 5
 execute in minecraft:the_nether as @a[scores={PID_legacy_v1=300}] run tp @a 0 -3 30
 execute in minecraft:the_nether as @a[scores={PID_legacy_v1=350}] run fill 2 2 33 -2 2 29 minecraft:infested_cobblestone destroy
 execute in minecraft:the_nether as @a[scores={PID_legacy_v1=400}] run setblock 0 3 31 oak_sign[rotation=8,waterlogged=false]{front_text:{color:"black",has_glowing_text:1b,messages:['{"text":"The portal is"}','{"text":"broken sorry.."}','{"text":";("}','{"text":"since: 1.0.0"}']}} destroy

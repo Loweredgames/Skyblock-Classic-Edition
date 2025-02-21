@@ -46,6 +46,7 @@ execute as @a[scores={SkyblockCE_id=2000000..}] run scoreboard players set @a Sk
 execute as @a[scores={SkyblockCE_large=2000000..}] run scoreboard players set @a SkyblockCE_large 10000
 execute as @a[scores={SkyblockCE_default=2000000..}] run scoreboard players set @a SkyblockCE_default 10000
 execute as @a[scores={SkyblockCE_small=2000000..}] run scoreboard players set @a SkyblockCE_small 10000
+execute as @a[scores={SkyblockCE_very_small=2000000..}] run scoreboard players set @a SkyblockCE_very_small 10000
 execute as @a[scores={SkyblockCE_import=2000000..}] run scoreboard players set @a SkyblockCE_import 10000
 
 
