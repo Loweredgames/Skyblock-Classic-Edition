@@ -19,7 +19,7 @@
 		{
 			"formats": {
 			  "min_inclusive": 48,
-			  "max_inclusive": 48
+			  "max_inclusive": 57
 			},
 				"directory": "skyblock_mc121"
 		},
@@ -39,7 +39,7 @@
 		},
 		{
 		   "formats": {
-			"min_inclusive": 48,
+			"min_inclusive": 58,
 			"max_inclusive": 61
 		  	},
 		  	"directory": "skyblock_custom_world"
