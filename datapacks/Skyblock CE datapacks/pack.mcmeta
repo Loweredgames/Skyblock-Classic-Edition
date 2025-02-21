@@ -19,9 +19,16 @@
 		{
 			"formats": {
 			  "min_inclusive": 48,
-			  "max_inclusive": 57
+			  "max_inclusive": 48
 			},
 				"directory": "skyblock_mc121"
+		},
+		{
+			"formats": {
+			  "min_inclusive": 57,
+			  "max_inclusive": 57
+			},
+				"directory": "skyblock_mc1212"
 		},
 		{
 		  "formats": {
