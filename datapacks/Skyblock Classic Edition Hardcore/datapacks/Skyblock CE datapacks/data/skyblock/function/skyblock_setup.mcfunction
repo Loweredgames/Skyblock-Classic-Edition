@@ -26,7 +26,6 @@ function skyblock:multiplayer_setup
 
 
 ##Setup Lock
-recipe give @a *
 setblock 0 62 0 minecraft:bedrock
 
 

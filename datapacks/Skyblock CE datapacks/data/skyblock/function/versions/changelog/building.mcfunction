@@ -17,11 +17,11 @@ bossbar set minecraft:building max 100
 
 
 ##BUILDING VERSION NUMBER (NUMERO DELLA VERSIONE VISTO IN ALTRO, SOLO NELLE VERSIONI DI SVILUPPO)
-bossbar set building name {"text":"JE-1.21/1.21.1-6.0.0-Skyblock_Classic_Edition:6.0.0","color":"white","bold":true}
+bossbar set building name {"text":"JE-1.21/1.21.1-6.1.0-Skyblock_Classic_Edition:???","color":"white","bold":true}
 
 
 ##MAP PROGRESS (I PROGRESSI DELLA MAPPA, E UN NUMERO APROSSIMATO)
-bossbar set minecraft:building value 30
+bossbar set minecraft:building value 49
 
 
 ##WARNING MESSAGE (MESSAGGIO DA ABILITARE SOLO NELLE VERSIONI DI SVILUPPO)
