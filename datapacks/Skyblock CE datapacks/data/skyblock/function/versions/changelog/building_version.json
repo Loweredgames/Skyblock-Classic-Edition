@@ -5,23 +5,23 @@
 
 "Release Versions": "6.1.0 [The Removal Update]",
 
-"Release Building": "JE-1.21/1.21.1-6.1.0-Skyblock_Classic_Edition:BUILDING:???",
+"Release Building": "JE-1.21>1.21.4-6.1.0-Skyblock_Classic_Edition:BUILDING:22.02.2025a",
 
-"Nightly Building": "JE-1.21/1.21.1-6.0.0-Skyblock_Classic_Edition:NIGHTLY_BUILDING_21.02.2025.71735a_[main]",
+"Nightly Building": "JE-1.21>1.21.4-6.1.0-Skyblock_Classic_Edition:NIGHTLY_BUILDING_22.02.2025.11152a_[main]",
 
 "Data_pack": "TRUE",
 
 "Resource_pack": "TRUE",
 
-"Custom Structures World": "4.0.0",
+"Custom Structures World": "4.1.0",
 
-"Protocol Version": "1.21_PVN_0",
+"Protocol Version": "1.21.4_PVN_0a",
 
 "Protocol Identifier Data": "1.21_PID_0",
 
 "Sub Protocol Identifier Data": "1.21_SUBPID_0_0",
 
-"Github_Tag": "1.21_JE-4a",
+"Github_Tag": "1.21.4_JE-0a",
 
 "Github":"https://github.com/Loweredgames/Skyblock-Classic-Edition",
 
