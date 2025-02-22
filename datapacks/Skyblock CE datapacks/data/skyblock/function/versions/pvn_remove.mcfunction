@@ -11,11 +11,12 @@
 ##1.22 - FUTURA (PROSSIMA VERSIONE)
 #coming...
 
-##1.21.2 - FUTURA (PROSSIMA VERSIONE)
-#coming...
+##1.21/1.21.1/1.21.2/1.21.3/1.21.4 - FUTURA (PROSSIMA VERSIONE)
+#scoreboard objectives remove 1.21.4_PVN_0a
+
 
 ##1.21/1.21.1 - STABILE
-#scoreboard objectives remove 1.21_PVN_0
+scoreboard objectives remove 1.21_PVN_0
 scoreboard objectives remove 1.21_PVN_0d
 scoreboard objectives remove 1.21_PVN_0c
 scoreboard objectives remove 1.21_PVN_0b
