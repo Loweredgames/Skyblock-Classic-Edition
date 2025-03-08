@@ -1,0 +1,93 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "block": "minecraft:spawner",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.30
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:spawner"
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {
+              "id": "minecraft:mob_spawner",
+              "x": 104,
+              "y": -60,
+              "z": 424,
+              "SpawnPotentials": [],
+              "SpawnData": {
+                "entity": {
+                  "id": "minecraft:skeleton"
+                }
+              }
+            }
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:spawner",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.30
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:spawner"
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {
+              "id": "minecraft:mob_spawner",
+              "x": 104,
+              "y": -60,
+              "z": 424,
+              "SpawnPotentials": [],
+              "SpawnData": {
+                "entity": {
+                  "id": "minecraft:creeper"
+                }
+              }
+            }
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:spawner",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.30
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:spawner"
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {
+              "id": "minecraft:mob_spawner",
+              "x": 104,
+              "y": -60,
+              "z": 424,
+              "SpawnPotentials": [],
+              "SpawnData": {
+                "entity": {
+                  "id": "minecraft:spider"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

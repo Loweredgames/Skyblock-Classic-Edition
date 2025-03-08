@@ -1,0 +1,51 @@
+{
+  "structures": [
+    {
+      "structure": "skyblock:badland",
+      "weight": 1
+    },
+    {
+      "structure": "skyblock:birch_forest",
+      "weight": 1
+    },
+    {
+      "structure": "skyblock:cherry_grove",
+      "weight": 1
+    },
+    {
+      "structure": "skyblock:dark_forest",
+      "weight": 1
+    },
+    {
+      "structure": "skyblock:desert_well",
+      "weight": 1
+    },
+    {
+      "structure": "skyblock:jungle",
+      "weight": 1
+    },
+    {
+      "structure": "skyblock:mangrove_swamp",
+      "weight": 1
+    },
+    {
+      "structure": "skyblock:monster_room",
+      "weight": 1
+    },
+    {
+      "structure": "skyblock:savanna",
+      "weight": 1
+    },
+    {
+      "structure": "skyblock:taiga",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 10387312,
+    "spread_type": "triangular",
+    "spacing": 38,
+    "separation": 16
+  }
+}

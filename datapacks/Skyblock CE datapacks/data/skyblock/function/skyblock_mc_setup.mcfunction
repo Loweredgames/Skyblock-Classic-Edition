@@ -12,8 +12,14 @@
 #scoreboard players set @a SkyblockCE_mc121 1
 
 
-##Function Setup Minecraft (AGGIUNGERE QUI TUTTE LE FUNZIONI SE SERVONO CON ALLA FINE LA VERSIONE SPECIFICA SENZA IL PUNTO COME: 121)
-function skyblock_mc:mc121
+##Function Setup Minecraft Versions (AGGIUNGERE QUI TUTTE LE FUNZIONI SE SERVONO CON ALLA FINE LA VERSIONE SPECIFICA SENZA IL PUNTO COME: 121, 1212 ecc...)
+function skyblock:mc121
+function skyblock:mc1212
+function skyblock:mc1214
+
+
+##Function Setup Wall Texts Sign
+function skyblock:wall_texts_sign
 
 
 ##Scoreboard Install Minecraft (AGGIUNGERE QUI TUTTE LE SCOREBOARD SE E NECCESARIO CON ALLA FINE LA VERSIONE SPECIFICA SENZA IL PUNTO COME: 121)
@@ -22,4 +28,4 @@ function skyblock_mc:mc121
 
 
 ##Scoreboard Loop Minecraft
-execute as @a[scores={SkyblockCE_mc121=2000000..}] run scoreboard players set @a SkyblockCE_121 10000
+#execute as @a[scores={SkyblockCE_mc121=2000000..}] run scoreboard players set @a SkyblockCE_121 10000

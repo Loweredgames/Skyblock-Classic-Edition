@@ -23,7 +23,7 @@ execute as @a[scores={SkyblockCE_debug=5}] run scoreboard objectives setdisplay 
 
 
 ##DISPLAY DI DEBUG - PVN (DA ABBILITARE SOLO PER LE VERSIONI INSTABILI)
-execute as @a[scores={SkyblockCE_debug=6}] run scoreboard objectives setdisplay sidebar 1.21_PVN_0b
+execute as @a[scores={SkyblockCE_debug=6}] run scoreboard objectives setdisplay sidebar 1.21.4_PVN_0a
 
 
 ##DISPLAY DI DEBUG - PID
@@ -47,10 +47,11 @@ execute as @a[scores={SkyblockCE_debug=11}] run scoreboard objectives setdisplay
 execute as @a[scores={SkyblockCE_debug=12}] run scoreboard objectives setdisplay sidebar SkyblockCE_default
 execute as @a[scores={SkyblockCE_debug=13}] run scoreboard objectives setdisplay sidebar SkyblockCE_large
 execute as @a[scores={SkyblockCE_debug=14}] run scoreboard objectives setdisplay sidebar SkyblockCE_small
+execute as @a[scores={SkyblockCE_debug=15}] run scoreboard objectives setdisplay sidebar SkyblockCE_very_small
 
 
 ##DISPLAY DI DEBUG - MULTIPLAYER
-execute as @a[scores={SkyblockCE_debug=15}] run scoreboard objectives setdisplay list SkyblockCE_multiplayer
-execute as @a[scores={SkyblockCE_debug=16}] run scoreboard objectives setdisplay sidebar SkyblockCE_multiplayer_reset
-execute as @a[scores={SkyblockCE_debug=17}] run scoreboard objectives setdisplay sidebar SkyblockCE_multiplayer_tick
-execute as @a[scores={SkyblockCE_debug=18}] run scoreboard objectives setdisplay list SkyblockCE_multiplayer_join
+execute as @a[scores={SkyblockCE_debug=16}] run scoreboard objectives setdisplay list SkyblockCE_multiplayer
+execute as @a[scores={SkyblockCE_debug=17}] run scoreboard objectives setdisplay sidebar SkyblockCE_multiplayer_reset
+execute as @a[scores={SkyblockCE_debug=18}] run scoreboard objectives setdisplay sidebar SkyblockCE_multiplayer_tick
+execute as @a[scores={SkyblockCE_debug=19}] run scoreboard objectives setdisplay list SkyblockCE_multiplayer_join

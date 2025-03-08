@@ -34,7 +34,6 @@ execute in minecraft:overworld as @a[scores={SkyblockCE_large=1}] run gamerule a
 execute in minecraft:overworld as @a[scores={SkyblockCE_large=1}] run scoreboard players set @a SkyblockCE_tp 1
 execute in minecraft:overworld as @a[scores={SkyblockCE_large=1}] run fill 7 110 -13 -7 -60 5 minecraft:air
 execute in minecraft:overworld as @a[scores={SkyblockCE_large=20}] run place template skyblock:large_classic -5 45 -5
-execute in minecraft:overworld as @a[scores={SkyblockCE_large=33}] run setblock -1 68 -1 birch_wall_sign[facing=south,waterlogged=false]{back_text:{messages:['{"text":"This"}','{"text":"is"}','{"text":"a"}','{"text":"secret!!!"}']},front_text:{color:"white",has_glowing_text:1b,messages:['{"text":"Skyblock"}','{"text":"Classic Edition"}','{"text":"---------------"}','{"text":"1.21/1.21.1"}']}} replace
 execute in minecraft:overworld as @a[scores={SkyblockCE_large=35}] run setblock -1 68 0 minecraft:air
 
 
