@@ -1,1 +1,1 @@
-Ultima Build: 26.01.2025, 17:14
+Ultima Build: 26.01.2025 - 17:14
