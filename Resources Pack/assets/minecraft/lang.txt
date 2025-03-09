@@ -1,3 +1,0 @@
-- per le lingue: modificare la lingua "default.json"
-- poi andare su Crowdin è andare in "translations > Upload exiting translated", ricordarsi che il progetto deve vedere solo il file default.json
-- lo fa sempre in automatico
