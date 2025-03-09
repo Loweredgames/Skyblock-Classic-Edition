@@ -11,8 +11,10 @@
     "skyblock_classic_edition.skyblock_setup.default_normal.info": "Bu ada herkesin bildiği klasik adanın yeni Minecraft sürümleri için modernize edilmiş halidir. Orjinal skyblock'a aşina olmayanlar için önerilir.",
     "skyblock_classic_edition.skyblock_setup.small_hard": "Küçük (Zor)",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "Bu ada orjinal skyblock 2.0 haritasını anımsatır ama yeni Minecraft sürümleri için modernize edilmiş halidir. Zorlu mücadeleleri sevenler ve hayatta kalma modunun bütün inceliklerini, teknik kavramlarını bilenler içindir.",
+    "skyblock_classic_edition.skyblock_setup.very_small_hard": "Çok Küçük(Aşırı Zor)",
+    "skyblock_classic_edition.skyblock_setup.very_small_hard.info": "Bu ada zordur ve yeni oyuncular için uygun değildir, ancak yalnızca saf vanilya tekniğinin heyecanını arayanlar ve Minecraft'ı ve tekniklerini en uç noktasına kadar bilenler için uygundur. Hardcore modu açıkken oynamanız tavsiye edilir.",
     "skyblock_classic_edition.skyblock_setup.import": "▶Import World",
-    "skyblock_classic_edition.skyblock_setup.import.info": "Allows you to import a world other than the Skyblock Classic Edition, which can be another Skyblock. adds all the necessary scoreboards without damaging the world and pre-existing structures, also creates a small glass platform if there is nothing. USE WITH CAUTION: THE FUNCTION DOES NOT GENERATE ANY ISLAND, MAKING THE MAP ITSELF AND THE RESOURCES IMPOSSIBLE. IF NO BIOME/STRUCTURE IS GENERATED, IT IS A BUG: MAKE A BACKUP, PUT THE ITEMS IN A CHEST AND REPLACE THE LEVEL.DAT WITH THE OLD ONE.",
+    "skyblock_classic_edition.skyblock_setup.import.info": "Skyblock Classic Edition dışındaki bir dünyayı içe aktarmanıza izin verir, bu başka bir Skyblock olabilir. dünyaya ve önceden var olan yapılara zarar vermeden gerekli tüm puan tablolarını ekler, ayrıca hiçbir şey yoksa küçük bir cam platform oluşturur. DİKKATLİ KULLANIN: FONKSİYON HERHANGİ BİR ADA OLUŞTURMAZ, HARİTANIN KENDİSİNİ VE KAYNAKLARI İMKANSIZ HALE GETİRİR. EĞER BİYOM/YAPI OLUŞTURULMAZSA, BU BİR HATADIR: BİR YEDEK ALIN, ÖĞELERİ BIR SANDIĞA KOYUN VE LEVEL.DAT DOSYASINI ESKİSİYLE DEĞİŞTİRİN.",
     "skyblock_classic_edition.skyblock_test_setup": "You are currently using another version for internal testing and it is used when the custom world is not compatible with the main version. There may be several serious issues and critical bugs: this version contains an empty world with only one biome (snowy taiga), level.dat and level.dat_old store only one biome and contain pregenerated test structures, if you want to switch to a normal world with many biomes and structures generated with vanilla methods you need to replace the datapack with the compatible level.dat or reinstall the map again with a newer version. This version will be replaced with the custom world in the development of the release. It is recommended not to generate the world but to wait for the release.",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible": "Bu sürümden:",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "ile",
@@ -22,7 +24,7 @@
     "skyblock_classic_edition.version_update.compatible.info": " eski versiyondur ve şuan ki veri paketiyle uyumsuz olabilir: eğer veri paketi güncellendiyse uyumluluk problemleri yaşanabilir, her zaman veri paketini uyumlu en son sürüme güncelle.",
     "skyblock_classic_edition.version_update.welcome": "Skyblock Classic Edition'a hoşgeldin:",
     "skyblock_classic_edition.version_update.for_edition": "Minecraft Java Edition içindir:",
-    "skyblock_classic_edition.version_update.check_news": "En son sürümleri buradan kontrol et",
+    "skyblock_classic_edition.version_update.check_news": "\n\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n\nEn son sürümleri buradan kontrol et:\n",
     "skyblock_classic_edition.version_update.changelog": "Değişiklik günlüğü",
     "skyblock_classic_edition.version_update.check_links": "Burada ki çeşitli bağlantılardan en son sürümü kontrol ediniz:",
     "skyblock_classic_edition.version_update.crowdin": "➡Crowdin çeviri projesi",
@@ -51,5 +53,5 @@
     "skyblock_classic_edition.warning_level.dat.end": "yeni parçalardaki yapıları görmelisiniz, aksi takdirde adımları tekrarlayın.",
     "skyblock_classic_edition.link.discord": "Discord Server",
     "skyblock_classic_edition.link.crowdin": "Crowdin Çeviri Projesi",
-    "skyblock_classic_edition.credits": "Çevir Arşiv İçin Yaşıyorum, Mahmud HASEN (Alians), Efe Berk (eefeberksamay), AmlMAd"
+    "skyblock_classic_edition.credits": "Çevir Arşiv İçin Yaşıyorum, Mahmud HASEN (Alians), Efe Berk (eefeberksamay), AmlMAd, Truyak"
 }

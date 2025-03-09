@@ -1,7 +1,7 @@
 {
     "skyblock_classic_edition.folder.test": "Hello World",
     "skyblock_classic_edition.skyblock_setup.welcome": "Welcome to the Skyblock Classic Edition",
-    "skyblock_classic_edition.skyblock_setup.version": "مودات داخل لعبة ماين كرافت مجانا\n",
+    "skyblock_classic_edition.skyblock_setup.version": "Version:",
     "skyblock_classic_edition.skyblock_setup.for_text": "for",
     "skyblock_classic_edition.skyblock_setup.choose_languages": "Choose the languages in the Minecraft options menu",
     "skyblock_classic_edition.skyblock_setup.choose_islands": "Choose the islands:",
@@ -11,6 +11,8 @@
     "skyblock_classic_edition.skyblock_setup.default_normal.info": "This island is the classic island that everyone knows but modernized for new versions of Minecraft. Recommended for those unfamiliar with the original skyblock.",
     "skyblock_classic_edition.skyblock_setup.small_hard": "▶Small (Hard)",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "This island is very reminiscent of the original skyblock 2.0 but modernized for new versions of Minecraft. For those who love difficult challenges and know all the tricks and technical notions of the vanilla survival mode.",
+    "skyblock_classic_edition.skyblock_setup.very_small_hard": "▶Very Small (Extreme)",
+    "skyblock_classic_edition.skyblock_setup.very_small_hard.info": "This island is extreme and not suitable for new players, but only for those who are looking for the thrill of pure vanilla technical and who know Minecraft to the extreme of technical. It is recommended to play with hardcore mode turned on.",
     "skyblock_classic_edition.skyblock_setup.import": "▶Import World",
     "skyblock_classic_edition.skyblock_setup.import.info": "Allows you to import a world other than the Skyblock Classic Edition, which can be another Skyblock. adds all the necessary scoreboards without damaging the world and pre-existing structures, also creates a small glass platform if there is nothing. USE WITH CAUTION: THE FUNCTION DOES NOT GENERATE ANY ISLAND, MAKING THE MAP ITSELF AND THE RESOURCES IMPOSSIBLE. IF NO BIOME/STRUCTURE IS GENERATED, IT IS A BUG: MAKE A BACKUP, PUT THE ITEMS IN A CHEST AND REPLACE THE LEVEL.DAT WITH THE OLD ONE.",
     "skyblock_classic_edition.skyblock_test_setup": "You are currently using another version for internal testing and it is used when the custom world is not compatible with the main version. There may be several serious issues and critical bugs: this version contains an empty world with only one biome (snowy taiga), level.dat and level.dat_old store only one biome and contain pregenerated test structures, if you want to switch to a normal world with many biomes and structures generated with vanilla methods you need to replace the datapack with the compatible level.dat or reinstall the map again with a newer version. This version will be replaced with the custom world in the development of the release. It is recommended not to generate the world but to wait for the release.",

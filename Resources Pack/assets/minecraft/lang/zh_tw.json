@@ -11,6 +11,8 @@
     "skyblock_classic_edition.skyblock_setup.default_normal.info": "這個島嶼是眾所周知的經典島嶼，但在新版本的 Minecraft 中進行了現代化改造。推薦給不熟悉原始 skyblock 的人。",
     "skyblock_classic_edition.skyblock_setup.small_hard": "▶小（硬）",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "這個島嶼很容易讓人想起最初的 skyblock 2.0，但針對新版本的 Minecraft 進行了現代化改造。適合那些喜歡困難挑戰並了解香草生存模式的所有技巧和技術概念的人。",
+    "skyblock_classic_edition.skyblock_setup.very_small_hard": "▶Very Small (Extreme)",
+    "skyblock_classic_edition.skyblock_setup.very_small_hard.info": "This island is extreme and not suitable for new players, but only for those who are looking for the thrill of pure vanilla technical and who know Minecraft to the extreme of technical. It is recommended to play with hardcore mode turned on.",
     "skyblock_classic_edition.skyblock_setup.import": "可以翻譯成中文嗎",
     "skyblock_classic_edition.skyblock_setup.import.info": "Allows you to import a world other than the Skyblock Classic Edition, which can be another Skyblock. adds all the necessary scoreboards without damaging the world and pre-existing structures, also creates a small glass platform if there is nothing. USE WITH CAUTION: THE FUNCTION DOES NOT GENERATE ANY ISLAND, MAKING THE MAP ITSELF AND THE RESOURCES IMPOSSIBLE. IF NO BIOME/STRUCTURE IS GENERATED, IT IS A BUG: MAKE A BACKUP, PUT THE ITEMS IN A CHEST AND REPLACE THE LEVEL.DAT WITH THE OLD ONE.",
     "skyblock_classic_edition.skyblock_test_setup": "You are currently using another version for internal testing and it is used when the custom world is not compatible with the main version. There may be several serious issues and critical bugs: this version contains an empty world with only one biome (snowy taiga), level.dat and level.dat_old store only one biome and contain pregenerated test structures, if you want to switch to a normal world with many biomes and structures generated with vanilla methods you need to replace the datapack with the compatible level.dat or reinstall the map again with a newer version. This version will be replaced with the custom world in the development of the release. It is recommended not to generate the world but to wait for the release.",
@@ -49,7 +51,7 @@
     "skyblock_classic_edition.warning_level.dat.download": "在這裡下載新的（level.dat 和 level.dat_old），",
     "skyblock_classic_edition.warning_level.dat.copy_paste": " 複製並貼上它取代舊的，重新打開世界，然後預設使用 T 打開聊天並複製以下命令： ",
     "skyblock_classic_edition.warning_level.dat.end": "，您應該看到新區塊中的結構，以防再次重複這些步驟。",
-    "skyblock_classic_edition.link.discord": "Discord伺服器",
+    "skyblock_classic_edition.link.discord": "Discord 伺服器",
     "skyblock_classic_edition.link.crowdin": "Crowdin 翻譯項目",
     "skyblock_classic_edition.credits": "翻譯者 liu05061001, tingyu9696"
 }
