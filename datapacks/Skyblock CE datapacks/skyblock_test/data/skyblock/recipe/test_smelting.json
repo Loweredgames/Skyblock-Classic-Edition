@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "group": "skyblock_test",
+  "ingredient": [
+    "minecraft:structure_block"
+  ],
+  "result": {
+    "id": "minecraft:red_dye"
+  },
+  "experience": 2,
+  "cookingtime": 105
+}

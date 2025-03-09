@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "skyblock_test",
+  "ingredients": [
+    [
+      "minecraft:green_bed"
+    ],
+    [
+      "minecraft:command_block"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:stick",
+    "count": 64
+  }
+}

@@ -1,0 +1,2 @@
+- per le lingue custom: aggiungere in Crowdin
+- aggiungere ISO gia corretto, fa gia tutto da solo

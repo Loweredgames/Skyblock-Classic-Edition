@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "skyblock",
+    "pattern": [
+      "##",
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:andesite"
+      }
+    },
+    "result": {
+      "id": "minecraft:tuff",
+      "count": 1
+    }
+}

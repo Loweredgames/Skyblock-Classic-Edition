@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "skyblock",
+  "pattern": [
+    "#S"
+  ],
+  "key": {
+    "#": [
+      "minecraft:redstone"
+    ],
+    "S": [
+      "minecraft:sand"
+    ]
+  },
+  "result": {
+    "id": "minecraft:red_sand",
+    "count": 2
+  }
+} 

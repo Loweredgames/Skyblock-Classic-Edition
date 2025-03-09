@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "skyblock",
+  "pattern": [
+    "M#"
+  ],
+  "key": {
+    "#": [
+      "minecraft:oak_sapling"
+    ],
+    "M": [
+      "minecraft:moss_block"
+    ]
+  },
+  "result": {
+    "id": "minecraft:azalea",
+    "count": 1
+  }
+}

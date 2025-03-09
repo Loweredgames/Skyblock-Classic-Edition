@@ -1,7 +1,21 @@
 {
-       "pack": {
-           "pack_format": 50,
-           "supported_formats": {"min_inclusive": 50, "max_inclusive": 50},
-           "description": "Skyblock Classic Edition By Lorenzo Giannini"
-       }
+	"pack": {
+	  "pack_format": 61,
+	  "supported_formats": {
+		"min_inclusive": 48,
+		"max_inclusive": 61
+	  },
+	  "description": "Skyblock Classic Edition - April Fools Edition By Lorenzo Giannini"
+	},
+	"overlays": {
+	  "entries": [
+		{
+		  "formats": {
+			"min_inclusive": 61,
+			"max_inclusive": 61
+		  },
+		  	"directory": "skyblock_april_fools"
+		}
+	  ]
+	}
 }

@@ -1,0 +1,3 @@
+- per le lingue: modificare la lingua "default.json"
+- poi andare su Crowdin è andare su souces, spostare il file default.json con quello vecchio (drang and drop)
+- fa tutto in automatico

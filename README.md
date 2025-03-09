@@ -1,4 +1,4 @@
-### Skyblock Classic Edition
+### Skyblock Classic Edition - April Fools Edition
 
 [![Crowdin](https://badges.crowdin.net/skyblock-classic-edition/localized.svg)](https://crowdin.com/project/skyblock-classic-edition)
 
@@ -16,8 +16,8 @@ _Steve, Alex, Noor, Sunny, Ari, Zuri, Makena, Kai and Efe, they woke up on an un
 - Added new islands (Small, Normal, Large).
 - Added recipes to renewable resources (check the recipes book).
 - Added the datapack, so that the map can be updated.
-- The world is endless (including The Nether and The End).
-- Now you can visit the end and finish the game.
+- The world is endless (including The Nether and ~~The End~~).
+- ~~Now you can visit the end and finish the game~~.
 - The map includes a part of the unofficial Slamacow trailer (a mini storyline).
 - It also contains a hardcore mode. inside the "datapack" folder in the "Skyblock Classic Edition Hardcore" folder. (first start the world, generate the map and then replace the files).
 - Compatible with multiplayer.
@@ -25,7 +25,7 @@ _Steve, Alex, Noor, Sunny, Ari, Zuri, Makena, Kai and Efe, they woke up on an un
 
 # [FAQ - Troubleshooting and Help Requests](https://discord.com/channels/960603544480780308/1255129836494655488)
 
-# Credit
+# Credits:
 
 DrTrog (Custom World Gen):
 https://www.planetminecraft.com/member/drtrog/
