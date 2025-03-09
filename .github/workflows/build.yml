@@ -1,7 +1,7 @@
 # Definisce il nome del workflow:
 name: Create Builds
 
-# Trigger del workflow quando viene modificato il file delle versioni:
+# Trigger del workflow solo quando vengono effettivamente modificati i valori delle versioni:
 on:
   push:
     paths:
@@ -12,17 +12,16 @@ jobs:
   check_changes:
     runs-on: ubuntu-24.04
     outputs:
-      release_changed: ${{ steps.check.outputs.release_changed }}
-      nightly_changed: ${{ steps.check.outputs.nightly_changed }}
+      release_changed: ${{ steps.version_check.outputs.release_changed }}
+      nightly_changed: ${{ steps.version_check.outputs.nightly_changed }}
     steps:
       # Checkout del repository:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 2
 
-      # Script per verificare i cambiamenti nelle versioni:
-      - name: Check changes
-        id: check
+      - name: Check version changes
+        id: version_check
         shell: bash
         run: |
           # Definisce il percorso del file da controllare:
@@ -30,29 +29,31 @@ jobs:
           
           # Gestisce il caso del primo commit:
           if ! git rev-parse HEAD^ >/dev/null 2>&1; then
-            echo "First commit - setting both as changed"
-            echo "release_changed=true" >> "$GITHUB_OUTPUT"
-            echo "nightly_changed=true" >> "$GITHUB_OUTPUT"
+            echo "Initial commit detected"
+            echo "release_changed=false" >> "$GITHUB_OUTPUT"
+            echo "nightly_changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
+
+          # Estrae solo i valori effettivi delle versioni
+          OLD_RELEASE=$(git show HEAD^:"$FILE" | grep -o '"Release Building": "[^"]*"' || echo "")
+          NEW_RELEASE=$(git show HEAD:"$FILE" | grep -o '"Release Building": "[^"]*"' || echo "")
+          OLD_NIGHTLY=$(git show HEAD^:"$FILE" | grep -o '"Nightly Building": "[^"]*"' || echo "")
+          NEW_NIGHTLY=$(git show HEAD:"$FILE" | grep -o '"Nightly Building": "[^"]*"' || echo "")
           
-          # Confronta le versioni Release tra commit precedente e attuale:
-          OLD_RELEASE=$(git show HEAD^:"$FILE" | grep '"Release Building"' || echo "")
-          NEW_RELEASE=$(git show HEAD:"$FILE" | grep '"Release Building"' || echo "")
-          OLD_NIGHTLY=$(git show HEAD^:"$FILE" | grep '"Nightly Building"' || echo "")
-          NEW_NIGHTLY=$(git show HEAD:"$FILE" | grep '"Nightly Building"' || echo "")
-          
-          # Imposta i flag per i cambiamenti Release:
           if [ "$OLD_RELEASE" != "$NEW_RELEASE" ]; then
+            echo "Release version changed"
             echo "release_changed=true" >> "$GITHUB_OUTPUT"
           else
+            echo "Release version unchanged"
             echo "release_changed=false" >> "$GITHUB_OUTPUT"
           fi
           
-          # Imposta i flag per i cambiamenti Nightly:
           if [ "$OLD_NIGHTLY" != "$NEW_NIGHTLY" ]; then
+            echo "Nightly version changed"
             echo "nightly_changed=true" >> "$GITHUB_OUTPUT"
           else
+            echo "Nightly version unchanged"
             echo "nightly_changed=false" >> "$GITHUB_OUTPUT"
           fi
 
