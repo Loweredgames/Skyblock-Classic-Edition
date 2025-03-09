@@ -1,0 +1,18 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+<<<<<<<< HEAD:datapacks/Skyblock CE datapacks/skyblock_april_fools/data/skyblock/worldgen/template_pool/worldgen/igloo.json
+        "location": "skyblock:worldgen/igloo",
+========
+        "location": "skyblock:worldgen/stronghold",
+>>>>>>>> main:datapacks/Skyblock CE datapacks/skyblock_custom_world/data/skyblock/worldgen/template_pool/worldgen/stronghold.json
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

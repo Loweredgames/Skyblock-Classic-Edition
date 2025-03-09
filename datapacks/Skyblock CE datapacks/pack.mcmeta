@@ -5,65 +5,16 @@
 		"min_inclusive": 48,
 		"max_inclusive": 61
 	  },
-	  "description": "Skyblock Classic Edition By Lorenzo Giannini"
+	  "description": "Skyblock Classic Edition - April Fools Edition By Lorenzo Giannini"
 	},
 	"overlays": {
 	  "entries": [
 		{
 		  "formats": {
-			"min_inclusive": 48,
+			"min_inclusive": 61,
 			"max_inclusive": 61
 		  },
-		  	"directory": "skyblock_setup_update"
-		},
-		{
-			"formats": {
-			  "min_inclusive": 48,
-			  "max_inclusive": 48
-			},
-				"directory": "skyblock_mc121"
-		},
-		{
-			"formats": {
-			  "min_inclusive": 57,
-			  "max_inclusive": 57
-			},
-				"directory": "skyblock_mc1212"
-		},
-		{
-			"formats": {
-			  "min_inclusive": 61,
-			  "max_inclusive": 61
-			},
-				"directory": "skyblock_mc1214"
-		},
-		{
-		  "formats": {
-			"min_inclusive": 48,
-			"max_inclusive": 61
-		  },
-		  	"directory": "legacy_pid_skyblock"
-		},
-		{
-		   "formats": {
-			"min_inclusive": 48,
-			"max_inclusive": 61
-			},
-			"directory": "legacy_skyblock"
-		},
-		{
-		   "formats": {
-			"min_inclusive": 58,
-			"max_inclusive": 61
-		  	},
-		  	"directory": "skyblock_custom_world"
-		},
-		{
-		   "formats": {
-			"min_inclusive": 25,
-			"max_inclusive": 25
-			},
-		  	"directory": "skyblock_test"
+		  	"directory": "skyblock_april_fools"
 		}
 	  ]
 	}

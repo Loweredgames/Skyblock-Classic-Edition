@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "skyblock",
+  "pattern": [
+    "###",
+    "#T#",
+    "###"
+  ],
+  "key": {
+    "#": [
+      "minecraft:glow_ink_sac"
+    ],
+    "T": [
+      "minecraft:torchflower"
+    ]
+  },
+  "result": {
+    "id": "minecraft:glow_berries",
+    "count": 1
+  }
+}

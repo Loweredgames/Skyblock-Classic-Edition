@@ -1,29 +1,29 @@
 {
-"Name": "Skyblock Classic Edition",
+"Name": "Skyblock Classic Edition - April Fools Edition",
 
 "Edition": "JAVA EDITION",
 
 "Release Versions": "6.1.0 [The Removal Update]",
 
-"Release Building": "JE-1.21>1.21.4-6.1.0-Skyblock_Classic_Edition:BUILDING:22.02.2025a",
+"Release Building": "fork_JE-1.21.4-6.1.0-Skyblock_Classic_Edition:BUILDING:22.02.2025a",
 
-"Nightly Building": "JE-1.21>1.21.4-6.1.0-Skyblock_Classic_Edition:NIGHTLY_BUILDING_08.03.2025.31018a_[main]",
+"Nightly Building": "fork_JE-1.21.4-6.1.0-Skyblock_Classic_Edition:NIGHTLY_BUILDING_09.03.2025.21704a_[april_fool]",
 
 "Data_pack": "TRUE",
 
 "Resource_pack": "TRUE",
 
-"Translations_Version": "Ultimo Aggiornamento delle Traduzioni: 09.03.2025 alle 14:51",
+"Translations_Version": "Ultimo Aggiornamento delle Traduzioni: ...",
 
-"Custom Structures World": "4.1.0",
+"Custom Structures World": "...",
 
-"Protocol Version": "1.21.4_PVN_0a",
+"Protocol Version": "1.21.4_PVN_FOOLS2025",
 
-"Protocol Identifier Data": "1.21_PID_0",
+"Protocol Identifier Data": "...",
 
-"Sub Protocol Identifier Data": "1.21_SUBPID_0_0",
+"Sub Protocol Identifier Data": "...",
 
-"Github_Tag": "1.21.4_JE-0a",
+"Github_Tag": "????",
 
 "Github":"https://github.com/Loweredgames/Skyblock-Classic-Edition",
 
