@@ -9,4 +9,4 @@
 
 
 ##Wall Texts Version Sign - April Fools (Normal) 1.21.4
-execute in minecraft:overworld as @a[scores={SkyblockCE_april2025=33}] run setblock 1 66 -3 birch_wall_sign[facing=south,waterlogged=false]{back_text:{messages:['{"text":"This"}','{"text":"is"}','{"text":"a"}','{"text":"secret!!!"}']},front_text:{color:"white",has_glowing_text:1b,messages:['{"text":"Skyblock"}','{"text":"CE Fools"}','{"text":"---------------"}','{"text":"1.21.4 :)"}']}} replace
+execute in minecraft:overworld as @a[scores={SkyblockCE_april2025=33}] run setblock 0 65 1 birch_wall_sign[facing=south,waterlogged=false]{back_text:{messages:['{"text":"This"}','{"text":"is"}','{"text":"a"}','{"text":"secret!!!"}']},front_text:{color:"white",has_glowing_text:1b,messages:['{"text":"Skyblock"}','{"text":"CE Fools"}','{"text":"---------------"}','{"text":"1.21.4 :)"}']}} replace
