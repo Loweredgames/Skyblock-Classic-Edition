@@ -19,7 +19,7 @@ scoreboard objectives remove fix_end
 
 ##Scoreboard Setup Test
 scoreboard players add @a refactoring_scoreboard 1
-scoreboard players add @a SkyblockCE_legacy_version 1
+scoreboard players add @a SkyOsirion_legacy_version 1
 
 
 ##Scoreboard Reset

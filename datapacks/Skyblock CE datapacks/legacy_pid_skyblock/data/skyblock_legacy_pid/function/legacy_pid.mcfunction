@@ -34,12 +34,12 @@ scoreboard objectives add PID_legacy_v2 dummy
 
 
 ##The Nether
-execute as @a[scores={PID_legacy_v1=100..500}] run scoreboard players set @a SkyblockCE_islands 5
+execute as @a[scores={PID_legacy_v1=100..500}] run scoreboard players set @a SkyOsirion_islands 5
 execute in minecraft:the_nether as @a[scores={PID_legacy_v1=300}] run tp @a 0 -3 30
 execute in minecraft:the_nether as @a[scores={PID_legacy_v1=350}] run fill 2 2 33 -2 2 29 minecraft:infested_cobblestone destroy
 execute in minecraft:the_nether as @a[scores={PID_legacy_v1=400}] run setblock 0 3 31 oak_sign[rotation=8,waterlogged=false]{front_text:{color:"black",has_glowing_text:1b,messages:['{"text":"The portal is"}','{"text":"broken sorry.."}','{"text":";("}','{"text":"since: 1.0.0"}']}} destroy
-execute in minecraft:the_nether as @a[scores={PID_legacy_v1=500}] run scoreboard players set @a SkyblockCE_tp 1
-execute as @a[scores={PID_legacy_v1=550}] run scoreboard players set @a SkyblockCE_tp 0
+execute in minecraft:the_nether as @a[scores={PID_legacy_v1=500}] run scoreboard players set @a SkyOsirion_tp 1
+execute as @a[scores={PID_legacy_v1=550}] run scoreboard players set @a SkyOsirion_tp 0
 execute as @a[scores={PID_legacy_v1=600..700}] run gamemode spectator @a
 execute as @a[scores={PID_legacy_v1=700}] in minecraft:overworld run tp @a 0 66 0
 execute in minecraft:overworld as @a[scores={PID_legacy_v1=750}] run setblock 0 62 0 minecraft:black_concrete keep
@@ -88,7 +88,7 @@ execute in minecraft:overworld as @a[scores={PID_legacy_v2=805}] run fill -251 6
 execute in minecraft:overworld as @a[scores={PID_legacy_v2=850}] run setblock -253 64 -476 minecraft:spawner{Delay:0s,MaxNearbyEntities:6s,MaxSpawnDelay:800s,MinSpawnDelay:200s,RequiredPlayerRange:16s,SpawnCount:4s,SpawnData:{entity:{id:"minecraft:armadillo"}},SpawnPotentials:[],SpawnRange:4s} destroy
 execute in minecraft:overworld as @a[scores={PID_legacy_v2=855}] run setblock -253 64 -475 minecraft:oak_wall_sign[facing=south,waterlogged=false]{back_text:{color:"black",has_glowing_text:0b,messages:['""','""','""','""']},front_text:{color:"black",has_glowing_text:1b,messages:['"To farming"','"armadillos"','""','""']},is_waxed:0b} destroy
 execute in minecraft:overworld as @a[scores={PID_legacy_v2=856}] run setblock -253 65 -476 minecraft:torch keep
-execute in minecraft:overworld as @a[scores={PID_legacy_v2=860}] run scoreboard players set @a SkyblockCE_level_dat 50000
+execute in minecraft:overworld as @a[scores={PID_legacy_v2=860}] run scoreboard players set @a SkyOsirion_level_dat 50000
 execute in minecraft:overworld as @a[scores={PID_legacy_v2=860}] run tellraw @a [{"translate":"skyblock_classic_edition.warning_level.dat.issues","color":"red","italic":true},{"translate":"skyblock_classic_edition.warning_level.dat.download","color":"red","italic":true,"underlined":true,"clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/raw/main/.worlds/.worlds-level.dat/Level.dat.zip"}},{"translate":"skyblock_classic_edition.warning_level.dat.copy_paste","color":"red","italic":true},{"text":"/scoreboard objectives add fix_custom_world dummy","underlined":true,"clickEvent":{"action":"copy_to_clipboard","value":"/scoreboard objectives add fix_custom_world dummy"}},{"translate":"skyblock_classic_edition.warning_level.dat.end","color":"red","italic":true}]
 execute in minecraft:overworld as @a[scores={PID_legacy_v2=860}] run tp @a 722 50 703 0.0 0.0
 execute in minecraft:overworld as @a[scores={PID_legacy_v2=865}] run setblock 722 48 703 minecraft:cobweb destroy

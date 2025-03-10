@@ -35,7 +35,7 @@ execute as @a[scores={1.21_PID_0=2000000..}] run scoreboard players set @a 1.21_
 
 
 ##SCOREBOARD START 1.21_PID_0 (LASCIARE SEMPRE COSI, MODIFICARE SE LA CONVERSIONE E PIU CORTA O PIU LUNGHA, DISABILITARE TUTTO SE NON C'E NESSUN PID)
-#execute as @a[scores={SkyblockCE_final=351}] run scoreboard players set @a 1.21_PID_0 -250
+#execute as @a[scores={SkyOsirion_final=351}] run scoreboard players set @a 1.21_PID_0 -250
 #execute as @a[scores={1.21_PID_0=5..100}] run gamemode spectator @a
 #execute as @a[scores={1.21_PID_0=5}] run time set 0
 #execute as @a[scores={1.21_PID_0=5}] run gamerule doImmediateRespawn true

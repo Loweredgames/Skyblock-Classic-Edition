@@ -15,9 +15,9 @@ execute as @a[scores={1.21_PID_0=1000..}] run scoreboard objectives remove PID_l
 execute as @a[scores={1.21_PID_0=1000..}] run scoreboard objectives remove PID_legacy_v3
 
 
-##SETUP VERSION SkyblockCE_ID (CAMBIARE LA SCORE IN "SkyblockCE_id". VEDERE LA SCORE PID_X PER RIFERIMENTO)
-execute as @a[scores={SkyblockCE_id=30}] run scoreboard players set @a 1.21_PID_0 -100
+##SETUP VERSION SkyOsirion_ID (CAMBIARE LA SCORE IN "SkyOsirion_id". VEDERE LA SCORE PID_X PER RIFERIMENTO)
+execute as @a[scores={SkyOsirion_id=30}] run scoreboard players set @a 1.21_PID_0 -100
 
 
 ##VERSION IMPORT LOCK (BLOCCA LA CONVERSIONE SE SI USA IMPORT)
-execute as @a[scores={SkyblockCE_import=1..100}] run scoreboard players set @a 1.21_PID_0 2400
+execute as @a[scores={SkyOsirion_import=1..100}] run scoreboard players set @a 1.21_PID_0 2400

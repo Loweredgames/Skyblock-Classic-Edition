@@ -6,6 +6,6 @@
 
 
 ##Multiplayer Legacy (Aggiornato all'ultima versione: 2.0.0 - 6.0.0 Minecraft: 1.21.1) - (da rimuovere completamente nella 1.22)
-execute as @a[scores={SkyblockCE_multiplayer=1..}] run scoreboard objectives remove multiplayer
+execute as @a[scores={SkyOsirion_multiplayer=1..}] run scoreboard objectives remove multiplayer
 scoreboard objectives remove multiplayer_popup
-scoreboard objectives remove SkyblockCE_multiplayer_tick
+scoreboard objectives remove SkyOsirion_multiplayer_tick
