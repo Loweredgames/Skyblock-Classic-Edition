@@ -9,7 +9,7 @@
 
 
 ##Setup Minecraft
-#scoreboard players set @a SkyblockCE_mc121 1
+#scoreboard players set @a SkyOsirion_mc121 1
 
 
 ##Function Setup Minecraft Versions (AGGIUNGERE QUI TUTTE LE FUNZIONI SE SERVONO CON ALLA FINE LA VERSIONE SPECIFICA SENZA IL PUNTO COME: 121, 1212 ecc...)
@@ -23,9 +23,9 @@ function skyblock:wall_texts_sign
 
 
 ##Scoreboard Install Minecraft (AGGIUNGERE QUI TUTTE LE SCOREBOARD SE E NECCESARIO CON ALLA FINE LA VERSIONE SPECIFICA SENZA IL PUNTO COME: 121)
-#scoreboard objectives add SkyblockCE_mc121 dummy
-#scoreboard players add @a SkyblockCE_mc121 1
+#scoreboard objectives add SkyOsirion_mc121 dummy
+#scoreboard players add @a SkyOsirion_mc121 1
 
 
 ##Scoreboard Loop Minecraft
-#execute as @a[scores={SkyblockCE_mc121=2000000..}] run scoreboard players set @a SkyblockCE_121 10000
+#execute as @a[scores={SkyOsirion_mc121=2000000..}] run scoreboard players set @a SkyOsirion_121 10000

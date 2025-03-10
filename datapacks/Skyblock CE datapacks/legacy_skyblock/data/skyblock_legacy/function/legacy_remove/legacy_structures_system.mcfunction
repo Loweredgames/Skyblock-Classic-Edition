@@ -22,5 +22,5 @@ scoreboard objectives remove skyblock_island
 scoreboard objectives remove skyblock_normal
 scoreboard objectives remove skyblock_quit_game
 scoreboard objectives remove structure_skyblock
-scoreboard objectives remove SkyblockCE_skip_structures
+scoreboard objectives remove SkyOsirion_skip_structures
 scoreboard objectives remove tp
